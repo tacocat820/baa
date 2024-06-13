@@ -1,6 +1,11 @@
 {
  "pack": {
+<<<<<<< HEAD
+ "pack_format": 32,
+ "description": "What Pack"
+=======
  "pack_format": 6,
  "description": "алё"
+>>>>>>> 08aa12ec080e0d8fb265bb53e097834d196f409f
  }
 }
