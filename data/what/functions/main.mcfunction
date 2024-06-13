@@ -1,1 +1,0 @@
-give @a tnt[minecraft:enchantment_glint_override=true]
