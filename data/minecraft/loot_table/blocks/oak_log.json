@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 32000,
+                  "minecraft:item_name": "Cheeseburger",
+                  "minecraft:food": {
+                    "nutrition": 5,
+                    "saturation": 7.5,
+                    "using_converts_to": {
+                        "id": "cookie",
+                        "components": {
+                            "custom_model_data": 32001,
+                            "item_name": "Cheeseburgercrumbs"
+                        }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
