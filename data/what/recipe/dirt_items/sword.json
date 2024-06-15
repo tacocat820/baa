@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#",
+      "#",
+      "-"
+    ],
+    "key": {
+      "#": {
+        "tag": "minecraft:dirt"
+      },
+      "-": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:golden_sword",
+      "components": {
+        "minecraft:custom_model_data": 32000,
+        "minecraft:item_name": "[\"\",{\"translate\":\"what.item.dirt_sword\",\"italic\":false}]",
+        "minecraft:max_damage": 300,
+        "minecraft:damage": 0
+      }
+    }
+  }
+  
