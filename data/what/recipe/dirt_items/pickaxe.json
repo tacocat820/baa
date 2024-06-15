@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XXX",
+        " # ",
+        " # "
+    ],
+    "key": {
+        "#": {
+        "item": "minecraft:stick"
+        },
+        "X": {
+        "tag": "minecraft:dirt"
+        }
+    },
+    "result": {
+      "id": "minecraft:golden_pickaxe",
+      "components": {
+        "minecraft:custom_model_data": 32000,
+        "minecraft:item_name": "[\"\",{\"translate\":\"what.item.dirt_pickaxe\",\"italic\":false}]",
+        "minecraft:max_damage": 300,
+        "minecraft:damage": 0,
+        "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "minecraft:stone",
+            "speed": 1.1
+          }
+        ]
+      }
+      }
+    }
+  }
+  
