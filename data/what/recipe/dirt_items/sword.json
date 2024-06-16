@@ -18,7 +18,7 @@
       "components": {
         "minecraft:custom_model_data": 32000,
         "minecraft:item_name": "[\"\",{\"translate\":\"what.item.dirt_sword\",\"italic\":false}]",
-        "minecraft:max_damage": 300,
+        "minecraft:max_damage": 7,
         "minecraft:damage": 0
       }
     }
