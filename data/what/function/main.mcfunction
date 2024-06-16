@@ -2,4 +2,4 @@
 
 #кастомынй блок
 execute at @a as @e[distance=0..20,tag=what.block] at @s run function what:block/run
-execute at @a as @e[distance=0..20,tag=what.block_placed] at @s if block ~ ~ ~ #what:airs run function what:block/break
+execute at @a as @e[distance=0..20,tag=what.block_placed] at @s if block ~ ~ ~ #what:solid_blocks_placeable_on run function what:block/break
