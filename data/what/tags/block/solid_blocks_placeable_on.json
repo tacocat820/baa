@@ -5,6 +5,7 @@
 		"minecraft:cave_air",
 		"minecraft:void_air",
 		"minecraft:water",
+		"minecraft:lava",
 		"minecraft:glass"
 		]
 }
