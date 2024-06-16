@@ -10,7 +10,7 @@ data modify storage what:temp type set from entity @s Tags[0]
 
 function what:block/set_cmd with storage what:temp
 
-execute unless block ~ ~ ~ #what:solid_blocks_placeable_on run return run function what:block/bad_pos
+execute unless block ~ ~ ~ #what:airs run return run function what:block/bad_pos
 
 
 function what:block/init with storage what:temp
