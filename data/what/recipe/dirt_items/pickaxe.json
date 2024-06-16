@@ -24,7 +24,7 @@
         "minecraft:tool": {
         "rules": [
           {
-            "blocks": "minecraft:stone",
+            "blocks": "#what:breakable/dirt_tools/pickaxe",
             "speed": 1.1
           }
         ]

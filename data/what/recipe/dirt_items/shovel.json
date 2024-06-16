@@ -24,7 +24,7 @@
         "minecraft:tool": {
         "rules": [
           {
-            "blocks": "minecraft:dirt",
+            "blocks": "#what:breakable/dirt_tools/shovel",
             "speed": 0.7
           }
         ]
