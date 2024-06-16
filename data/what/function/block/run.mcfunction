@@ -13,6 +13,6 @@ function what:block/set_cmd with storage what:temp
 execute unless block ~ ~ ~ #what:solid_blocks_placeable_on run return run function what:block/bad_pos
 
 
-function what:block/init with storage what:temp
+execute as @e[limit=1,distance=0..0.5,tag=new] run function what:block/init with storage what:temp
 
 kill @s
