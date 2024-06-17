@@ -1,0 +1,1 @@
+function what:mob/_disp/mob/spawn {cmd:16005,anim_len:24,data:"",name:"olen"}

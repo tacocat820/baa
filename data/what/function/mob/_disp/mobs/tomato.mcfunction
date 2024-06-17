@@ -1,0 +1,1 @@
+function what:mob/_disp/mob/spawn {cmd:16037,anim_len:24,name:"Tomato",data:"transformation:[2.0000f,0.0000f,0.0000f,0.0000f,0.0000f,2.0000f,0.0000f,0.5000f,0.0000f,0.0000f,2.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],"}

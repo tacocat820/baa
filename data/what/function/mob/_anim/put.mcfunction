@@ -1,0 +1,1 @@
+execute store result entity @s item.tag.CustomPotionColor int 1 run scoreboard players get @s what.ent.animation
