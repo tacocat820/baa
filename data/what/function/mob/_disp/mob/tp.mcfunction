@@ -1,4 +1,3 @@
-say sus
 $tag @e[limit=1,tag=what.ai,scores={what.id=$(sid)},distance=0..25] add what.cur
 
 execute unless entity @e[tag=what.cur] run kill @s

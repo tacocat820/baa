@@ -8,4 +8,7 @@ data modify storage what:config blocks.backrooms set value {CustomModelData: 320
 
 data modify storage what:config blocks.meth_crystal set value {CustomModelData: 32004, rotate:1b, block:"tripwire"}
 data modify storage what:config blocks.chair_plant set value {CustomModelData: 32005, block:"tripwire", plant:1b, customTags:[plant, chair_plant]}
+
+data modify storage what:config blocks.stool set value {CustomModelData: 32008, rotate:2, block:"tripwire"}
+data modify storage what:config blocks.chair set value {CustomModelData: 32009, rotate:2, block:"tripwire"}
 # 32005 - 32007

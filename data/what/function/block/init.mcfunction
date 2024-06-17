@@ -6,6 +6,7 @@ $execute if data storage what:config blocks.$(type).customTags run data modify e
 tag @s add what.block_placed
 
 $execute if data storage what:config blocks.$(type){rotate:1b} run data modify entity @s Rotation set from storage what:temp r
+$execute if data storage what:config blocks.$(type){rotate:2} run function what:block/actions/rotate_horiz
 
 $execute if data storage what:config blocks.$(type){plant:1b} run function what:block/plants/set_age
 
