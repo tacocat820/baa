@@ -6,6 +6,8 @@
 		"minecraft:void_air",
 		"minecraft:water",
 		"minecraft:lava",
-		"minecraft:glass"
+		"minecraft:glass",
+		"minecraft:short_grass",
+		"minecraft:tall_grass"
 		]
 }
