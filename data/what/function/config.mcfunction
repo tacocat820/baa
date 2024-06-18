@@ -11,4 +11,8 @@ data modify storage what:config blocks.chair_plant set value {CustomModelData: 3
 
 data modify storage what:config blocks.stool set value {CustomModelData: 32008, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.chair set value {CustomModelData: 32009, rotate:2, block:"tripwire"}
+
+data modify storage what:config blocks.globe set value {CustomModelData: 32010, rotate:2, block:"tripwire"}
+data modify storage what:config blocks.backrooms_carpet set value {CustomModelData: 32011, block:"copper_grate"}
+
 # 32005 - 32007

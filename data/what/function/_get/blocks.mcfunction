@@ -4,3 +4,7 @@ give @p item_frame[entity_data={id:item_frame,Tags:[what.block,uranium_ore],Invi
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,backrooms],Invisible:1b},minecraft:custom_model_data=32003,minecraft:item_name="[\"\",{\"translate\":\"what.block.backrooms\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,meth_crystal],Invisible:1b},minecraft:custom_model_data=32004,minecraft:item_name="[\"\",{\"translate\":\"what.block.meth_crystal\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,chair_plant],Invisible:1b},minecraft:custom_model_data=32005,minecraft:item_name="[\"\",{\"translate\":\"what.block.chair_plant\",\"italic\":false}]"]
+give @p item_frame[entity_data={id:item_frame,Tags:[what.block,chair],Invisible:1b},minecraft:custom_model_data=32009,minecraft:item_name="[\"\",{\"translate\":\"what.block.chair\",\"italic\":false}]"]
+give @p item_frame[entity_data={id:item_frame,Tags:[what.block,stool],Invisible:1b},minecraft:custom_model_data=32008,minecraft:item_name="[\"\",{\"translate\":\"what.block.stool\",\"italic\":false}]"]
+give @p item_frame[entity_data={id:item_frame,Tags:[what.block,globe],Invisible:1b},minecraft:custom_model_data=32010,minecraft:item_name="[\"\",{\"translate\":\"what.block.globe\",\"italic\":false}]"]
+give @p item_frame[entity_data={id:item_frame,Tags:[what.block,backrooms_carpet],Invisible:1b},minecraft:custom_model_data=32011,minecraft:item_name="[\"\",{\"translate\":\"what.block.backrooms_carpet\",\"italic\":false}]"]
