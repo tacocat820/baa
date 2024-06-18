@@ -2,8 +2,6 @@ execute if entity @s[tag=what.temp] run return 0
 
 tag @s add what.temp
 
-say MY NMEE
-
 data modify storage what:temp r set from entity @s Rotation
 
 #data modify entity @s Facing set value 1b
