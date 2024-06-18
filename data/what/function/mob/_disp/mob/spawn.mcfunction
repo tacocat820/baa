@@ -4,7 +4,7 @@ scoreboard players operation @s what.id = $ what.id
 scoreboard players add $ what.id 1
 
 effect give @s minecraft:invisibility infinite 0 true
-$summon item_display ~ ~ ~ {item:{id:"potion",Count:1,components:{custom_model_data:$(cmd),potion_contents:{custom_color:0}}},Tags:["what.disp","what.new"],teleport_duration:1}
+$summon item_display ~ ~ ~ {item:{id:"$(item_id)",Count:1,components:{custom_model_data:$(cmd),potion_contents:{custom_color:0}}},Tags:["what.disp","what.new"],teleport_duration:1}
 
 execute store result entity @n[tag=what.new] item.components.custom_data.sid int 1 run scoreboard players get @s what.id
 

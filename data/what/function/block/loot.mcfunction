@@ -1,7 +1,5 @@
 #если есть loot table для предмета, то лучше /loot использовать вместо /summon item ...
 
-say AMOGUZZZ
-
 execute store result score cmd what.temp run data get entity @s item.components.minecraft:custom_model_data
 
 #образец
