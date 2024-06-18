@@ -15,4 +15,7 @@ data modify storage what:config blocks.chair set value {CustomModelData: 32009, 
 
 data modify storage what:config blocks.globe set value {CustomModelData: 32010, rotate:2, block:"tripwire"}
 
+#mob
+data modify storage what:config mobs.new_zealand set value {name: '\'[{"translate":"what.mob.new_zealand"}]\'', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
+
 # 32005 - 32007

@@ -13,7 +13,7 @@ $scoreboard players set @n[tag=what.new] what.anl $(anim_len)
 scoreboard players add @n[tag=what.new] what.anl 8388608
 
 data modify entity @s Silent set value true
-$data modify entity @s CustomName set value "$(name)"
+$data modify entity @s CustomName set value $(name)
 
 scoreboard players operation @n[tag=what.new] what.id = @s what.id
 
