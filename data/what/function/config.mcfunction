@@ -9,13 +9,12 @@ data modify storage what:config blocks.backrooms_carpet set value {CustomModelDa
 
 data modify storage what:config blocks.meth_crystal set value {CustomModelData: 32004, rotate:1b, block:"tripwire"}
 data modify storage what:config blocks.chair_plant set value {CustomModelData: 32005, block:"tripwire", plant:1b, customTags:[plant, chair_plant]}
-
+# 32005 - 32007
 data modify storage what:config blocks.stool set value {CustomModelData: 32008, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.chair set value {CustomModelData: 32009, rotate:2, block:"tripwire"}
-
 data modify storage what:config blocks.globe set value {CustomModelData: 32010, rotate:2, block:"tripwire"}
+data modify storage what:config blocks.crafting_table_2 set value {CustomModelData: 32012}
 
 #mob
 data modify storage what:config mobs.new_zealand set value {name: '\'[{"translate":"what.mob.new_zealand"}]\'', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
 
-# 32005 - 32007
