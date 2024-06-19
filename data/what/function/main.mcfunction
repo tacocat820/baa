@@ -6,3 +6,4 @@ execute at @a as @e[distance=0..20,tag=what.block_placed] at @s if block ~ ~ ~ #
 
 # mob
 execute as @e[tag=what.disp] at @s run function what:mob/_disp/mob/tick
+execute as @e[tag=what.ai] at @s run function what:mob/__ai_tick

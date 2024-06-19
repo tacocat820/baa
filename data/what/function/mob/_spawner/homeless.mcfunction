@@ -1,0 +1,1 @@
+summon pig ~ ~ ~ {Tags:[what.ai,what.ent.homeless],VillagerData:{type:swamp,profession:nitwit,level:2},Passengers:[{id:wandering_trader,Offers:{}}]}

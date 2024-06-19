@@ -1,0 +1,1 @@
+execute if entity @s[tag=what.ent.homeless] run function what:mob/homeless/tick
