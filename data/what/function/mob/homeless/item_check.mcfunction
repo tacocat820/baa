@@ -1,0 +1,2 @@
+execute if items entity @s container.* minecraft:cookie[minecraft:custom_model_data=32000] run tag @s add what.homeless_correct
+execute if items entity @s container.* minecraft:cookie[minecraft:custom_model_data=32001] run tag @s add what.homeless_correct
