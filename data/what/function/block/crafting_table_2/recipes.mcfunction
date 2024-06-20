@@ -1,3 +1,5 @@
+execute if data block ~ ~ ~ {Items:[]} run return 0
+
 data remove storage what:temp crafting.items
 #data modify storage what:temp crafting.items.air set value 0
 

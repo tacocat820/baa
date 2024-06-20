@@ -8,3 +8,4 @@ give @p item_frame[entity_data={id:item_frame,Tags:[what.block,chair],Invisible:
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,stool],Invisible:1b},minecraft:custom_model_data=32008,minecraft:item_name="[\"\",{\"translate\":\"what.block.stool\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,globe],Invisible:1b},minecraft:custom_model_data=32010,minecraft:item_name="[\"\",{\"translate\":\"what.block.globe\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,backrooms_carpet],Invisible:1b},minecraft:custom_model_data=32011,minecraft:item_name="[\"\",{\"translate\":\"what.block.backrooms_carpet\",\"italic\":false}]"]
+give @p item_frame[entity_data={id:item_frame,Tags:[what.block,crafting_table_2],Invisible:1b},minecraft:custom_model_data=32012,minecraft:item_name="[\"\",{\"translate\":\"what.block.crafting_table_2\",\"italic\":false}]"]

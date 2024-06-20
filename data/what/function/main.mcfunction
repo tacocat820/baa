@@ -7,3 +7,8 @@ execute at @a as @e[distance=0..20,tag=what.block_placed] at @s if block ~ ~ ~ #
 # mob
 execute as @e[tag=what.disp] at @s run function what:mob/_disp/mob/tick
 execute as @e[tag=what.ai] at @s run function what:mob/__ai_tick
+
+execute as @a[scores={what.dropper_click=1..}] at @s run function what:block/crafting_table_2/dropper_clicked
+execute as @a[scores={what.help=1..}] at @s run function what:help
+scoreboard players enable @a what.help
+#scoreboard players reset @s what.dropper_click
