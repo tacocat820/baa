@@ -1,1 +1,2 @@
-summon pig ~ ~ ~ {Tags:[what.ai,what.ent.homeless],VillagerData:{type:swamp,profession:nitwit,level:2},Passengers:[{id:wandering_trader,Offers:{}}]}
+summon villager ~ ~ ~ {Tags:[what.ai,what.ent.homeless],VillagerData:{type:swamp,profession:nitwit,level:2},CustomName:"homeless man"}
+summon wandering_trader ~ ~ ~ {Tags:[what.ai,what.ent.homeless_possessor]}
