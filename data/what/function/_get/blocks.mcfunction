@@ -1,5 +1,5 @@
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,windows12],Invisible:1b},minecraft:custom_model_data=32000,minecraft:item_name="[\"\",{\"translate\":\"what.block.windows12\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,brasil],Invisible:1b},minecraft:custom_model_data=32001,minecraft:item_name="[\"\",{\"translate\":\"what.block.brasil\",\"italic\":false}]"]
+give @p item_frame[entity_data={id:item_frame,Tags:[what.block,brazil],Invisible:1b},minecraft:custom_model_data=32001,minecraft:item_name="[\"\",{\"translate\":\"what.block.brasil\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,uranium_ore],Invisible:1b},minecraft:custom_model_data=32002,minecraft:item_name="[\"\",{\"translate\":\"what.block.uranium_ore\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,backrooms],Invisible:1b},minecraft:custom_model_data=32003,minecraft:item_name="[\"\",{\"translate\":\"what.block.backrooms\",\"italic\":false}]"]
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,meth_crystal],Invisible:1b},minecraft:custom_model_data=32004,minecraft:item_name="[\"\",{\"translate\":\"what.block.meth_crystal\",\"italic\":false}]"]
