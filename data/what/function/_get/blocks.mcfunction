@@ -1,11 +1,13 @@
 give @p item_frame[entity_data={id:item_frame,Tags:[what.block,windows12],Invisible:1b},minecraft:custom_model_data=32000,minecraft:item_name="[\"\",{\"translate\":\"what.block.windows12\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,brazil],Invisible:1b},minecraft:custom_model_data=32001,minecraft:item_name="[\"\",{\"translate\":\"what.block.brasil\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,uranium_ore],Invisible:1b},minecraft:custom_model_data=32002,minecraft:item_name="[\"\",{\"translate\":\"what.block.uranium_ore\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,backrooms],Invisible:1b},minecraft:custom_model_data=32003,minecraft:item_name="[\"\",{\"translate\":\"what.block.backrooms\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,meth_crystal],Invisible:1b},minecraft:custom_model_data=32004,minecraft:item_name="[\"\",{\"translate\":\"what.block.meth_crystal\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,chair_plant],Invisible:1},minecraft:custom_model_data=32005,minecraft:item_name="[\"\",{\"translate\":\"what.block.chair_plant\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,chair],Invisible:1b},minecraft:custom_model_data=32009,minecraft:item_name="[\"\",{\"translate\":\"what.block.chair\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,stool],Invisible:1b},minecraft:custom_model_data=32008,minecraft:item_name="[\"\",{\"translate\":\"what.block.stool\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,globe],Invisible:1b},minecraft:custom_model_data=32010,minecraft:item_name="[\"\",{\"translate\":\"what.block.globe\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,backrooms_carpet],Invisible:1b},minecraft:custom_model_data=32011,minecraft:item_name="[\"\",{\"translate\":\"what.block.backrooms_carpet\",\"italic\":false}]"]
-give @p item_frame[entity_data={id:item_frame,Tags:[what.block,crafting_table_2],Invisible:1b},minecraft:custom_model_data=32012,minecraft:item_name="[\"\",{\"translate\":\"what.block.crafting_table_2\",\"italic\":false}]"]
+#виндовс 12 не заменять!
+loot give @s loot what:blocks/brazil
+loot give @s loot what:blocks/uranium_ore
+loot give @s loot what:blocks/backrooms
+loot give @s loot what:blocks/meth_crystal
+loot give @s loot what:blocks/chair_plant
+loot give @s loot what:blocks/chair
+loot give @s loot what:blocks/stool
+loot give @s loot what:blocks/globe
+loot give @s loot what:blocks/backrooms_carpet
+loot give @s loot what:blocks/crafting_table_2
+loot give @s loot what:blocks/obama

@@ -14,12 +14,12 @@
       "id": "minecraft:item_frame",
       "components": {
         "minecraft:entity_data": {
-          "id": "minecraft:item_frame",
+          "id": "item_frame",
           "Tags":["what.block","chair_plant"],
           "Invisible": 1
         },
         "minecraft:custom_model_data": 32005,
-        "minecraft:item_name": "[\"\",{\"translate\":\"what.block.chair_plant\",\"italic\":false}]"
+        "minecraft:item_name": "{'translate':'what.block.chair_plant'}"
       }
     }
   }

@@ -12,12 +12,12 @@
     "id": "minecraft:item_frame",
     "components": {
       "minecraft:entity_data": {
-        "id": "minecraft:item_frame",
+        "id": "item_frame",
         "Tags":["what.block","crafting_table_2"],
         "Invisible": 1
       },
       "minecraft:custom_model_data": 32012,
-      "minecraft:item_name": "[\"\",{\"translate\":\"what.block.crafting_table_2\",\"italic\":false}]"
+      "minecraft:item_name": "{'translate':'what.block.crafting_table_2'}"
     }
   }
 }

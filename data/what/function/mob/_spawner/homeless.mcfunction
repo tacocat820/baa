@@ -1,2 +1,2 @@
 summon villager ~ ~ ~ {Tags:[what.ai,what.ent.homeless],VillagerData:{type:swamp,profession:nitwit,level:2},CustomName:"homeless man"}
-summon wandering_trader ~ ~ ~ {Tags:[what.ai,what.ent.homeless_possessor],Attributes:[{Name:"generic.scale",Base:0.1f}]}
+summon wandering_trader ~ ~ ~ {Tags:[what.ai,what.ent.homeless_possessor],Attributes:[{Name:"generic.scale",Base:0.1f}],Silent:1b}

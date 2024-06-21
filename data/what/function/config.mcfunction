@@ -14,6 +14,7 @@ data modify storage what:config blocks.stool set value {CustomModelData: 32008, 
 data modify storage what:config blocks.chair set value {CustomModelData: 32009, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.globe set value {CustomModelData: 32010, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.crafting_table_2 set value {CustomModelData: 32012, customTags:[crafting_table_2]}
+data modify storage what:config blocks.obama set value {CustomModelData: 32013, block:"copper_grate"}
 
 #mob
 data modify storage what:config mobs.new_zealand set value {name: '\'[{"translate":"what.mob.new_zealand"}]\'', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}

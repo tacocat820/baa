@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32002, "minecraft:entity_data": {"Tags": ["what.block", "uranium_ore"], "id": "item_frame", "Invisible": 1}}
+              },
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": {
+                  "translate": "what.block.uranium_ore"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
