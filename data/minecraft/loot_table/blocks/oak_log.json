@@ -18,7 +18,7 @@
                         "id": "cookie",
                         "components": {
                             "custom_model_data": 32001,
-                            "item_name": "[\"\",{\"translate\":\"what.item.cheeseburger_crumbs\",\"italic\":false}]"
+                            "item_name": "{'translate':'what.item.cheeseburger_crumbs'}"
                         }
                     }
                   }

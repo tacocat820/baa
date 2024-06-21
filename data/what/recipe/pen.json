@@ -18,6 +18,6 @@
   },
   "result": {
     "id": "minecraft:cookie",
-    "components": {"minecraft:custom_model_data":32003, "minecraft:food":{"saturation":1,"nutrition":0},"minecraft:custom_data":{"what_type":"pen"},"minecraft:item_name":"[\"\",{\"translate\":\"what.item.pen\",\"italic\":false}]"}
+    "components": {"minecraft:custom_model_data":32003, "minecraft:food":{"saturation":1,"nutrition":0},"minecraft:custom_data":{"what_type":"pen"},"minecraft:item_name":"{'translate':'what.item.pen'}"}
   }
 }

@@ -18,7 +18,7 @@
     "id": "minecraft:golden_axe",
     "components": {
       "minecraft:custom_model_data": 32000,
-      "minecraft:item_name": "[\"\",{\"translate\":\"what.item.dirt_axe\",\"italic\":false}]",
+      "minecraft:item_name": "{'translate':'what.item.dirt_axe'}",
       "minecraft:max_damage": 3,
       "minecraft:damage": 0,
       "minecraft:tool": {

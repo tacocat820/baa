@@ -18,7 +18,7 @@
       "id": "minecraft:golden_hoe",
       "components": {
         "minecraft:custom_model_data": 32000,
-        "minecraft:item_name": "[\"\",{\"translate\":\"what.item.dirt_hoe\",\"italic\":false}]",
+        "minecraft:item_name": "{'translate':'what.item.dirt_hoe'}",
         "minecraft:max_damage": 5,
         "minecraft:damage": 0,
         "minecraft:food": {
