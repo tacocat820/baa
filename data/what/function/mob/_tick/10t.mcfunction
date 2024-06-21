@@ -1,0 +1,1 @@
+execute if entity @s[tag=what.ent.homeless_possessor] at @s run function what:mob/homeless/1s
