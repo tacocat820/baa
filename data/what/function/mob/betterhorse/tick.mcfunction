@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ lava run tp @s ^ ^0.1 ^0.5 facing entity @p

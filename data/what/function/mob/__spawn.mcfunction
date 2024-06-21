@@ -4,4 +4,7 @@ $data modify storage what:temp data set from storage what:config mobs.$(type).da
 $data modify storage what:temp name set from storage what:config mobs.$(type).name 
 $data modify storage what:temp item_id set from storage what:config mobs.$(type).item_id
 
+data modify storage what:temp bossbar set value 0b
+$data modify storage what:temp bossbar set from storage what:config mobs.$(type).bossbar
+
 function what:mob/_disp/mob/spawn with storage what:temp
