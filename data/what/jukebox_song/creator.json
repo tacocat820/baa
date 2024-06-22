@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.destroyer"
+  },
+  "description": {
+    "translate": "what.jukebox_song.creator"
+  },
+  "length_in_seconds": 163,
+  "comparator_output": 12
+}

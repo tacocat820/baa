@@ -4,3 +4,4 @@ loot give @s loot what:items/meth_lollipop
 loot give @s loot what:items/pen
 loot give @s loot what:items/vbucks
 loot give @s loot what:items/fortnite_card
+loot give @s loot what:items/creator_music_disc
