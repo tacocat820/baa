@@ -1,0 +1,27 @@
+{
+"values": [
+	"item",
+	"item_frame",
+	"glow_item_frame",
+	"painting", 
+	"area_effect_cloud", 
+	"minecart", 
+	"command_block_minecart", 
+	"tnt_minecart", 
+	"armor_stand", 
+	"#arrows",
+	"egg",
+	"snowball",
+	"chest_minecart",
+	"ender_pearl",
+	"firework_rocket",
+	"furnace_minecart",
+	"boat",
+	"hopper_minecart",
+	"item_display",
+	"interaction",
+	"marker",
+	"leash_knot",
+	"#minecraft:impact_projectiles"
+	]
+}

@@ -10,5 +10,5 @@ execute if data storage what:temp {damage:25} run return run function what:carro
 execute if data storage what:temp {what_type:pen} run return run function what:carrot_on_a_stick/pen/run
 
 execute if data storage what:temp {what_type:glass_empty} run return run function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/empty"}
-execute if data storage what:temp {what_type:glass_of_water} run return run function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}
+execute if data storage what:temp {what_type:glass_of_water} run return run function what:carrot_on_a_stick/glass/water
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}

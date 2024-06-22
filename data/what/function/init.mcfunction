@@ -2,6 +2,7 @@ say алё
 
 scoreboard objectives add what.ent.action dummy
 
+scoreboard objectives add what.distance dummy
 scoreboard objectives add what.temp dummy
 scoreboard objectives add what.id dummy
 scoreboard objectives add what.anl dummy

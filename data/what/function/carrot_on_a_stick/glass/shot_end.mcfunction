@@ -1,0 +1,1 @@
+particle minecraft:explosion ^ ^ ^-1
