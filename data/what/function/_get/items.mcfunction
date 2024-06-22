@@ -5,3 +5,4 @@ loot give @s loot what:items/pen
 loot give @s loot what:items/vbucks
 loot give @s loot what:items/fortnite_card
 loot give @s loot what:items/creator_music_disc
+loot give @s loot what:items/glass_empty
