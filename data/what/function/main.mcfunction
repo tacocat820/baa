@@ -10,5 +10,6 @@ execute as @e[tag=what.ai] at @s run function what:mob/__ai_tick
 
 execute as @a[scores={what.dropper_click=1..}] at @s run function what:block/crafting_table_2/dropper_clicked
 execute as @a[scores={what.help=1..}] at @s run function what:help
+execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/run
 scoreboard players enable @a what.help
 #scoreboard players reset @s what.dropper_click

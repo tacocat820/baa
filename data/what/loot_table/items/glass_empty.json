@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data":32001,"minecraft:custom_data":{"what_type":"pen"},"minecraft:item_name":"{'translate':'what.item.pen'}"}
+              "components": {"minecraft:custom_model_data":32002,"minecraft:custom_data":{"what_type":"glass_empty"},"minecraft:item_name":"{'translate':'what.item.glass_empty'}"}
             }
           ]
         }
