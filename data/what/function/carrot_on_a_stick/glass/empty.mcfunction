@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ water run setblock ~ ~ ~ air
