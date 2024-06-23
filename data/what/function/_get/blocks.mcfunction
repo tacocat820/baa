@@ -11,3 +11,4 @@ loot give @s loot what:blocks/globe
 loot give @s loot what:blocks/backrooms_carpet
 loot give @s loot what:blocks/crafting_table_2
 loot give @s loot what:blocks/obama
+loot give @s loot what:blocks/trash_can
