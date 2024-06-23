@@ -5,7 +5,7 @@ scoreboard players add @s what.distance 1
 
 execute unless block ~ ~ ~ #minecraft:replaceable run function what:_u/raycast/end with storage what:temp raycast
 
-execute unless data storage what:temp raycast{loop_func:0} run function what:_u/raycast/loop_func with storage what:temp raycast
+execute unless data storage what:temp raycast{loop_func:"0"} run function what:_u/raycast/loop_func with storage what:temp raycast
 
 execute if entity @e[distance=0..2,type=!#what:non_mobs,tag=!what.raycaster] run function what:_u/raycast/end with storage what:temp raycast
 
