@@ -7,3 +7,4 @@ loot give @s loot what:items/fortnite_card
 loot give @s loot what:items/creator_music_disc
 loot give @s loot what:items/glass_empty
 loot give @a loot what:items/knife
+loot give @s loot what:items/email
