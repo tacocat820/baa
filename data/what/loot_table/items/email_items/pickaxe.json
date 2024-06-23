@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32001, "minecraft:custom_data": {"what_type": "email_pickaxe"}, "minecraft:item_name": "{'translate':'what.item.email_pickaxe'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

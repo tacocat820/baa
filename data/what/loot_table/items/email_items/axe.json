@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32001, "minecraft:custom_data": {"what_type": "email_axe"}, "minecraft:item_name": "{'translate':'what.item.email_axe'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
