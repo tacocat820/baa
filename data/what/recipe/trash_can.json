@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "1 1",
+        "1 1",
+        "111"
+    ],
+    "key": {
+        "1": {
+        "item": "minecraft:stone"
+        }
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:entity_data": {
+          "id": "item_frame",
+          "Tags":["what.block","trash_can"],
+          "Invisible": 1
+        },
+        "minecraft:custom_model_data": 32014,
+        "minecraft:item_name": "{'translate':'what.block.trash_can'}"
+      }
+    }
+  }
+  

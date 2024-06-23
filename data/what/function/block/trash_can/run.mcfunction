@@ -1,3 +1,2 @@
-kill @e[distance=0..0.8,type=item]
-playsound minecraft:what.fard block @a ~ ~ ~
-particle minecraft:poof ~ ~ ~ 0 0 0 0.3 20
+execute if entity @e[distance=0..0.7,type=item] run function what:block/trash_can/empty
+execute if block ~ ~ ~ lava_cauldron run function what:block/trash_can/lava

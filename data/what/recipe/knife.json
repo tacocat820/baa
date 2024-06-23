@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "1",
+      "2"
+  ],
+  "key": {
+      "1": {
+          "item": "minecraft:iron_ingot"
+      },
+      "2": {
+          "item": "minecraft:stick"
+      }
+  },
+  "result": {
+    "id": "minecraft:iron_axe",
+    "components": {"minecraft:custom_model_data": 32000, "minecraft:custom_data": {"what_type": "knife"}, "minecraft:item_name": "{'translate':'what.item.knife'}"}
+  }
+}
