@@ -24,6 +24,7 @@ data modify storage what:config blocks.demon_core set value {CustomModelData: 32
 
 data modify storage what:config inter.test set value {target: "what:__custom/test",attack: "what:__custom/tnt"}
 data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: "what:__custom/tnt"}
+data modify storage what:config inter.demon_core_closed set value {target: "what:block/demon_core/open",attack: "what:__custom/tnt"}
 
 #mob
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
