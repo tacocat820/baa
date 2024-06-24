@@ -1,6 +1,7 @@
 say алё
 
 scoreboard objectives add what.ent.action dummy
+scoreboard objectives add what.ent.animation dummy
 
 scoreboard objectives add what.distance dummy
 scoreboard objectives add what.temp dummy

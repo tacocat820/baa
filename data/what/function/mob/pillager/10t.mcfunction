@@ -1,0 +1,1 @@
+execute facing entity @p eyes run function what:mob/pillager/launch

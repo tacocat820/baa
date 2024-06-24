@@ -1,1 +1,1 @@
-execute store result entity @s item.tag.CustomPotionColor int 1 run scoreboard players get @s what.ent.animation
+execute store result entity @s item.components.minecraft:potion_contents.custom_color int 1 run scoreboard players get @s what.ent.animation
