@@ -29,3 +29,4 @@ execute if score cmd what.temp matches 32011 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32012 run return run loot spawn ~ ~ ~ loot what:blocks/crafting_table_2
 execute if score cmd what.temp matches 32013 run return run loot spawn ~ ~ ~ loot what:blocks/obama
 execute if score cmd what.temp matches 32014 run return run loot spawn ~ ~ ~ loot what:blocks/trash_can
+execute if score cmd what.temp matches 32020 run return run loot spawn ~ ~ ~ loot what:blocks/pipe_bomb

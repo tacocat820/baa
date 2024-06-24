@@ -15,6 +15,7 @@ $execute if data storage what:config blocks.$(type){block:"copper_grate"} run se
 $execute if data storage what:config blocks.$(type){block:"locked_shulker"} run setblock ~ ~ ~ minecraft:shulker_box[facing=down]{Lock:"😂😂😄🙂‱‰"}
 $execute if data storage what:config blocks.$(type){block:"spawner"} run setblock ~ ~ ~ spawner
 $execute if data storage what:config blocks.$(type){block:"stone_slab"} run setblock ~ ~ ~ minecraft:stone_slab[type=bottom]
+$execute if data storage what:config blocks.$(type){block:"structure_void"} run setblock ~ ~ ~ structure_void
 
 $execute if data storage what:config blocks.$(type){inter:1b} align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {Tags:[$(type)],width:1.01,height:1.01}
 $execute if data storage what:config blocks.$(type){inter:1b} run tag @s add has_inter
@@ -22,7 +23,6 @@ $execute if data storage what:config blocks.$(type){inter:1b} run tag @s add has
 #частные случаи
 $execute if data storage what:config blocks.$(type){CustomModelData: 32012} run setblock ~ ~ ~ minecraft:dropper[facing=up]{CustomName:"{'translate':'what.block.crafting_table_2'}",Items:[]}
 $execute if data storage what:config blocks.$(type){CustomModelData: 32012} run data modify entity @s brightness set value {sky:15,block:0}
-
 $execute if data storage what:config blocks.$(type){CustomModelData: 32014} run setblock ~ ~ ~ minecraft:cauldron
 
 #не удалять, тут потом будет что-то
