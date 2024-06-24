@@ -1,7 +1,7 @@
 kill @e[tag=direction]
 
 summon marker ~ ~ ~ {Tags:["direction"]}
-summon tnt ~ ~ ~ {Tags:["launch"],Fuse:50}
+summon tnt ~ ~ ~ {Tags:["launch"],fuse:50}
 
 execute anchored eyes run tp @e[tag=direction] ^ ^ ^5.4
 
