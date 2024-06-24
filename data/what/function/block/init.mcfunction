@@ -14,6 +14,10 @@ $execute if data storage what:config blocks.$(type){block:"tripwire"} run setblo
 $execute if data storage what:config blocks.$(type){block:"copper_grate"} run setblock ~ ~ ~ copper_grate
 $execute if data storage what:config blocks.$(type){block:"locked_shulker"} run setblock ~ ~ ~ minecraft:shulker_box[facing=down]{Lock:"😂😂😄🙂‱‰"}
 $execute if data storage what:config blocks.$(type){block:"spawner"} run setblock ~ ~ ~ spawner
+$execute if data storage what:config blocks.$(type){block:"stone_slab"} run setblock ~ ~ ~ minecraft:stone_slab[type=bottom]
+
+$execute if data storage what:config blocks.$(type){inter:1b} align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {Tags:[$(type)],width:1.01,height:1.01}
+$execute if data storage what:config blocks.$(type){inter:1b} run tag @s add has_inter
 
 #частные случаи
 $execute if data storage what:config blocks.$(type){CustomModelData: 32012} run setblock ~ ~ ~ minecraft:dropper[facing=up]{CustomName:"{'translate':'what.block.crafting_table_2'}",Items:[]}
