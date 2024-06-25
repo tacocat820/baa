@@ -1,2 +1,2 @@
 execute at @s run setblock ~ ~ ~ air
-#say NOOOO
+#say what the hell omg no way
