@@ -7,6 +7,8 @@ scoreboard objectives add what.ent.anim_change dummy
 scoreboard objectives add what.ent.anim_frames dummy
 scoreboard objectives add what.ent.anim_silly dummy
 
+scoreboard objectives add what.raycast_slow dummy
+scoreboard objectives add what.cooldown dummy
 scoreboard objectives add what.timer dummy
 scoreboard objectives add what.distance dummy
 scoreboard objectives add what.temp dummy

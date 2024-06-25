@@ -31,6 +31,9 @@ data modify storage what:config inter.pipe_bomb set value {target: "what:__custo
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
 
+#slow raycastng
+data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
+
 #mob
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
 data modify storage what:config mobs.pillager set value {name: '[{"translate":"what.mob.pillager"}]', base_mob: "vindicator", cmd:32002, item_id:"potion", anim_len:24}
