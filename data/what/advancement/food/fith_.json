@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_data": {
+				  "what_type":"fith_"
+			  }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ],
+    "rewards": {
+      "function": "what:__custom/item/fire_in_hole"
+    }
+  }
+  
