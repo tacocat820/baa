@@ -14,3 +14,4 @@ loot give @s loot what:blocks/obama
 loot give @s loot what:blocks/trash_can
 loot give @s loot what:blocks/pipe_bomb
 loot give @s loot what:blocks/lego
+loot give @s loot what:blocks/demon_core
