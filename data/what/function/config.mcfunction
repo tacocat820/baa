@@ -19,7 +19,7 @@ data modify storage what:config blocks.trash_can set value {CustomModelData: 320
 
 data modify storage what:config blocks.demon_core set value {CustomModelData: 32015, customTags:[demon_core], inter:1b, rotate:2}
 data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"structure_void"}
-
+data modify storage what:config blocks.lego set value {CustomModelData: 32021, rotate:2, block:"tripwire", customTags:[lego],}
 #interaction
 #inter.$(type).$(inter).run
 
