@@ -1,6 +1,8 @@
+# LAUNCH
+
 summon marker ~ ~ ~ {Tags:["direction"]}
 
-summon arrow ^ ^ ^3 {Tags:["Projectile"]}
+summon arrow ^ ^ ^2 {Tags:["Projectile"]}
 
 tp @e[tag=direction] ^ ^ ^3
 

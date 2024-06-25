@@ -1,1 +1,1 @@
-summon tnt
+summon fireball ~ ~ ~ {Motion:[0d,-9d,0d],ExplosionPower:4}

@@ -1,1 +1,1 @@
-execute facing entity @p eyes run function what:mob/pillager/launch
+execute if entity @a[distance=0..6] unless score @s what.ent.action matches -36.. facing entity @p eyes run function what:mob/pillager/launch_init
