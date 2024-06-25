@@ -15,6 +15,7 @@ execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/
 execute as @a[scores={what.cooldown=1..}] run scoreboard players remove @s what.cooldown 1
 
 execute as @e[tag=what.raycast_slow] at @s run function what:_u/raycast_slow/move
+execute as @a[tag=what.raycaster_slow] run tag @s remove what.raycaster_slow
 
 scoreboard players enable @a what.help
 
