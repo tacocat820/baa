@@ -1,0 +1,7 @@
+{
+    "death_message_type": "intentional_game_design",
+    "effects": "hurt",
+    "exhaustion": 0,
+    "scaling": "always",
+    "message_id": "karma.overload"
+}
