@@ -1,5 +1,5 @@
-execute unless block ~ ~-1 ~ farmland run function what:block/plants/die
-
+execute if entity @s[tag=chair_plant] unless block ~ ~-1 ~ farmland run function what:block/plants/die
+execute if entity @s[tag=beans_plant] unless block ^ ^ ^-1 minecraft:jungle_door run function what:block/plants/die
 #say <- убери эту команду потом
 
 execute store result score age what.temp run data get entity @s item.components.minecraft:custom_data.age

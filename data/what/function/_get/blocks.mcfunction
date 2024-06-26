@@ -15,3 +15,4 @@ loot give @s loot what:blocks/trash_can
 loot give @s loot what:blocks/pipe_bomb
 loot give @s loot what:blocks/lego
 loot give @s loot what:blocks/demon_core
+loot give @s loot what:blocks/beans_plant
