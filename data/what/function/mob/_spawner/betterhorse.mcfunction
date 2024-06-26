@@ -7,4 +7,4 @@ data modify entity @n[tag=what.temp_new] Health set value 65536
 scoreboard players set @n[tag=what.temp_new] what.ent.action 0
 
 execute as @n[tag=what.temp_new] at @s run function what:mob/__spawn {"type":"betterhorse"}
-tag @n[tag=what.temp_new] remove what.new
+tag @n[tag=what.temp_new] remove what.temp_new
