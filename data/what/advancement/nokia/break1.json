@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "delta": {
+          "min": -2,
+          "max": -1
+        },
+        "item": {
+          "components": {
+            "minecraft:damage": 63,
+            "minecraft:custom_data": {"what_type":"nokia_sword"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "what:__custom/item/nokia_sword_b"
+  }
+}

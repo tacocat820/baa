@@ -10,3 +10,5 @@ loot give @a loot what:items/knife
 loot give @s loot what:items/email
 loot give @s loot what:items/melon_gun
 loot give @s loot what:items/fith_
+loot give @s loot what:items/nokia
+loot give @s loot what:items/nokia_sword
