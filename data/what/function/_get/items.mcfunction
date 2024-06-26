@@ -13,3 +13,4 @@ loot give @s loot what:items/fith_
 loot give @s loot what:items/nokia
 loot give @s loot what:items/nokia_sword
 loot give @s loot what:items/beans
+loot give @s loot what:items/demon_core_mace

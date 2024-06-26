@@ -5,19 +5,29 @@ execute at @a as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run func
 execute at @a as @e[distance=0..20,tag=what.block_placed] at @s run function what:block/check
 
 # mob
+
 execute as @e[tag=what.disp] at @s run function what:mob/_disp/mob/tick
 execute as @e[tag=what.ai] at @s run function what:mob/__ai_tick
+
+# dropper
 
 execute as @a[scores={what.dropper_click=1..}] at @s run function what:block/crafting_table_2/dropper_clicked
 execute as @a[scores={what.help=1..}] at @s run function what:help
 execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/run
 
+# cooldown
+
 execute as @a[scores={what.cooldown=1..}] run scoreboard players remove @s what.cooldown 1
+
+# raycast
 
 execute as @e[tag=what.raycast_slow] at @s run function what:_u/raycast_slow/move
 execute as @a[tag=what.raycaster_slow] run tag @s remove what.raycaster_slow
 
 scoreboard players enable @a what.help
+
+# fire 2
+execute as @a[tag=what.fire2] at @s run particle minecraft:lava ~ ~0.8 ~ 0 0 0 0.1 9 normal
 
 
 #scoreboard players reset @s what.dropper_click

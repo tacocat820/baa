@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:mace",
+            "components": {
+              "minecraft:custom_model_data": 32002
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ],
+    "rewards": {
+      "function": "what:__custom/item/eat_lolipop"
+    }
+  }
+  

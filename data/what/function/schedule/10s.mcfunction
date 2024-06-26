@@ -5,3 +5,9 @@ execute as @e[tag=plant,tag=what.block_placed, tag=!stopped] if predicate what:r
 
 execute as @e[tag=what.ent.homeless] at @s unless entity @a[distance=0..100] run kill @s
 execute as @a if items entity @s container.* minecraft:cookie[minecraft:custom_model_data=32001] at @s run function what:mob/homeless/spawn
+
+execute as @a at @s if items entity @s container.* minecraft:mace[minecraft:custom_model_data=32002] run kill @s
+execute as @a at @s if items entity @s container.* minecraft:mace[minecraft:custom_model_data=32001] run function what:__custom/mace/radiation
+
+execute as @e[tag=demon_core_critical] at @s run kill @a[distance=0..5]
+execute as @e[tag=demon_core_closed] run function what:block/demon_core/convert_critical

@@ -26,8 +26,9 @@ data modify storage what:config blocks.beans_plant set value {CustomModelData: 3
 #inter.$(type).$(inter).run
 
 data modify storage what:config inter.test set value {target: "what:__custom/test",attack: "what:__custom/tnt"}
-data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: "what:__custom/tnt"}
-data modify storage what:config inter.demon_core_closed set value {target: "what:block/demon_core/open",attack: "what:__custom/tnt"}
+data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: ""}
+data modify storage what:config inter.demon_core_closed set value {target: "what:block/demon_core/open",attack: ""}
+data modify storage what:config inter.demon_core_critical set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb",attack: "what:block/actions/destroy_block"}
 
 #timer

@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand mace[minecraft:custom_model_data=32000] run return run function what:__custom/mace/mainhand
+execute if items entity @s weapon.offhand mace[minecraft:custom_model_data=32000] run return run function what:__custom/mace/offhand
