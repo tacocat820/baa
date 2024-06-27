@@ -9,14 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"demon_core_mace"},"minecraft:item_name":"{'translate':'what.item.demon_core_mace'}",
-              "minecraft:enchantments": {
-                "levels": {
-                  "what:demon_core": 0
-                },
-                "show_in_tooltip": false
-              },
-              "enchantment_glint_override":false}
+              "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"demon_core_mace"},"minecraft:item_name":"{'translate':'what.item.demon_core_mace'}"}
             }
           ]
         }

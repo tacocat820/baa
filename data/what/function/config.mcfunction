@@ -21,6 +21,7 @@ data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 320
 data modify storage what:config blocks.lego set value {CustomModelData: 32021, rotate:2, block:"tripwire", customTags:[lego],}
 data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1b}
 data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid]}
+data modify storage what:config blocks.bing_chilling set value {CustomModelData: 32027, block:"copper_grate"}
 
 #interaction
 #inter.$(type).$(inter).run

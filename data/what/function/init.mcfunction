@@ -1,5 +1,7 @@
 say алё
 
+scoreboard objectives add what.etc.uranium dummy
+
 scoreboard objectives add what.ent.action dummy
 
 scoreboard objectives add what.ent.animation dummy

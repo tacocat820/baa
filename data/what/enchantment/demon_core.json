@@ -17,16 +17,5 @@
   "slots": [
     "any"
   ],
-  "effects": {
-    "minecraft:post_attack": [
-      {
-        "enchanted": "attacker",
-        "affected": "attacker",
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "what:__custom/mace/fall"
-        }
-      }
-    ]
-  }
+  "effects": {}
 }

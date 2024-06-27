@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 9,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/fortnite_card",
+                "weight": 3,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/beans_plant",
+                "weight": 3,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/pen",
+                "weight": 3,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:empty",
+                "weight": 8,
+                "quality": 3
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/vbucks",
+                "weight": 8,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  
