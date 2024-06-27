@@ -1,0 +1,1 @@
+playsound minecraft:what.static neutral @a ~ ~ ~

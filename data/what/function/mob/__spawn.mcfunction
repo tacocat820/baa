@@ -6,5 +6,10 @@ $data modify storage what:temp item_id set from storage what:config mobs.$(type)
 
 data modify storage what:temp bossbar set value 0b
 $data modify storage what:temp bossbar set from storage what:config mobs.$(type).bossbar
+data modify storage what:temp inter set value 0b
+$data modify storage what:temp inter set from storage what:config mobs.$(type).inter.a
+$data modify storage what:temp inter_id set from storage what:config mobs.$(type).inter.id
+$data modify storage what:temp inter_width set from storage what:config mobs.$(type).inter.width
+$data modify storage what:temp inter_height set from storage what:config mobs.$(type).inter.height
 
 function what:mob/_disp/mob/spawn with storage what:temp
