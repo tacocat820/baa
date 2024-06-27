@@ -12,8 +12,9 @@ execute if data storage what:temp {what_type:glass_empty} run return run functio
 execute if data storage what:temp {what_type:glass_of_water} run return run function what:carrot_on_a_stick/glass/water
 
 
-execute if entity @s[scores={what.cooldown=1..}] run return 0
 
+execute if entity @s[scores={what.cooldown=1..}] run return 0
+execute if data storage what:temp {what_type:glass_of_oil} run return run function what:carrot_on_a_stick/glass/oil
 execute if data storage what:temp {what_type:melon_gun} anchored eyes run return run function what:carrot_on_a_stick/melon_gun/run
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}
 #anchored eyes run summon creeper ^ ^ ^.1 {Fuse:0,ExplosionRadius:-1,ignited:1,Silent:1b}

@@ -1,4 +1,4 @@
-function what:carrot_on_a_stick/item_break
+function what:carrot_on_a_stick/item_break {slot:weapon.mainhand}
 
 function what:_u/raycast/start {loop_func:"what:carrot_on_a_stick/glass/shot_particles", end_func:"what:carrot_on_a_stick/glass/shot_end"}
 

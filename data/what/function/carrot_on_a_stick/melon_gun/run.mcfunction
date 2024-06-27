@@ -1,4 +1,4 @@
-function what:carrot_on_a_stick/item_break
+function what:carrot_on_a_stick/item_break {slot:weapon.mainhand}
 scoreboard players set @s what.cooldown 25
 
 execute unless function what:carrot_on_a_stick/melon_gun/melon_clear run return 0
