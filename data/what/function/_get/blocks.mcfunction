@@ -16,3 +16,4 @@ loot give @s loot what:blocks/pipe_bomb
 loot give @s loot what:blocks/lego
 loot give @s loot what:blocks/demon_core
 loot give @s loot what:blocks/beans_plant
+loot give @s loot what:blocks/american_oil

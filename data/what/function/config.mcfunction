@@ -20,7 +20,7 @@ data modify storage what:config blocks.demon_core set value {CustomModelData: 32
 data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"structure_void"}
 data modify storage what:config blocks.lego set value {CustomModelData: 32021, rotate:2, block:"tripwire", customTags:[lego],}
 data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1b}
-
+data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid]}
 
 #interaction
 #inter.$(type).$(inter).run
@@ -29,7 +29,7 @@ data modify storage what:config inter.test set value {target: "what:__custom/tes
 data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: ""}
 data modify storage what:config inter.demon_core_closed set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.demon_core_critical set value {target: "what:block/demon_core/open",attack: ""}
-data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb",attack: "what:block/actions/destroy_block"}
+data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb/run",attack: "what:__custom/pipe_bomb/destroy"}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
