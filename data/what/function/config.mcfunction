@@ -22,15 +22,18 @@ data modify storage what:config blocks.lego set value {CustomModelData: 32021, r
 data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1b}
 data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid]}
 data modify storage what:config blocks.bing_chilling set value {CustomModelData: 32027, block:"copper_grate"}
+data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, block:"structure_void", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
 #interaction
 #inter.$(type).$(inter).run
-
 data modify storage what:config inter.test set value {target: "what:__custom/test",attack: "what:__custom/tnt"}
+
 data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: ""}
 data modify storage what:config inter.demon_core_closed set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.demon_core_critical set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb/run",attack: "what:__custom/pipe_bomb/destroy"}
+data modify storage what:config inter.chinese_anvil set value {target: "",attack: "what:block/actions/destroy_block"}
+
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 
 #timer

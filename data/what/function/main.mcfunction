@@ -2,7 +2,10 @@
 
 #кастомынй блок
 execute at @a as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
-execute at @a as @e[distance=0..20,tag=what.block_placed] at @s run function what:block/check
+execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
+
+#блок но падает
+#execute at @a as @e[distance=..40,tag=falling_block] at @s run function what:block/falling_blocks/run
 
 # mob
 

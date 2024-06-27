@@ -1,0 +1,16 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/uranium"
+        }
+      ]
+    }
+  ]
+}

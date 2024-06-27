@@ -9,7 +9,7 @@ execute if score cmd what.temp matches 32000 run return run summon item ~ ~ ~ {I
 execute if score cmd what.temp matches 32001 run return run loot spawn ~ ~ ~ loot what:blocks/brazil
 
 execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32002 run return run loot spawn ~ ~ ~ loot what:blocks/uranium_ore
-
+execute if score cmd what.temp matches 32002 run return run loot spawn ~ ~ ~ loot what:loot/uranium_ore
 execute if score cmd what.temp matches 32003 run return run loot spawn ~ ~ ~ loot what:blocks/backrooms
 
 execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32004 run return run loot spawn ~ ~ ~ loot what:blocks/meth_crystal
@@ -34,3 +34,4 @@ execute if score cmd what.temp matches 32021 run return run loot spawn ~ ~ ~ loo
 
 execute if score cmd what.temp matches 32022 run return run loot spawn ~ ~ ~ loot what:blocks/beans_plant
 execute if score cmd what.temp matches 32024 run return run loot spawn ~ ~ ~ loot what:loot/beans_plant
+execute if score cmd what.temp matches 32028 run return run loot spawn ~ ~ ~ loot what:blocks/chinese_anvil
