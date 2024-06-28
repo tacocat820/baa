@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ water if data storage what:temp {block:dust} run function what:block/falling_blocks/sset {block:solid_dust}

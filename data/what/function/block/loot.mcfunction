@@ -38,6 +38,10 @@ execute if score cmd what.temp matches 32028 run return run loot spawn ~ ~ ~ loo
 
 
 execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32029 run return run loot spawn ~ ~ ~ loot what:blocks/dust
-execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32030 run return run loot spawn ~ ~ ~ loot what:blocks/solid_dust
+execute if score cmd what.temp matches 32029 run return run loot spawn ~ ~ ~ loot what:loot/dust_blocks
+
+execute if score cmd what.temp matches 32030 run return run loot spawn ~ ~ ~ loot what:blocks/solid_dust
+
 execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32031 run return run loot spawn ~ ~ ~ loot what:blocks/dust_carpet
-execute if score cmd what.temp matches 32029..32031 run return run loot spawn ~ ~ ~ loot what:loot/dust_blocks
+execute if score cmd what.temp matches 32031 run return run loot spawn ~ ~ ~ loot what:items/dust
+
