@@ -17,3 +17,5 @@ loot give @s loot what:blocks/lego
 loot give @s loot what:blocks/demon_core
 loot give @s loot what:blocks/beans_plant
 loot give @s loot what:blocks/american_oil
+loot give @s loot what:blocks/bing_chilling
+loot give @s loot what:blocks/chinese_anvil

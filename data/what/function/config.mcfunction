@@ -23,6 +23,10 @@ data modify storage what:config blocks.beans_plant set value {CustomModelData: 3
 data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid]}
 data modify storage what:config blocks.bing_chilling set value {CustomModelData: 32027, block:"copper_grate"}
 data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, block:"structure_void", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
+
+data modify storage what:config blocks.dust set value {CustomModelData: 32029, block:"azalea_leaves", falling:1b, customTags:[dust]}
+data modify storage what:config blocks.solid_dust set value {CustomModelData: 32030, block:"azalea_leaves"}
+data modify storage what:config blocks.dust_carpet set value {CustomModelData: 32031, block:"tripwire", falling:1b, customTags:[dust_carpet]}
 #data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
 #interaction

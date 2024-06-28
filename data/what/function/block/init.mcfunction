@@ -19,6 +19,7 @@ $execute if data storage what:config blocks.$(type){block:"locked_shulker"} run 
 $execute if data storage what:config blocks.$(type){block:"spawner"} run setblock ~ ~ ~ spawner
 $execute if data storage what:config blocks.$(type){block:"stone_slab"} run setblock ~ ~ ~ minecraft:stone_slab[type=bottom]
 $execute if data storage what:config blocks.$(type){block:"structure_void"} run setblock ~ ~ ~ structure_void
+$execute if data storage what:config blocks.$(type){block:"azalea_leaves"} run setblock ~ ~ ~ minecraft:azalea_leaves[distance=7,persistent=true,waterlogged=false]
 
 $execute if data storage what:config blocks.$(type){inter:1b} align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {Tags:[$(type)],width:1.01,height:1.01}
 $execute if data storage what:config blocks.$(type){inter:1b} run tag @s add has_inter
