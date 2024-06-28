@@ -41,12 +41,13 @@ data modify storage what:config inter.demon_core_closed set value {target: "what
 data modify storage what:config inter.demon_core_critical set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb/run",attack: "what:__custom/pipe_bomb/destroy"}
 data modify storage what:config inter.chinese_anvil set value {target: "",attack: "what:block/actions/destroy_block"}
-data modify storage what:config inter.microwave set value {target: "",attack: "what:block/actions/destroy_block"}
+data modify storage what:config inter.microwave set value {target: "what:block/microwave/run",attack: "what:block/actions/destroy_block"}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
+data modify storage what:config timer.microwave_p1 set value {func: "what:block/microwave/warming"}
 
 #slow raycastng
 data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
