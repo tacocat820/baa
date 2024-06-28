@@ -1,6 +1,5 @@
-execute unless block ~ ~-1 ~ #air run return 0
+#function what:block/falling_blocks/fall
+#function what:block/falling_blocks/set
 
-execute if block ~ ~-1 ~ #air run function what:block/falling_blocks/fall
-
-execute at @s unless block ~ ~-1 ~ #air run function what:block/falling_blocks/set
-
+#execute if block ~ ~-1 ~ #air run function what:block/falling_blocks/fall
+#execute unless block ~ ~-1 ~ #air run function what:block/falling_blocks/set
