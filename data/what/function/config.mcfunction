@@ -29,6 +29,9 @@ data modify storage what:config blocks.solid_dust set value {CustomModelData: 32
 data modify storage what:config blocks.dust_carpet set value {CustomModelData: 32031, block:"tripwire", falling:1b, customTags:[dust_carpet]}
 #data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
+data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"copper_grate", customTags:[microwave]}
+
+
 #interaction
 #inter.$(type).$(inter).run
 data modify storage what:config inter.test set value {target: "what:__custom/test",attack: "what:__custom/tnt"}
@@ -38,6 +41,7 @@ data modify storage what:config inter.demon_core_closed set value {target: "what
 data modify storage what:config inter.demon_core_critical set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb/run",attack: "what:__custom/pipe_bomb/destroy"}
 data modify storage what:config inter.chinese_anvil set value {target: "",attack: "what:block/actions/destroy_block"}
+data modify storage what:config inter.microwave set value {target: "",attack: "what:block/actions/destroy_block"}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 
