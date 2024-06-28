@@ -1,4 +1,4 @@
-$tag @e[limit=1,tag=what.ai,scores={what.id=$(sid)},distance=0..25] add what.cur
+$tag @n[tag=what.ai,scores={what.id=$(sid)},distance=0..25] add what.cur
 
 execute unless entity @e[tag=what.cur] run function what:mob/_disp/mob/destroy with entity @s item.components.minecraft:custom_data
 execute at @e[tag=what.cur] run tp ~ ~.5 ~

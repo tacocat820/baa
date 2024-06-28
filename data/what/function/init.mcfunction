@@ -18,7 +18,7 @@ scoreboard objectives add what.distance dummy
 scoreboard objectives add what.temp dummy
 scoreboard objectives add what.id dummy
 scoreboard objectives add what.anl dummy
-scoreboard players set $ what.id 0
+execute unless score $ what.id matches 0.. run scoreboard players set $ what.id 0
 
 scoreboard objectives add what.inter dummy
 
