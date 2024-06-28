@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "what:trash/trash",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 0.5,
+            "erosion": 1,
+            "weirdness": 1,
+            "depth": 1,
+            "offset": 1
+          }
+        }
+      ]
+    }
+  }
+}
