@@ -14,3 +14,4 @@ loot give @s loot what:items/nokia
 loot give @s loot what:items/nokia_sword
 loot give @s loot what:items/beans
 loot give @s loot what:items/demon_core_mace
+loot give @s loot what:items/dust

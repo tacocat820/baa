@@ -19,3 +19,6 @@ loot give @s loot what:blocks/beans_plant
 loot give @s loot what:blocks/american_oil
 loot give @s loot what:blocks/bing_chilling
 loot give @s loot what:blocks/chinese_anvil
+loot give @s loot what:blocks/dust
+loot give @s loot what:blocks/solid_dust
+loot give @s loot what:blocks/dust_carpet
