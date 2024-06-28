@@ -4,3 +4,6 @@ tp @s ~ ~-1 ~
 
 
 tag @s add falling
+
+
+execute if block ~ ~ ~ water if data entity @s item.components{"minecraft:custom_model_data":32029} run function what:block/falling_blocks/sset {block:solid_dust}
