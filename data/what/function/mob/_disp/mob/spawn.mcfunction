@@ -20,7 +20,6 @@ $data modify entity @s CustomName set value '$(name)'
 
 execute store result storage what:temp sid int 1 run scoreboard players get @s what.id
 execute if data storage what:temp {bossbar:1b} run function what:mob/_disp/bossbar/new with storage what:temp
-execute if data storage what:temp {inter:1b} as @n[tag=what.new] run function what:mob/_disp/inter/new with storage what:temp
 
 scoreboard players operation @n[tag=what.new] what.id = @s what.id
 
