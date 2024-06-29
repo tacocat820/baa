@@ -12,6 +12,7 @@ $execute if data storage what:config blocks.$(type){falling:1b} run tag @s add f
 $execute if data storage what:config blocks.$(type){falling:1b} run data modify entity @s teleport_duration set value 2
 
 $execute if data storage what:config blocks.$(type){plant:1b} run function what:block/plants/set_age
+$execute if data storage what:config blocks.$(type){bright:1b} run data modify entity @s brightness set value {sky:10,block:10}
 
 $execute if data storage what:config blocks.$(type){block:"tripwire"} run setblock ~ ~ ~ tripwire
 $execute if data storage what:config blocks.$(type){block:"copper_grate"} run setblock ~ ~ ~ copper_grate

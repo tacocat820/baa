@@ -32,6 +32,8 @@ execute if score cmd what.temp matches 32014 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32020 run return run loot spawn ~ ~ ~ loot what:blocks/pipe_bomb
 execute if score cmd what.temp matches 32021 run return run loot spawn ~ ~ ~ loot what:blocks/lego
 
+execute if score cmd what.temp matches 32015 run return run loot spawn ~ ~ ~ loot what:blocks/demon_core
+
 execute if score cmd what.temp matches 32022 run return run loot spawn ~ ~ ~ loot what:blocks/beans_plant
 execute if score cmd what.temp matches 32024 run return run loot spawn ~ ~ ~ loot what:loot/beans_plant
 execute if score cmd what.temp matches 32028 run return run loot spawn ~ ~ ~ loot what:blocks/chinese_anvil

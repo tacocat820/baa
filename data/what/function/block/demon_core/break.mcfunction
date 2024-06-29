@@ -1,0 +1,1 @@
+execute at @s on attacker if entity @s[gamemode=!adventure] run setblock ~ ~ ~ air

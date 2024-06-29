@@ -30,13 +30,13 @@ data modify storage what:config blocks.dust_carpet set value {CustomModelData: 3
 #data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
 data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"copper_grate", customTags:[microwave]}
-
+data modify storage what:config blocks.plasma set value {CustomModelData: 32033, block:"glass", bright:1b}
 
 #interaction
 #inter.$(type).$(inter).run
 data modify storage what:config inter.test set value {target: "what:__custom/test",attack: "what:__custom/tnt"}
 
-data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: ""}
+data modify storage what:config inter.demon_core set value {target: "what:block/demon_core/close",attack: "what:block/demon_core/break"}
 data modify storage what:config inter.demon_core_closed set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.demon_core_critical set value {target: "what:block/demon_core/open",attack: ""}
 data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb/run",attack: "what:__custom/pipe_bomb/destroy"}
@@ -98,8 +98,7 @@ data modify storage what:config microwave.email set value {id: "paper" }
 data modify storage what:config microwave.glass_empty set value {id: "glass" }
 data modify storage what:config microwave.glass_of_oil set value {id: "item_frame", components: {custom_model_data:32026,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,american_oil]},item_name:'{"translate":"what.block.american_oil"}'} }
 data modify storage what:config microwave.glass_of_water set value {id: "water" }
-
-
+data modify storage what:config microwave.fire set value {id: "item_frame", components: {custom_model_data:32033,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,plasma]},item_name:'{"translate":"what.block.plasma"}'} }
 
 #mob
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
