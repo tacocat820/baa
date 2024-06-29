@@ -1,4 +1,2 @@
-execute on target run data modify entity @n[tag=what.block_placed] item.components.minecraft:custom_data.microwave_item set from entity @p SelectedItem
-execute on target run item replace entity @s weapon.mainhand with air
-
-execute at @s as @n[tag=what.block_placed] at @s run function what:block/microwave/timer
+execute as @n[tag=what.block_placed] if entity @s[scores={what.timer=-1..}] run return run function what:block/microwave/take
+function what:block/microwave/put
