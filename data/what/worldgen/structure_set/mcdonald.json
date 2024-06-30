@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:mcdonald",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 847816213,
+    "spacing": 34,
+    "separation": 8
+  }
+}
