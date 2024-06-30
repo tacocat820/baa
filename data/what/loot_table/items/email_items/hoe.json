@@ -9,7 +9,20 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32001, "minecraft:custom_data": {"what_type": "email_hoe"}, "minecraft:item_name": "{'translate':'what.item.email_hoe'}"}
+                "components": {
+                  "minecraft:custom_model_data": 32001,
+                  "minecraft:custom_data": {"what_type": "email_hoe"},
+                  "minecraft:max_damage": 21,
+                  "minecraft:tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:mineable/hoe",
+                        "speed": 200
+                      }
+                    ]
+                    },
+                  "minecraft:item_name": "{'translate':'what.item.email_hoe'}"
+                }
               }
             ]
           }
