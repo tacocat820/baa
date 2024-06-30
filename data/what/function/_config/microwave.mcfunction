@@ -37,10 +37,16 @@ data modify storage what:config microwave.nokia set value {id: "bedrock" }
 data modify storage what:config microwave.vbucks set value {id: "brown_dye" }
 data modify storage what:config microwave.pen set value {id: "blue_dye" }
 data modify storage what:config microwave.beans set value {id: "brown_dye" }
-data modify storage what:config microwave.fortnite_card set value {id: "clock", components: {custom_model_data:32002,item_name:'{"translate":"what.item.vbucks"}'} }
+#data modify storage what:config microwave.fortnite_card set value {id: "clock", components: {custom_model_data:32002,item_name:'{"translate":"what.item.vbucks"}'} }
+data modify storage what:config microwave.fortnite_card set value {loot_table: "what:items/vbucks" }
 data modify storage what:config microwave.cucumber set value {id: "sea_pickle" }
 data modify storage what:config microwave.email set value {id: "paper" }
 data modify storage what:config microwave.glass_empty set value {id: "glass" }
-data modify storage what:config microwave.glass_of_oil set value {id: "item_frame", components: {custom_model_data:32026,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,american_oil]},item_name:'{"translate":"what.block.american_oil"}'} }
+#data modify storage what:config microwave.glass_of_oil set value {id: "item_frame", components: {custom_model_data:32026,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,american_oil]},item_name:'{"translate":"what.block.american_oil"}'} }
+data modify storage what:config microwave.glass_of_oil set value {loot_table: "what:blocks/american_oil" }
 data modify storage what:config microwave.glass_of_water set value {id: "water" }
-data modify storage what:config microwave.fire set value {id: "item_frame", components: {custom_model_data:32033,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,plasma]},item_name:'{"translate":"what.block.plasma"}'} }
+#data modify storage what:config microwave.fire set value {id: "item_frame", components: {custom_model_data:32033,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,plasma]},item_name:'{"translate":"what.block.plasma"}'} }
+data modify storage what:config microwave.fire set value {loot_table: "what:blocks/plasma" }
+
+data modify storage what:config microwave.minecraft:packed_mud set value {loot_table: "what:blocks/backrooms" }
+data modify storage what:config microwave.minecraft:white_wool set value {loot_table: "what:blocks/backrooms_carpet" }

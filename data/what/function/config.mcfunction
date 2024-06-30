@@ -29,7 +29,7 @@ data modify storage what:config blocks.solid_dust set value {CustomModelData: 32
 data modify storage what:config blocks.dust_carpet set value {CustomModelData: 32031, block:"tripwire", falling:1b, customTags:[dust_carpet]}
 #data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
-data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"copper_grate", customTags:[microwave]}
+data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"locked_shulker", customTags:[microwave]}
 data modify storage what:config blocks.plasma set value {CustomModelData: 32033, block:"glass", bright:1b}
 
 #interaction
