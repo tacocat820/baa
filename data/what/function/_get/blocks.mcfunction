@@ -22,3 +22,5 @@ loot give @s loot what:blocks/chinese_anvil
 loot give @s loot what:blocks/dust
 loot give @s loot what:blocks/solid_dust
 loot give @s loot what:blocks/dust_carpet
+loot give @p loot what:blocks/microwave
+loot give @p loot what:blocks/plasma

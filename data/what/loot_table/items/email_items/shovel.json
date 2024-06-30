@@ -9,7 +9,20 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32001, "minecraft:custom_data": {"what_type": "email_shovel"}, "minecraft:item_name": "{'translate':'what.item.email_shovel'}"}
+                "components": {
+                  "minecraft:custom_model_data": 32001,
+                  "minecraft:custom_data": {"what_type": "email_shovel"},
+                  "minecraft:max_damage": 21,
+                  "minecraft:tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:mineable/shovel",
+                        "speed": 200
+                      }
+                    ]
+                    },
+                  "minecraft:item_name": "{'translate':'what.item.email_shovel'}"
+                }
               }
             ]
           }

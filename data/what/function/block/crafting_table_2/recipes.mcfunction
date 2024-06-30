@@ -34,6 +34,7 @@ function what:block/crafting_table_2/shape_craft/run
 #if data storage what:temp crafting.items."minecraft:clock email"
 #unless function what:block/crafting_table_2/recipes/email_items run return 0
 
-execute if data storage what:temp crafting.items."minecraft:stick" if data storage what:temp crafting.items."email" unless function what:block/crafting_table_2/recipes/email_items run return 0
+#execute if data storage what:temp crafting.items."minecraft:stick" if data storage what:temp crafting.items."email" unless function what:block/crafting_table_2/recipes/email_items run return 0
+execute if data storage what:temp crafting.items."email" unless function what:block/crafting_table_2/recipes/email_items run return 0
 execute if data storage what:temp shape_craft{1: "nokia", 4: "nokia", 7: "minecraft:stick"} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:items/nokia_sword"}
 #-----------------------------------------------

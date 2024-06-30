@@ -9,7 +9,24 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32001, "minecraft:custom_data": {"what_type": "email_sword"}, "minecraft:item_name": "{'translate':'what.item.email_sword'}"}
+                "components": {
+                  "minecraft:custom_model_data": 32001,
+                  "minecraft:custom_data": {"what_type": "email_sword"},
+                  "minecraft:max_damage": 5,
+                  "attribute_modifiers": {"modifiers":[
+                    {"type":"generic.attack_damage","amount":18,"id":"generic.attack_damage","operation":"add_value"},
+                    {"type":"generic.attack_speed","amount":5,"id":"generic.attack_speed","operation":"add_value"}
+                  ]},
+                  "minecraft:tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:mineable/sword",
+                        "speed": 200
+                      }
+                    ]
+                    },
+                  "minecraft:item_name": "{'translate':'what.item.email_sword'}"
+                }
               }
             ]
           }

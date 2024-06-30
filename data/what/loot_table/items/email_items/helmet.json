@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 32000,
+                "minecraft:max_damage": 10,
+                "attribute_modifiers": {"modifiers":[
+                  {"type":"generic.armor","amount":10,"id":"generic.armor","operation":"add_value", "slot":"head"}
+                ]},
+                "minecraft:custom_data": {"what_type": "email_helmet"},
+                "minecraft:dyed_color": {"rgb":16769556},
+                "minecraft:item_name": "{'translate':'what.item.email_helmet'}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
