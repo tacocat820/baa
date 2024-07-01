@@ -4,6 +4,10 @@
 execute at @a as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
 execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
 
+execute at @e[type=marker,tag=what.block_loader] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
+
+#execute at @e[type=creeper] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s if block ~ ~ ~ #what:replaceable run return run function what:block/break
+
 #блок но падает
 #execute at @a as @e[distance=..40,tag=falling_block] at @s run function what:block/falling_blocks/run
 
@@ -34,3 +38,5 @@ execute as @a[tag=what.fire2] at @s run particle minecraft:lava ~ ~0.8 ~ 0 0 0 0
 
 
 #scoreboard players reset @s what.dropper_click
+
+#execute as @e[type=creeper] run say 1

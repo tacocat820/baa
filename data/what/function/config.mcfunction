@@ -47,6 +47,7 @@ data modify storage what:config inter.vroomba set value {target: "what:mob/vroom
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
 data modify storage what:config timer.microwave_p1 set value {func: "what:block/microwave/warming"}
+data modify storage what:config timer.block_loader set value {func: "what:__custom/kill"}
 
 #slow raycastng
 data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
