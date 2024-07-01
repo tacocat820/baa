@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod",
+            "weight": 3,
+            "quality": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beef",
+            "weight": 3,
+            "quality": 4
+          }
+        ]
+      }
+    ]
+  }
+  

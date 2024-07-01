@@ -36,6 +36,7 @@ data modify storage what:config microwave.fith_ set value {id: "netherrack" }
 data modify storage what:config microwave.uranium set value {id: "lime_dye" }
 data modify storage what:config microwave.dust set value {id: "air" }
 data modify storage what:config microwave.nokia set value {id: "bedrock" }
+data modify storage what:config microwave.nokia_sword set value {id: "bedrock" }
 data modify storage what:config microwave.vbucks set value {id: "brown_dye" }
 data modify storage what:config microwave.pen set value {id: "blue_dye" }
 data modify storage what:config microwave.beans set value {id: "brown_dye" }

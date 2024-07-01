@@ -1,2 +1,4 @@
-summon villager ~ ~ ~ {Tags:[what.ai,what.ent.homeless],VillagerData:{type:swamp,profession:nitwit,level:2},CustomName:"homeless man"}
-summon wandering_trader ~ ~ ~ {Tags:[what.ai,what.ent.homeless_possessor,tick1s],Attributes:[{Name:"generic.scale",Base:0.1f}],Silent:1b}
+summon villager ~ ~ ~ {Tags:[what.ai,what.ent.homeless],VillagerData:{type:swamp,profession:nitwit,level:2},CustomName:"{\"translate\":\"what.mob.homeless\"}"}
+summon wandering_trader ~ ~ ~ {Tags:[what.ai,what.ent.homeless_possessor,tick1s],attributes:[{id:"generic.scale",base:0.1f}],Silent:1b}
+
+tag @n[tag=what.ai,limit=2] add what.checked
