@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["plains","forest","desert","dark_forest","birch_forest","old_growth_birch_forest","what:trash/trash"],
+    "biomes": ["plains","forest","river","ocean","warm_ocean","crimson_forest"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
