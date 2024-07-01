@@ -54,7 +54,6 @@ data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_d
 
 # microwave
 function what:_config/microwave
-
 # trades
 function what:_config/trades
 
@@ -69,4 +68,6 @@ data modify storage what:config mobs.vroomba set value {name: '[{"translate":"wh
 data modify storage what:config mobs.plane set value {name: '[{"translate":"what.mob.plane"}]', base_mob: "horse", cmd:32006, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.donalds set value {name: '[{"translate":"what.mob.donalds"}]', base_mob: "villager", cmd:32007, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.cable set value {name: '[{"translate":"what.mob.cable"}]', base_mob: "husk", cmd:32008, item_id:"clock", anim_len:0}
+data modify storage what:config mobs.mogus set value {name: '[{"translate":"what.mob.mogus"}]', base_mob: "vindicator", cmd:32008, item_id:"potion", anim_len:24}
+
 
