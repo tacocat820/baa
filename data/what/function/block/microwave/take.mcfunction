@@ -12,6 +12,7 @@ data modify entity @n[tag=what.new] Item set from block ~ ~ ~ Items[0]
 data modify entity @n[tag=what.this] item.components.minecraft:custom_data.microwave_item set value {}
 
 scoreboard players set @s what.timer -2
+scoreboard players reset @s what.timer
 tag @n[tag=what.new] remove what.new
 
 stopsound @a[distance=0..15] block minecraft:what.microwave
