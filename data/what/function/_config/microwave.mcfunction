@@ -47,6 +47,11 @@ data modify storage what:config microwave.glass_of_oil set value {loot_table: "w
 data modify storage what:config microwave.glass_of_water set value {id: "water" }
 #data modify storage what:config microwave.fire set value {id: "item_frame", components: {custom_model_data:32033,entity_data:{id:"item_frame",Invisible:1b,Tags:[what.block,plasma]},item_name:'{"translate":"what.block.plasma"}'} }
 data modify storage what:config microwave.fire set value {loot_table: "what:blocks/plasma" }
+data modify storage what:config microwave.minecraft:orange_dye set value {loot_table: "what:items/red_meth" }
 
 data modify storage what:config microwave.minecraft:packed_mud set value {loot_table: "what:blocks/backrooms" }
 data modify storage what:config microwave.minecraft:white_wool set value {loot_table: "what:blocks/backrooms_carpet" }
+data modify storage what:config microwave.'["what.block","plasma"]' set value {loot_table: "what:blocks/plasma" }
+data modify storage what:config microwave.'["what.block","solid_dust"]' set value {loot_table: "what:blocks/dust" }
+data modify storage what:config microwave.minecraft:flint_and_steel set value {loot_table: "what:items/fire" }
+data modify storage what:config microwave.minecraft:glass set value {loot_table: "what:items/glass_empty" }

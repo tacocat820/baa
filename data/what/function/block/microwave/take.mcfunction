@@ -16,4 +16,5 @@ tag @n[tag=what.new] remove what.new
 
 stopsound @a[distance=0..15] block minecraft:what.microwave
 
+data remove block ~ ~ ~ Items
 tag @n[tag=what.this] remove what.this

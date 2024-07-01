@@ -1,0 +1,3 @@
+execute if data block ~ ~ ~ Items[0].components.minecraft:entity_data.Tags run return run function what:block/microwave/from_config_ent_tags with block ~ ~ ~ Items[0].components.minecraft:entity_data
+execute unless data block ~ ~ ~ Items[0].components.minecraft:custom_data.what_type run return run function what:block/microwave/from_config with block ~ ~ ~ Items[0]
+execute if data block ~ ~ ~ Items[0].components.minecraft:custom_data.what_type run return run function what:block/microwave/from_config_b with block ~ ~ ~ Items[0].components.minecraft:custom_data
