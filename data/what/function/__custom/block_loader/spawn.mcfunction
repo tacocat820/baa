@@ -1,0 +1,1 @@
+execute at @s summon marker run function what:__custom/block_loader/init
