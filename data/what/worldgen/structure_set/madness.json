@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:madness",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 826081929,
+    "spacing": 29,
+    "separation": 10
+  }
+}
