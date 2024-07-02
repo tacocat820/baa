@@ -48,3 +48,4 @@ execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32031 run retur
 execute if score cmd what.temp matches 32031 run return run loot spawn ~ ~ ~ loot what:items/dust
 
 execute if score cmd what.temp matches 32032 run return run loot spawn ~ ~ ~ loot what:blocks/microwave
+execute if score cmd what.temp matches 32034 run return run loot spawn ~ ~ ~ loot what:blocks/obamium

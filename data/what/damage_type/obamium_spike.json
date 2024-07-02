@@ -1,0 +1,7 @@
+{
+  "message_id": "foot.obamium_spike.pain",
+  "exhaustion": 0,
+  "scaling": "always",
+  "death_message_type": "default",
+  "effects": "poking"
+}
