@@ -9,13 +9,13 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data": 32034, "minecraft:entity_data": {"Tags": ["what.block", "obamium"], "id": "item_frame", "Invisible": true}}
+              "components": {"minecraft:custom_model_data": 32034, "minecraft:entity_data": {"Tags": ["what.block", "obamium_short"], "id": "item_frame", "Invisible": true}}
             },
             {
               "function": "minecraft:set_name",
               "target": "item_name",
               "name": {
-                "translate": "what.block.obamium"
+                "translate": "what.block.obamium_short"
               }
             }
           ]
