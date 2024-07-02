@@ -55,4 +55,4 @@ data modify storage what:config microwave.'["what.block","plasma"]' set value {l
 data modify storage what:config microwave.'["what.block","solid_dust"]' set value {loot_table: "what:blocks/dust" }
 data modify storage what:config microwave.minecraft:flint_and_steel set value {loot_table: "what:items/fire" }
 data modify storage what:config microwave.minecraft:glass set value {loot_table: "what:items/glass_empty" }
-data modify storage what:config microwave.'["what.block","obama"]' set value {loot_table: "what:items/obamium" }
+data modify storage what:config microwave.'["what.block","obama"]' set value {loot_table: "what:blocks/obamium" }

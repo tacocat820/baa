@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"minecraft:custom_model_data": 32034, "minecraft:entity_data": {"Tags": ["what.block", "obamium"], "id": "item_frame", "Invisible": 1}}
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "what.block.obamium"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
