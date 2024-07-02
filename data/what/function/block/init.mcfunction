@@ -24,7 +24,9 @@ $execute if data storage what:config blocks.$(type){block:"azalea_leaves"} run s
 
 $execute if data storage what:config blocks.$(type){inter:1b} align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {Tags:[$(type)],width:1.01,height:1.01}
 $execute if data storage what:config blocks.$(type){inter:1b} run tag @s add has_inter
+$execute if data storage what:config blocks.$(type).item_display run data modify entity @s item_display set from storage what:config blocks.$(type).item_display
 
+#data modify entity @s item_display set value "head"
 #жижкости
 #$execute if data storage what:config blocks.$(type).fluid_spread run data modify entity @s item.components.minecraft:custom_data.fluid_spread set from storage what:config blocks.$(type).fluid_spread 
 $execute if data storage what:config blocks.$(type).fluid_spread store result score @s what.fluid_spread run data get storage what:config blocks.$(type).fluid_spread 
