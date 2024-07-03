@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+      "wheat_seeds",
+      "tnt",
+      "tnt_minecart",
+      "#swords",
+      "#axes",
+      "carrot_on_a_stick",
+      "#pickaxes",
+      "item_frame",
+      "cactus",
+      "firework_rocket",
+      "potion",
+      "nether_wart",
+      "nether_wart_block",
+      "dragon_breath",
+      "ender_pearl"
+    ]
+  }

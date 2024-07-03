@@ -1,0 +1,1 @@
+execute as @a[distance=0..30] if items entity @s container.*
