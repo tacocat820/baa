@@ -19,3 +19,4 @@ loot give @s loot what:items/banana
 loot give @s loot what:items/uranium
 loot give @s loot what:items/dust
 loot give @s loot what:items/fire
+loot give @s loot what:items/cooked_seeds
