@@ -3,3 +3,4 @@ execute if entity @s[tag=what.ent.homeless_possessor] run function what:mob/home
 execute if entity @s[tag=what.ent.betterhorse] run function what:mob/betterhorse/tick
 execute if entity @s[tag=what.ent.pillager] run function what:mob/pillager/tick
 execute if entity @s[tag=what.ent.vroomba] run function what:mob/vroomba/tick
+execute if entity @s[tag=what.ent.pigeon] run function what:mob/pigeon/tick

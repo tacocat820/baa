@@ -1,4 +1,4 @@
-summon bee ~ ~ ~ {Tags:["what.temp_new","tick1s"]}
+summon bee ~ ~ ~ {Tags:["what.temp_new","tick1s","what.ent.pigeon"]}
 
 data merge entity @n[tag=what.temp_new] {DeathLootTable:"what:loot/cable"}
 

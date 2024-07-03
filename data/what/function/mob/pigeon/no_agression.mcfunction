@@ -1,0 +1,1 @@
+data modify entity @s AngerTime set value 0

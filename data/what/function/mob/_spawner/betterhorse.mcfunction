@@ -1,4 +1,4 @@
-summon husk ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.betterhorse","tick1s"]}
+summon husk ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.betterhorse","tick1s"],PersistenceRequired:1b}
 effect give @n[tag=what.temp_new] speed infinite 4 true
 effect give @n[tag=what.temp_new] strength infinite 1 true
 effect give @n[tag=what.temp_new] fire_resistance infinite 255 true

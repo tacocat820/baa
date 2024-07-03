@@ -1,1 +1,3 @@
-execute as @a[distance=0..30] if items entity @s container.*
+execute at @a[distance=0..30] if items entity @p container.* #what:illegal unless items entity @p weapon.* cookie[custom_data={what_type:"cooked_seeds"}] unless entity @s[tag=happy] run function what:mob/pigeon/agression
+
+execute unless entity @s[tag=happy] positioned ~ ~0.3 ~ unless items entity @p weapon.* cookie[custom_data={what_type:"cooked_seeds"}] if entity @a[distance=0..40] run function what:_u/raycast/start {loop_func:"what:mob/pigeon/laser_loop", end_func:"what:mob/pigeon/laser_end"}
