@@ -31,7 +31,7 @@ data modify storage what:config blocks.dust_carpet set value {CustomModelData: 3
 data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"locked_shulker", customTags:[microwave]}
 data modify storage what:config blocks.plasma set value {CustomModelData: 32033, block:"glass", bright:1b}
 data modify storage what:config blocks.obamium set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium], item_display:"head"}
-data modify storage what:config blocks.obamium_short set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium_short], item_display:"none"}
+data modify storage what:config blocks.obamium_short set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium_short]}
 
 #interaction
 #inter.$(type).$(inter).run
