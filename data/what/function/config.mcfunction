@@ -32,6 +32,8 @@ data modify storage what:config blocks.microwave set value {CustomModelData: 320
 data modify storage what:config blocks.plasma set value {CustomModelData: 32033, block:"glass", bright:1b}
 data modify storage what:config blocks.obamium set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium], item_display:"head"}
 data modify storage what:config blocks.obamium_short set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium_short]}
+data modify storage what:config blocks.diamond_ore_2 set value {CustomModelData: 32035, block:"azalea_leaves", customTags:[diam]}
+
 
 #interaction
 #inter.$(type).$(inter).run
