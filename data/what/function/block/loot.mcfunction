@@ -2,19 +2,19 @@
 
 execute store result score cmd what.temp run data get entity @s item.components.minecraft:custom_model_data
 
-#это если блок поставили внутрь другого
-execute if entity @s[tag=bad_pos] run return run function what:block/loot_2
-
 #образец
 #execute if score cmd what.temp matches 32000 run return run summon item ~ ~ ~ {Item:{}}
-#execute if score cmd what.temp matches 32000 run return run loot spawn ~ ~ ~ loot what:blocks/BLOCK
 
 execute if score cmd what.temp matches 32000 run return run summon item ~ ~ ~ {Item:{components: {"minecraft:entity_data": {id: "item_frame", Invisible: 1b, Tags: ["what.block", "windows12"]}, "minecraft:custom_model_data": 32000, "minecraft:item_name": '{"extra":[{"italic":false,"translate":"what.block.windows12"}],"text":""}'}, count: 1, id: "minecraft:item_frame"}}
 execute if score cmd what.temp matches 32001 run return run loot spawn ~ ~ ~ loot what:blocks/brazil
 
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32002 run return run loot spawn ~ ~ ~ loot what:blocks/uranium_ore
 execute if score cmd what.temp matches 32002 run return run loot spawn ~ ~ ~ loot what:loot/uranium_ore
 execute if score cmd what.temp matches 32003 run return run loot spawn ~ ~ ~ loot what:blocks/backrooms
+
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32004 run return run loot spawn ~ ~ ~ loot what:blocks/meth_crystal
 execute if score cmd what.temp matches 32004 run return run loot spawn ~ ~ ~ loot what:loot/meth_crystal
+
 execute if score cmd what.temp matches 32005 run return run loot spawn ~ ~ ~ loot what:blocks/chair_plant
 
 execute if score cmd what.temp matches 32008 run scoreboard players set cmd what.temp 32006
@@ -31,29 +31,32 @@ execute if score cmd what.temp matches 32013 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32014 run return run loot spawn ~ ~ ~ loot what:blocks/trash_can
 execute if score cmd what.temp matches 32020 run return run loot spawn ~ ~ ~ loot what:blocks/pipe_bomb
 execute if score cmd what.temp matches 32021 run return run loot spawn ~ ~ ~ loot what:blocks/lego
+
 execute if score cmd what.temp matches 32015 run return run loot spawn ~ ~ ~ loot what:blocks/demon_core
 
 execute if score cmd what.temp matches 32022 run return run loot spawn ~ ~ ~ loot what:blocks/beans_plant
 execute if score cmd what.temp matches 32024 run return run loot spawn ~ ~ ~ loot what:loot/beans_plant
-
 execute if score cmd what.temp matches 32028 run return run loot spawn ~ ~ ~ loot what:blocks/chinese_anvil
 
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32029 run return run loot spawn ~ ~ ~ loot what:blocks/dust
 execute if score cmd what.temp matches 32029 run return run loot spawn ~ ~ ~ loot what:loot/dust_blocks
 execute if score cmd what.temp matches 32030 run return run loot spawn ~ ~ ~ loot what:blocks/solid_dust
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32031 run return run loot spawn ~ ~ ~ loot what:blocks/dust_carpet
 execute if score cmd what.temp matches 32031 run return run loot spawn ~ ~ ~ loot what:items/dust
 
 execute if score cmd what.temp matches 32032 run return run loot spawn ~ ~ ~ loot what:blocks/microwave
-execute if score cmd what.temp matches 32034 run return run loot spawn ~ ~ ~ loot what:blocks/obamium
 execute if entity @s[tag=obamium_short] if score cmd what.temp matches 32034 run return run loot spawn ~ ~ ~ loot what:blocks/obamium_short
+execute if score cmd what.temp matches 32034 run return run loot spawn ~ ~ ~ loot what:blocks/obamium
 
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32035 run return run loot spawn ~ ~ ~ loot what:blocks/diamond_ore_2
 execute if score cmd what.temp matches 32035 run return run loot spawn ~ ~ ~ loot what:loot/diamond_2
 execute if score cmd what.temp matches 32036 run return run loot spawn ~ ~ ~ loot what:blocks/diamond_block_2
 
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32037 run return run loot spawn ~ ~ ~ loot what:blocks/redstone_ore_2
 execute if score cmd what.temp matches 32037 run return run loot spawn ~ ~ ~ loot what:loot/redstone_2
 execute if score cmd what.temp matches 32038 run return run loot spawn ~ ~ ~ loot what:blocks/redstone_block_2
 execute if score cmd what.temp matches 32039 run return run loot spawn ~ ~ ~ loot what:blocks/redstone_2
 
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32040 run return run loot spawn ~ ~ ~ loot what:blocks/gold_ore_2
 execute if score cmd what.temp matches 32040 run return run loot spawn ~ ~ ~ loot what:loot/gold_2
 execute if score cmd what.temp matches 32041 run return run loot spawn ~ ~ ~ loot what:blocks/gold_block_2
-
-#функции 'execute if entity @s[tag=bad_pos]...' перенесены в what:block/loot_2
