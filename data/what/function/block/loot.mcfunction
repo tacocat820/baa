@@ -49,3 +49,7 @@ execute if entity @s[tag=obamium_short] if score cmd what.temp matches 32034 run
 execute if score cmd what.temp matches 32034 run return run loot spawn ~ ~ ~ loot what:blocks/obamium
 execute if score cmd what.temp matches 32035 run return run loot spawn ~ ~ ~ loot what:loot/diamond_2
 execute if score cmd what.temp matches 32036 run return run loot spawn ~ ~ ~ loot what:blocks/diamond_block_2
+
+execute if score cmd what.temp matches 32037 run return run loot spawn ~ ~ ~ loot what:loot/redstone_2
+execute if score cmd what.temp matches 32038 run return run loot spawn ~ ~ ~ loot what:blocks/redstone_block_2
+execute if score cmd what.temp matches 32039 run return run loot spawn ~ ~ ~ loot what:blocks/redstone_2

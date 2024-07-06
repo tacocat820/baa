@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:blocks/redstone_2",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 6
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

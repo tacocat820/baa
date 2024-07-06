@@ -34,6 +34,9 @@ data modify storage what:config blocks.obamium set value {CustomModelData: 32034
 data modify storage what:config blocks.obamium_short set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium_short]}
 data modify storage what:config blocks.diamond_ore_2 set value {CustomModelData: 32035, block:"azalea_leaves"}
 data modify storage what:config blocks.diamond_block_2 set value {CustomModelData: 32036, block:"azalea_leaves"}
+data modify storage what:config blocks.redstone_ore_2 set value {CustomModelData: 32037, block:"azalea_leaves"}
+data modify storage what:config blocks.redstone_block_2 set value {CustomModelData: 32038, block:"azalea_leaves"}
+data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"structure_void",rotate:1b}
 
 #interaction
 #inter.$(type).$(inter).run
