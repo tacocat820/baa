@@ -22,8 +22,15 @@ function what:block/crafting_table_2/slot {n:8}
 #образец
 #execute if data storage what:temp crafting{} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:"}
 execute if data storage what:temp crafting{items:{"minecraft:stick": 1, "air": 4, "meth": 4}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:items/meth_lollipop"}
+
 execute if data storage what:temp crafting{items:{"diamond_2": 9}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:blocks/diamond_block_2"}
 execute if data storage what:temp crafting{items: {'["what.block","diamond_block_2"]': 1, air: 8}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:craft/diamonds_2"}
+
+execute if data storage what:temp crafting{items: {'["what.block","redstone_2"]': 9}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:blocks/redstone_block_2"}
+execute if data storage what:temp crafting{items: {air: 8, '["what.block","redstone_block_2"]': 1}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:craft/redstone_2"}
+
+execute if data storage what:temp crafting{items:{"gold_2": 9}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:blocks/gold_block_2"}
+execute if data storage what:temp crafting{items: {air: 8, '["what.block","gold_block_2"]': 1}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:craft/gold_2"}
 #-----------------------------------------------
 
 function what:block/crafting_table_2/shape_craft/run

@@ -36,7 +36,10 @@ data modify storage what:config blocks.diamond_ore_2 set value {CustomModelData:
 data modify storage what:config blocks.diamond_block_2 set value {CustomModelData: 32036, block:"azalea_leaves"}
 data modify storage what:config blocks.redstone_ore_2 set value {CustomModelData: 32037, block:"azalea_leaves"}
 data modify storage what:config blocks.redstone_block_2 set value {CustomModelData: 32038, block:"azalea_leaves"}
-data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"structure_void",rotate:1b}
+data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"structure_void",rotate:1b, bright:1b}
+data modify storage what:config blocks.gold_ore_2 set value {CustomModelData: 32040, block:"azalea_leaves"}
+data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 32041, block:"azalea_leaves"}
+
 
 #interaction
 #inter.$(type).$(inter).run

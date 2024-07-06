@@ -26,7 +26,6 @@ loot give @p loot what:blocks/microwave
 loot give @p loot what:blocks/plasma
 loot give @p loot what:blocks/obamium
 loot give @p loot what:blocks/diamond_ore_2
-loot give @p loot what:blocks/diamond_block_2
-loot give @p loot what:blocks/redstone_block_2
 loot give @p loot what:blocks/redstone_ore_2
 loot give @p loot what:blocks/redstone_2
+loot give @p loot what:blocks/gold_ore_2
