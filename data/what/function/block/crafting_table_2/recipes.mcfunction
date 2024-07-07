@@ -18,10 +18,9 @@ function what:block/crafting_table_2/slot {n:8}
 
 # Тут рецепты
 
-
 #образец
 #execute if data storage what:temp crafting{} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:"}
-execute if data storage what:temp crafting{items:{"minecraft:stick": 1, "air": 4, "meth": 4}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:items/meth_lollipop"}
+#execute if data storage what:temp crafting{items:{"minecraft:stick": 1, "air": 4, "meth": 4}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:items/meth_lollipop"}
 
 execute if data storage what:temp crafting{items:{"diamond_2": 9}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:blocks/diamond_block_2"}
 execute if data storage what:temp crafting{items: {'["what.block","diamond_block_2"]': 1, air: 8}} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:craft/diamonds_2"}
@@ -43,7 +42,9 @@ function what:block/crafting_table_2/shape_craft/run
 #unless function what:block/crafting_table_2/recipes/email_items run return 0
 
 #execute if data storage what:temp crafting.items."minecraft:stick" if data storage what:temp crafting.items."email" unless function what:block/crafting_table_2/recipes/email_items run return 0
-execute if data storage what:temp crafting.items."email" unless function what:block/crafting_table_2/recipes/email_items run return 0
-execute if data storage what:temp crafting.items."dust" unless function what:block/crafting_table_2/recipes/dust run return 0
-execute if data storage what:temp shape_craft{1: "nokia", 4: "nokia", 7: "minecraft:stick"} run return run function what:block/crafting_table_2/loot_t_craft {loot:"what:items/nokia_sword"}
+execute if data storage what:temp crafting.items."email" unless function what:block/crafting_table_2/recipes/email_items run return 1
+execute if data storage what:temp crafting.items."dust" if function what:block/crafting_table_2/recipes/dust run return 1
+
+execute if data storage what:temp shape_craft{1: "nokia", 4: "nokia", 7: "minecraft:stick"} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:items/nokia_sword"}
+execute if data storage what:temp shape_craft{1: "meth", 3: "meth", 4: "meth", 5: "meth", 7: "minecraft:stick"} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:items/meth_lollipop"}
 #-----------------------------------------------

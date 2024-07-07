@@ -36,7 +36,7 @@ scoreboard players enable @a what.help
 # fire 2
 execute as @a[tag=what.fire2] at @s run particle minecraft:lava ~ ~0.8 ~ 0 0 0 0.1 9 normal
 
-
+scoreboard players set @a[scores={what.shift=1..}] what.shift 0
 #scoreboard players reset @s what.dropper_click
 
 #execute as @e[type=creeper] run say 1
