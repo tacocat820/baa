@@ -30,6 +30,13 @@ execute if data storage what:temp crafting{items: {air: 8, '["what.block","redst
 
 execute if data storage what:temp crafting{items:{"gold_2": 9}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/gold_block_2"}
 execute if data storage what:temp crafting{items: {air: 8, '["what.block","gold_block_2"]': 1}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:craft/gold_2"}
+
+execute if data storage what:temp crafting{items:{"uranium": 9}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/uranium_block"}
+execute if data storage what:temp crafting{items: {air: 8, '["what.block","uranium_block"]': 1}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:craft/uranium"}
+
+execute if data storage what:temp crafting{items:{"nokia": 9}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/nokia_block"}
+
+execute if data storage what:temp crafting{items: {'["what.block","uranium_block"]': 1, '["what.block","plasma"]': 1, air: 7}} run return run summon tnt
 #-----------------------------------------------
 
 function what:block/crafting_table_2/shape_craft/run

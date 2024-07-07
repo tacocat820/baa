@@ -15,9 +15,6 @@ item modify block ~ ~ ~ container.8 what:remove_item
 
 
 $loot give @s loot $(loot)
-return 0
-
-
-
+#$loot spawn ~ ~ ~ loot $(loot)
 
 return 1

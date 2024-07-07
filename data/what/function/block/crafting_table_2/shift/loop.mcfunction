@@ -10,6 +10,7 @@ function what:block/crafting_table_2/remove_item {n:6}
 function what:block/crafting_table_2/remove_item {n:7}
 function what:block/crafting_table_2/remove_item {n:8}
 
+#$execute at @s run loot spawn ~ ~ ~ loot $(loot)
 $loot give @s loot $(loot)
 
 #tell @s craftin'

@@ -60,3 +60,5 @@ execute if score cmd what.temp matches 32039 run return run loot spawn ~ ~ ~ loo
 execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32040 run return run loot spawn ~ ~ ~ loot what:blocks/gold_ore_2
 execute if score cmd what.temp matches 32040 run return run loot spawn ~ ~ ~ loot what:loot/gold_2
 execute if score cmd what.temp matches 32041 run return run loot spawn ~ ~ ~ loot what:blocks/gold_block_2
+
+execute if score cmd what.temp matches 32042 run return run loot spawn ~ ~ ~ loot what:blocks/uranium_block

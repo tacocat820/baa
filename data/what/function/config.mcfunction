@@ -39,7 +39,8 @@ data modify storage what:config blocks.redstone_block_2 set value {CustomModelDa
 data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"structure_void",rotate:1b, bright:1b}
 data modify storage what:config blocks.gold_ore_2 set value {CustomModelData: 32040, block:"azalea_leaves"}
 data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 32041, block:"azalea_leaves"}
-
+data modify storage what:config blocks.uranium_block set value {CustomModelData: 32042, block:"copper_grate", bright:1b}
+data modify storage what:config blocks.nokia_block set value {CustomModelData: 32043, block:"barrier"}
 
 #interaction
 #inter.$(type).$(inter).run

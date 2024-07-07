@@ -29,3 +29,5 @@ loot give @p loot what:blocks/diamond_ore_2
 loot give @p loot what:blocks/redstone_ore_2
 loot give @p loot what:blocks/redstone_2
 loot give @p loot what:blocks/gold_ore_2
+loot give @p loot what:blocks/uranium_block
+loot give @p loot what:blocks/nokia_block
