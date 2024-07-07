@@ -1,4 +1,4 @@
-data remove storage what:temp is_last
+#data modify storage what:temp is_last set value 0b
 
 function what:block/crafting_table_2/remove_item {n:0}
 function what:block/crafting_table_2/remove_item {n:1}
@@ -12,6 +12,6 @@ function what:block/crafting_table_2/remove_item {n:8}
 
 $loot give @s loot $(loot)
 
-tell @s craftin'
-execute if data storage what:temp is_last run return run tell @s LAST!!!!!!
-$function what:block/crafting_table_2/shift/loop {loot:'$(loot)'}
+#tell @s craftin'
+execute if data storage what:temp {is_last:1b} run return 1
+function what:block/crafting_table_2/shift/loop with storage what:temp
