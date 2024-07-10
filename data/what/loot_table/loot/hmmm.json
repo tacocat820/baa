@@ -1,0 +1,32 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:items/glass_empty",
+            "weight": 1,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:items/gold_2",
+            "weight": 6,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

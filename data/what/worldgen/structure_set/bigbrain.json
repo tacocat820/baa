@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:bigbrain",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1006488189,
+    "spacing": 39,
+    "separation": 10
+  }
+}
