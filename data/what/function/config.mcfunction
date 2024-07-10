@@ -41,6 +41,7 @@ data modify storage what:config blocks.gold_ore_2 set value {CustomModelData: 32
 data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 32041, block:"azalea_leaves"}
 data modify storage what:config blocks.uranium_block set value {CustomModelData: 32042, block:"copper_grate", bright:1b}
 data modify storage what:config blocks.nokia_block set value {CustomModelData: 32043, block:"barrier"}
+data modify storage what:config blocks.unfurnace set value {CustomModelData: 32044, rotate:2, inter:1b, block:"locked_shulker", customTags:[unfurnace]}
 
 #interaction
 #inter.$(type).$(inter).run
@@ -52,6 +53,7 @@ data modify storage what:config inter.demon_core_critical set value {target: "wh
 data modify storage what:config inter.pipe_bomb set value {target: "what:__custom/pipe_bomb/run",attack: "what:__custom/pipe_bomb/destroy"}
 data modify storage what:config inter.chinese_anvil set value {target: "",attack: "what:block/actions/destroy_block"}
 data modify storage what:config inter.microwave set value {target: "what:block/microwave/run",attack: "what:block/actions/destroy_block"}
+data modify storage what:config inter.unfurnace set value {target: "what:block/unfurnace/run",attack: "what:block/actions/destroy_block"}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 
@@ -59,6 +61,7 @@ data modify storage what:config inter.vroomba set value {target: "what:mob/vroom
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
 data modify storage what:config timer.microwave_p1 set value {func: "what:block/microwave/warming"}
 data modify storage what:config timer.block_loader set value {func: "what:__custom/kill"}
+data modify storage what:config timer.unfurnace set value {func: "what:block/unfurnace/end"}
 
 #slow raycastng
 data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
@@ -67,6 +70,9 @@ data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_d
 function what:_config/microwave
 # trades
 function what:_config/trades
+# unfurnace
+function what:_config/unfurnace
+
 
 #mob
 data modify storage what:config mob_spawner.cow set value {amount: 0, keys: ["cable"]}
