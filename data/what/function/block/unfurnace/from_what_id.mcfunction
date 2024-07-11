@@ -1,4 +1,4 @@
-$say $(what_type) What.type
+$say $(what_type) What_type
 
 $execute if data storage what:config unfurnace.$(what_type).loot_table run return run function what:block/unfurnace/loot_table with storage what:config unfurnace.$(what_type)
 $data modify block ~ ~ ~ Items[0] merge from storage what:config unfurnace.$(what_type)

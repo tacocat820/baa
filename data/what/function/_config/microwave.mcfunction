@@ -47,7 +47,7 @@ data modify storage what:config microwave.glass_empty set value {id: "glass" }
 data modify storage what:config microwave.glass_of_oil set value {loot_table: "what:blocks/american_oil" }
 data modify storage what:config microwave.glass_of_water set value {id: "water" }
 data modify storage what:config microwave.fire set value {loot_table: "what:blocks/plasma" }
-data modify storage what:config microwave.diamond_2 set value {loot_table: "what:items/red_meth" }
+data modify storage what:config microwave.'["what.block","redstone_2"]' set value {loot_table: "what:items/red_meth" }
 
 data modify storage what:config microwave.minecraft:packed_mud set value {loot_table: "what:blocks/backrooms" }
 data modify storage what:config microwave.minecraft:white_wool set value {loot_table: "what:blocks/backrooms_carpet" }
@@ -57,4 +57,5 @@ data modify storage what:config microwave.minecraft:flint_and_steel set value {l
 data modify storage what:config microwave.minecraft:glass set value {loot_table: "what:items/glass_empty" }
 data modify storage what:config microwave.'["what.block","obama"]' set value {loot_table: "what:blocks/obamium" }
 data modify storage what:config microwave.'["what.block","obamium"]' set value {loot_table: "what:blocks/obamium_short" }
+data modify storage what:config microwave.'["what.block","unfurnace"]' set value {id: "furnace" }
 data modify storage what:config microwave.minecraft:wheat_seeds set value {loot_table: "what:items/cooked_seeds" }
