@@ -8,7 +8,12 @@ data modify storage what:config unfurnace.minecraft:cooked_salmon set value {id:
 data modify storage what:config unfurnace.minecraft:baked_potato set value {id: "potato" }
 data modify storage what:config unfurnace.minecraft:blaze_rod set value {id: "stick" }
 data modify storage what:config unfurnace.minecraft:fire_charge set value {id: "stone" }
+data modify storage what:config unfurnace.minecraft:iron_sword set value {loot_table: "what:items/knife" }
 
+data modify storage what:config unfurnace.dust set value {id: "snowball"}
+data modify storage what:config unfurnace.cucumber set value {id: "apple"}
+data modify storage what:config unfurnace.uranium set value {id: "apple"}
+data modify storage what:config unfurnace.banana set value {id: "apple"}
 
 data modify storage what:config unfurnace.meth set value {loot_table: "what:blocks/redstone_2" }
 data modify storage what:config unfurnace.villager_meat set value {loot_table: "what:items/villager_meat_raw" }
