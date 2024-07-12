@@ -25,3 +25,4 @@ data modify storage what:config unfurnace.'["what.block","obamium_short"]' set v
 data modify storage what:config unfurnace.minecraft:coal set value {id: "snowball" }
 data modify storage what:config unfurnace.'["what.block","backrooms"]' set value {id: "packed_mud" }
 data modify storage what:config unfurnace.'["what.block","backrooms_carpet"]' set value {id: "white_wool" }
+data modify storage what:config unfurnace.'["what.block","beans_plant"]' set value {id: "stick" }
