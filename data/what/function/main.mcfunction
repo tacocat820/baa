@@ -37,6 +37,11 @@ scoreboard players enable @a what.help
 execute as @a[tag=what.fire2] at @s run particle minecraft:lava ~ ~0.8 ~ 0 0 0 0.1 9 normal
 
 scoreboard players set @a[scores={what.shift=1..}] what.shift 0
+
+# ?
+
+execute at @a as @e[distance=0..20,tag=what.idk.flying_bread] at @s run function what:__custom/flying_bread/1t
+
 #scoreboard players reset @s what.dropper_click
 
 #execute as @e[type=creeper] run say 1
