@@ -8,12 +8,13 @@ data modify storage what:temp damage set from entity @s SelectedItem.components.
 
 execute if data storage what:temp {damage:25} if items entity @s weapon.mainhand *[minecraft:max_damage=25] run return run function what:carrot_on_a_stick/break
 execute if data storage what:temp {damage:64} if items entity @s weapon.mainhand *[minecraft:max_damage=64] run return run function what:carrot_on_a_stick/break
+execute if data storage what:temp {damage:3} if items entity @s weapon.mainhand *[minecraft:max_damage=3] run return run function what:carrot_on_a_stick/break
 
 
 execute if data storage what:temp {what_type:pen} run return run function what:carrot_on_a_stick/pen/run
 execute if data storage what:temp {what_type:glass_empty} run return run function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/empty"}
 execute if data storage what:temp {what_type:glass_of_water} run return run function what:carrot_on_a_stick/glass/water
-
+execute if data storage what:temp {what_type:flying_bread} run return run function what:carrot_on_a_stick/flying_bread/spawn
 
 
 execute if entity @s[scores={what.cooldown=1..}] run return 0

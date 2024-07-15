@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:binomial",
+      "n": 1,
+      "p": 1
+    },
+    "add": true
+  }
+]

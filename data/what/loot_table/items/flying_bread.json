@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data":32009,
+                "minecraft:custom_data":{"what_type":"flying_bread"},
+                "max_damage": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "what.item.flying_bread"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
