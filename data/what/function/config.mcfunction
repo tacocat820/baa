@@ -90,5 +90,6 @@ data modify storage what:config mobs.cable set value {name: '[{"translate":"what
 data modify storage what:config mobs.mogus set value {name: '[{"translate":"what.mob.mogus"}]', base_mob: "vindicator", cmd:32008, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.pigeon set value {name: '[{"translate":"what.mob.pigeon"}]', base_mob: "parrot", cmd:32009, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.hmmm set value {name: '[{"translate":"what.mob.hmmm"}]', base_mob: "parrot", cmd:32010, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.gigachicken set value {name: '[{"translate":"what.mob.gigachicken"}]', base_mob: "husk", cmd:32011, item_id:"potion", anim_len:48}
 
 

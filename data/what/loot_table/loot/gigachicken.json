@@ -1,0 +1,16 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 15
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:entities/chicken"
+        }
+      ]
+    }
+  ]
+}

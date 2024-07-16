@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:husk",
+              "nbt": "{Tags:[what.ent.gigachicken]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "what:__custom/gigachicken"
+  }
+}
