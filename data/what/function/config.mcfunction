@@ -75,7 +75,7 @@ function what:_config/unfurnace
 
 
 #mob
-data modify storage what:config mob_spawner.cow set value {amount: 8, keys: ["cable","cable","cable","cable","cable","mogus","cow"]}
+data modify storage what:config mob_spawner.cow set value {amount: 8, keys: ["cable","cable","cable","mosscow","mosscow","mogus","cow"]}
 data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","gaming_chair","pigeon","pigeon","vroomba","vroomba","vroomba","vroomba"]}
 data modify storage what:config mob_spawner.pig set value {amount: 3, keys: ["gaming_chair","gaming_chair"]}
 
@@ -87,9 +87,11 @@ data modify storage what:config mobs.vroomba set value {name: '[{"translate":"wh
 data modify storage what:config mobs.plane set value {name: '[{"translate":"what.mob.plane"}]', base_mob: "horse", cmd:32006, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.donalds set value {name: '[{"translate":"what.mob.donalds"}]', base_mob: "villager", cmd:32007, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.cable set value {name: '[{"translate":"what.mob.cable"}]', base_mob: "husk", cmd:32008, item_id:"clock", anim_len:0}
-data modify storage what:config mobs.mogus set value {name: '[{"translate":"what.mob.mogus"}]', base_mob: "vindicator", cmd:32008, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.mogus set value {name: '[{"translate":"what.mob.mogus"}]', base_mob: "cow", cmd:32008, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.pigeon set value {name: '[{"translate":"what.mob.pigeon"}]', base_mob: "parrot", cmd:32009, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.hmmm set value {name: '[{"translate":"what.mob.hmmm"}]', base_mob: "parrot", cmd:32010, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.gigachicken set value {name: '[{"translate":"what.mob.gigachicken"}]', base_mob: "husk", cmd:32011, item_id:"potion", anim_len:48}
+data modify storage what:config mobs.mosscow set value {name: '[{"translate":"what.mob.mosscow"}]', base_mob: "vindicator", cmd:32013, item_id:"potion", anim_len:12}
+
 
 

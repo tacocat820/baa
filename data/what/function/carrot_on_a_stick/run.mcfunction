@@ -16,6 +16,7 @@ execute if data storage what:temp {what_type:glass_empty} run return run functio
 execute if data storage what:temp {what_type:glass_of_water} run return run function what:carrot_on_a_stick/glass/water
 execute if data storage what:temp {what_type:flying_bread} run return run function what:carrot_on_a_stick/flying_bread/spawn
 
+execute if data storage what:temp {what_type:shapka} run return run function what:carrot_on_a_stick/wear_hat
 
 execute if entity @s[scores={what.cooldown=1..}] run return 0
 execute if data storage what:temp {what_type:glass_of_oil} run return run function what:carrot_on_a_stick/glass/oil
