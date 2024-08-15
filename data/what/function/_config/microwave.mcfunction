@@ -22,6 +22,8 @@ data modify storage what:config microwave.minecraft:egg set value {id: "cake" }
 data modify storage what:config microwave.minecraft:cocoa_beans set value {id: "cookie" }
 data modify storage what:config microwave.minecraft:rotten_flesh set value {id: "leather" }
 data modify storage what:config microwave.minecraft:spider_eye set value {id: "fermented_spider_eye" }
+data modify storage what:config microwave.minecraft:brick set value {id: "nether_brick" }
+data modify storage what:config microwave.minecraft:bricks set value {id: "nether_bricks" }
 
 data modify storage what:config microwave.minecraft:beetroot set value {id: "dried_kelp" }
 data modify storage what:config microwave.minecraft:carrot set value {id: "dried_kelp" }
@@ -30,6 +32,9 @@ data modify storage what:config microwave.minecraft:golden_carrot set value {id:
 data modify storage what:config microwave.minecraft:ender_eye set value {id: "dried_kelp" }
 data modify storage what:config microwave.minecraft:bamboo set value {id: "dried_kelp" }
 data modify storage what:config microwave.minecraft:bone_meal set value {id: "bread" }
+data modify storage what:config microwave.minecraft:powder_snow_bucket set value {id: "water_bucket" }
+data modify storage what:config microwave.minecraft:water_bucket set value {id: "bucket" }
+data modify storage what:config microwave.minecraft:cobblestone set value {id: "magma_block" }
 
 data modify storage what:config microwave.cheeseburger set value {id: "bread" }
 data modify storage what:config microwave.fith_ set value {id: "netherrack" }

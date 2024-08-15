@@ -7,8 +7,17 @@ data modify storage what:config unfurnace.minecraft:cooked_rabbit set value {id:
 data modify storage what:config unfurnace.minecraft:cooked_salmon set value {id: "salmon" }
 data modify storage what:config unfurnace.minecraft:baked_potato set value {id: "potato" }
 data modify storage what:config unfurnace.minecraft:blaze_rod set value {id: "stick" }
+data modify storage what:config unfurnace.minecraft:nether_brick set value {id: "brick" }
+data modify storage what:config unfurnace.minecraft:nether_bricks set value {id: "bricks" }
 data modify storage what:config unfurnace.minecraft:fire_charge set value {id: "stone" }
+data modify storage what:config unfurnace.minecraft:magma_cream set value {id: "stone" }
+data modify storage what:config unfurnace.minecraft:slime_ball set value {id: "snowball" }
+data modify storage what:config unfurnace.minecraft:blaze_powder set value {id: "orange_dye" }
+data modify storage what:config unfurnace.minecraft:water_bucket set value {id: "powder_snow_bucket" }
+data modify storage what:config unfurnace.minecraft:cobblestone set value {id: "magma_block" }
 data modify storage what:config unfurnace.minecraft:iron_sword set value {loot_table: "what:items/knife" }
+data modify storage what:config unfurnace.minecraft:paper set value {loot_table: "what:items/email" }
+data modify storage what:config unfurnace.minecraft:sea_pickle set value {loot_table: "what:items/cucumber" }
 
 data modify storage what:config unfurnace.cooked_cow_corpse set value {loot_table: "what:items/cow_corpse" }
 data modify storage what:config unfurnace.cow_corpse set value {entity: "cow ~ ~ ~ {Tags:[what.checked]}" }
