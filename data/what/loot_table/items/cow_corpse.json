@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32013, "minecraft:food":{"saturation":1,"nutrition":1},"minecraft:custom_data":{"what_type":"cow_corpse"},"minecraft:item_name":"{'translate':'what.item.cow_corpse'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

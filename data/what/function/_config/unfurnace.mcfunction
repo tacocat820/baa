@@ -10,6 +10,9 @@ data modify storage what:config unfurnace.minecraft:blaze_rod set value {id: "st
 data modify storage what:config unfurnace.minecraft:fire_charge set value {id: "stone" }
 data modify storage what:config unfurnace.minecraft:iron_sword set value {loot_table: "what:items/knife" }
 
+data modify storage what:config unfurnace.cooked_cow_corpse set value {loot_table: "what:items/cow_corpse" }
+data modify storage what:config unfurnace.cow_corpse set value {entity: "cow ~ ~ ~ {Tags:[what.checked]}" }
+
 data modify storage what:config unfurnace.dust set value {id: "snowball"}
 data modify storage what:config unfurnace.cucumber set value {id: "apple"}
 data modify storage what:config unfurnace.uranium set value {id: "apple"}

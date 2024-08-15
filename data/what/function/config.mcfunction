@@ -75,7 +75,7 @@ function what:_config/unfurnace
 
 
 #mob
-data modify storage what:config mob_spawner.cow set value {amount: 3, keys: ["cable","cable","cable", "mogus"]}
+data modify storage what:config mob_spawner.cow set value {amount: 8, keys: ["cable","cable","cable","cable","cable","mogus","cow"]}
 data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","gaming_chair","pigeon","pigeon","vroomba","vroomba","vroomba","vroomba"]}
 data modify storage what:config mob_spawner.pig set value {amount: 3, keys: ["gaming_chair","gaming_chair"]}
 
