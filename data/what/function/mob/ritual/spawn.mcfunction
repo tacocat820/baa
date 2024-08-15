@@ -1,0 +1,1 @@
+summon item_display ~ ~0.51 ~ {item:{id:"potion",components:{custom_model_data:32014,potion_contents:{custom_color:0}}},brightness:{sky:10,block:10}}

@@ -75,9 +75,9 @@ function what:_config/unfurnace
 
 
 #mob
-data modify storage what:config mob_spawner.cow set value {amount: 8, keys: ["cable","cable","cable","mosscow","mosscow","mogus","cow"]}
+data modify storage what:config mob_spawner.cow set value {amount: 5, keys: ["cable","cable","cable","mogus","cow"]}
 data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","gaming_chair","pigeon","pigeon","vroomba","vroomba","vroomba","vroomba"]}
-data modify storage what:config mob_spawner.pig set value {amount: 3, keys: ["gaming_chair","gaming_chair"]}
+data modify storage what:config mob_spawner.pig set value {amount: 3, keys: ["mosscow","mosscow"]}
 
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
 data modify storage what:config mobs.pillager set value {name: '[{"translate":"what.mob.pillager"}]', base_mob: "vindicator", cmd:32002, item_id:"potion", anim_len:24}
