@@ -32,3 +32,4 @@ loot give @p loot what:blocks/gold_ore_2
 loot give @p loot what:blocks/uranium_block
 loot give @p loot what:blocks/nokia_block
 loot give @p loot what:blocks/unfurnace
+loot give @p loot what:blocks/rotten_flesh_block

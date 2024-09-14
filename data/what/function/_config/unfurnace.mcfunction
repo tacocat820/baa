@@ -18,14 +18,16 @@ data modify storage what:config unfurnace.minecraft:cobblestone set value {id: "
 data modify storage what:config unfurnace.minecraft:iron_sword set value {loot_table: "what:items/knife" }
 data modify storage what:config unfurnace.minecraft:paper set value {loot_table: "what:items/email" }
 data modify storage what:config unfurnace.minecraft:sea_pickle set value {loot_table: "what:items/cucumber" }
+data modify storage what:config unfurnace.minecraft:potion set value {loot_table: "what:items/glass_shards" }
 
 data modify storage what:config unfurnace.cooked_cow_corpse set value {loot_table: "what:items/cow_corpse" }
-data modify storage what:config unfurnace.cow_corpse set value {entity: "cow ~ ~ ~ {Tags:[what.checked]}" }
+data modify storage what:config unfurnace.cow_corpse set value {command: "summon cow ~ ~ ~ {Tags:[what.checked]}" }
 
 data modify storage what:config unfurnace.dust set value {id: "snowball"}
 data modify storage what:config unfurnace.cucumber set value {id: "apple"}
 data modify storage what:config unfurnace.uranium set value {id: "apple"}
 data modify storage what:config unfurnace.banana set value {id: "apple"}
+data modify storage what:config unfurnace.glass_of_water set value {loot_table: "what:items/glass_shards" }
 
 data modify storage what:config unfurnace.meth set value {loot_table: "what:blocks/redstone_2" }
 data modify storage what:config unfurnace.villager_meat set value {loot_table: "what:items/villager_meat_raw" }

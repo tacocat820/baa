@@ -42,6 +42,7 @@ data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 
 data modify storage what:config blocks.uranium_block set value {CustomModelData: 32042, block:"copper_grate", bright:1b}
 data modify storage what:config blocks.nokia_block set value {CustomModelData: 32043, block:"barrier"}
 data modify storage what:config blocks.unfurnace set value {CustomModelData: 32044, rotate:2, inter:1b, block:"locked_shulker", customTags:[unfurnace]}
+data modify storage what:config blocks.rotten_flesh_block set value {CustomModelData: 32045, block:"azalea_leaves"}
 
 #interaction
 #inter.$(type).$(inter).run

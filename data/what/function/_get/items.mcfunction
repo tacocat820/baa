@@ -23,3 +23,5 @@ loot give @s loot what:items/cooked_seeds
 loot give @s loot what:items/diamond_2
 loot give @s loot what:items/gold_2
 loot give @s loot what:items/flying_bread
+loot give @s loot what:items/cow_corpse
+loot give @s loot what:items/glass_shards

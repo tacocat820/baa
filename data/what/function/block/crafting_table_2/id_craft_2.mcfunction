@@ -1,7 +1,8 @@
-$data modify storage what:temp loot set value '$(loot)'
+$data modify storage what:temp id set value '$(id)'
+$data modify storage what:temp count set value '$(count)'
 
 data modify storage what:temp is_last set value 0b
-execute if score @s what.shift matches 1 run return run function what:block/crafting_table_2/shift/loop_ltable with storage what:temp
+execute if score @s what.shift matches 1 run return run function what:block/crafting_table_2/shift/loop_id with storage what:temp
 
 item modify block ~ ~ ~ container.0 what:remove_item
 item modify block ~ ~ ~ container.1 what:remove_item
@@ -14,7 +15,7 @@ item modify block ~ ~ ~ container.7 what:remove_item
 item modify block ~ ~ ~ container.8 what:remove_item
 
 
-$loot give @s loot $(loot)
+$give @s $(id) $(count)
 #$loot spawn ~ ~ ~ loot $(loot)
 
 return 1
