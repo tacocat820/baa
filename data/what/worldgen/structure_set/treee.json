@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:treee",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 847816213,
+    "spacing": 2,
+    "separation": 0
+  }
+}

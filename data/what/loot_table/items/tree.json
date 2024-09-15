@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32015, "minecraft:food":{"saturation":99999,"nutrition":99999, "eat_seconds": 16, "can_always_eat": true},"minecraft:custom_data":{"what_type":"tree"},"minecraft:item_name":"{'translate':'what.item.tree'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

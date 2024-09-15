@@ -57,6 +57,7 @@ data modify storage what:config inter.microwave set value {target: "what:block/m
 data modify storage what:config inter.unfurnace set value {target: "what:block/unfurnace/run",attack: "what:block/actions/destroy_block"}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
+data modify storage what:config inter.tree_inter set value {target: "",attack: "what:mob/big_tree/inter"}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
@@ -78,7 +79,7 @@ function what:_config/unfurnace
 #mob
 data modify storage what:config mob_spawner.cow set value {amount: 5, keys: ["cable","cable","cable","mogus","cow"]}
 data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","gaming_chair","pigeon","pigeon","vroomba","vroomba","vroomba","vroomba"]}
-data modify storage what:config mob_spawner.pig set value {amount: 3, keys: ["mosscow","mosscow"]}
+data modify storage what:config mob_spawner.pig set value {amount: 5, keys: ["mosscow","mosscow","puffercopter","puffercopter"]}
 
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
 data modify storage what:config mobs.pillager set value {name: '[{"translate":"what.mob.pillager"}]', base_mob: "vindicator", cmd:32002, item_id:"potion", anim_len:24}
