@@ -1,10 +1,14 @@
 say алё
 
 scoreboard objectives add what.etc.uranium dummy
+scoreboard objectives add what.etc.wob dummy
 scoreboard objectives add what.etc.social_credit dummy "SOCIAL CREDIT"
 scoreboard objectives add what.shift minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add what.ent.action dummy
+scoreboard objectives add direction.x dummy
+scoreboard objectives add direction.y dummy
+scoreboard objectives add direction.z dummy
 
 scoreboard objectives add what.ent.animation dummy
 scoreboard objectives add what.ent.anim_change dummy

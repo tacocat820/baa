@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " #X",
+      "# X",
+      " #X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "id": "minecraft:acacia_fence",
+      "count": 67,
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:mending": 2
+        },
+        "minecraft:rarity": "epic"
+      }
+    }
+  }
+  

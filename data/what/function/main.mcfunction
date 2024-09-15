@@ -42,6 +42,8 @@ scoreboard players set @a[scores={what.shift=1..}] what.shift 0
 
 execute at @a as @e[distance=0..20,tag=what.idk.flying_bread] at @s run function what:__custom/flying_bread/1t
 
+execute as @a[scores={what.etc.wob=1..}] at @s run function what:__custom/wob/run
+
 #scoreboard players reset @s what.dropper_click
 
 #execute as @e[type=creeper] run say 1
