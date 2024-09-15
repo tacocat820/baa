@@ -19,6 +19,7 @@ execute if data storage what:temp {what_type:flying_bread} run return run functi
 execute if data storage what:temp {what_type:shapka} run return run function what:carrot_on_a_stick/wear_hat
 
 execute if entity @s[scores={what.cooldown=1..}] run return 0
+execute if data storage what:temp {what_type:fire_extinguisher} run return run function what:carrot_on_a_stick/fire_extinguisher/run
 execute if data storage what:temp {what_type:glass_of_oil} run return run function what:carrot_on_a_stick/glass/oil
 execute if data storage what:temp {what_type:melon_gun} anchored eyes run return run function what:carrot_on_a_stick/melon_gun/run
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}

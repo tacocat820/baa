@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data":32011,
+                "minecraft:max_damage":64,
+                "minecraft:custom_data":{"what_type":"fire_extinguisher"},
+                "minecraft:item_name":"{'translate':'what.item.fire_extinguisher'}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

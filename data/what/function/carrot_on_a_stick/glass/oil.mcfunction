@@ -1,4 +1,5 @@
 function what:carrot_on_a_stick/item_break {slot:weapon.mainhand}
+execute if items entity @s weapon.offhand flint_and_steel[minecraft:damage=64] run item replace entity @s weapon.offhand with air
 
 data remove storage what:temp has
 execute if items entity @s weapon.offhand minecraft:flint_and_steel run data modify storage what:temp has set value 1b
@@ -9,5 +10,3 @@ execute if data storage what:temp has run function what:carrot_on_a_stick/item_b
 function what:_u/raycast/start {loop_func:"what:carrot_on_a_stick/glass/oil/particles", end_func:"what:carrot_on_a_stick/glass/oil/end"}
 
 execute if data storage what:temp {damage:15} run loot replace entity @s weapon.mainhand loot what:items/glass_empty
-
-execute if items entity @s weapon.offhand flint_and_steel[minecraft:damage=64] run item replace entity @s weapon.offhand with air
