@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "###",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "count": 1,
+      "components": {
+        "item_name": "{\"translate\":\"what.block.micro\"}",
+        "custom_model_data": 32046,
+        "entity_data": {"Tags": ["what.block", "micro"], "id": "item_frame", "Invisible": true}
+      }
+    }
+  }
+  

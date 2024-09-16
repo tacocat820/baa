@@ -44,6 +44,8 @@ data modify storage what:config blocks.nokia_block set value {CustomModelData: 3
 data modify storage what:config blocks.unfurnace set value {CustomModelData: 32044, rotate:2, inter:1b, block:"locked_shulker", customTags:[unfurnace]}
 data modify storage what:config blocks.rotten_flesh_block set value {CustomModelData: 32045, block:"azalea_leaves"}
 
+data modify storage what:config blocks.micro set value {CustomModelData: 32046, rotate:2, inter:1b, block:"locked_shulker", customTags:[micro]}
+
 #interaction
 #inter.$(type).$(inter).run
 data modify storage what:config inter.test set value {target: "what:__custom/test",attack: "what:__custom/tnt"}
@@ -58,6 +60,9 @@ data modify storage what:config inter.unfurnace set value {target: "what:block/u
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 data modify storage what:config inter.tree_inter set value {target: "",attack: "what:mob/big_tree/inter"}
+data modify storage what:config inter.wave_inter set value {target: "what:mob/wave/collect_wave",attack: ""}
+
+data modify storage what:config inter.micro set value {target: "what:block/microwave/micro_add_wave",attack: "what:block/actions/destroy_block"}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
@@ -95,6 +100,7 @@ data modify storage what:config mobs.hmmm set value {name: '[{"translate":"what.
 data modify storage what:config mobs.gigachicken set value {name: '[{"translate":"what.mob.gigachicken"}]', base_mob: "husk", cmd:32011, item_id:"potion", anim_len:48}
 data modify storage what:config mobs.mosscow set value {name: '[{"translate":"what.mob.mosscow"}]', base_mob: "vindicator", cmd:32013, item_id:"potion", anim_len:12}
 data modify storage what:config mobs.puffercopter set value {name: '[{"translate":"what.mob.puffercopter"}]', base_mob: "marker", cmd:32018, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.wave set value {name: '[{"translate":"what.mob.wave"}]', base_mob: "marker", cmd:32014, item_id:"clock", anim_len:0}
 
 
 

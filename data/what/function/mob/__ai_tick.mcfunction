@@ -5,3 +5,4 @@ execute if entity @s[tag=what.ent.pillager] run function what:mob/pillager/tick
 execute if entity @s[tag=what.ent.vroomba] run function what:mob/vroomba/tick
 execute if entity @s[tag=what.ent.pigeon] run function what:mob/pigeon/tick
 execute if entity @s[tag=what.ent.puffercopter] run function what:mob/puffercopter/tick
+execute if entity @s[tag=what.ent.wave] run function what:mob/wave/tick

@@ -11,3 +11,5 @@ execute as @a at @s if items entity @s container.* minecraft:mace[minecraft:cust
 
 execute as @e[tag=demon_core_critical] at @s run kill @a[distance=0..5]
 execute as @e[tag=demon_core_closed] run function what:block/demon_core/convert_critical
+
+execute as @e[type=#what:watery] at @s if predicate what:thunder run function what:mob/wave/sacrifice

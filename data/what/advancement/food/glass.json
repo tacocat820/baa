@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:clock",
+            "components": {
+              "minecraft:custom_data": {
+				  "what_type":"glass_shards"
+			  }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ],
+    "rewards": {
+      "function": "what:__custom/item/eat_glass"
+    }
+  }
+  

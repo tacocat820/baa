@@ -9,13 +9,13 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32032, "minecraft:entity_data": {"Tags": ["what.block", "microwave"], "id": "item_frame", "Invisible": true}}
+                "components": {"minecraft:custom_model_data": 32046, "minecraft:entity_data": {"Tags": ["what.block", "micro"], "id": "item_frame", "Invisible": true}}
               },
               {
                 "function": "minecraft:set_name",
                 "target": "item_name",
                 "name": {
-                  "translate": "what.block.microwave"
+                  "translate": "what.block.micro"
                 }
               }
             ]
