@@ -64,3 +64,4 @@ execute if score cmd what.temp matches 32041 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32042 run return run loot spawn ~ ~ ~ loot what:blocks/uranium_block
 execute if score cmd what.temp matches 32044 run return run loot spawn ~ ~ ~ loot what:blocks/unfurnace
 execute if score cmd what.temp matches 32045 run return run loot spawn ~ ~ ~ loot what:blocks/rotten_flesh_block
+execute if score cmd what.temp matches 32047 run return run loot spawn ~ ~ ~ loot what:blocks/caramel_bricks

@@ -41,6 +41,8 @@ execute if data storage what:temp crafting{items:{air: 8, '["what.block","rotten
 
 execute if data storage what:temp crafting{items:{"glass_shards": 9}} run return run function what:block/crafting_table_2/id_craft_2 {id:"glass", count:1}
 
+execute if data storage what:temp crafting{items:{"caramel": 4}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/caramel_bricks"}
+
 execute if data storage what:temp crafting{items: {'["what.block","uranium_block"]': 1, '["what.block","plasma"]': 1, air: 7}} run return run summon tnt
 #-----------------------------------------------
 

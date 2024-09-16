@@ -43,6 +43,7 @@ data modify storage what:config blocks.uranium_block set value {CustomModelData:
 data modify storage what:config blocks.nokia_block set value {CustomModelData: 32043, block:"barrier"}
 data modify storage what:config blocks.unfurnace set value {CustomModelData: 32044, rotate:2, inter:1b, block:"locked_shulker", customTags:[unfurnace]}
 data modify storage what:config blocks.rotten_flesh_block set value {CustomModelData: 32045, block:"azalea_leaves"}
+data modify storage what:config blocks.caramel_bricks set value {CustomModelData: 32047, block:"glass", customTags:[caramel_bricks]}
 
 data modify storage what:config blocks.micro set value {CustomModelData: 32046, rotate:2, inter:1b, block:"locked_shulker", customTags:[micro]}
 
@@ -101,6 +102,7 @@ data modify storage what:config mobs.gigachicken set value {name: '[{"translate"
 data modify storage what:config mobs.mosscow set value {name: '[{"translate":"what.mob.mosscow"}]', base_mob: "vindicator", cmd:32013, item_id:"potion", anim_len:12}
 data modify storage what:config mobs.puffercopter set value {name: '[{"translate":"what.mob.puffercopter"}]', base_mob: "marker", cmd:32018, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.wave set value {name: '[{"translate":"what.mob.wave"}]', base_mob: "marker", cmd:32014, item_id:"clock", anim_len:0}
+data modify storage what:config mobs.psycho set value {name: '[{"translate":"what.mob.psycho"}]', base_mob: "wandering_trader", cmd:32027, item_id:"potion", anim_len:24}
 
 
 
