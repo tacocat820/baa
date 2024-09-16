@@ -1,0 +1,1 @@
+summon pig ~ ~ ~ {Tags:[what.ai,what.ent.swimming,what.checked],NoAI:1b}

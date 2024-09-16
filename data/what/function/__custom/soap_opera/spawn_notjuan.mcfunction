@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {item:{id:"potion",count:1,components:{custom_model_data:32000}}}

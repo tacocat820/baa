@@ -1,0 +1,1 @@
+execute if entity @a[distance=0..50] anchored feet run tp @s ^ ^ ^0.03 facing ^0.01 ^ ^1
