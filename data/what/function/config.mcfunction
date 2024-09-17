@@ -103,7 +103,7 @@ data modify storage what:config mobs.mosscow set value {name: '[{"translate":"wh
 data modify storage what:config mobs.puffercopter set value {name: '[{"translate":"what.mob.puffercopter"}]', base_mob: "marker", cmd:32018, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.wave set value {name: '[{"translate":"what.mob.wave"}]', base_mob: "marker", cmd:32014, item_id:"clock", anim_len:0}
 data modify storage what:config mobs.psycho set value {name: '[{"translate":"what.mob.psycho"}]', base_mob: "wandering_trader", cmd:32027, item_id:"potion", anim_len:24}
-data modify storage what:config mobs.smurf_cat set value {name: '[{"translate":"what.mob.smurf_cat"}]', base_mob: "wandering_trader", cmd:32028, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.smurf_cat set value {name: '[{"translate":"what.mob.smurf_cat"}]', base_mob: "wandering_trader", cmd:32028, item_id:"potion", anim_len:48}
 
 
 
