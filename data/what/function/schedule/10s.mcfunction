@@ -13,3 +13,6 @@ execute as @e[tag=demon_core_critical] at @s run kill @a[distance=0..5]
 execute as @e[tag=demon_core_closed] run function what:block/demon_core/convert_critical
 
 execute as @e[type=#what:watery] at @s if predicate what:thunder run function what:mob/wave/sacrifice
+
+execute as @e[type=villager,tag=!what.checked] run function what:__custom/trade_rebalance
+execute as @e[type=wandering_trader,tag=!what.checked] run function what:__custom/trade_rebalance_w

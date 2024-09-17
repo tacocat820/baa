@@ -1,4 +1,4 @@
-summon villager ~ ~ ~ {Tags:["what.temp_new","what.ent.donalds"],DeathLootTable:"what:items/villager_meat"}
+summon villager ~ ~ ~ {Tags:["what.temp_new","what.ent.donalds","what.checked"],DeathLootTable:"what:items/villager_meat"}
 #СДЕЛАТЬ ОТДЕЛЬНУЮ ТАБЛИЦУ ЛУТА
 
 execute as @n[tag=what.temp_new] at @s run function what:mob/donalds/trades
