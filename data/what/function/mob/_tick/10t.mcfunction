@@ -9,4 +9,5 @@ execute if entity @s[tag=what.ent.smurf_cat] run function what:mob/smurf_cat/10t
 execute if entity @s[tag=what.ent.shrek] run function what:mob/shrek/10t
 execute if entity @s[tag=what.ent.shrek_house] run function what:mob/shrek/house/10t
 execute if entity @s[tag=what.ent.fnisser] run function what:mob/fnisser/10t
+execute if entity @s[tag=what.ent.whatever] run function what:mob/whatever/10t
 execute if entity @s[tag=what.ent.psycho] unless score @s what.ent.action matches 0..20 at @s run function what:mob/psycho/10t

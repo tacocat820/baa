@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32017, "minecraft:food":{"saturation":3,"nutrition":3,"can_always_eat": true},"minecraft:custom_data":{"what_type":"pig_corpse"},"minecraft:item_name":"{'translate':'what.item.pig_corpse'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
