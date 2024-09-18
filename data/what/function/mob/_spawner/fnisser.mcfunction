@@ -1,4 +1,4 @@
-summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.fnisser","tick1s","what.checked"],DeathLootTable:"what:items/uranium"}
+summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.fnisser","tick1s","what.checked"],DeathLootTable:"what:items/uranium",DespawnDelay:1000}
 #СДЕЛАТЬ ОТДЕЛЬНУЮ ТАБЛИЦУ ЛУТА
 
 attribute @n[tag=what.temp_new] generic.movement_speed base set 1

@@ -1,4 +1,4 @@
-summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.shrek","tick1s","what.checked"],DeathLootTable:"what:items/cucumber"}
+summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.shrek","tick1s","what.checked"],DeathLootTable:"what:items/cucumber",DespawnDelay:2000}
 #СДЕЛАТЬ ОТДЕЛЬНУЮ ТАБЛИЦУ ЛУТА
 
 effect give @n[tag=what.temp_new] speed infinite 4 true
