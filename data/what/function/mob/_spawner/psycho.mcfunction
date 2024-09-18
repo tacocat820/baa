@@ -3,7 +3,7 @@
 
 #tag @n[tag=what.ai,limit=2] add what.checked
 
-summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.psycho","tick1s","what.checked"],DeathLootTable:"what:items/caramel",Offers:{Recipes:[]}}
+summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.psycho","tick1s","what.checked"],DeathLootTable:"what:items/caramel",Offers:{Recipes:[{buy:{id:'air',count:1b},sell:{id:'air',count:1b}}]}}
 
 execute as @n[tag=what.temp_new] at @s run function what:mob/__spawn {"type":"psycho"}
 tag @n[tag=what.temp_new] add what.checked
