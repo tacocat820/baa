@@ -9,4 +9,4 @@ scoreboard players operation @s what.ent.anim_silly += $anim_begin what.ent.anim
 scoreboard players remove @s what.ent.anim_frames 1
 
 execute if score @s what.ent.anim_frames matches 1.. run function what:mob/_anim/put
-execute if score @s what.ent.anim_frames matches ..0 run function what:mob/_anim/stop
+execute if score @s what.ent.anim_frames matches ..-1 run function what:mob/_anim/stop
