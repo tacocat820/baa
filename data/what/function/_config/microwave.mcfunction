@@ -65,3 +65,4 @@ data modify storage what:config microwave.'["what.block","obama"]' set value {lo
 data modify storage what:config microwave.'["what.block","obamium"]' set value {loot_table: "what:blocks/obamium_short" }
 data modify storage what:config microwave.'["what.block","unfurnace"]' set value {id: "furnace" }
 data modify storage what:config microwave.minecraft:wheat_seeds set value {loot_table: "what:items/cooked_seeds" }
+data modify storage what:config microwave.minecraft:sugar set value {loot_table: "what:items/caramel" }
