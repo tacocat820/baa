@@ -6,6 +6,7 @@ scoreboard objectives add what.etc.social_credit dummy "SOCIAL CREDIT"
 scoreboard objectives add what.shift minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add what.ent.action dummy
+scoreboard objectives add what.ent.time dummy
 scoreboard objectives add what.ent.task dummy
 scoreboard objectives add direction.x dummy
 scoreboard objectives add direction.y dummy

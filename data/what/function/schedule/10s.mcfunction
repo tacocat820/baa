@@ -16,3 +16,5 @@ execute as @e[type=#what:watery] at @s if predicate what:thunder run function wh
 
 execute as @e[type=villager,tag=!what.checked] at @s run function what:__custom/trade_rebalance
 execute as @e[type=wandering_trader,tag=!what.checked] at @s run function what:__custom/trade_rebalance_w
+
+execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function what:mob/_spawner/smurf_cat
