@@ -1,0 +1,16 @@
+{
+    "name": "what:shrek/shrek_main",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/shrek_main",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

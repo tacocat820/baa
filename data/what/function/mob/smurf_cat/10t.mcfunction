@@ -8,3 +8,6 @@ function what:mob/smurf_cat/choose_action
 execute if score @s what.ent.task matches 0 at @p run function what:mob/_pathfinding/set
 execute if score @s what.ent.task matches 1 at @n[tag=what.point.smurf_house] run function what:mob/_pathfinding/set
 execute if score @s what.ent.task matches 2 at @e[tag=what.ent.smurf_cat,distance=0..60,limit=1,sort=random,] run function what:mob/_pathfinding/set
+execute if score @s what.ent.task matches 3 at @n[tag=what.point.smurf_house] run function what:mob/_pathfinding/set
+execute if score @s what.ent.task matches 4 at @n[tag=what.point.smurf_house] run function what:mob/_pathfinding/set
+execute if score @s what.ent.task matches 5 at @e[tag=what.point.smurf_house,limit=1,sort=furthest] run function what:mob/_pathfinding/set

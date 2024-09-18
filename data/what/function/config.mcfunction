@@ -105,6 +105,4 @@ data modify storage what:config mobs.wave set value {name: '[{"translate":"what.
 data modify storage what:config mobs.psycho set value {name: '[{"translate":"what.mob.psycho"}]', base_mob: "wandering_trader", cmd:32027, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.smurf_cat set value {name: '[{"translate":"what.mob.smurf_cat"}]', base_mob: "wandering_trader", cmd:32028, item_id:"potion", anim_len:48}
 data modify storage what:config mobs.shrek set value {name: '[{"translate":"what.mob.shrek"}]', base_mob: "wandering_trader", cmd:32025, item_id:"potion", anim_len:24}
-
-
-
+data modify storage what:config mobs.shrek_house set value {name: '[{"translate":"what.mob.shrek_house"}]', base_mob: "marker", cmd:32026, item_id:"potion", anim_len:24}

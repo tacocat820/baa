@@ -1,0 +1,33 @@
+{
+    "name": "what:shrek/path",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/path",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/path_1",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },  
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/path_2",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

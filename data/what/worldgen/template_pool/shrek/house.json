@@ -1,0 +1,33 @@
+{
+    "name": "what:shrek/house",
+    "fallback": "what:shrek/path",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/house",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/house_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 1,
+        "element": {
+          "location": "what:shrek/house",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
