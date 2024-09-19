@@ -84,11 +84,14 @@ function what:_config/unfurnace
 
 
 #mob
-data modify storage what:config mob_spawner.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cow"]}
-data modify storage what:config mob_spawner.zombie set value {amount: 6, keys: ["gigachicken","gigachicken","mogus","mogus","mogus","pigeon"]}
-data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","vroomba","vroomba"]}
-data modify storage what:config mob_spawner.pig set value {amount: 5, keys: ["mosscow","whatever","whatever","whatever","whatever"]}
-data modify storage what:config mob_spawner.skeleton set value {amount: 5, keys: ["puffercopter","gigachicken","psycho","psycho","mosscow"]}
+data modify storage what:config mob_spawner.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}
+data modify storage what:config mob_spawner.zombie set value {amount: 6, keys: ["gigachicken","mogus","mogus","mogus","mogus","pigeon"]}
+data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.pig set value {amount: 5, keys: ["whatever","whatever","whatever","whatever","whatever"]}
+data modify storage what:config mob_spawner.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
+data modify storage what:config mob_spawner.spider set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
+data modify storage what:config mob_spawner.skeleton set value {amount: 5, keys: ["gigachicken","psycho","psycho","mosscow"]}
+# remove puffercopter?
 
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
 data modify storage what:config mobs.pillager set value {name: '[{"translate":"what.mob.pillager"}]', base_mob: "vindicator", cmd:32002, item_id:"potion", anim_len:24}
