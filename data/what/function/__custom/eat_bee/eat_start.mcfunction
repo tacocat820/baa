@@ -1,5 +1,7 @@
 playsound minecraft:what.bite player @a ~ ~ ~
-damage @n[type=bee] 9999 mob_attack by @s
+
+tag @n[type=bee] add what.eated
+damage @n[type=bee] 4 mob_attack by @s
 
 scoreboard players add @s what.etc.eat_bee 30
 
