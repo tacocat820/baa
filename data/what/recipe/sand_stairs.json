@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:jungle_button"
+      }
+    },
+    "result": {
+      "id": "minecraft:stone_stairs",
+      "count": 1,
+      "components": {
+        "item_name": "{\"translate\":\"what.item.sand_stairs\"}",
+        "minecraft:food":{"saturation":9,"nutrition":8},"minecraft:custom_data":{"what_type":"sand_stairs"}
+    }
+  }
+}
+  

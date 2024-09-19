@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:jungle_button"
+      }
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "count": 1,
+      "components": {
+        "item_name": "{\"translate\":\"what.block.sand\"}",
+        "minecraft:custom_model_data": 32049, 
+        "minecraft:entity_data": {"Tags": ["what.block", "sand"], "id": "item_frame", "Invisible": true
+      }
+    }
+  }
+}
+  

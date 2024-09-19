@@ -45,6 +45,7 @@ execute as @a[tag=what.bleeding] at @s run function what:__custom/bleed
 execute at @a as @e[distance=0..20,tag=what.idk.flying_bread] at @s run function what:__custom/flying_bread/1t
 
 execute as @a[scores={what.etc.wob=1..}] at @s run function what:__custom/wob/run
+execute as @a[scores={what.etc.eat_bee=1..}] at @s run function what:__custom/eat_bee/eating
 
 #scoreboard players reset @s what.dropper_click
 

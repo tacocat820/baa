@@ -10,3 +10,5 @@ execute as @e[type=skeleton,tag=!what.checked] run function what:mob/_disp/rando
 execute at @a as @e[distance=0..10,tag=what.fluid,scores={what.fluid_spread=1..}] at @s run function what:block/fluids/spread
 
 execute as @e[tag=what.spawner] at @s run function what:mob/_disp/mob/spawner with entity @s data
+
+execute as @a at @s if entity @e[type=bee,distance=0..1.9] run function what:__custom/eat_bee/eat_start

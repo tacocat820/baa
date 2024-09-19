@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_stairs",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:food":{"saturation":9,"nutrition":8},"minecraft:custom_data":{"what_type":"sand_stairs"},"minecraft:item_name":"{'translate':'what.item.sand_stairs'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

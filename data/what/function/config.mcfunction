@@ -46,6 +46,7 @@ data modify storage what:config blocks.rotten_flesh_block set value {CustomModel
 data modify storage what:config blocks.caramel_bricks set value {CustomModelData: 32047, block:"glass", customTags:[caramel_bricks]}
 
 data modify storage what:config blocks.micro set value {CustomModelData: 32046, rotate:2, inter:1b, block:"locked_shulker", customTags:[micro]}
+data modify storage what:config blocks.sand set value {CustomModelData: 32048, block:"azalea_leaves"}
 
 #interaction
 #inter.$(type).$(inter).run
