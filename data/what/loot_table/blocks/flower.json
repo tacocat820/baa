@@ -9,13 +9,13 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32001, "minecraft:entity_data": {"Tags": ["what.block", "brazil"], "id": "item_frame", "Invisible": true}}
+                "components": {"minecraft:custom_model_data": 32050, "minecraft:entity_data": {"Tags": ["what.block", "flower"], "id": "item_frame", "Invisible": true}}
               },
               {
                 "function": "minecraft:set_name",
                 "target": "item_name",
                 "name": {
-                  "translate": "what.block.brazil"
+                  "translate": "what.block.flower"
                 }
               }
             ]

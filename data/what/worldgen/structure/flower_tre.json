@@ -1,13 +1,13 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["forest"],
+    "biomes": ["flower_forest"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
-    "start_pool": "what:forest",
+    "start_pool": "what:flower_tre",
     "size": 1,
     "start_height": {
-      "absolute": -1
+      "absolute": 0
     },
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "max_distance_from_center": 40,

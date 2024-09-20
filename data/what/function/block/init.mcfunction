@@ -15,7 +15,7 @@ $execute if data storage what:config blocks.$(type){plant:1b} run function what:
 $execute if data storage what:config blocks.$(type){bright:1b} run data modify entity @s brightness set value {sky:10,block:10}
 
 $execute if data storage what:config blocks.$(type){block:"tripwire"} run setblock ~ ~ ~ tripwire
-$execute if data storage what:config blocks.$(type){block:"copper_grate"} run setblock ~ ~ ~ copper_grate
+$execute if data storage what:config blocks.$(type){block:"copper_grate"} run setblock ~ ~ ~ waxed_copper_grate
 $execute if data storage what:config blocks.$(type){block:"locked_shulker"} run setblock ~ ~ ~ minecraft:shulker_box[facing=down]{Lock:"😂😂😄🙂‱‰"}
 $execute if data storage what:config blocks.$(type){block:"spawner"} run setblock ~ ~ ~ spawner
 $execute if data storage what:config blocks.$(type){block:"stone_slab"} run setblock ~ ~ ~ minecraft:stone_slab[type=bottom]
