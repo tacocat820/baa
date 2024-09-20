@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:bee",
+            "nbt": "{Tags:[\"what.normal_bee\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "what:__custom/eat_bee/killed_bee"
+    }
+  }
+  

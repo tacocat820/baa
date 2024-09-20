@@ -13,4 +13,9 @@ execute at @a as @e[distance=0..10,tag=what.fluid,scores={what.fluid_spread=1..}
 
 execute as @e[tag=what.spawner] at @s run function what:mob/_disp/mob/spawner with entity @s data
 
-execute as @a at @s if entity @e[type=bee,distance=0..1.9] run function what:__custom/eat_bee/eat_start
+execute as @a[scores={what.etc.beeraid_countdown=1..}] at @s run function what:mob/beeraid/countdown
+execute as @a[tag=what.beeraided] at @s run function what:mob/beeraid/during
+execute as @e[type=bee,tag=!what.bee_checked] at @s run function what:__custom/eat_bee/bee_check
+
+
+execute as @a at @s if entity @e[type=bee,distance=0..1.9,tag=!what.beeraider] run function what:__custom/eat_bee/eat_start
