@@ -115,3 +115,4 @@ data modify storage what:config mobs.shrek set value {name: '[{"translate":"what
 data modify storage what:config mobs.shrek_house set value {name: '[{"translate":"what.mob.shrek_house"}]', base_mob: "marker", cmd:32026, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.fnisser set value {name: '[{"translate":"what.mob.fnisser"}]', base_mob: "wandering_trader", cmd:32029, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.whatever set value {name: '[{"translate":"what.mob.whatever"}]', base_mob: "pig", cmd:32032, item_id:"potion", anim_len:0}
+data modify storage what:config mobs.irs_plane set value {name: '[{"translate":"what.mob.irs_plane"}]', base_mob: "pig", cmd:32033, item_id:"potion", anim_len:0}
