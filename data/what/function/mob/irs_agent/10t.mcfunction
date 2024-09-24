@@ -1,0 +1,1 @@
+execute at @p[tag=what.taxing] run function what:mob/_pathfinding/set

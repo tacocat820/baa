@@ -1,0 +1,1 @@
+execute at @p[tag=what.tax_evader] run function what:mob/_pathfinding/set

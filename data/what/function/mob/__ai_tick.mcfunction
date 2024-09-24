@@ -10,4 +10,6 @@ execute if entity @s[tag=what.ent.swimming] run function what:mob/swim/tick
 execute if entity @s[tag=what.ent.smurf_cat] run function what:mob/smurf_cat/tick
 execute if entity @s[tag=what.ent.shrek_house] run function what:mob/shrek/house/tick
 execute if entity @s[tag=what.ent.irs_plane] run function what:mob/irs_plane/tick
+execute if entity @s[tag=what.ent.irs_agent] run function what:mob/irs_agent/tick
+execute if entity @s[tag=what.ent.irs_agent_posessor] run function what:mob/irs_agent/posess
 execute if entity @s[tag=what.ent.psycho] if score @s what.ent.action matches 0..20 run function what:mob/psycho/eating

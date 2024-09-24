@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"what.irs\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "what:__custom/taxes/hit_taxer"
+    }
+  }
+  

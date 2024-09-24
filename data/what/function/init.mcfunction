@@ -4,6 +4,7 @@ scoreboard objectives add what.etc.uranium dummy
 scoreboard objectives add what.etc.wob dummy
 scoreboard objectives add what.etc.social_credit dummy "SOCIAL CREDIT"
 scoreboard objectives add what.etc.eat_bee dummy
+scoreboard objectives add what.etc.tax_timer dummy
 scoreboard objectives add what.etc.beeraid_countdown dummy
 scoreboard objectives add what.shift minecraft.custom:minecraft.sneak_time
 

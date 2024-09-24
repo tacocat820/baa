@@ -9,6 +9,8 @@ execute if entity @a[distance=0..20] unless entity @s[tag=nonstop_anim] unless e
 execute if entity @a[distance=0..20] unless entity @s[tag=nonstop_anim] if entity @e[tag=what.cur,distance=0..1,nbt={Motion:[0.0,0.0,0.0]}] if score @s what.ent.animation matches 8388609.. run function what:mob/_disp/mob/walk
 execute if entity @a[distance=0..20] unless entity @s[tag=ignore_anim] if entity @s[tag=nonstop_anim] run function what:mob/_disp/mob/walk
 
+execute if entity @s[tag=what.disp.weird_offset] at @s run tp @s ~ ~.5 ~
+
 #execute if entity @a[distance=0..20] unless entity @s[tag=nonstop_anim] run function what:mob/_disp/mob/walk_anim
 
 tag @n[tag=what.cur,distance=0..25] remove what.cur
