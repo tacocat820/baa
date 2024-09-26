@@ -1,0 +1,1 @@
+damage @s 19 on_fire by @s
