@@ -1,4 +1,4 @@
-scoreboard players set @n[tag=what.ent.irs_agent] what.ent.action 20
+scoreboard players set @n[tag=what.temp.irs_target] what.ent.action 20
 
 execute if items entity @s container.0 * run return run item replace entity @s container.0 with air
 execute if items entity @s container.1 * run return run item replace entity @s container.1 with air

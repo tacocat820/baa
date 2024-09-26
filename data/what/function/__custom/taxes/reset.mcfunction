@@ -1,0 +1,1 @@
+execute store result score @s what.etc.tax_timer run random value 40..90

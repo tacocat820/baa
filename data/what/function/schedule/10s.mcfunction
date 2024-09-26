@@ -18,3 +18,4 @@ execute as @e[type=villager,tag=!what.checked] at @s run function what:__custom/
 execute as @e[type=wandering_trader,tag=!what.checked] at @s run function what:__custom/trade_rebalance_w
 
 execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function what:mob/_spawner/smurf_cat
+execute as @a[scores={what.etc.tax_timer=1..}] run function what:__custom/taxes/timer
