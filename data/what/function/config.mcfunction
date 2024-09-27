@@ -92,6 +92,7 @@ data modify storage what:config mob_spawner.pig set value {amount: 5, keys: ["wh
 data modify storage what:config mob_spawner.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
 data modify storage what:config mob_spawner.spider set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
 data modify storage what:config mob_spawner.skeleton set value {amount: 5, keys: ["gigachicken","psycho","psycho","mosscow"]}
+data modify storage what:config mob_spawner.wither_skeleton set value {amount: 5, keys: ["dolphin","dolphin","dolphin","dolphin","dolphin"]}
 # remove puffercopter?
 
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
@@ -119,3 +120,4 @@ data modify storage what:config mobs.irs_plane set value {name: '[{"translate":"
 data modify storage what:config mobs.irs_tank set value {name: '[{"translate":"what.mob.irs_tank"}]', base_mob: "wandering_trader", cmd:32034, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.camel set value {name: '[{"translate":"entity.piglin_brute.name"}]', base_mob: "camel", cmd:32037, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.dolphin set value {name: '[{"translate":"entity.dolphin.name"}]', base_mob: "zombie", cmd:32038, item_id:"potion", anim_len:0}
+data modify storage what:config mobs.lefishe set value {name: '[{"translate":"what.mob.lefishe"}]', base_mob: "zombie", cmd:32039, item_id:"potion", anim_len:0}

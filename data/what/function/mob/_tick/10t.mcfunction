@@ -13,4 +13,5 @@ execute if entity @s[tag=what.ent.whatever] run function what:mob/whatever/10t
 execute if entity @s[tag=what.ent.irs_tank] run function what:mob/irs_tank/10t
 execute if entity @s[tag=what.ent.irs_agent_posessor] run function what:mob/irs_agent/10t
 execute if entity @s[tag=what.ent.irs_plane] run function what:mob/irs_plane/10t
+execute if entity @s[tag=what.ent.lefishe] run function what:mob/lefishe/10t
 execute if entity @s[tag=what.ent.psycho] unless score @s what.ent.action matches 0..20 at @s run function what:mob/psycho/10t
