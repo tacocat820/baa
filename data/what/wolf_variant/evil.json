@@ -1,0 +1,9 @@
+{
+    "wild_texture": "minecraft:entity/wolf/wolf_evil",
+    "angry_texture": "minecraft:entity/wolf/wolf_evil",
+    "tame_texture": "minecraft:entity/wolf/wolf_evil",
+    "biomes": [
+      "minecraft:plains", "minecraft:flower_forest", "forest"
+    ]
+  }
+  

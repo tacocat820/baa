@@ -1,0 +1,62 @@
+{
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "has_precipitation": false,
+    "effects": {
+      "sky_color": 8454134,
+      "fog_color": 12510510,
+      "water_color": 15990681,
+      "water_fog_color": 65297,
+      "grass_color": 16316510
+    },
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:creeper",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:zombie",
+          "weight": 2,
+          "minCount": 3,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 1,
+          "minCount": 4,
+          "maxCount": 5
+        },
+        {
+          "type": "minecraft:tnt_minecart",
+          "weight": 3,
+          "minCount": 1,
+          "maxCount": 5
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:pig",
+          "weight": 2,
+          "minCount": 2,
+          "maxCount": 6
+        },
+        {
+          "type": "minecraft:cow",
+          "weight": 4,
+          "minCount": 2,
+          "maxCount": 5
+        }
+      ]
+    },
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+        [
+        "what:rock"
+        ]
+    ]
+  }
+  

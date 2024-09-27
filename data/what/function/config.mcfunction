@@ -86,7 +86,7 @@ function what:_config/unfurnace
 
 #mob
 data modify storage what:config mob_spawner.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}
-data modify storage what:config mob_spawner.zombie set value {amount: 6, keys: ["gigachicken","mogus","mogus","mogus","mogus","pigeon"]}
+data modify storage what:config mob_spawner.zombie set value {amount: 7, keys: ["gigachicken","mogus","mogus","mogus","dolphin","dolphin","pigeon"]}
 data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
 data modify storage what:config mob_spawner.pig set value {amount: 5, keys: ["whatever","whatever","whatever","whatever","whatever"]}
 data modify storage what:config mob_spawner.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
@@ -117,3 +117,5 @@ data modify storage what:config mobs.fnisser set value {name: '[{"translate":"wh
 data modify storage what:config mobs.whatever set value {name: '[{"translate":"what.mob.whatever"}]', base_mob: "pig", cmd:32032, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.irs_plane set value {name: '[{"translate":"what.mob.irs_plane"}]', base_mob: "pig", cmd:32033, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.irs_tank set value {name: '[{"translate":"what.mob.irs_tank"}]', base_mob: "wandering_trader", cmd:32034, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.camel set value {name: '[{"translate":"entity.piglin_brute.name"}]', base_mob: "camel", cmd:32037, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.dolphin set value {name: '[{"translate":"entity.dolphin.name"}]', base_mob: "zombie", cmd:32038, item_id:"potion", anim_len:0}

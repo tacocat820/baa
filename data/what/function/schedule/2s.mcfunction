@@ -21,4 +21,4 @@ execute as @e[type=bee,tag=!what.bee_checked] at @s run function what:__custom/e
 execute as @a at @s if entity @e[type=bee,distance=0..1.9,tag=!what.beeraider] run function what:__custom/eat_bee/eat_start
 
 execute as @a[tag=!what.player] at @s run function what:on_first_visit
-execute as @a[gamemode=survival] run loot give @s loot what:items/rickroll
+execute as @a run loot give @s loot what:items/rickroll
