@@ -12,4 +12,5 @@ execute if entity @s[tag=what.ent.shrek_house] run function what:mob/shrek/house
 execute if entity @s[tag=what.ent.irs_plane] run function what:mob/irs_plane/tick
 execute if entity @s[tag=what.ent.irs_agent] run function what:mob/irs_agent/tick
 execute if entity @s[tag=what.ent.irs_agent_posessor] run function what:mob/irs_agent/posess
+execute if entity @s[tag=what.ent.ender_dragon] run function what:mob/ender_dragon/tick
 execute if entity @s[tag=what.ent.psycho] if score @s what.ent.action matches 0..20 run function what:mob/psycho/eating

@@ -2,4 +2,4 @@ playsound minecraft:what.lefishe voice @a ~ ~ ~
 
 setblock ~ ~ ~ tall_grass destroy
 
-execute store result score @s what.ent.action run random value 15..35
+advancement revoke @s only what:food/lefishe

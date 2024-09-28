@@ -48,6 +48,7 @@ data modify storage what:config blocks.caramel_bricks set value {CustomModelData
 data modify storage what:config blocks.micro set value {CustomModelData: 32046, rotate:2, inter:1b, block:"locked_shulker", customTags:[micro]}
 data modify storage what:config blocks.sand set value {CustomModelData: 32048, block:"azalea_leaves"}
 data modify storage what:config blocks.flower set value {CustomModelData: 32050, block:"copper_grate"}
+data modify storage what:config blocks.die set value {CustomModelData: 32051, block:"tripwire"}
 
 #interaction
 #inter.$(type).$(inter).run
@@ -90,10 +91,10 @@ data modify storage what:config mob_spawner.zombie set value {amount: 7, keys: [
 data modify storage what:config mob_spawner.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
 data modify storage what:config mob_spawner.pig set value {amount: 5, keys: ["whatever","whatever","whatever","whatever","whatever"]}
 data modify storage what:config mob_spawner.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
-data modify storage what:config mob_spawner.spider set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
-data modify storage what:config mob_spawner.skeleton set value {amount: 5, keys: ["gigachicken","psycho","psycho","mosscow"]}
+data modify storage what:config mob_spawner.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
+data modify storage what:config mob_spawner.skeleton set value {amount: 5, keys: ["gigachicken","psycho","psycho","dolphin"]}
 data modify storage what:config mob_spawner.wither_skeleton set value {amount: 5, keys: ["dolphin","dolphin","dolphin","dolphin","dolphin"]}
-# remove puffercopter?
+# remove puffercopter? 
 
 data modify storage what:config mobs.new_zealand set value {name: '[{"translate":"what.mob.new_zealand"}]', base_mob: "zombie", cmd:32001, item_id:"clock", anim_len:0}
 data modify storage what:config mobs.pillager set value {name: '[{"translate":"what.mob.pillager"}]', base_mob: "vindicator", cmd:32002, item_id:"potion", anim_len:24}
@@ -121,3 +122,4 @@ data modify storage what:config mobs.irs_tank set value {name: '[{"translate":"w
 data modify storage what:config mobs.camel set value {name: '[{"translate":"entity.piglin_brute.name"}]', base_mob: "camel", cmd:32037, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.dolphin set value {name: '[{"translate":"entity.dolphin.name"}]', base_mob: "zombie", cmd:32038, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.lefishe set value {name: '[{"translate":"what.mob.lefishe"}]', base_mob: "zombie", cmd:32039, item_id:"potion", anim_len:0}
+data modify storage what:config mobs.ender_dragon set value {name: '[{"translate":"what.mob.ender_dragon"}]', base_mob: "zombie", cmd:32040, item_id:"potion", anim_len:24}

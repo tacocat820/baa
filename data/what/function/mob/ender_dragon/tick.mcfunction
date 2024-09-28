@@ -1,0 +1,3 @@
+execute if block ^ ^ ^0.1 #what:airs positioned ~ ~-10 ~ if entity @a[distance=0..30] at @s if block ~ ~-0.1 ~ #what:airs run tp @s ~ ~-0.1 ~ facing entity @p[distance=0..30]
+execute if block ^ ^ ^0.1 #what:airs positioned ~ ~10 ~ if entity @a[distance=0..30] at @s if block ~ ~0.1 ~ #what:airs run tp @s ~ ~0.1 ~ facing entity @p[distance=0..30]
+execute if block ^ ^ ^0.1 #what:airs if entity @a[distance=0..30] at @s run tp @s ^ ^ ^0.1 facing entity @p[distance=0..30]
