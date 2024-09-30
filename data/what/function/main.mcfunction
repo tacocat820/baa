@@ -46,6 +46,7 @@ execute at @a as @e[distance=0..20,tag=what.idk.flying_bread] at @s run function
 
 execute as @a[scores={what.etc.wob=1..}] at @s run function what:__custom/wob/run
 execute as @a[scores={what.etc.eat_bee=1..}] at @s run function what:__custom/eat_bee/eating
+execute as @a at @s anchored eyes positioned ^ ^ ^0.3 if block ~ ~ ~ water run function what:__custom/drink_water
 
 #scoreboard players reset @s what.dropper_click
 

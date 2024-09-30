@@ -23,3 +23,6 @@ execute as @a at @s if entity @e[type=bee,distance=0..1.9,tag=!what.beeraider] r
 
 execute as @a[tag=!what.player] at @s run function what:on_first_visit
 execute as @a run loot give @s loot what:items/rickroll
+
+scoreboard players remove @a what.etc.thirst 1
+execute as @a[scores={what.etc.thirst=..1}] at @s run function what:__custom/dry_out

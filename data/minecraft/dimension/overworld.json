@@ -22,7 +22,7 @@
           "biome": "minecraft:plains",
           "parameters": {
             "temperature": 0,
-            "humidity": 0.6,
+            "humidity": 0.3,
             "continentalness": 0.3,
             "erosion": 1,
             "weirdness": 0,
@@ -46,7 +46,7 @@
           "biome": "minecraft:flower_forest",
           "parameters": {
             "temperature": 0,
-            "humidity": 1,
+            "humidity": 1.4,
             "continentalness": 0.4,
             "erosion": 0,
             "weirdness": 0,
@@ -58,7 +58,7 @@
           "biome": "minecraft:forest",
           "parameters": {
             "temperature": 0,
-            "humidity": 0.3,
+            "humidity": 0,
             "continentalness": 0.4,
             "erosion": 1,
             "weirdness": 0,
@@ -69,11 +69,23 @@
         {
           "biome": "what:rocks",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0.2,
-            "continentalness": 0.9,
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0.5,
             "erosion": 1,
-            "weirdness": -1,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:meadow",
+          "parameters": {
+            "temperature": -0.2,
+            "humidity": 1,
+            "continentalness": 0.3,
+            "erosion": 0.5,
+            "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
