@@ -49,6 +49,7 @@ data modify storage what:config blocks.micro set value {CustomModelData: 32046, 
 data modify storage what:config blocks.sand set value {CustomModelData: 32048, block:"azalea_leaves"}
 data modify storage what:config blocks.flower set value {CustomModelData: 32050, block:"copper_grate"}
 data modify storage what:config blocks.die set value {CustomModelData: 32051, block:"tripwire", customTags:[die]}
+data modify storage what:config blocks.door2 set value {CustomModelData: 32052, inter:1b, block:"copper_grate", customTags:[door2]}
 
 #interaction
 #inter.$(type).$(inter).run
@@ -61,6 +62,7 @@ data modify storage what:config inter.pipe_bomb set value {target: "what:__custo
 data modify storage what:config inter.chinese_anvil set value {target: "",attack: "what:block/actions/destroy_block"}
 data modify storage what:config inter.microwave set value {target: "what:block/microwave/run",attack: "what:block/actions/destroy_block"}
 data modify storage what:config inter.unfurnace set value {target: "what:block/unfurnace/run",attack: "what:block/actions/destroy_block"}
+data modify storage what:config inter.door2 set value {target: "what:block/door/run"}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 data modify storage what:config inter.tree_inter set value {target: "",attack: "what:mob/big_tree/inter"}
@@ -123,3 +125,4 @@ data modify storage what:config mobs.camel set value {name: '[{"translate":"enti
 data modify storage what:config mobs.dolphin set value {name: '[{"translate":"entity.dolphin.name"}]', base_mob: "zombie", cmd:32038, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.lefishe set value {name: '[{"translate":"what.mob.lefishe"}]', base_mob: "zombie", cmd:32039, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.ender_dragon set value {name: '[{"translate":"what.mob.ender_dragon"}]', base_mob: "zombie", cmd:32040, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.steve_jobs set value {name: '[{"translate":"what.mob.steve_jobs"}]', base_mob: "villager", cmd:32041, item_id:"potion", anim_len:0}
