@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_hoe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:food":{"saturation":1,"nutrition":1},"minecraft:custom_data":{"what_type":"hoe"}}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
