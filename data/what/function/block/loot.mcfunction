@@ -66,3 +66,9 @@ execute if score cmd what.temp matches 32044 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32045 run return run loot spawn ~ ~ ~ loot what:blocks/rotten_flesh_block
 execute if score cmd what.temp matches 32047 run return run loot spawn ~ ~ ~ loot what:blocks/caramel_bricks
 execute if score cmd what.temp matches 32048 run return run loot spawn ~ ~ ~ loot what:blocks/sand
+
+execute if score cmd what.temp matches 32046 run return run loot spawn ~ ~ ~ loot what:blocks/micro
+execute if score cmd what.temp matches 32050 run return run loot spawn ~ ~ ~ loot what:blocks/flower
+execute if score cmd what.temp matches 32052 run return run loot spawn ~ ~ ~ loot what:blocks/door2
+execute if score cmd what.temp matches 32051 run return run loot spawn ~ ~ ~ loot what:blocks/die
+
