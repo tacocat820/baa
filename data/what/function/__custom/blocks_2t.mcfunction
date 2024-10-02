@@ -1,0 +1,1 @@
+execute if entity @s[tag=pc] if score @s what.timer matches 0.. run return run function what:__custom/block/pc

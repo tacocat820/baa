@@ -50,6 +50,7 @@ data modify storage what:config blocks.sand set value {CustomModelData: 32048, b
 data modify storage what:config blocks.flower set value {CustomModelData: 32050, block:"copper_grate"}
 data modify storage what:config blocks.die set value {CustomModelData: 32051, block:"tripwire", customTags:[die]}
 data modify storage what:config blocks.door2 set value {CustomModelData: 32052, inter:1b, block:"copper_grate", customTags:[door2]}
+data modify storage what:config blocks.pc set value {CustomModelData: 32054, block:"structure_void", inter:1b, rotate:2, falling:1b, customTags:[pc]}
 
 #interaction
 #inter.$(type).$(inter).run
@@ -69,12 +70,15 @@ data modify storage what:config inter.tree_inter set value {target: "",attack: "
 data modify storage what:config inter.wave_inter set value {target: "what:mob/wave/collect_wave",attack: ""}
 
 data modify storage what:config inter.micro set value {target: "what:block/microwave/micro_add_wave",attack: "what:block/actions/destroy_block"}
+data modify storage what:config inter.pc set value {target: "what:__custom/pc/ohmypc", attack: "what:block/actions/destroy_block"}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
 data modify storage what:config timer.microwave_p1 set value {func: "what:block/microwave/warming"}
 data modify storage what:config timer.block_loader set value {func: "what:__custom/kill"}
 data modify storage what:config timer.unfurnace set value {func: "what:block/unfurnace/end"}
+data modify storage what:config timer.pc set value {func: "what:__custom/block/pc_ohmypc"}
+data modify storage what:config timer.pc.explode set value {func: "what:__custom/explode_small"}
 
 #slow raycastng
 data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
