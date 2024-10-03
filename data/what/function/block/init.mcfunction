@@ -14,17 +14,9 @@ $execute if data storage what:config blocks.$(type){falling:1b} run data modify 
 $execute if data storage what:config blocks.$(type){plant:1b} run function what:block/plants/set_age
 $execute if data storage what:config blocks.$(type){bright:1b} run data modify entity @s brightness set value {sky:10,block:10}
 
-$execute if data storage what:config blocks.$(type){block:"tripwire"} run setblock ~ ~ ~ tripwire
-$execute if data storage what:config blocks.$(type){block:"copper_grate"} run setblock ~ ~ ~ waxed_copper_grate
-$execute if data storage what:config blocks.$(type){block:"locked_shulker"} run setblock ~ ~ ~ minecraft:shulker_box[facing=down]{Lock:"😂😂😄🙂‱‰"}
-$execute if data storage what:config blocks.$(type){block:"spawner"} run setblock ~ ~ ~ spawner
-$execute if data storage what:config blocks.$(type){block:"stone_slab"} run setblock ~ ~ ~ minecraft:stone_slab[type=bottom]
-$execute if data storage what:config blocks.$(type){block:"structure_void"} run setblock ~ ~ ~ structure_void
-$execute if data storage what:config blocks.$(type){block:"azalea_leaves"} run setblock ~ ~ ~ minecraft:azalea_leaves[distance=7,persistent=true,waterlogged=false]
-$execute if data storage what:config blocks.$(type){block:"barrier"} run setblock ~ ~ ~ barrier
+function what:block/init_block_ with storage what:temp
 
-$execute if data storage what:config blocks.$(type){inter:1b} align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {Tags:[$(type)],width:1.01,height:1.01}
-$execute if data storage what:config blocks.$(type){inter:1b} run tag @s add has_inter
+function what:block/init_inter_ with storage what:temp
 $execute if data storage what:config blocks.$(type).item_display run data modify entity @s item_display set from storage what:config blocks.$(type).item_display
 
 #data modify entity @s item_display set value "head"
