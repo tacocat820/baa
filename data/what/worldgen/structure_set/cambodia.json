@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:cambodia",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2006447660,
+    "spacing": 30,
+    "separation": 1
+  }
+}
