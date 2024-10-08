@@ -5,3 +5,8 @@ playsound entity.generic.drink
 
 scoreboard players add @s what.etc.drink 1
 execute unless score @s what.etc.thirst matches 1000.. run scoreboard players add @s what.etc.thirst 1
+
+execute if biome ~ ~ ~ flower_forest run scoreboard players add @s what.etc.suspicious_water 1
+execute if biome ~ ~ ~ forest run scoreboard players add @s what.etc.suspicious_water 1
+
+execute if score @s what.etc.suspicious_water matches 40.. run function what:__custom/sus
