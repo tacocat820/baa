@@ -72,4 +72,5 @@ execute if score cmd what.temp matches 32050 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32052 run return run loot spawn ~ ~ ~ loot what:blocks/door2
 execute if score cmd what.temp matches 32051 run return run loot spawn ~ ~ ~ loot what:blocks/die
 execute if score cmd what.temp matches 32053..32054 run return run loot spawn ~ ~ ~ loot what:blocks/pc
+execute if score cmd what.temp matches 32055 run return run loot spawn ~ ~ ~ loot what:blocks/floppa
 

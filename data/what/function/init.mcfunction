@@ -5,6 +5,7 @@ scoreboard objectives add what.etc.wob dummy
 scoreboard objectives add what.etc.drink dummy
 scoreboard objectives add what.etc.thirst dummy
 scoreboard objectives add what.etc.suspicious_water dummy
+scoreboard objectives add what.etc.goingtoheaven dummy
 scoreboard objectives add what.etc.social_credit dummy "SOCIAL CREDIT"
 scoreboard objectives add what.etc.eat_bee dummy
 scoreboard objectives add what.etc.tax_timer dummy

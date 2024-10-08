@@ -8,6 +8,8 @@
 		"#doors",
 		"glass",
 		"glass_pane",
-		"tinted_glass"
+		"tinted_glass",
+		"waxed_copper_grate",
+		"copper_grate"
 		]
 }

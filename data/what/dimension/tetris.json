@@ -1,0 +1,11 @@
+{
+    "type": "what:blank",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "what:tetris",
+        "layers": []
+      }
+    }
+  }
+  

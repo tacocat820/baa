@@ -1,0 +1,1 @@
+execute unless entity @e[tag=what.ent.floppa,distance=0..90] run function what:mob/_spawner/floppa
