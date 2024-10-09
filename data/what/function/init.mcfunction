@@ -1,5 +1,3 @@
-say алё
-
 scoreboard objectives add what.etc.uranium dummy
 scoreboard objectives add what.etc.wob dummy
 scoreboard objectives add what.etc.drink dummy

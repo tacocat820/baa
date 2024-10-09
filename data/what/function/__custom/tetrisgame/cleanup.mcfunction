@@ -1,0 +1,1 @@
+execute as @e[tag=what.terispseudoblock.dead] at @s run function what:__custom/tetrisgame/killblock

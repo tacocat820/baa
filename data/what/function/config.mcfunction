@@ -54,6 +54,11 @@ data modify storage what:config blocks.pc set value {CustomModelData: 32054, blo
 data modify storage what:config blocks.floppa set value {CustomModelData: 32055, block:"azalea_leaves"}
 data modify storage what:config blocks.sacabambaspis set value {CustomModelData: 32056, block:"barrier"}
 
+data modify storage what:config blocks.tright set value {CustomModelData: 32057, inter:1b, block:"barrier"}
+data modify storage what:config blocks.tleft set value {CustomModelData: 32058, inter:1b, block:"barrier"}
+data modify storage what:config blocks.trotate set value {CustomModelData: 32059, inter:1b, block:"barrier"}
+data modify storage what:config blocks.t set value {CustomModelData: 32060, block:"barrier"}
+
 #sacabambaspis
 
 #interaction
@@ -75,6 +80,10 @@ data modify storage what:config inter.wave_inter set value {target: "what:mob/wa
 
 data modify storage what:config inter.micro set value {target: "what:block/microwave/micro_add_wave",attack: "what:block/actions/destroy_block"}
 data modify storage what:config inter.pc set value {target: "what:__custom/pc/ohmypc", attack: "what:block/actions/destroy_block"}
+
+data modify storage what:config inter.tright set value {target: "what:__custom/tetrisgame/move/l", attack: ""}
+data modify storage what:config inter.tleft set value {target: "what:__custom/tetrisgame/move/r", attack: ""}
+data modify storage what:config inter.trotate set value {target: "what:__custom/tetrisgame/rotate/test", attack: ""}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}

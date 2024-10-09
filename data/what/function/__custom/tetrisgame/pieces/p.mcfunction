@@ -1,0 +1,1 @@
+summon item_display ~.5 ~.5 ~.5 {Tags:["what.terispseudoblock.living"],item:{id:"item_frame",components:{custom_model_data:32056},count:1},teleport_duration:1}
