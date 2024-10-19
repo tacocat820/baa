@@ -14,5 +14,5 @@ execute as @e[scores={what.timer=-1..}] at @s run function what:timer/run
 
 execute as @a[scores={what.death=1..}] at @s run function what:on_death
 
-execute as @a at @s if block ~ ~ ~ stonecutter run damage @s 6 generic
+execute as @a at @s if block ~ ~ ~ stonecutter run function what:__custom/stonecutter
 execute as @a at @s if block ~ ~ ~ tripwire if data entity @n[distance=0..0.8,tag=what.block_placed,tag=what.fluid] item.components.minecraft:custom_data{type:"american_oil"} run effect give @s slowness 1 3 true

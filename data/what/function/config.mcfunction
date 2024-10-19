@@ -93,6 +93,8 @@ data modify storage what:config timer.unfurnace set value {func: "what:block/unf
 data modify storage what:config timer.pc set value {func: "what:__custom/block/pc_ohmypc"}
 data modify storage what:config timer.pc.explode set value {func: "what:__custom/explode_small"}
 
+data modify storage what:players a set value {}
+
 #slow raycastng
 data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
 

@@ -5,3 +5,5 @@ execute store result storage what:temp tetrispiece int 1 run scoreboard players 
 
 tag @s add fallingstuff
 execute positioned ~ ~9 ~ run function what:__custom/tetrisgame/pieces/m with storage what:temp
+
+execute as @p[tag=what.tetriser] at @s if entity @s[tag=what.forcetetriser] run function what:__custom/tetrisgame/count
