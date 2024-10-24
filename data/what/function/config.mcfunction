@@ -59,6 +59,7 @@ data modify storage what:config blocks.tleft set value {CustomModelData: 32058, 
 data modify storage what:config blocks.trotate set value {CustomModelData: 32059, inter:1b, block:"barrier"}
 data modify storage what:config blocks.t set value {CustomModelData: 32060, block:"barrier"}
 
+data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1b}
 #sacabambaspis
 
 #interaction

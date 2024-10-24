@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32061, "minecraft:entity_data": {"Tags": ["what.block", "icicle"], "id": "item_frame", "Invisible": true}}
+              },
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": {
+                  "translate": "what.block.icicle"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

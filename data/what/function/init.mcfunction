@@ -46,5 +46,5 @@ scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick
 function what:schedule/start_all
 
 function what:config
-
+say алё
 #return run say Amogus

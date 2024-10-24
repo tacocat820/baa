@@ -9,7 +9,9 @@ $execute if data storage what:config blocks.$(type){rotate:1b} run data modify e
 $execute if data storage what:config blocks.$(type){rotate:2} run function what:block/actions/rotate_horiz
 #
 $execute if data storage what:config blocks.$(type){falling:1b} run tag @s add falling_block
-$execute if data storage what:config blocks.$(type){falling:1b} run data modify entity @s teleport_duration set value 2
+$execute if data storage what:config blocks.$(type).falling run data modify entity @s teleport_duration set value 2
+
+$execute if data storage what:config blocks.$(type){falling:2} run tag @s add falling_block_2
 
 $execute if data storage what:config blocks.$(type){plant:1b} run function what:block/plants/set_age
 $execute if data storage what:config blocks.$(type){bright:1b} run data modify entity @s brightness set value {sky:10,block:10}
