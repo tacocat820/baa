@@ -13,10 +13,11 @@
               "minecraft:food": {
                       "can_always_eat": true,
                       "nutrition": 30,
-                      "saturation": 15,
-                      "using_converts_to": {
-                          "id": "stick"
-                      }
+                      "saturation": 15
+                  },
+                  "use_remainder": {
+                    "id": "stick",
+                    "count": 1
                   }
                 }
             }

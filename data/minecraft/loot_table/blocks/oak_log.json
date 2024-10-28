@@ -14,14 +14,14 @@
                 "minecraft:custom_data":{"what_type":"cheeseburger"},
                 "minecraft:food": {
                   "nutrition": 5,
-                  "saturation": 7.5,
-                  "using_converts_to": {
-                      "id": "cookie",
-                      "components": {
-                          "custom_model_data": 32001,
-                          "custom_data":{"what_type":"cheeseburger_crumbs"},
-                          "item_name": "{\"translate\":\"what.item.cheeseburger_crumbs\"}"
-                      }
+                  "saturation": 7.5
+                },
+                "use_remainder": {
+                  "id": "cookie",
+                  "components": {
+                      "custom_model_data": 32001,
+                      "custom_data":{"what_type":"cheeseburger_crumbs"},
+                      "item_name": "{\"translate\":\"what.item.cheeseburger_crumbs\"}"
                   }
                 }
               }

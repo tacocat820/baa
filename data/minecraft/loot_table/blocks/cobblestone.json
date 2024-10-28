@@ -1,42 +1,41 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cookie",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:custom_model_data": 32000,
-                  "minecraft:custom_data":{"what_type":"cheeseburger"},
-                  "minecraft:food": {
-                    "nutrition": 5,
-                    "saturation": 7.5,
-                    "using_converts_to": {
-                        "id": "cookie",
-                        "components": {
-                            "custom_model_data": 32001,
-                            "custom_data":{"what_type":"cheeseburger_crumbs"},
-                            "item_name": "{\"translate\":\"what.item.cheeseburger_crumbs\"}"
-                        }
-                    }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 32000,
+                "minecraft:custom_data":{"what_type":"cheeseburger"},
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 7.5
+                },
+                "use_remainder": {
+                  "id": "cookie",
+                  "components": {
+                      "custom_model_data": 32001,
+                      "custom_data":{"what_type":"cheeseburger_crumbs"},
+                      "item_name": "{\"translate\":\"what.item.cheeseburger_crumbs\"}"
                   }
                 }
-              },
-              {
-                "function": "minecraft:set_name",
-                "target": "item_name",
-                "name": {
-                  "translate": "what.item.cheeseburger"
-                }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "what.item.cheeseburger"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

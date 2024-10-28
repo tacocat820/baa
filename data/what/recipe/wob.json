@@ -7,12 +7,8 @@
     " #X"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:string"
-    },
-    "X": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:string",
+    "X": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:bow",

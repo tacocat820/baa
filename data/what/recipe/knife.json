@@ -5,12 +5,8 @@
       "2"
   ],
   "key": {
-      "1": {
-          "item": "minecraft:iron_ingot"
-      },
-      "2": {
-          "item": "minecraft:stick"
-      }
+      "1": "minecraft:iron_ingot",
+      "2": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:iron_axe",

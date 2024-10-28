@@ -6,15 +6,9 @@
       "F"
   ],
   "key": {
-      "/": {
-          "item": "minecraft:stick"
-      },
-      "I": {
-          "item": "minecraft:ink_sac"
-      },
-      "F": {
-          "item": "minecraft:feather"
-      }
+      "/": "minecraft:stick",
+      "I": "minecraft:ink_sac",
+      "F": "minecraft:feather"
   },
   "result": {
     "id": "minecraft:carrot_on_a_stick",

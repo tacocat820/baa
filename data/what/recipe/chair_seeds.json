@@ -6,9 +6,7 @@
         "11"
     ],
     "key": {
-        "1": {
-        "item": "minecraft:stick"
-        }
+        "1": "stick"
     },
     "result": {
       "id": "minecraft:item_frame",
@@ -16,7 +14,7 @@
         "minecraft:entity_data": {
           "id": "item_frame",
           "Tags":["what.block","chair_plant"],
-          "Invisible": 1
+          "Invisible": true
         },
         "minecraft:custom_model_data": 32005,
         "minecraft:item_name": "{'translate':'what.block.chair_plant'}"

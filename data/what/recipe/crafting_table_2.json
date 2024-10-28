@@ -1,12 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      {
-          "item": "minecraft:dropper"
-      },
-      {
-          "item": "minecraft:crafting_table"
-      }
+      "dropper", "crafting_table"
   ],
   "result": {
     "id": "minecraft:item_frame",
@@ -14,7 +9,7 @@
       "minecraft:entity_data": {
         "id": "item_frame",
         "Tags":["what.block","crafting_table_2"],
-        "Invisible": 1
+        "Invisible": true
       },
       "minecraft:custom_model_data": 32012,
       "minecraft:item_name": "{'translate':'what.block.crafting_table_2'}"
