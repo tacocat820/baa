@@ -50,7 +50,7 @@ data modify storage what:config blocks.sand set value {CustomModelData: 32048, b
 data modify storage what:config blocks.flower set value {CustomModelData: 32050, block:"copper_grate"}
 data modify storage what:config blocks.die set value {CustomModelData: 32051, block:"tripwire", customTags:[die]}
 data modify storage what:config blocks.door2 set value {CustomModelData: 32052, inter:1b, block:"copper_grate", customTags:[door2]}
-data modify storage what:config blocks.pc set value {CustomModelData: 32054, block:"structure_void", inter:1b, rotate:2, falling:1b, customTags:[pc]}
+data modify storage what:config blocks.pc set value {CustomModelData: 32054, block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[pc]}
 data modify storage what:config blocks.floppa set value {CustomModelData: 32055, block:"azalea_leaves"}
 data modify storage what:config blocks.sacabambaspis set value {CustomModelData: 32056, block:"barrier"}
 
@@ -187,3 +187,4 @@ data modify storage what:config mobs.steve_jobs set value {name: '[{"translate":
 data modify storage what:config mobs.polpot set value {name: '[{"translate":"what.mob.polpot"}]', base_mob: "wandering_trader", cmd:32042, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.floppa set value {name: '[{"translate":"what.mob.floppa"}]', base_mob: "wolf", cmd:32044, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.bath set value {name: '[{"translate":"what.mob.bath"}]', base_mob: "wandering_trader", cmd:32045, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.pvz set value {name: '[{"translate":"what.mob.pvz"}]', base_mob: "wandering_trader", cmd:32046, item_id:"potion", anim_len:24}

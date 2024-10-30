@@ -1,6 +1,6 @@
 summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.polpot","tick1s"]}
 
-attribute @n[tag=what.temp_new] generic.movement_speed base set 1.03
+attribute @n[tag=what.temp_new] movement_speed base set 1.03
 
 data merge entity @n[tag=what.temp_new] {DeathLootTable:"what:items/diamond_hoe"}
 

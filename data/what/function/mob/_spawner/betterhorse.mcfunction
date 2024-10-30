@@ -2,7 +2,7 @@ summon husk ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.betterhorse","
 effect give @n[tag=what.temp_new] speed infinite 4 true
 effect give @n[tag=what.temp_new] strength infinite 1 true
 effect give @n[tag=what.temp_new] fire_resistance infinite 255 true
-attribute @n[tag=what.temp_new] minecraft:generic.max_health base set 65536
+attribute @n[tag=what.temp_new] minecraft:max_health base set 65536
 data modify entity @n[tag=what.temp_new] Health set value 65536
 scoreboard players set @n[tag=what.temp_new] what.ent.action 0
 

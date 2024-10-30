@@ -12,7 +12,8 @@
               "components": {
                 "minecraft:custom_model_data":32012,
                 "minecraft:custom_data":{"what_type":"glass_shards"},
-                "minecraft:food":{"saturation":0,"nutrition":0,"can_always_eat": true}
+                "minecraft:food":{"saturation":0,"nutrition":0,"can_always_eat": true},
+                "consumable": {}
               }
             },
             {

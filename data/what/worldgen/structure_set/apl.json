@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:apl",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1319695625,
+    "spacing": 16,
+    "separation": 2
+  }
+}
