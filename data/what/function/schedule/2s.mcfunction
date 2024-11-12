@@ -29,5 +29,6 @@ execute as @a[scores={what.etc.thirst=..1}] at @s run function what:__custom/dry
 
 execute as @a[scores={what.etc.goingtoheaven=0..}] at @s run function what:mob/bath/sendingtoheaven
 
+execute at @a as @e[distance=0..30,tag=what.npc] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
 # DEBG 
 #
