@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:bread",
+            "components": {
+              "minecraft:custom_data": {
+				  "what_type":"concrete_baguette"
+			  }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ],
+    "rewards": {
+      "function": "what:__custom/item/concrete_baguette"
+    }
+  }
+  

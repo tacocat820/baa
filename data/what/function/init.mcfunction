@@ -5,6 +5,7 @@ scoreboard objectives add what.etc.thirst dummy
 scoreboard objectives add what.etc.suspicious_water dummy
 scoreboard objectives add what.etc.goingtoheaven dummy
 scoreboard objectives add what.etc.social_credit dummy "SOCIAL CREDIT"
+scoreboard objectives add what.etc.teeth_count dummy
 scoreboard objectives add what.etc.eat_bee dummy
 scoreboard objectives add what.etc.tax_timer dummy
 scoreboard objectives add what.etc.beeraid_countdown dummy
@@ -31,6 +32,7 @@ scoreboard objectives add what.cooldown dummy
 scoreboard objectives add what.timer dummy
 scoreboard objectives add what.distance dummy
 scoreboard objectives add what.temp dummy
+scoreboard players set $negative what.temp -1
 scoreboard objectives add what.id dummy
 scoreboard objectives add what.anl dummy
 execute unless score $ what.id matches 0.. run scoreboard players set $ what.id 0
