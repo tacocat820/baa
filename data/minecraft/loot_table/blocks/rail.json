@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rail",
+          "weight": 4,
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:loot/rail_corner",
+          "weight": 1,
+          "functions": [],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:rail",
+                  "properties": {
+                    "shape": "south_east"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:rail",
+                  "properties": {
+                    "shape": "south_west"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:rail",
+                  "properties": {
+                    "shape": "north_west"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:rail",
+                  "properties": {
+                    "shape": "north_east"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
