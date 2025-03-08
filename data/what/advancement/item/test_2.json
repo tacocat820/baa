@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "0": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{\"what_type\":\"test_2\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "what:__custom/use_test_2"
+    }
+  }

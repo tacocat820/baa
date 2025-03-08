@@ -53,6 +53,7 @@ data modify storage what:config blocks.door2 set value {CustomModelData: 32052, 
 data modify storage what:config blocks.pc set value {CustomModelData: 32054, block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[pc]}
 data modify storage what:config blocks.floppa set value {CustomModelData: 32055, block:"azalea_leaves"}
 data modify storage what:config blocks.sacabambaspis set value {CustomModelData: 32056, block:"barrier"}
+data modify storage what:config blocks.greenscreen set value {CustomModelData: 32064, block:"barrier", bright:1b}
 
 data modify storage what:config blocks.tright set value {CustomModelData: 32057, inter:1b, block:"barrier"}
 data modify storage what:config blocks.tleft set value {CustomModelData: 32058, inter:1b, block:"barrier"}
@@ -61,6 +62,7 @@ data modify storage what:config blocks.t set value {CustomModelData: 32060, bloc
 
 data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1b}
 data modify storage what:config blocks.RCWIP set value {CustomModelData: 32062, block:"tripwire", rotate:2}
+data modify storage what:config blocks.VLC set value {CustomModelData: 32063, block:"tripwire", item_display:"head", customTags:[VLC], falling:1b}
 #rail_corner_without_iron_pickaxe ^^^
 
 #sacabambaspis

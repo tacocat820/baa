@@ -74,4 +74,5 @@ execute if score cmd what.temp matches 32051 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32053..32054 run return run loot spawn ~ ~ ~ loot what:blocks/pc
 execute if score cmd what.temp matches 32055 run return run loot spawn ~ ~ ~ loot what:blocks/floppa
 execute if score cmd what.temp matches 32062 run return run loot spawn ~ ~ ~ loot what:blocks/rcwip
+execute if score cmd what.temp matches 32063 run return run loot spawn ~ ~ ~ loot what:blocks/vlc
 
