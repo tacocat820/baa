@@ -6,7 +6,7 @@ Due to complexities of the situation I am currently in, the repository in questi
 Sadly, we can't and won't change it. I apologize for the inconvinience. 
 
 # What is this?!
-This is a Datapack and a Resource Pack combination to enchance your traditional experience of a popular game called "Minecraft".
+This is a Datapack and a Resource Pack combination to enchance the traditional experience of a popular Videogame called "Minecraft".
 It adds a lot of new essential features so useful the "Mojang" team should consider about implimenting inside of their project. 
 
 # Installation
