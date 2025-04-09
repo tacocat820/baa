@@ -1,5 +1,7 @@
+[<img src="https://i.imgur.com/anX6ldA.png" width="600"/>](https://i.imgur.com/anX6ldA.png)
+
 # Repository naming
-Salutions fellow colleagues. 
+Salutions, fellow colleagues. 
 Due to complexities of the situation I am currently in, the repository in question has been assigned a mildly unconventional name - "baa". 
 Sadly, we can't and won't change it. I apologize for the inconvinience. 
 
