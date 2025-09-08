@@ -18,11 +18,10 @@ execute as @a[scores={what.etc.beeraid_countdown=1..}] at @s run function what:m
 execute as @a[tag=what.beeraided] at @s run function what:mob/beeraid/during
 execute as @e[type=bee,tag=!what.bee_checked] at @s run function what:__custom/eat_bee/bee_check
 
-
 execute as @a at @s if entity @e[type=bee,distance=0..1.9,tag=!what.beeraider] run function what:__custom/eat_bee/eat_start
 
 execute as @a[tag=!what.player] at @s run function what:on_first_visit
-execute as @a run loot give @s loot what:items/rickroll
+execute as @a unless entity @s[ nbt={Inventory:[{components: {"minecraft:custom_data": {what_type: "rickroll_checker"}}}]} ] run loot give @s loot what:items/rickroll
 
 scoreboard players remove @a what.etc.thirst 1
 execute as @a[scores={what.etc.thirst=..1}] at @s run function what:__custom/dry_out

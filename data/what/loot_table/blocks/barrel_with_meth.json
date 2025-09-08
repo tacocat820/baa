@@ -9,13 +9,13 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32021, "minecraft:entity_data": {"Tags": ["what.block", "lego"], "id": "item_frame", "Invisible": true}}
+                "components": {"minecraft:custom_model_data": 32065, "minecraft:entity_data": {"Tags": ["what.block", "barrel_with_meth"], "id": "item_frame", "Invisible": true}}
               },
               {
                 "function": "minecraft:set_name",
                 "target": "item_name",
                 "name": {
-                  "translate": "what.block.lego"
+                  "translate": "what.block.barrel_with_meth"
                 }
               }
             ]

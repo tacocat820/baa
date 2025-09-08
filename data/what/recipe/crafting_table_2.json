@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "dropper", "crafting_table"
+      "furnace", "crafting_table"
   ],
   "result": {
     "id": "minecraft:item_frame",

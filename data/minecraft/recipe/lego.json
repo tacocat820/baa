@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "   ",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": "minecraft:quartz"
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "count": 1,
+      "components": {"minecraft:custom_model_data": 32021, "minecraft:entity_data": {"Tags": ["what.block", "lego"], "id": "item_frame", "Invisible": true}}
+    }
+  }
+  

@@ -45,3 +45,5 @@ data modify storage what:config unfurnace.minecraft:coal set value {id: "snowbal
 data modify storage what:config unfurnace.'["what.block","backrooms"]' set value {id: "packed_mud" }
 data modify storage what:config unfurnace.'["what.block","backrooms_carpet"]' set value {id: "white_wool" }
 data modify storage what:config unfurnace.'["what.block","beans_plant"]' set value {id: "stick" }
+
+data modify storage what:config unfurnace.minecraft:snow_block set value {loot_table: "what:blocks/icicle" }

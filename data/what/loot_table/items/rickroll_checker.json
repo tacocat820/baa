@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32022,"minecraft:custom_data":{"what_type":"rickroll_checker"},"minecraft:item_name":"{'translate':'what.item.rickroll_checker'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "GM ",
+      "M  "
+  ],
+  "key": {
+      "#": "minecraft:melon",
+      "G": "minecraft:gunpowder",
+      "M": "minecraft:melon_slice"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+      "minecraft:custom_model_data":32005,
+      "minecraft:max_damage":64,
+      "minecraft:custom_data":{"what_type":"melon_gun"},
+      "minecraft:item_name":"{'translate':'what.item.melon_gun'}"
+    }
+  }
+}

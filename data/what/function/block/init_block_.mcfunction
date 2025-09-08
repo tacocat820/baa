@@ -6,5 +6,6 @@ $execute if data storage what:config blocks.$(type){block:"stone_slab"} run setb
 $execute if data storage what:config blocks.$(type){block:"structure_void"} run setblock ~ ~ ~ structure_void
 $execute if data storage what:config blocks.$(type){block:"azalea_leaves"} run setblock ~ ~ ~ minecraft:azalea_leaves[distance=7,persistent=true,waterlogged=false]
 $execute if data storage what:config blocks.$(type){block:"barrier"} run setblock ~ ~ ~ barrier
+$execute if data storage what:config blocks.$(type){block:"mangrove_roots"} run setblock ~ ~ ~ mangrove_roots
 
 $execute if data storage what:config blocks.$(type){CustomModelData: 32061} run setblock ~ ~ ~ minecraft:light_blue_stained_glass_pane

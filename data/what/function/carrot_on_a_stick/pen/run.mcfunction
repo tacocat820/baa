@@ -2,3 +2,4 @@
 item modify entity @s weapon.mainhand what:break_25
 execute anchored eyes positioned ^ ^ ^0.4 run particle item{item:{id:carrot_on_a_stick,components:{"custom_model_data":32001}}} ~ ~0.1 ~ 0.1 0.1 0.1 0.03 20 normal
 playsound minecraft:entity.generic.eat block @a ~ ~ ~
+execute if predicate what:random1 run effect give @s minecraft:saturation 1 0 true

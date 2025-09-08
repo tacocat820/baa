@@ -41,6 +41,12 @@ execute if data storage what:temp crafting{items:{air: 8, '["what.block","rotten
 
 execute if data storage what:temp crafting{items:{"glass_shards": 9}} run return run function what:block/crafting_table_2/id_craft_2 {id:"glass", count:1}
 
+execute if data storage what:temp crafting{items: {"minecraft:barrel": 1, meth: 8}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/barrel_with_meth"}
+
+execute if data storage what:temp crafting{items: {"minecraft:bread": 1, "minecraft:light_gray_concrete": 8}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:items/concrete_baguette"}
+
+execute if data storage what:temp crafting{items: {air: 7, '["what.block","RCWIP"]': 1, "minecraft:iron_pickaxe": 1}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:craft/normal_rail"}
+
 execute if data storage what:temp crafting{items:{"caramel": 4}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/caramel_bricks"}
 
 execute if data storage what:temp crafting{items: {'["what.block","uranium_block"]': 1, '["what.block","plasma"]': 1, air: 7}} run return run summon tnt

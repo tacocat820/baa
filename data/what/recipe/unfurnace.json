@@ -1,0 +1,22 @@
+  {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#F#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:snowball",
+        "F": "minecraft:furnace"
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "count": 1,
+      "components": {
+        "item_name": "{\"translate\":\"what.block.unfurnace\"}",
+        "custom_model_data": 32044,
+        "minecraft:entity_data": {"Tags": ["what.block", "unfurnace"], "id": "item_frame", "Invisible": true}
+      }
+    }
+  }
+  
