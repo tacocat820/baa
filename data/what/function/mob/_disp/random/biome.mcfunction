@@ -9,4 +9,4 @@ execute if biome ~ ~ ~ minecraft:forest run data modify storage what:temp biome 
 execute if biome ~ ~ ~ what:rocks run data modify storage what:temp biome set value ow_rocks
 
 
-execute if biome ~ ~ ~ what:trash/trash run data modify storage what:temp biome set value tr_trash
+execute if biome ~ ~ ~ what:trash/trash run data modify storage what:temp biome set value tr_trash 
