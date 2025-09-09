@@ -1,5 +1,7 @@
 [<img src="https://i.imgur.com/anX6ldA.png" width="600"/>](https://i.imgur.com/anX6ldA.png)
 
+# Version : 1.21.3
+
 # Repository naming
 Salutions, fellow colleagues. 
 Due to complexities of the situation I am currently in, the repository in question has been assigned a mildly unconventional name - "baa". 
