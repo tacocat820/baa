@@ -58,12 +58,18 @@ data modify storage what:config mob_spawner.ow_default.spider set value {amount:
 data modify storage what:config mob_spawner.ow_default.skeleton set value {amount: 5, keys: ["puffercopter","puffercopter","puffercopter","puffercopter"]}
 data modify storage what:config mob_spawner.nt_default.wither_skeleton set value {amount: 5, keys: ["dolphin","dolphin","dolphin","dolphin","dolphin"]}
 
+data modify storage what:config mob_spawner.nt_default.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
+data modify storage what:config mob_spawner.nt_default.skeleton set value {amount: 5, keys: ["gigachicken","pvz","pvz","puffercopter"]}
+data modify storage what:config mob_spawner.nt_default.zombie set value {amount: 5, keys: ["dolphin","mogus","dolphin","dolphin","dolphin"]}
+
+
 ## MEADOW
 data modify storage what:config mob_spawner.ow_meadow.sheep set value {amount: 5, keys: ["whatever","whatever","puffercopter","puffercopter","puffercopter"]}
 
 data modify storage what:config mob_spawner.ow_meadow.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
 data modify storage what:config mob_spawner.ow_meadow.skeleton set value {amount: 5, keys: ["gigachicken","puffercopter","puffercopter","puffercopter"]}
 data modify storage what:config mob_spawner.ow_meadow.zombie set value {amount: 5, keys: ["dolphin","mogus","dolphin","dolphin","dolphin"]}
+
 
 ## PLAINS
 data modify storage what:config mob_spawner.ow_plains.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}

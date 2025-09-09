@@ -13,6 +13,8 @@ scoreboard objectives add what.etc.piecesleft dummy
 scoreboard objectives add what.etc.lasttetrispos dummy
 scoreboard objectives add what.shift minecraft.custom:minecraft.sneak_time
 scoreboard objectives add what.playerid dummy
+scoreboard objectives add what.music dummy
+scoreboard objectives add what.musictype dummy
 
 scoreboard objectives add what.ent.action dummy
 scoreboard objectives add what.ent.time dummy
