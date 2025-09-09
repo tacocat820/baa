@@ -1,0 +1,1 @@
+$data modify storage what:temp amount set from storage what:config mob_spawner.$(biome).$(type).amount
