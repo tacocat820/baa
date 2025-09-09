@@ -16,12 +16,13 @@
 	"ender_pearl",
 	"firework_rocket",
 	"furnace_minecart",
-	"boat",
 	"hopper_minecart",
 	"item_display",
 	"interaction",
 	"marker",
 	"leash_knot",
+	"block_display",
+	"#arrows",
 	"#minecraft:impact_projectiles"
 	]
 }

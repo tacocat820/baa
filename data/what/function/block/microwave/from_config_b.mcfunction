@@ -1,6 +1,8 @@
-$say $(what_type)
+#$say $(what_type)
 
 $execute if data storage what:config microwave.$(what_type).loot_table run return run function what:block/microwave/replace_from_loot_table with storage what:config microwave.$(what_type)
+#command    v
+$execute if data storage what:config microwave.'$(what_type)'.command run function what:block/unfurnace/command with storage what:config microwave.'$(what_type)'
 
 #$data modify storage what:temp microwave_item merge from storage what:config microwave.$(what_type)
 $data modify block ~ ~ ~ Items[0] merge from storage what:config microwave.$(what_type)

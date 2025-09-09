@@ -1,7 +1,5 @@
 tag @n[tag=what.block_placed,tag=microwave] add what.this
 
-summon item ~ ~0.5 ~ {Item:{Count:1,id:"minecraft:tnt"},Tags:[what.new]}
-
 execute as @n[tag=what.this] if score @s what.timer matches 0..10 run function what:block/microwave/convert
 #data modify entity @n[tag=what.new] Item.components set from entity @n[tag=what.block_placed,tag=microwave] item.components.minecraft:custom_data.microwave_item.components
 #data modify entity @n[tag=what.new] Item.count set from entity @n[tag=what.block_placed,tag=microwave] item.components.minecraft:custom_data.microwave_item.count

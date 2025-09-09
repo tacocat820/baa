@@ -1,1 +1,1 @@
-data modify storage what:config ct2.{items:{"minecraft:stick": 1, "air": 4, "meth": 4}} set value ""
+data modify storage what:config ct2.'{items:{"minecraft:stick": 1, "air": 4, "meth": 4}}' set value ""

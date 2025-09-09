@@ -1,3 +1,4 @@
+#scoreboards
 scoreboard objectives add what.etc.uranium dummy
 scoreboard objectives add what.etc.wob dummy
 scoreboard objectives add what.etc.drink dummy
@@ -47,8 +48,12 @@ scoreboard objectives add what.dropper_click minecraft.custom:minecraft.inspect_
 scoreboard objectives add what.help trigger
 scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick
 
+#shedules
 function what:schedule/start_all
 
+#GAME RULES
+gamerule doTraderSpawning false
+
+#Config
 function what:config
 say алё
-#return run say Amogus

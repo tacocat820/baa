@@ -1,3 +1,3 @@
-tag @s add notspawn
+tag @s add what.notspawn
 $$(command)
-say 1
+#say 1

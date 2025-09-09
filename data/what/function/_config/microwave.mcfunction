@@ -66,3 +66,5 @@ data modify storage what:config microwave.'["what.block","obamium"]' set value {
 data modify storage what:config microwave.'["what.block","unfurnace"]' set value {id: "furnace" }
 data modify storage what:config microwave.minecraft:wheat_seeds set value {loot_table: "what:items/cooked_seeds" }
 data modify storage what:config microwave.minecraft:sugar set value {loot_table: "what:items/caramel" }
+
+data modify storage what:config microwave.'["what.block","globe"]' set value {command: "function what:__custom/global_events/warming/start"}

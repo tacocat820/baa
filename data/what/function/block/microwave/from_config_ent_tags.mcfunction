@@ -1,6 +1,8 @@
-$say '$(Tags)'
+#$say '$(Tags)' TAGS
 
 $execute if data storage what:config microwave.'$(Tags)'.loot_table run return run function what:block/microwave/replace_from_loot_table with storage what:config microwave.'$(Tags)'
+#command    v
+$execute if data storage what:config microwave.'$(Tags)'.command run function what:block/unfurnace/command with storage what:config microwave.'$(Tags)'
 
 #$data modify storage what:temp microwave_item merge from storage what:config microwave.'$(Tags)'
 $data modify block ~ ~ ~ Items[0] merge from storage what:config microwave.'$(Tags)'
