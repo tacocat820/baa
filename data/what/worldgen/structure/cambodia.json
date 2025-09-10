@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["meadow","what:rocks"],
+    "biomes": ["meadow","what:rocks","plains","stony_shore","jungle","desert","forest","flower_forest","birch_forest","badlands","what:brazil"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
