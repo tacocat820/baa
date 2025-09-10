@@ -1,6 +1,6 @@
 execute if entity @e[type=#what:evil,distance=0..20] run return run function what:__custom/ost/specific/calm5
 
-execute store result score $music what.temp run random value 0..4
+execute store result score $music what.temp run random value 0..5
 
 execute if score $music what.temp matches 0 run playsound what.ost.greece music @s
 execute if score $music what.temp matches 0 run scoreboard players set @s what.music 5
@@ -16,3 +16,6 @@ execute if score $music what.temp matches 3 run scoreboard players set @s what.m
 
 execute if score $music what.temp matches 4 run playsound what.ost.stal music @s
 execute if score $music what.temp matches 4 run scoreboard players set @s what.music 12
+
+execute if score $music what.temp matches 5 run playsound what.ost.gromadji music @s
+execute if score $music what.temp matches 5 run scoreboard players set @s what.music 5
