@@ -77,4 +77,5 @@ execute if score cmd what.temp matches 32061 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32062 run return run loot spawn ~ ~ ~ loot what:blocks/rcwip
 execute if score cmd what.temp matches 32063 run return run loot spawn ~ ~ ~ loot what:blocks/vlc
 execute if score cmd what.temp matches 32065 run return run loot spawn ~ ~ ~ loot what:blocks/barrel_with_meth
+execute if score cmd what.temp matches 32066 run return run loot spawn ~ ~ ~ loot what:blocks/pan
 

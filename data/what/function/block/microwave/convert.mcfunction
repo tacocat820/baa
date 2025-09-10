@@ -5,8 +5,6 @@
 
 #тут
 tag @s remove what.notspawn
-
-summon item ~ ~0.5 ~ {Item:{count:1,id:"minecraft:tnt"},Tags:[what.new]}
 function what:block/microwave/item_replace
 
 execute if entity @s[tag=what.notspawn] run return run kill @n[tag=what.new]

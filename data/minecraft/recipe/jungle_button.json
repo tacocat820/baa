@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:jungle_planks"
+    ],
+    "result": {
+        "id": "air"
+    }
+}

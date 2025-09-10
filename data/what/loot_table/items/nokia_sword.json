@@ -13,9 +13,11 @@
                   "minecraft:custom_model_data": 32002,
 
                   "minecraft:max_damage": 64,
-                  "attribute_modifiers": {"modifiers":[
-                    {"type":"generic.attack_damage","amount":12,"id":"generic.attack_damage","operation":"add_value"}
-                  ]},
+                  "attribute_modifiers": {
+                    "modifiers": [
+                      {"type":"attack_damage","amount":12,"slot":"mainhand","id":"_","operation":"add_value"}
+                    ]
+                  },
 
                   "minecraft:custom_data": {"what_type": "nokia_sword"},
                   "minecraft:item_name": "{'translate':'what.item.nokia_sword'}"

@@ -62,6 +62,7 @@ data modify storage what:config blocks.t set value {CustomModelData: 32060, bloc
 
 data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1b}
 data modify storage what:config blocks.RCWIP set value {CustomModelData: 32062, block:"tripwire", rotate:2}
-data modify storage what:config blocks.VLC set value {CustomModelData: 32063, block:"tripwire", item_display:"head", customTags:[VLC], falling:1b}
-data modify storage what:config blocks.barrel_with_meth set value {CustomModelData: 32065, block:"mangrove_roots"}
 #rail_corner_without_iron_pickaxe ^^^
+data modify storage what:config blocks.VLC set value {CustomModelData: 32063, block:"tripwire", item_display:"head", falling:1b}
+data modify storage what:config blocks.barrel_with_meth set value {CustomModelData: 32065, block:"mangrove_roots"}
+data modify storage what:config blocks.pan set value {CustomModelData: 32066, block:"tripwire", rotate:2}
