@@ -1,6 +1,7 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["what:rocks"],
+    "biomes": ["what:rocks",
+  "plains","snowy_plains","sunflower_plains","forest","frozen_ocean","frozen_peaks","frozen_river","river","cherry_grove","the_end","stony_shore","stony_peaks","taiga","snowy_taiga","birch_forest","old_growth_birch_forest","badlands","beach","desert"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
