@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"minecraft:custom_model_data": 32066, "minecraft:entity_data": {"Tags": ["what.block", "pan"], "id": "item_frame", "Invisible": true},
+            "attribute_modifiers": [
+              {"type":"attack_speed","amount":-3.5,"operation":"add_value","id":"1757493525929","slot":"mainhand"}, {"type":"attack_damage","amount":12,"operation":"add_value","id":"1757493525930","slot":"mainhand"}
+            ]
+            }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "what.block.pan"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
