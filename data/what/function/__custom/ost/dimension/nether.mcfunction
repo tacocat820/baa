@@ -7,3 +7,5 @@ execute if score $music what.temp matches 0 run scoreboard players set @s what.m
 
 execute if score $music what.temp matches 1 run playsound what.ost.balladofthecat music @s
 execute if score $music what.temp matches 1 run scoreboard players set @s what.music 4
+
+scoreboard players set @s what.musictype 1

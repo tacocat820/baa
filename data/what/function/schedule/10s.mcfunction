@@ -24,3 +24,5 @@ execute as @a at @s run function what:__custom/ost/ost
 
 execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function what:mob/_spawner/smurf_cat
 #execute as @a[scores={what.etc.tax_timer=1..}] run function what:__custom/taxes/timer
+
+execute as @e[tag=what.ent.herobrin] at @s unless entity @a[distance=0..30] run kill @s
