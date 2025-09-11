@@ -135,3 +135,4 @@ data modify storage what:config mobs.polpot set value {name: '[{"translate":"wha
 data modify storage what:config mobs.floppa set value {name: '[{"translate":"what.mob.floppa"}]', base_mob: "wolf", cmd:32044, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.bath set value {name: '[{"translate":"what.mob.bath"}]', base_mob: "wandering_trader", cmd:32045, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.pvz set value {name: '[{"translate":"what.mob.pvz"}]', base_mob: "wandering_trader", cmd:32046, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.herobrin set value {name: '[{"translate":"what.mob.herobrin"}]', base_mob: "wandering_trader", cmd:32048, item_id:"potion", anim_len:24}
