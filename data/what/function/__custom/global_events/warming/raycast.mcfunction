@@ -1,1 +1,0 @@
-function what:_u/raycast/start {end_func: "what:__custom/global_events/warming/replace_block", loop_func:""}
