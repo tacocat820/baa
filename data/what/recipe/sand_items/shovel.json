@@ -8,7 +8,7 @@
     ],
     "key": {
         "#": "minecraft:stick",
-        "X": "minecraft:jungle_button"
+        "X": "minecraft:stone_button"
     },
     "result": {
       "id": "minecraft:golden_shovel",

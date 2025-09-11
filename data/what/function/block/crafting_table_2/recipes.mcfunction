@@ -43,6 +43,8 @@ execute if data storage what:temp crafting{items:{"glass_shards": 9}} run return
 
 execute if data storage what:temp crafting{items: {"minecraft:barrel": 1, meth: 8}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/barrel_with_meth"}
 
+execute if data storage what:temp crafting{items: {rock: 4, air: 5}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot: {type:"minecraft:block",pools:[{rolls:1,entries:[{type:"minecraft:item",name:"minecraft:cobblestone"}]}],random_sequence:"minecraft:blocks/stone"} }
+
 execute if data storage what:temp crafting{items: {"minecraft:bread": 1, "minecraft:light_gray_concrete": 8}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:items/concrete_baguette"}
 
 execute if data storage what:temp crafting{items: {air: 7, '["what.block","RCWIP"]': 1, "minecraft:iron_pickaxe": 1}} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:craft/normal_rail"}

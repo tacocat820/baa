@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "-II"
+  ],
+  "key": {
+      "-": "minecraft:stick",
+      "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components":
+    {
+      "minecraft:custom_model_data": 32066, "minecraft:entity_data": {"Tags": ["what.block", "pan"], "id": "item_frame", "Invisible": true},
+      "attribute_modifiers": [{"type":"attack_speed","amount":-3.5,"operation":"add_value","id":"1757493525929","slot":"mainhand"}, {"type":"attack_damage","amount":12,"operation":"add_value","id":"1757493525930","slot":"mainhand"}],
+      "item_name": "{\"translate\":\"what.block.pan\"}"
+    }
+  }
+}

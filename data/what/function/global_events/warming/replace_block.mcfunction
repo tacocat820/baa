@@ -25,5 +25,6 @@ fill ~ ~ ~ ~ ~ ~ dead_bush replace fern
 #execute if block ~ ~ ~ short_grass run return run setblock ~ ~ ~ air destroy
 execute if block ~ ~ ~ tall_grass run return run setblock ~ ~ ~ air destroy
 execute if block ~ ~ ~ vine run return run setblock ~ ~ ~ air destroy
+execute if block ~ ~ ~ sand run return run function what:block/actions/setblock_force {block:"dust"}
 ##-----------------
 

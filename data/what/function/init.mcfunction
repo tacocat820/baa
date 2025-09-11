@@ -48,6 +48,8 @@ scoreboard objectives add what.dropper_click minecraft.custom:minecraft.inspect_
 scoreboard objectives add what.help trigger
 scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick
 
+scoreboard objectives add what.global_events dummy
+
 #shedules
 function what:schedule/start_all
 

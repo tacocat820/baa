@@ -47,4 +47,4 @@ data modify storage what:config unfurnace.'["what.block","backrooms_carpet"]' se
 data modify storage what:config unfurnace.'["what.block","beans_plant"]' set value {id: "stick" }
 
 data modify storage what:config unfurnace.minecraft:snow_block set value {loot_table: "what:blocks/icicle" }
-data modify storage what:config unfurnace.'["what.block","globe"]' set value {command: "function what:__custom/global_events/warming/end"}
+data modify storage what:config unfurnace.'["what.block","globe"]' set value {command: "function what:global_events/warming/end"}

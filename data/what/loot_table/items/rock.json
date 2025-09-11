@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32007, "minecraft:custom_data": {"what_type": "dust"}, "minecraft:item_name": "{\"translate\":\"what.item.dust\"}"}
+                "components": {"minecraft:custom_model_data": 32023, "minecraft:custom_data": {"what_type": "rock"}, "minecraft:item_name": "{\"translate\":\"what.item.rock\"}"}
               }
             ]
           }
