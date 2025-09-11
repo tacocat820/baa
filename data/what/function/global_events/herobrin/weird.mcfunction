@@ -1,0 +1,1 @@
+execute anchored feet positioned ^ ^ ^-40 run kill @e[type=#what:unevil,distance=0..30]

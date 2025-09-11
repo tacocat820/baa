@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ water facing entity @p eyes run tp @s ^ ^ ^0.15
