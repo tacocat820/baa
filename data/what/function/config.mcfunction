@@ -51,23 +51,23 @@ function what:_config/crafting_table_2_recipes
 # mob spawn
 data modify storage what:config mob_spawner.ow_default.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}
 data modify storage what:config mob_spawner.ow_default.zombie set value {amount: 7, keys: ["gigachicken","mogus","mogus","mogus","dolphin","dolphin","pigeon"]}
-data modify storage what:config mob_spawner.ow_default.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.ow_default.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","cable","puffercopter"]}
 data modify storage what:config mob_spawner.ow_default.pig set value {amount: 5, keys: ["whatever","whatever","whatever","whatever","whatever"]}
 data modify storage what:config mob_spawner.ow_default.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
-data modify storage what:config mob_spawner.ow_default.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
-data modify storage what:config mob_spawner.ow_default.skeleton set value {amount: 5, keys: ["puffercopter","puffercopter","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.ow_default.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","mosscow","mosscow","ender_dragon"]}
+data modify storage what:config mob_spawner.ow_default.skeleton set value {amount: 5, keys: ["mogus","mogus","puffercopter","puffercopter"]}
 data modify storage what:config mob_spawner.nt_default.wither_skeleton set value {amount: 5, keys: ["dolphin","dolphin","dolphin","dolphin","dolphin"]}
 
-data modify storage what:config mob_spawner.nt_default.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
+data modify storage what:config mob_spawner.nt_default.spider set value {amount: 5, keys: ["mosscow","ender_dragon","mosscow","ender_dragon","ender_dragon"]}
 data modify storage what:config mob_spawner.nt_default.skeleton set value {amount: 5, keys: ["gigachicken","pvz","pvz","puffercopter"]}
 data modify storage what:config mob_spawner.nt_default.zombie set value {amount: 5, keys: ["dolphin","mogus","dolphin","dolphin","dolphin"]}
 
 
 ## MEADOW
-data modify storage what:config mob_spawner.ow_meadow.sheep set value {amount: 5, keys: ["whatever","whatever","puffercopter","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.ow_meadow.sheep set value {amount: 5, keys: ["whatever","whatever","puffercopter","puffercopter","cable"]}
 
 data modify storage what:config mob_spawner.ow_meadow.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
-data modify storage what:config mob_spawner.ow_meadow.skeleton set value {amount: 5, keys: ["gigachicken","puffercopter","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.ow_meadow.skeleton set value {amount: 5, keys: ["gigachicken","puffercopter","cable","cable"]}
 data modify storage what:config mob_spawner.ow_meadow.zombie set value {amount: 5, keys: ["dolphin","mogus","dolphin","dolphin","dolphin"]}
 
 
@@ -88,7 +88,7 @@ data modify storage what:config mob_spawner.ow_forest.chicken set value {amount:
 data modify storage what:config mob_spawner.ow_forest.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
 
 data modify storage what:config mob_spawner.ow_forest.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
-data modify storage what:config mob_spawner.ow_forest.skeleton set value {amount: 5, keys: ["gigachicken","pigeon","pigeon","pigeon"]}
+data modify storage what:config mob_spawner.ow_forest.skeleton set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","pigeon"]}
 data modify storage what:config mob_spawner.ow_plains.zombie set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","mogus","mogus"]}
 
 ## ROCKS
