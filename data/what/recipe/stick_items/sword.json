@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/",
+        "/",
+        "/"
+    ],
+    "key": {
+        "/": "minecraft:stick"
+    },
+    "result": {
+        "id": "wooden_sword",
+        "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"stick_sword"},"minecraft:item_name":"{\"translate\":\"what.item.stick_sword\"}", "minecraft:max_damage": 10}
+    }
+}

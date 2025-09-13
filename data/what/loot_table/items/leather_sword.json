@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32006, "minecraft:custom_data":{"what_type":"leather_sword"}}
+              },
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": {
+                  "translate": "what.item.leather_sword"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

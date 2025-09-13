@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_shovel",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32000, "minecraft:custom_data":{"what_type":"stick_shovel"}, "minecraft:max_damage": 10}
+              },
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": {
+                  "translate": "what.item.stick_shovel"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

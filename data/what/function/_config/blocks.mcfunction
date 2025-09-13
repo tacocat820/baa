@@ -1,3 +1,7 @@
+#########
+#параметры блока по custom model data (да, неудобно)
+function what:_config/block_cmd_parameters
+#########
 data modify storage what:config blocks.windows12 set value {CustomModelData: 32000}
 data modify storage what:config blocks.brazil set value {CustomModelData: 32001}
 data modify storage what:config blocks.uranium_ore set value {CustomModelData: 32002, block:"spawner"}
@@ -66,3 +70,4 @@ data modify storage what:config blocks.RCWIP set value {CustomModelData: 32062, 
 data modify storage what:config blocks.VLC set value {CustomModelData: 32063, block:"tripwire", item_display:"head", falling:1b}
 data modify storage what:config blocks.barrel_with_meth set value {CustomModelData: 32065, block:"mangrove_roots"}
 data modify storage what:config blocks.pan set value {CustomModelData: 32066, block:"tripwire", rotate:2}
+data modify storage what:config blocks.netherrack_2 set value {CustomModelData: 32067, block:"mangrove_roots"}

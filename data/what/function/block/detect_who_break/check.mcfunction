@@ -1,0 +1,16 @@
+execute positioned ^ ^ ^ if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^0.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^1 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^1.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^2 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^2.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^3 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^3.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^4 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^4.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^5.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^6 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^6.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^7 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected
+execute positioned ^ ^ ^7.5 if entity @n[type=item_display,tag=what.temp,distance=0..1] run return run function what:block/detect_who_break/if_detected

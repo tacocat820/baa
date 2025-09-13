@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32001, "minecraft:custom_data":{"what_type":"stone_helmet"}, "minecraft:item_name":"{\"translate\":\"what.item.stone_helmet\"}", "dyed_color": 16777215}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

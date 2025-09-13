@@ -68,5 +68,6 @@ execute if data storage what:temp crafting.items."email" unless function what:bl
 execute if data storage what:temp crafting.items."dust" if function what:block/crafting_table_2/recipes/dust run return 1
 
 execute if data storage what:temp shape_craft{1: "nokia", 4: "nokia", 7: "minecraft:stick"} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:items/nokia_sword"}
+execute if data storage what:temp shape_craft{0: '["what.block","bing_chilling"]', 1: '["what.block","bing_chilling"]', 2: '["what.block","bing_chilling"]', 4: '["what.block","bing_chilling"]', 6: "minecraft:red_concrete", 7: "minecraft:red_concrete", 8: "minecraft:red_concrete"} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:blocks/chinese_anvil"}
 #execute if data storage what:temp shape_craft{1: "meth", 3: "meth", 4: "meth", 5: "meth", 7: "minecraft:stick"} run return run function what:block/crafting_table_2/loot_t_craft_2 {loot:"what:items/meth_lollipop"}
 #-----------------------------------------------

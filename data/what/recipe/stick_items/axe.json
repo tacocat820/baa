@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "//",
+        "//",
+        "/ "
+    ],
+    "key": {
+        "/": "minecraft:stick"
+    },
+    "result": {
+        "id": "wooden_axe",
+        "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"stick_axe"},"minecraft:item_name":"{\"translate\":\"what.item.axe\"}", "minecraft:max_damage": 10}
+    }
+}
