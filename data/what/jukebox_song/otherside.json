@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.otherside"
+  },
+  "description": {
+    "translate": "what.jukebox_song.otherside"
+  },
+  "length_in_seconds": 196,
+  "comparator_output": 15
+}

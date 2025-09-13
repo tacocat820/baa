@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": [ "leather" ] }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+        "recipes": [ "what:leather_sword" ]
+    }
+}

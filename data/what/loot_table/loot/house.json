@@ -1,0 +1,196 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 9,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/nokia",
+                "weight": 2,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/pipe_bomb",
+                "weight": 1,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/pen",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:empty",
+                "weight": 8,
+                "quality": 3
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/meth_crystal",
+                "weight": 1,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/email",
+                "weight": 8,
+                "quality": 1,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/uranium",
+                "weight": 1,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/pan",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/microwave",
+                "weight": 4,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/cucumber",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/villager_meat_raw",
+                "weight": 1,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/villager_meat",
+                "weight": 1,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_of_water",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_empty",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_shards",
+                "weight": 8,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_of_oil",
+                "weight": 2,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/iphone",
+                "weight": 2,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/cooked_seeds",
+                "weight": 2,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 76
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/knife",
+                "weight": 8,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/dust",
+                "weight": 8,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 76
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/lego",
+                "weight": 5,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/sacabambaspis",
+                "weight": 1,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/banana",
+                "weight": 8,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/iron_stick",
+                "weight": 8,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/leather_sword",
+                "weight": 8,
+                "quality": 6
+            }
+        ]
+      }
+    ]
+  }
+  

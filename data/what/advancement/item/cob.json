@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": [ "cobblestone" ] }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+        "recipes": [ "what:trash_can" ]
+    }
+}

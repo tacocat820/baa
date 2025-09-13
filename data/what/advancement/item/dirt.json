@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": [ "dirt" ] }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+        "recipes": [ "what:dirt_items/sword", "what:dirt_items/shovel", 
+        "what:dirt_items/pickaxe", "what:dirt_items/hoe", "what:dirt_items/axe" ]
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 9,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/pc",
+                "weight": 5,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/vlc",
+                "weight": 5,
+                "quality": 1,
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": {
+                        "min": 4,
+                        "max": 16
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/pen",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:empty",
+                "weight": 9,
+                "quality": 3
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/pipe_bomb",
+                "weight": 5,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/screwdriver",
+                "weight": 8,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/nokia",
+                "weight": 8,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/nokia_sword",
+                "weight": 2,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_of_water",
+                "weight": 4,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_empty",
+                "weight": 4,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_of_oil",
+                "weight": 1,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/glass_shards",
+                "weight": 4,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/rcwip",
+                "weight": 4,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/villager_meat",
+                "weight": 1,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 1,
+                    "max": 2
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:blocks/globe",
+                "weight": 3,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 1,
+                    "max": 4
+                    }
+                }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  

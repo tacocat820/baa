@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": [ "dragon_egg" ] }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+        "recipes": [ "what:dragon_cake" ]
+    }
+}

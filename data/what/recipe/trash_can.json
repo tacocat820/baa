@@ -7,7 +7,7 @@
         "111"
     ],
     "key": {
-        "1":  "minecraft:stone"
+        "1":  "minecraft:cobblestone"
     },
     "result": {
       "id": "minecraft:item_frame",

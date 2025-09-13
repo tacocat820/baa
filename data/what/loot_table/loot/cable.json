@@ -14,6 +14,12 @@
             "name": "minecraft:beef",
             "weight": 3,
             "quality": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:blocks/microwave",
+            "weight": 3,
+            "quality": 4
           }
         ]
       }

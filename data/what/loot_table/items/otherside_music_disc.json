@@ -9,7 +9,9 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32023, "minecraft:custom_data": {"what_type": "rock"}, "minecraft:food" : {"nutrition": 1,"saturation": 1,"can_always_eat": true}, "minecraft:item_name": "{\"translate\":\"what.item.rock\"}"}
+                "components": {"minecraft:custom_model_data": 32025, "minecraft:custom_data": {"what_type": "music_disc_otherside"}, "minecraft:item_name": "{'translate':'what.item.music_disc_otherside'}",
+                "jukebox_playable":{"song":"what:otherside"}, "rarity": "rare"
+              }
               }
             ]
           }

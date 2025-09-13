@@ -15,6 +15,7 @@
     "result": {
       "id": "minecraft:cake",
       "count": 1
-    }
+    },
+    "show_notification": true
   }
   

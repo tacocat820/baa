@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "/",
+      "/"
+  ],
+  "key": {
+      "/": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {"minecraft:custom_model_data": 32006, "minecraft:custom_data":{"what_type":"leather_sword"}}
+  }
+}

@@ -2,16 +2,18 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-      "##",
-      "##"
+      "#",
+      "A",
+      "A"
     ],
     "key": {
-      "#": "#minecraft:wool"
+      "#": "netherite_ingot",
+      "a": "stick"
     },
     "result": {
-      "id": "minecraft:crafting_table",
+      "id": "minecraft:wooden_shovel",
       "count": 1
     },
-    "show_notification": true
+    "show_notification": false
   }
   
