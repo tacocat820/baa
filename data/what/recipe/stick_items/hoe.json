@@ -10,6 +10,6 @@
     },
     "result": {
         "id": "wooden_hoe",
-        "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"stick_hoe"},"minecraft:item_name":"{\"translate\":\"what.item.hoe\"}", "minecraft:max_damage": 10}
+        "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"stick_hoe"},"minecraft:item_name":"{\"translate\":\"what.item.stick_hoe\"}", "minecraft:max_damage": 10}
     }
 }

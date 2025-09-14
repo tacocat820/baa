@@ -10,7 +10,7 @@
     },
     "result": {
         "id": "wooden_pickaxe",
-        "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"stick_pickaxe"},"minecraft:item_name":"{\"translate\":\"what.item.pickaxe\"}", "minecraft:max_damage": 10}
+        "components": {"minecraft:custom_model_data":32000,"minecraft:custom_data":{"what_type":"stick_pickaxe"},"minecraft:item_name":"{\"translate\":\"what.item.stick_pickaxe\"}", "minecraft:max_damage": 10}
     },
     "show_notification": true
 }

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "#",
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": "iron_ingot"
+    },
+    "result": {
+      "id": "minecraft:golden_sword",
+
+      "components": {"minecraft:custom_model_data": 32007, "minecraft:custom_data":{"what_type":"iron_drord", "what_class": "drord"}, "minecraft:item_name":"{\"translate\":\"what.item.iron_drord\"}",
+      "attribute_modifiers": [{"type":"attack_damage","amount":-6,"id":"drord","operation":"add_value"}], "max_damage": 250},
+      
+      "count": 1
+    },
+    "show_notification": false
+  }
+  

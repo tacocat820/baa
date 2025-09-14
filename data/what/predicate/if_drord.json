@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {},
+      "slots": {
+        "weapon.mainhand": {
+          "items": "minecraft:golden_sword",
+          "components": {
+            "minecraft:custom_data": {"what_class":"drord"}
+          }
+        }
+      }
+    }
+  }

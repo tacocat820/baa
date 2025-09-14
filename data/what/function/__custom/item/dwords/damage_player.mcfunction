@@ -1,0 +1,1 @@
+$damage @s $(attack_damage) player_attack by @s

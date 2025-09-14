@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32005, "minecraft:custom_data":{"what_type":"wooden_drord", "what_class": "drord"}, "minecraft:item_name":"{\"translate\":\"what.item.wooden_drord\"}",
+                "attribute_modifiers": [{"type":"attack_damage","amount":-4,"id":"drord","operation":"add_value"}], "max_damage": 59}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

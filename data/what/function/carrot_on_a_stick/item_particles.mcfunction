@@ -1,0 +1,1 @@
+$particle item{item:{id:"$(id)",components:{"custom_model_data":$(CustomModelData)}}} ~ ~ ~ 0 0 0 0.1 55 normal

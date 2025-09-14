@@ -1,5 +1,5 @@
 #summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.mogus","tick1s"],HandItems:[{id:"air",count:1},{id:"air",count:1}],DeathLootTable:"empty"}
-summon cow ~ ~ ~ {Tags:["what.temp_new","what.ent.mogus","tick1s"],DeathLootTable:"what:items/shapka"}
+summon cow ~ ~ ~ {Tags:["what.temp_new","what.ent.mogus","tick1s"],DeathLootTable:"what:loot/mosscow"}
 attribute @n[tag=what.temp_new] minecraft:scale base set 1
 effect give @n[tag=what.temp_new] resistance infinite 1 true
 attribute @n[tag=what.temp_new] movement_speed base set 0.3

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "#",
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": "netherite_scrap"
+    },
+    "result": {
+      "id": "minecraft:golden_sword",
+
+      "components": {"minecraft:custom_model_data": 32010, "minecraft:custom_data":{"what_type":"netherite_drord", "what_class": "drord"}, "minecraft:item_name":"{\"translate\":\"what.item.netherite_drord\"}",
+      "attribute_modifiers": [{"type":"attack_damage","amount":-8,"id":"drord","operation":"add_value"}], "max_damage": 2031},
+      
+      "count": 1
+    },
+    "show_notification": false
+  }
+  

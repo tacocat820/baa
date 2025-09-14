@@ -1,4 +1,5 @@
 execute if entity @s[gamemode=creative] run return 0
+execute if entity @s[gamemode=spectator] run return 0
 $execute if items entity @s $(slot) *[minecraft:unbreakable={}] run return 0
 
 #это тут прочность
