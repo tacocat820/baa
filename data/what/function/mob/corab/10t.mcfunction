@@ -1,0 +1,1 @@
+execute unless score @s what.ent.action matches 0.. run function what:mob/corab/steak

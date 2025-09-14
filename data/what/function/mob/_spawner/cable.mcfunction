@@ -1,4 +1,4 @@
-summon husk ~ ~ ~ {Tags:["what.temp_new","what.ent.cable"],PersistenceRequired:true}
+summon husk ~ ~ ~ {Tags:["what.temp_new","what.ent.cable"]}
 effect give @n[tag=what.temp_new] invisibility infinite 0 true
 effect give @n[tag=what.temp_new] jump_boost infinite 2 true
 effect give @n[tag=what.temp_new] speed infinite 3 true

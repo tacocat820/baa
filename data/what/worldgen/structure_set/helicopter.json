@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:helicopter",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 12345593,
+    "spacing": 6,
+    "separation": 2
+  }
+}

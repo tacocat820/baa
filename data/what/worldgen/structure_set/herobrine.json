@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:herobrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7362773,
+    "spacing": 6,
+    "separation": 2
+  }
+}

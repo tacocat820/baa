@@ -31,18 +31,6 @@
             }
           },
           {
-            "biome": "minecraft:ocean",
-            "parameters": {
-              "temperature": 0,
-              "humidity": 0,
-              "continentalness": -0.3,
-              "erosion": 0,
-              "weirdness": 0,
-              "depth": 0,
-              "offset": 0
-            }
-          },
-          {
             "biome": "what:brazil",
             "parameters": {
               "temperature": 0,

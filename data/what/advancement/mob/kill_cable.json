@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:husk",
+            "nbt": "{Tags:[what.ent.cable]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "what:__custom/corab/killed_cable"
+    }
+  }
+  

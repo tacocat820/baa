@@ -14,3 +14,5 @@ attribute @s minecraft:movement_speed base set 0.1
 tag @s remove what.ai
 tag @s remove what.ent.whatever
 tag @s remove tick1s
+
+summon marker ~ ~ ~ {Tags:["what.death_marker"]}

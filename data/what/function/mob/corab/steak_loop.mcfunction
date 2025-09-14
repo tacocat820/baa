@@ -1,0 +1,1 @@
+particle item{item:"cooked_beef"} ~ ~ ~ 0 0 0 0.1 1 normal @a 

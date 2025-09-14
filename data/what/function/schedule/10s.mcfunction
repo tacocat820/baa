@@ -17,8 +17,9 @@ execute as @e[type=#what:watery] at @s if predicate what:thunder run function wh
 execute as @e[type=villager,tag=!what.checked] at @s run function what:__custom/trade_rebalance
 execute as @e[type=wandering_trader,tag=!what.checked] at @s run function what:__custom/trade_rebalance_w
 
-execute as @e[type=item] at @s unless entity @a[distance=0..30] run kill @s
-# item despawning +
+execute as @e[type=item] at @s unless entity @a[distance=0..30] unless entity @e[tag=what.death_marker,distance=0..30] run kill @s
+execute as @e[tag=what.death_marker] if entity @a[distance=0..20] run kill @s
+# item despawning ++
 
 execute as @a at @s run function what:__custom/ost/ost
 

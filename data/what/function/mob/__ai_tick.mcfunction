@@ -15,3 +15,4 @@ execute if entity @s[tag=what.ent.irs_agent_posessor] run function what:mob/irs_
 execute if entity @s[tag=what.ent.ender_dragon] run function what:mob/ender_dragon/tick
 execute if entity @s[tag=what.ent.psycho] if score @s what.ent.action matches 0..20 run function what:mob/psycho/eating
 execute if entity @s[tag=what.ent.herobrin] run function what:mob/herobrin/tick
+execute if entity @s[tag=what.ent.corab] run function what:mob/corab/tick

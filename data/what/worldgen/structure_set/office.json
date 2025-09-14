@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:office",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10556388189,
+    "spacing": 6,
+    "separation": 2
+  }
+}

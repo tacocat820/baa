@@ -18,4 +18,5 @@ execute if entity @s[tag=what.ent.polpot] run function what:mob/polpot/10t
 execute if entity @s[tag=what.ent.bath] run function what:mob/bath/10t
 execute if entity @s[tag=what.ent.steve_jobs] run function what:mob/steve_jobs/10t
 execute if entity @s[tag=what.ent.pvz] run function what:mob/pvz/10t
+execute if entity @s[tag=what.ent.corab] run function what:mob/corab/10t
 execute if entity @s[tag=what.ent.psycho] unless score @s what.ent.action matches 0..20 at @s run function what:mob/psycho/10t

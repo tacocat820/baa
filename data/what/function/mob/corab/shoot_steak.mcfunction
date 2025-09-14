@@ -1,0 +1,6 @@
+tp @s ~ ~ ~ facing entity @p eyes
+execute facing entity @p eyes run function what:_u/raycast_slow/start {speed:1, max_distance:200, loop_func:"what:mob/corab/steak_loop", end_func:"what:mob/corab/steak_end"}
+
+
+execute facing entity @p eyes run tp @s ~ ~ ~ facing ^ ^ ^-5
+playsound entity.cow.ambient hostile @a ~ ~ ~ 3
