@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "hmm": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:item_frame",
+              "components": {
+                "minecraft:custom_model_data": 32066
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "what:__custom/frying_pan_hit_sound"
+  }
+}

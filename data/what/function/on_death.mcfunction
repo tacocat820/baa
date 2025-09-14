@@ -14,3 +14,4 @@ attribute @s minecraft:movement_speed base set 0.1
 tag @s remove what.ai
 tag @s remove what.ent.whatever
 tag @s remove tick1s
+tag @s remove what.pumpkin_gun.active

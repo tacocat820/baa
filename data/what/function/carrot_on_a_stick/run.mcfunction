@@ -23,5 +23,6 @@ execute if data storage what:temp {what_type:fire_extinguisher} run return run f
 execute if data storage what:temp {what_type:glass_of_oil} run return run function what:carrot_on_a_stick/glass/oil
 execute if data storage what:temp {what_type:melon_gun} anchored eyes run return run function what:carrot_on_a_stick/melon_gun/run
 execute if data storage what:temp {what_type:wave_bucket} anchored eyes run return run function what:carrot_on_a_stick/wave_bucket/place
+execute if data storage what:temp {what_type:pumpkin_gun} anchored eyes run return run function what:carrot_on_a_stick/pumpkin_gun/run
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}
 #anchored eyes run summon creeper ^ ^ ^.1 {Fuse:0,ExplosionRadius:-1,ignited:1,Silent:1b}
