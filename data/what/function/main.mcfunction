@@ -48,6 +48,10 @@ execute as @a[scores={what.etc.wob=1..}] at @s run function what:__custom/wob/ru
 execute as @a[scores={what.etc.eat_bee=1..}] at @s run function what:__custom/eat_bee/eating
 execute as @a at @s anchored eyes positioned ^ ^ ^0.3 if block ~ ~ ~ water run function what:__custom/drink_water
 
+#....
+execute as @a[tag=what.pumpkin_gun.active] at @s run function what:carrot_on_a_stick/pumpkin_gun/pl_tp_entity
+execute as @a at @s if data entity @s SelectedItem.components."minecraft:custom_data"{what_type:pumpkin_gun} run function what:carrot_on_a_stick/pumpkin_gun/_light_markers
+
 #scoreboard players reset @s what.dropper_click
 
 #execute as @e[type=creeper] run say 1

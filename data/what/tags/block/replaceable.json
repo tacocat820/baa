@@ -4,6 +4,8 @@
 		"minecraft:cave_air",
 		"minecraft:void_air",
 		"minecraft:piston_head",
-		"minecraft:water"
+		"minecraft:water",
+
+		"minecraft:waxed_weathered_cut_copper_stairs"
 		]
 }

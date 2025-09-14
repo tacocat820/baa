@@ -10,10 +10,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data":32005,
+                "minecraft:custom_model_data":32014,
                 "minecraft:max_damage":64,
-                "minecraft:custom_data":{"what_type":"melon_gun"},
-                "minecraft:item_name":"{\"translate\":\"what.item.melon_gun\"}"
+                "minecraft:custom_data":{"what_type":"pumpkin_gun"},
+                "minecraft:item_name":"{\"translate\":\"what.item.pumpkin_gun\"}"
               }
             }
           ]

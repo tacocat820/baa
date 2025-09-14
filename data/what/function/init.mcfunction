@@ -11,6 +11,8 @@ scoreboard objectives add what.etc.eat_bee dummy
 scoreboard objectives add what.etc.tax_timer dummy
 scoreboard objectives add what.etc.beeraid_countdown dummy
 scoreboard objectives add what.etc.piecesleft dummy
+scoreboard objectives add what.etc.pumpkin_gun dummy
+
 scoreboard objectives add what.etc.lasttetrispos dummy
 scoreboard objectives add what.shift minecraft.custom:minecraft.sneak_time
 scoreboard objectives add what.playerid dummy

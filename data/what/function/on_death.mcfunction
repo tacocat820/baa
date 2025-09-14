@@ -16,3 +16,4 @@ tag @s remove what.ent.whatever
 tag @s remove tick1s
 
 summon marker ~ ~ ~ {Tags:["what.death_marker"]}
+tag @s remove what.pumpkin_gun.active
