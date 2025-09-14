@@ -7,34 +7,10 @@
         "type": "minecraft:multi_noise",
         "biomes": [
           {
-            "biome": "what:brazil_bambo",
+            "biome": "what:ocean",
             "parameters": {
               "temperature": 0,
               "humidity": -0.6,
-              "continentalness": 0.2,
-              "erosion": 0,
-              "weirdness": 0,
-              "depth": 0,
-              "offset": 0
-            }
-          },
-          {
-            "biome": "what:brazil_saul",
-            "parameters": {
-              "temperature": 0,
-              "humidity": 0.2,
-              "continentalness": 0.2,
-              "erosion": 0,
-              "weirdness": 0.9,
-              "depth": 0,
-              "offset": 0
-            }
-          },
-          {
-            "biome": "what:brazil",
-            "parameters": {
-              "temperature": 0,
-              "humidity": 0.6,
               "continentalness": 0.2,
               "erosion": 0,
               "weirdness": 0,

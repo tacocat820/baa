@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["what:brazil", "what:brazil_bambo", "what:brazil_saul"],
+    "biomes": ["what:brazil", "what:brazil_bambo", "what:brazil_saul", "what:ocean"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",

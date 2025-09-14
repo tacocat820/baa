@@ -14,6 +14,7 @@ execute as @e[type=zombified_piglin,tag=!what.checked] run function what:mob/_di
 
 execute at @a as @e[distance=0..10,tag=what.fluid,scores={what.fluid_spread=1..}] at @s run function what:block/fluids/spread
 
+execute as @e[tag=what.spawner_spawner] at @s run function what:mob/_disp/mob/spawner_spawner with entity @s data
 execute as @e[tag=what.spawner] at @s run function what:mob/_disp/mob/spawner with entity @s data
 
 execute as @a[scores={what.etc.beeraid_countdown=1..}] at @s run function what:mob/beeraid/countdown

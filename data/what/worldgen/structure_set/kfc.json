@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:kfc",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3246312,
+    "spacing": 6,
+    "separation": 2
+  }
+}

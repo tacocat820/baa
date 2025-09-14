@@ -61,7 +61,7 @@ data modify storage what:config mob_spawner.nt_default.wither_skeleton set value
 data modify storage what:config mob_spawner.nt_default.spider set value {amount: 5, keys: ["mosscow","ender_dragon","mosscow","ender_dragon","ender_dragon"]}
 data modify storage what:config mob_spawner.nt_default.skeleton set value {amount: 5, keys: ["gigachicken","pvz","pvz","puffercopter"]}
 data modify storage what:config mob_spawner.nt_default.zombie set value {amount: 5, keys: ["dolphin","mogus","dolphin","dolphin","dolphin"]}
-data modify storage what:config mob_spawner.nt_default.piglin set value {amount: 5, keys: ["dolphin","dolphin","dolphin","pvz","pvz"]}
+data modify storage what:config mob_spawner.nt_default.piglin set value {amount: 5, keys: ["lefishe","dolphin","dolphin","pvz","pvz"]}
 data modify storage what:config mob_spawner.nt_default.zombified_piglin set value {amount: 5, keys: ["lefishe","lefishe","lefishe","psycho","lefishe"]}
 
 
