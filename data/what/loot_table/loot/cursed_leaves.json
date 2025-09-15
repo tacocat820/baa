@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:blocks/cursed_leaves",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:blocks/cursed_tree_sapling",
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }

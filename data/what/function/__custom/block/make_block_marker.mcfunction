@@ -1,7 +1,11 @@
+#function what:block/run
 execute if entity @s[tag=what.temp] run return 0
 
 tag @s remove what.block
 data modify storage what:temp type set from entity @s Tags[0]
+
+function what:__custom/block/init with storage what:temp
+execute unless data storage what:temp {spawn:1b} run return run function what:block/run
 
 execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:[what.block, what.new]}
 data modify entity @n[distance=0..0.5,tag=what.new] Rotation set from entity @s Rotation

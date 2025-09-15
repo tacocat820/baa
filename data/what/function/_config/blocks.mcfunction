@@ -19,12 +19,12 @@ data modify storage what:config blocks.crafting_table_2 set value {CustomModelDa
 data modify storage what:config blocks.obama set value {CustomModelData: 32013, block:"copper_grate"}
 data modify storage what:config blocks.trash_can set value {CustomModelData: 32014, customTags:[trash_can]}
 data modify storage what:config blocks.demon_core set value {CustomModelData: 32015, customTags:[demon_core], inter:1b, rotate:2}
-data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"structure_void"}
+data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.lego set value {CustomModelData: 32021, rotate:2, block:"tripwire", customTags:[lego],}
 data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1b}
-data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid]}
+data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid], pause:1b}
 data modify storage what:config blocks.bing_chilling set value {CustomModelData: 32027, block:"copper_grate"}
-data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, block:"structure_void", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
+data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
 data modify storage what:config blocks.dust set value {CustomModelData: 32029, block:"azalea_leaves", falling:1b, customTags:[dust]}
 data modify storage what:config blocks.solid_dust set value {CustomModelData: 32030, block:"mangrove_roots"}
@@ -39,7 +39,7 @@ data modify storage what:config blocks.diamond_ore_2 set value {CustomModelData:
 data modify storage what:config blocks.diamond_block_2 set value {CustomModelData: 32036, block:"azalea_leaves"}
 data modify storage what:config blocks.redstone_ore_2 set value {CustomModelData: 32037, block:"azalea_leaves"}
 data modify storage what:config blocks.redstone_block_2 set value {CustomModelData: 32038, block:"azalea_leaves"}
-data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"structure_void",rotate:1b, bright:1b}
+data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"tripwire",rotate:1b, bright:1b}
 data modify storage what:config blocks.gold_ore_2 set value {CustomModelData: 32040, block:"azalea_leaves"}
 data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 32041, block:"azalea_leaves"}
 data modify storage what:config blocks.uranium_block set value {CustomModelData: 32042, block:"copper_grate", bright:1b}
@@ -75,3 +75,5 @@ data modify storage what:config blocks.netherrack_2 set value {CustomModelData: 
 data modify storage what:config blocks.cursed_wood set value {CustomModelData: 32068, block:"copper_grate"}
 data modify storage what:config blocks.cursed_planks set value {CustomModelData: 32069, block:"copper_grate"}
 data modify storage what:config blocks.cursed_leaves set value {CustomModelData: 32070, block:"copper_grate"}
+
+data modify storage what:config blocks.cursed_tree_sapling set value {CustomModelData: 32071, block:"tripwire", plant:1b, customTags:[plant, cursed_tree_plant]}

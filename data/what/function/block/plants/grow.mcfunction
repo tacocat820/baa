@@ -1,4 +1,5 @@
 execute if entity @s[tag=chair_plant] unless block ~ ~-1 ~ farmland run function what:block/plants/die
+execute if entity @s[tag=cursed_tree_plant] unless block ~ ~-1 ~ #sniffer_diggable_block run function what:block/plants/die
 execute if entity @s[tag=beans_plant] unless block ^ ^ ^-1 minecraft:jungle_door run function what:block/plants/die
 #say <- убери эту команду потом
 
