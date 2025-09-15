@@ -77,3 +77,4 @@ data modify storage what:config blocks.cursed_planks set value {CustomModelData:
 data modify storage what:config blocks.cursed_leaves set value {CustomModelData: 32070, block:"copper_grate"}
 
 data modify storage what:config blocks.cursed_tree_sapling set value {CustomModelData: 32071, block:"tripwire", plant:1b, customTags:[plant, cursed_tree_plant]}
+data modify storage what:config blocks.nether_bed set value {CustomModelData: 32072, inter:1b, block:"copper_grate", customTags:[what.nether_bed]}
