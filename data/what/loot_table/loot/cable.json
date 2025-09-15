@@ -6,13 +6,13 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:cod",
-            "weight": 3,
+            "weight": 7,
             "quality": 4
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:beef",
-            "weight": 3,
+            "weight": 6,
             "quality": 4
           },
           {

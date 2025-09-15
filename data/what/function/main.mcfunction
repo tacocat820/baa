@@ -1,10 +1,13 @@
 #give @a tnt[minecraft:custom_model_data=32000,minecraft:enchantment_glint_override=true,minecraft:custom_name="mogus"]
 
 #кастомынй блок
-execute at @a as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
+execute at @a[tag=!pause] as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
 execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
 
 execute at @e[type=marker,tag=what.block_loader] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
+
+execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=item_frame] at @s run function what:__custom/block/make_block_marker
+execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=marker] at @s if block ~ ~ ~ #air run kill @s
 
 #execute at @e[type=creeper] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s if block ~ ~ ~ #what:replaceable run return run function what:block/break
 
@@ -50,7 +53,7 @@ execute as @a at @s anchored eyes positioned ^ ^ ^0.3 if block ~ ~ ~ water run f
 
 #....
 execute as @a[tag=what.pumpkin_gun.active] at @s run function what:carrot_on_a_stick/pumpkin_gun/pl_tp_entity
-execute as @a at @s if data entity @s SelectedItem.components."minecraft:custom_data"{what_type:pumpkin_gun} run function what:carrot_on_a_stick/pumpkin_gun/_light_markers
+execute as @a if items entity @a hotbar.* minecraft:debug_stick at @s run function what:__custom/_light_markers
 
 #scoreboard players reset @s what.dropper_click
 

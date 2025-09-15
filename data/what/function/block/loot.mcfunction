@@ -80,3 +80,9 @@ execute if score cmd what.temp matches 32065 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32066 run return run loot spawn ~ ~ ~ loot what:blocks/pan
 execute if score cmd what.temp matches 32067 run return run loot spawn ~ ~ ~ loot what:blocks/netherrack_2
 
+execute if score cmd what.temp matches 32068 run return run loot spawn ~ ~ ~ loot what:blocks/cursed_wood
+execute if score cmd what.temp matches 32069 run return run loot spawn ~ ~ ~ loot what:blocks/cursed_planks
+execute if score cmd what.temp matches 32070 run return run loot spawn ~ ~ ~ loot what:blocks/cursed_leaves
+
+#в кои-то веки я сделал нефть добываемой 🦅🦅
+execute if score cmd what.temp matches 32026 if score @s what.fluid_spread matches 2.. run return run loot spawn ~ ~ ~ loot what:blocks/american_oil

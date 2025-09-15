@@ -1,0 +1,1 @@
+execute as @e[distance=0..30, type=marker] at @s run function what:__custom/marker_light

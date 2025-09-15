@@ -1,1 +1,0 @@
-execute at @e[distance=0..30, type=marker] run particle dust{color:[0.17,0.02,1.0],scale:1} ~ ~ ~ 0 0 0 0 1
