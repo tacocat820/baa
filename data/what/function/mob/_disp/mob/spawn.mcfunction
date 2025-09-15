@@ -23,4 +23,4 @@ execute if data storage what:temp {bossbar:1b} run function what:mob/_disp/bossb
 
 scoreboard players operation @n[tag=what.new] what.id = @s what.id
 
-tag @e remove what.new
+tag @e[distance=0..15] remove what.new

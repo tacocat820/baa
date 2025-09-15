@@ -1,0 +1,1 @@
+execute if score cmd what.temp matches 32054 run function what:mob/mimic/on_death

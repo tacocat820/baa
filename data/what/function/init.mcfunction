@@ -46,6 +46,7 @@ scoreboard objectives add what.inter dummy
 
 scoreboard objectives add what.death deathCount
 scoreboard objectives add what.dropper_click minecraft.custom:minecraft.inspect_dropper
+scoreboard objectives add what.chest_open minecraft.custom:minecraft.open_chest
 
 scoreboard objectives add what.help trigger
 scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick

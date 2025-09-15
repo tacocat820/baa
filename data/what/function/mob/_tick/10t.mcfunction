@@ -20,3 +20,4 @@ execute if entity @s[tag=what.ent.steve_jobs] run function what:mob/steve_jobs/1
 execute if entity @s[tag=what.ent.pvz] run function what:mob/pvz/10t
 execute if entity @s[tag=what.ent.corab] run function what:mob/corab/10t
 execute if entity @s[tag=what.ent.psycho] unless score @s what.ent.action matches 0..20 at @s run function what:mob/psycho/10t
+execute if entity @s[tag=what.ent.mimic] run function what:mob/mimic/10t

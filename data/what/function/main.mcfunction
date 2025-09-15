@@ -22,6 +22,7 @@ execute as @e[tag=what.ai] at @s run function what:mob/__ai_tick
 # dropper
 
 execute as @a[scores={what.dropper_click=1..}] at @s run function what:block/crafting_table_2/dropper_clicked
+
 execute as @a[scores={what.help=1..}] at @s run function what:help
 execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/run
 
@@ -51,9 +52,13 @@ execute as @a[scores={what.etc.wob=1..}] at @s run function what:__custom/wob/ru
 execute as @a[scores={what.etc.eat_bee=1..}] at @s run function what:__custom/eat_bee/eating
 execute as @a at @s anchored eyes positioned ^ ^ ^0.3 if block ~ ~ ~ water run function what:__custom/drink_water
 
+# open_chest scoreboard
+execute as @a[scores={what.chest_open=1..}] at @s run function what:__custom/open_chest/check
+
 #....
 execute as @a[tag=what.pumpkin_gun.active] at @s run function what:carrot_on_a_stick/pumpkin_gun/pl_tp_entity
 execute as @a if items entity @a hotbar.* minecraft:debug_stick at @s run function what:__custom/_light_markers
+
 
 #scoreboard players reset @s what.dropper_click
 
