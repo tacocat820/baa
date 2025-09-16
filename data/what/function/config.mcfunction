@@ -61,8 +61,8 @@ data modify storage what:config mob_spawner.ow_default.skeleton set value {amoun
 data modify storage what:config mob_spawner.nt_default.wither_skeleton set value {amount: 5, keys: ["pvz","lefishe","lefishe","lefishe","lefishe"]}
 data modify storage what:config mob_spawner.nt_default.spider set value {amount: 5, keys: ["mosscow","ender_dragon","mosscow","ender_dragon","ender_dragon"]}
 data modify storage what:config mob_spawner.nt_default.skeleton set value {amount: 5, keys: ["gigachicken","pvz","pvz","puffercopter"]}
-data modify storage what:config mob_spawner.nt_default.zombie set value {amount: 5, keys: ["dolphin","mogus","dolphin","dolphin","dolphin"]}
-data modify storage what:config mob_spawner.nt_default.piglin set value {amount: 5, keys: ["lefishe","dolphin","dolphin","pvz","pvz"]}
+data modify storage what:config mob_spawner.nt_default.zombie set value {amount: 5, keys: ["cow_wheel","mogus","cow_wheel","cow_wheel","cow_wheel"]}
+data modify storage what:config mob_spawner.nt_default.piglin set value {amount: 5, keys: ["lefishe","cow_wheel","cow_wheel","pvz","pvz"]}
 data modify storage what:config mob_spawner.nt_default.zombified_piglin set value {amount: 5, keys: ["lefishe","lefishe","lefishe","psycho","lefishe"]}
 
 
@@ -141,6 +141,7 @@ data modify storage what:config mobs.pvz set value {name: '[{"translate":"what.m
 data modify storage what:config mobs.herobrin set value {name: '[{"translate":"what.mob.herobrin"}]', base_mob: "husk", cmd:32048, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.corab set value {name: '[{"translate":"what.mob.corab"}]', base_mob: "husk", cmd:32015, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.mimic set value {name: '[{"translate":"what.mob.mimic"}]', base_mob: "vindicator", cmd:32054, item_id:"potion", anim_len:48, ignore_anim:1b}
+data modify storage what:config mobs.cow_wheel set value {name: '[{"translate":"what.mob.cow_wheel"}]', base_mob: "husk", cmd:32055, item_id:"potion", anim_len:24, ignore_anim:1b}
 
 #damage
 function what:_config/damage

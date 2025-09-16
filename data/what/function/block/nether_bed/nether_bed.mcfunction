@@ -1,3 +1,5 @@
+execute unless dimension minecraft:the_nether as @p run kill @s
+
 execute as @p run spawnpoint @s ~ ~ ~
 setblock ~ ~ ~ air
 setblock ~ ~-1 ~ waxed_oxidized_chiseled_copper

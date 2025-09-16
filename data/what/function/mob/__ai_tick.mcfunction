@@ -16,3 +16,4 @@ execute if entity @s[tag=what.ent.ender_dragon] run function what:mob/ender_drag
 execute if entity @s[tag=what.ent.psycho] if score @s what.ent.action matches 0..20 run function what:mob/psycho/eating
 execute if entity @s[tag=what.ent.herobrin] run function what:mob/herobrin/tick
 execute if entity @s[tag=what.ent.corab] run function what:mob/corab/tick
+execute if entity @s[tag=what.ent.cow_wheel] run function what:mob/cow_wheel/tick
