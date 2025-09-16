@@ -1,3 +1,4 @@
+data modify storage what:temp Items set value []
 data modify storage what:temp Items set from block ~ ~ ~ Items
 
 setblock ~ ~ ~ air

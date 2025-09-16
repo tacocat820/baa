@@ -140,7 +140,7 @@ data modify storage what:config mobs.bath set value {name: '[{"translate":"what.
 data modify storage what:config mobs.pvz set value {name: '[{"translate":"what.mob.pvz"}]', base_mob: "wandering_trader", cmd:32046, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.herobrin set value {name: '[{"translate":"what.mob.herobrin"}]', base_mob: "husk", cmd:32048, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.corab set value {name: '[{"translate":"what.mob.corab"}]', base_mob: "husk", cmd:32015, item_id:"potion", anim_len:24}
-data modify storage what:config mobs.mimic set value {name: '[{"translate":"what.mob.mimic"}]', base_mob: "vindicator", cmd:32054, item_id:"potion", anim_len:48}
+data modify storage what:config mobs.mimic set value {name: '[{"translate":"what.mob.mimic"}]', base_mob: "vindicator", cmd:32054, item_id:"potion", anim_len:48, ignore_anim:1b}
 
 #damage
 function what:_config/damage

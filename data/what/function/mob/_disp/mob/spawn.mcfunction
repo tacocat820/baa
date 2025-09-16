@@ -23,4 +23,6 @@ execute if data storage what:temp {bossbar:1b} run function what:mob/_disp/bossb
 
 scoreboard players operation @n[tag=what.new] what.id = @s what.id
 
+execute if data storage what:temp {ignore_anim: 1b} run tag @n[tag=what.new] add ignore_anim
+
 tag @e[distance=0..15] remove what.new

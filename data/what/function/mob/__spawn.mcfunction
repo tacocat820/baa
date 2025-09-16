@@ -11,5 +11,7 @@ $data modify storage what:temp inter set from storage what:config mobs.$(type).i
 $data modify storage what:temp inter_id set from storage what:config mobs.$(type).inter.id
 $data modify storage what:temp inter_width set from storage what:config mobs.$(type).inter.width
 $data modify storage what:temp inter_height set from storage what:config mobs.$(type).inter.height
+data modify storage what:temp ignore_anim set value 0b
+$data modify storage what:temp ignore_anim set from storage what:config mobs.$(type).ignore_anim
 
 function what:mob/_disp/mob/spawn with storage what:temp
