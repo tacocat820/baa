@@ -1,6 +1,18 @@
 {
-    "condition": "minecraft:match_tool",
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
     "predicate": {
-        "items": "#minecraft:pickaxes"
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:stone_pickaxe",
+            "minecraft:wooden_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:netherite_pickaxe"
+          ]
+        }
+      }
     }
-}
+  }

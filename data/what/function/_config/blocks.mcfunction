@@ -1,5 +1,6 @@
 #########
 #параметры блока по custom model data (да, неудобно)
+data remove storage what:config blocks_cmd_params
 function what:_config/block_cmd_parameters
 #########
 data modify storage what:config blocks.windows12 set value {CustomModelData: 32000}

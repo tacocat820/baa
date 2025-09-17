@@ -1,7 +1,7 @@
-summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.mimic","tick1s","nonstop_anim"], DeathLootTable:"empty"}
+summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.mimic","tick1s","nonstop_anim"], DeathLootTable:"empty", attributes:[{id:"step_height",base:3.6f}]}
 effect give @n[tag=what.temp_new] invisibility infinite 0 true
-effect give @n[tag=what.temp_new] jump_boost infinite 2 true
-effect give @n[tag=what.temp_new] speed infinite 2 true
+effect give @n[tag=what.temp_new] jump_boost infinite 0 true
+effect give @n[tag=what.temp_new] speed infinite 0 true
 
 execute as @n[tag=what.temp_new] at @s run function what:mob/__spawn {"type":"mimic"}
 tag @n[tag=what.temp_new] add what.checked

@@ -145,3 +145,6 @@ data modify storage what:config mobs.cow_wheel set value {name: '[{"translate":"
 
 #damage
 function what:_config/damage
+
+#другое
+data modify storage what:config etc.block_params_default set value {"loot_if_predicate":"what:always_true"}
