@@ -80,5 +80,5 @@ data modify storage what:config blocks.cursed_leaves set value {CustomModelData:
 data modify storage what:config blocks.cursed_tree_sapling set value {CustomModelData: 32071, block:"tripwire", plant:1b, customTags:[plant, cursed_tree_plant]}
 data modify storage what:config blocks.nether_bed set value {CustomModelData: 32072, inter:1b, block:"copper_grate", customTags:[what.nether_bed]}
 
-data modify storage what:config blocks.blackscreen set value {CustomModelData: 32073, block:"barrier"}
-data modify storage what:config blocks.whitescreen set value {CustomModelData: 32074, block:"barrier"}
+data modify storage what:config blocks.blackscreen set value {CustomModelData: 32073, block:"barrier", bright:1b}
+data modify storage what:config blocks.whitescreen set value {CustomModelData: 32074, block:"barrier", bright:1b}
