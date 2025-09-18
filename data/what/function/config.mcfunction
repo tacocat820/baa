@@ -1,6 +1,5 @@
 #block
 function what:_config/blocks
-# отныне блоки храняться тут
 
 #interaction
 #inter.$(type).$(inter).run
