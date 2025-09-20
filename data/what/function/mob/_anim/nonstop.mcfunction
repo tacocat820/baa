@@ -1,2 +1,2 @@
 tag @s add nonstop_anim
-data modify entity @s item.tag.CustomPotionColor set value 0
+data modify entity @s item.components.minecraft:potion_contents.custom_color set value 0
