@@ -1,2 +1,2 @@
-execute at @n[distance=0..,tag=what.mental_hospital] if entity @n[tag=what.ent.psycho,distance=20..50] run function what:mob/therapist/searching
+execute unless score @s what.ent.task matches 1 at @n[distance=0..,tag=what.mental_hospital] if entity @n[tag=what.ent.psycho,distance=20..50] run function what:mob/therapist/searching
 execute if score @s what.ent.task matches 1
