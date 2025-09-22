@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "potion",
+            "components": {
+                "custom_model_data": 32042
+            }
+        },
+        "title": {"color": "#ffb3b3","underlined":true, "bold":true, "translate": "what.adv.killalot"},
+        "description": {"color": "#632497", "bold": true, "translate": "what.adv.killalot.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/killer"
+}

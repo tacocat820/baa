@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["cookie"],
+                    "components": {
+                        "minecraft:custom_data":{"what_type":"cheeseburger"}
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32000
+            }
+        },
+        "title": {"color": "#5e0a74", "bold": true, "translate": "what.adv.cheeseburgor"},
+        "description": {"color": "#d18f14", "underlined": true, "translate": "what.adv.cheeseburgor.desc"},
+        "frame": "goal",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/hello"
+}

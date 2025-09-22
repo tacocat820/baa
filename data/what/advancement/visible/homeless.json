@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[what.ent.homeless]}"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32001
+            }
+        },
+        "title": {"color": "#b99370", "translate": "what.adv.homeless"},
+        "description": {"color": "#442ada", "underlined": true, "bold": true, "translate": "what.adv.homeless.desc"},
+        "frame": "goal",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/cheeseburgor"
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32010
+            }
+        },
+        "title": {"color": "green","translate": "what.adv.welcome"},
+        "description": {"color": "red", "translate": "what.adv.welcome.desc"},
+        "frame": "goal",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    }
+}

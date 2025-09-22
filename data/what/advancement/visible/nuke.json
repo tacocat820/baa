@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32007
+            }
+        },
+        "title": {"color": "#f70dff","underlined":true, "bold":true, "translate": "what.adv.nuclear"},
+        "description": {"color": "#ff0000", "bold": true, "translate": "what.adv.nuclear.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/crafting"
+}

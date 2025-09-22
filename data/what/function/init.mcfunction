@@ -12,6 +12,7 @@ scoreboard objectives add what.etc.tax_timer dummy
 scoreboard objectives add what.etc.beeraid_countdown dummy
 scoreboard objectives add what.etc.piecesleft dummy
 scoreboard objectives add what.etc.pumpkin_gun dummy
+scoreboard objectives add what.etc.killed_villagers killed:villager
 
 scoreboard objectives add what.etc.lasttetrispos dummy
 scoreboard objectives add what.shift minecraft.custom:minecraft.sneak_time

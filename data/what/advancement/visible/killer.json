@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "player_killed_entity"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "iron_axe",
+            "components": {
+                "custom_model_data": 32000
+            }
+        },
+        "title": {"color": "#c884ff","underlined":true, "bold":true, "translate": "what.adv.killer"},
+        "description": {"color": "#fd0a0a", "bold": true, "translate": "what.adv.killer.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/hello"
+}
