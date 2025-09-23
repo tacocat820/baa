@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["item_frame"],
+                    "components": {
+                        "custom_model_data": 32032
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32032
+            }
+        },
+        "title": {"color": "#0a7448", "bold": true, "translate": "what.adv.microwave"},
+        "description": {"color": "#0e1101", "underlined": true, "italic": true, "translate": "what.adv.microwave.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/stone"
+}
