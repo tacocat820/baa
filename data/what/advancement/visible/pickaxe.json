@@ -15,7 +15,7 @@
                 "custom_model_data": 32000
             }
         },
-        "title": {"color": "#51ff00", "bold":true, "translate": "what.adv.pick"},
+        "title": {"color": "#51ff00", "bold":true, "italic": true, "translate": "what.adv.pick"},
         "description": {"color": "#30050e", "underlined":true, "translate": "what.adv.pick.desc"},
         "frame": "challenge",
         "announce_to_chat": true,

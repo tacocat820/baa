@@ -1,7 +1,10 @@
 {
     "criteria": {
         "e" : {
-            "trigger": "tick"
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["crafting_table"]}]
+            }
         }
     },
     "display": {
@@ -10,10 +13,10 @@
             "id": "crafting_table"
         },
         "title": {"color": "#15bda6","underlined":true, "bold":true, "translate": "what.adv.crafting"},
-        "description": {"color": "#a0bd97", "bold": true, "translate": "what.adv.crafting.desc"},
+        "description": {"color": "#a0bd97", "bold": true, "strikethrough":true, "translate": "what.adv.crafting.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "background": "minecraft:textures/item/block/obama.png"
     },
-    "parent": "what:visible/hello"
+    "parent": "what:visible/cheeseburgor"
 }

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+            "entity": {
+                "type": "minecraft:husk",
+                "nbt": "{Tags:[what.ent.corab]}"
+            }
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32013
+            }
+        },
+        "title": {"color": "#22f5f5", "strikethrough": true, "translate": "what.adv.corab"},
+        "description": {"color": "#bee7ee", "underlined":true, "bold": true, "translate": "what.adv.corab.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/killer"
+}

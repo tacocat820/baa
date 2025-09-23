@@ -1,6 +1,14 @@
 {
- "pack": {
- "pack_format": 57,
- "description": "What Pack"
- }
+    "pack": {
+        "pack_format": 57,
+        "description": "Minecraft 2 minerat"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/.*"
+            }
+        ]
+    }
 }

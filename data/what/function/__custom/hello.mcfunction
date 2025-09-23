@@ -1,0 +1,1 @@
+tellraw @s {"color": "#1f7381", "bold": true, "italic": true, "underlined" : true, "hoverEvent": {"action": "show_text", "contents": {"translate": "subtitles.entity.goat.death", "italic": true, "color": "#b5ff6f"}}, "translate": "what.message.hello","clickEvent": {"action": "open_url","value": "https://www.youtube.com/watch?v=p7YXXieghto"}}

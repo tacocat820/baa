@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["cobblestone"]}]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "cobblestone"
+        },
+        "title": {"color": "#6473f5", "strikethrough": true, "translate": "what.adv.stone"},
+        "description": {"color": "#ec1bbf", "bold": true, "underlined":true, "strikethrough": true, "translate": "what.adv.stone.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/pickaxe"
+}

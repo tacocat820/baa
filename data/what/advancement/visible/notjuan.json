@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+            "entity": {
+                "type": "minecraft:husk",
+                "nbt": "{Tags:[what.ent.betterhorse]}"
+            }
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32009
+            }
+        },
+        "title": {"color": "#f5ce22", "translate": "what.adv.betterhorse"},
+        "description": {"color": "#f35626", "underlined":true, "bold": true, "translate": "what.adv.betterhorse.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/corab"
+}

@@ -5,15 +5,15 @@
         }
     },
     "display": {
-        "hidden": false,
+        "hidden": true,
         "icon": {
             "id": "iron_axe",
             "components": {
                 "custom_model_data": 32000
             }
         },
-        "title": {"color": "#c884ff","underlined":true, "bold":true, "translate": "what.adv.killer"},
-        "description": {"color": "#fd0a0a", "bold": true, "translate": "what.adv.killer.desc"},
+        "title": {"color": "#c884ff","underlined":true, "bold":true, "italic": true, "translate": "what.adv.killer"},
+        "description": {"color": "#fd0a0a", "bold": true, "strikethrough": true, "translate": "what.adv.killer.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "background": "minecraft:textures/item/block/obama.png"

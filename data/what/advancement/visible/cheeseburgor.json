@@ -21,7 +21,7 @@
             }
         },
         "title": {"color": "#5e0a74", "bold": true, "translate": "what.adv.cheeseburgor"},
-        "description": {"color": "#d18f14", "underlined": true, "translate": "what.adv.cheeseburgor.desc"},
+        "description": {"color": "#d18f14", "underlined": true, "italic": true, "translate": "what.adv.cheeseburgor.desc"},
         "frame": "goal",
         "announce_to_chat": true,
         "show_toast": true
