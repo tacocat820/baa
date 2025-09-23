@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32004
+            }
+        },
+        "title": {"color": "#84ff99","underlined":true, "bold":true, "italic": true, "translate": "what.adv.fith_"},
+        "description": {"color": "#048b0b", "bold": true, "strikethrough": true, "translate": "what.adv.fith_.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+        },
+    "parent": "what:visible/cheeseburgor"
+}

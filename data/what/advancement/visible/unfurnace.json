@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["item_frame"],
+                    "components": {
+                        "custom_model_data": 32044
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32044
+            }
+        },
+        "title": {"color": "#0a3874", "bold": true, "translate": "what.adv.unfurnace"},
+        "description": {"color": "#1a345e", "underlined": true, "italic": true, "translate": "what.adv.unfurnace.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/stone"
+}

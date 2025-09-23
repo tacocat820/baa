@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "e0" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["golden_sword"],"components": {"custom_model_data": 32005}}]}},
+        "e1" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["golden_sword"],"components": {"custom_model_data": 32006}}]}},
+        "e2" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["golden_sword"],"components": {"custom_model_data": 32007}}]}},
+        "e3" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["golden_sword"],"components": {"custom_model_data": 32008}}]}},
+        "e4" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["golden_sword"],"components": {"custom_model_data": 32009}}]}},
+        "e5" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["golden_sword"],"components": {"custom_model_data": 320010}}]}}
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "golden_sword",
+            "components": {
+                "custom_model_data": 32007
+            }
+        },
+        "title": {"color": "#0c4c83", "bold":true, "italic": true, "translate": "what.adv.drord"},
+        "description": {"color": "#c1163b", "underlined":true, "translate": "what.adv.drord.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/crafting",
+    "requirements": [
+        [
+          "e1","e2","e3","e4","e5","e0"
+        ]
+      ]
+}

@@ -4,3 +4,5 @@ execute at @s if loaded ~ ~ ~ if entity @a[distance=0..256] run summon tnt ^ ^-0
 scoreboard players set @s what.cooldown 38
 
 playsound minecraft:what.fard hostile @a ~ ~ ~ 3
+
+execute if block ~ ~ ~ #minecraft:dragon_immune run kill @s

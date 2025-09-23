@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "chicken"
+        },
+        "title": {"color": "#f4c9a7","underlined":true, "bold":true, "translate": "what.adv.gigachicken"},
+        "description": {"color": "#debe5d", "bold": true, "translate": "what.adv.gigachicken.desc"},
+        "frame": "task",
+        "announce_to_chat": true
+        },
+    "parent": "what:visible/cheeseburgor"
+}

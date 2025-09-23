@@ -1,4 +1,5 @@
 advancement revoke @s only what:food/fith_
+advancement grant @s only what:visible/fith_
 
 playsound minecraft:what.fith player @a ~ ~ ~ 1 1.3
 

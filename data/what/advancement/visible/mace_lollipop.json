@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "mace",
+            "components": {
+                "custom_model_data": 32002
+            }
+        },
+        "title": {"color": "#f70dff","underlined":true, "bold":true, "translate": "what.adv.mace_lollipop"},
+        "description": {"color": "#ff0000", "bold": true, "translate": "what.adv.mace_lollipop.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+        },
+    "parent": "what:visible/stone"
+}

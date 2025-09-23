@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": [ "furnace" ] }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+        "recipes": [ "crafting_table", "what:crafting_table_2" ]
+    }
+}
