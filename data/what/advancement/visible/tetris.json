@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to": "what:tetris"
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32056
+            }
+        },
+        "title": {"color": "#0d5aff","underlined":true, "bold":true, "translate": "what.adv.tetris"},
+        "description": {"color": "#0400ff", "bold": true, "translate": "what.adv.tetris.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/homeless"
+}

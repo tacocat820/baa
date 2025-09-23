@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32017
+            }
+        },
+        "title": {"color": "#a3ff0f","underlined":true, "bold":true, "italic": true, "translate": "what.adv.puig"},
+        "description": {"color": "#663cff", "bold": true, "strikethrough": true, "translate": "what.adv.puig.desc"},
+        "frame": "challenge",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/killer"
+}

@@ -1,4 +1,4 @@
-summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.asgor","tick1s"],Invulnerable:1b,HasVisualFire:false,Johnny:true,Silent:1b,attributes:[{id:"follow_range",base:1000}]}
+summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.asgor","tick1s"],Invulnerable:1b,HasVisualFire:false,Johnny:true,Silent:1b,attributes:[{id:"follow_range",base:1000}],PersistenceRequired:true}
 
 attribute @n[tag=what.temp_new] movement_speed base set 0.6
 attribute @n[tag=what.temp_new] attack_damage base set 6

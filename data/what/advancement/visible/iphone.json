@@ -25,5 +25,5 @@
         "frame": "challenge",
         "announce_to_chat": true
         },
-    "parent": "what:visible/killer"
+    "parent": "what:visible/homeless"
 }

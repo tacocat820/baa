@@ -7,7 +7,7 @@
             "type": "minecraft:item",
             "name": "minecraft:item_frame",
             "functions": [
-              {
+              { 
                 "function": "minecraft:set_components",
                 "components": {"minecraft:custom_model_data": 32056, "minecraft:entity_data": {"Tags": ["what.block", "sacabambaspis"], "id": "item_frame", "Invisible": true}}
               },

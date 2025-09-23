@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": ["plains","snowy_plains","sunflower_plains","forest","frozen_ocean","frozen_peaks","frozen_river","river","cherry_grove","the_end","stony_shore","stony_peaks","taiga","snowy_taiga","birch_forest","old_growth_birch_forest","badlands","beach","desert","meadow"],
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "what:road",
+    "size": 1,
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 40,
+    "use_expansion_hack": false
+  } 

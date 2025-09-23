@@ -1,4 +1,5 @@
 scoreboard players remove @s what.music 1
+execute if entity @e[tag=what.ent.asgor,distance=0..40] run return run function what:__custom/ost/specific/asgor
 
 execute unless entity @e[type=#what:evil, distance=0..20] if score @s what.musictype matches 2 run function what:__custom/ost/specific/nobattle
 execute if score herobrin what.global_events matches 1.. run return run function what:__custom/ost/specific/herobrin

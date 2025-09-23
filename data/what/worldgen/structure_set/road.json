@@ -1,13 +1,13 @@
 {
   "structures": [
     {
-      "structure": "what:bigbrain",
+      "structure": "what:road",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 1006488189,
+    "salt": 1237421919,
     "spacing": 10,
     "separation": 1
   }

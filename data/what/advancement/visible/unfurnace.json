@@ -26,5 +26,5 @@
         "announce_to_chat": true,
         "show_toast": true
     },
-    "parent": "what:visible/stone"
+    "parent": "what:visible/microwave"
 }
