@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32010,
+                "enchantment_glint_override": true
+            }
+        },
+        "title": {"color": "#c42929","underlined":true, "italic":false, "translate": "what.adv.global_warming"},
+        "description": {"color": "#fd7a00", "italic": true, "translate": "what.adv.global_warming.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/microwave"
+}

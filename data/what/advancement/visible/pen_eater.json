@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "carrot_on_a_stick",
+            "components": {
+                "custom_model_data": 32001
+            }
+        },
+        "title": {"color": "#2948c4","underlined":true, "italic":false, "translate": "what.adv.pen_eater"},
+        "description": {"color": "#344b66", "italic": true, "translate": "what.adv.pen_eater.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/homeless"
+}

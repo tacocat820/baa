@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "potion",
+            "components": {
+                "custom_model_data": 32060
+            }
+        },
+        "title": {"color": "#e0cf6d","underlined":true, "italic":true, "translate": "what.adv.asgor_runover"},
+        "description": {"color": "#ffffff", "italic": true, "translate": "what.adv.asgor_runover.desc"},
+        "frame": "task",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/gigachicken"
+}

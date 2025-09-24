@@ -4,3 +4,6 @@ execute anchored eyes positioned ^ ^ ^0.4 positioned ~ ~0.1 ~ run function what:
 
 playsound entity.item.break player @s ~ ~ ~
 item modify entity @s weapon.mainhand what:remove
+
+##
+execute if data storage what:temp {what_type:pen} run function what:carrot_on_a_stick/pen/check_adv
