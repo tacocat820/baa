@@ -1,4 +1,8 @@
 execute if block ~ ~-1 ~ #minecraft:snow run return 0
+execute if block ~ ~-1 ~ #minecraft:ice run return 0
+execute if block ~ ~ ~ water run return 0
+execute if block ~ ~ ~ #slabs[waterlogged=true] run return 0
+execute if block ~ ~ ~ #stairs[waterlogged=true] run return 0
 
 particle flame ~ ~ ~ 0.0 1 0.0 0.1 10
 execute if block ~ ~-1 ~ #minecraft:camel_sand_step_sound_blocks if predicate what:random3 run damage @s 1 on_fire

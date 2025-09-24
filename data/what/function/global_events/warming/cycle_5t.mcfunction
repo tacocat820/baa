@@ -7,3 +7,5 @@ execute if predicate what:is_day at @a run function what:global_events/warming/a
 execute if predicate what:is_day at @a run function what:global_events/warming/at_all_players
 
 execute at @a run particle minecraft:campfire_signal_smoke ~ ~ ~ 20 20 20 0.04 20 normal @p
+
+execute as @a at @s if dimension minecraft:the_nether run function what:global_events/warming/if_nether
