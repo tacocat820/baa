@@ -29,4 +29,6 @@ execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function w
 execute as @e[tag=what.ent.herobrin] at @s unless entity @a[distance=0..30] run kill @s
 
 #хз надо или нет?????
-#title @a[tag=pause] actionbar [{"text":"you are in pause mode","color":"gray"}]
+title @a[tag=pause] actionbar [{"text":"you are in PAUSE","color":"gray"}]
+
+execute at @r run function what:__custom/setworldspawn
