@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["item_frame"],
+                    "components": {
+                        "custom_model_data": 32012
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32012
+            }
+        },
+        "title": {"color": "#9fa280", "bold": true, "translate": "what.adv.crafting_2"},
+        "description": {"color": "#166952", "underlined": false, "italic": true, "translate": "what.adv.crafting_2.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/crafting"
+}

@@ -1,1 +1,2 @@
-execute as @e[distance=0..30, type=marker] at @s run function what:__custom/marker_light
+execute as @e[distance=0..30, type=marker] run function what:__custom/marker_light
+effect give @s night_vision 30 9 true

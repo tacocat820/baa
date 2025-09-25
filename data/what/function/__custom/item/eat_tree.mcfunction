@@ -8,3 +8,4 @@ attribute @s movement_speed base get 0.4
 effect give @s instant_health 1 200 false
 
 advancement revoke @s only what:food/tree
+advancement grant @s only what:visible/eat_tree

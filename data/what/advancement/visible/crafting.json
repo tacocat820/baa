@@ -18,5 +18,5 @@
         "announce_to_chat": true,
         "background": "minecraft:textures/item/block/obama.png"
     },
-    "parent": "what:visible/cheeseburgor"
+    "parent": "what:visible/bigbrain"
 }

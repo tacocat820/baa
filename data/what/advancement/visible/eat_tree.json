@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "cookie",
+            "components": {"custom_model_data": 32015}
+        },
+        "title": {"color": "#aa6f2f","underlined":true, "bold":true, "strikethrough": true, "translate": "what.adv.eat_tree"},
+        "description": {"color": "#0d8525", "bold": true, "italic":true, "translate": "what.adv.eat_tree.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/killer"
+}

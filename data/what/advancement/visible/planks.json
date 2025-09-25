@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "e0" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["oak_planks"]}]}},
+        "e1" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["birch_planks"]}]}},
+        "e2" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["acacia_planks"]}]}},
+        "e3" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["bamboo_planks"]}]}},
+        "e4" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["cherry_planks"]}]}},
+        "e5" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["jungle_planks"]}]}},
+        "e6" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["spruce_planks"]}]}},
+        "e7" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["warped_planks"]}]}},
+        "e8" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["crimson_planks"]}]}},
+        "e9" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["dark_oak_planks"]}]}},
+        "e10" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["item_frame"], "components": {"custom_model_data": 320069}}]}}
+        },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32069
+            }
+        },
+        "title": {"color": "#9d7a58", "bold":true, "italic": true, "translate": "what.adv.planks"},
+        "description": {"color": "#7f4f25", "underlined":true, "translate": "what.adv.planks.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/crafting",
+    "requirements": [
+        [
+        "e0","e1","e2","e3","e4","e5","e6","e7","e8","e9","e10"
+        ]
+      ]
+}

@@ -16,7 +16,7 @@
         "description": {"color": "red", "translate": "what.adv.welcome.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
-        "background": "minecraft:textures/item/item/death_nft.png"
+        "background": "minecraft:textures/item/item/nft.png"
     },
     "rewards": {
         "function": "what:__custom/hello"
