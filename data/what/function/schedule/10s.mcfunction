@@ -31,4 +31,4 @@ execute as @e[tag=what.ent.herobrin] at @s unless entity @a[distance=0..30] run 
 #хз надо или нет?????
 title @a[tag=pause] actionbar [{"text":"you are in PAUSE","color":"gray"}]
 
-execute at @r run function what:__custom/setworldspawn
+execute as @r at @s run function what:__custom/setworldspawn
