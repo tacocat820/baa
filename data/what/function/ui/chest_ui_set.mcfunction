@@ -1,0 +1,1 @@
+$data modify block ~ ~ ~ Items set from storage what:config ui[$(type)]

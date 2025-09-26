@@ -147,5 +147,8 @@ data modify storage what:config mobs.asgor set value {name: '[{"translate":"what
 #damage
 function what:_config/damage
 
+#ui
+function what:_config/ui
+
 #другое
 data modify storage what:config etc.block_params_default set value {"loot_if_predicate":"what:always_true"}

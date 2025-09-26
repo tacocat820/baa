@@ -22,6 +22,8 @@ execute as @e[tag=what.ai] at @s run function what:mob/__ai_tick
 # dropper
 
 execute as @a[scores={what.dropper_click=1..}] at @s run function what:block/crafting_table_2/dropper_clicked
+execute as @a[scores={what.etc.open_shulker_box=1..}] at @s run function what:ui/type/crafting_table_2/run
+execute as @a[scores={what.ui=0..}] run function what:ui/as_player
 
 execute as @a[scores={what.help=1..}] at @s run function what:help
 execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/run

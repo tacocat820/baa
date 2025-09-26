@@ -16,7 +16,7 @@ data modify storage what:config blocks.chair_plant set value {CustomModelData: 3
 data modify storage what:config blocks.stool set value {CustomModelData: 32008, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.chair set value {CustomModelData: 32009, rotate:2, block:"tripwire"}
 data modify storage what:config blocks.globe set value {CustomModelData: 32010, rotate:2, block:"tripwire"}
-data modify storage what:config blocks.crafting_table_2 set value {CustomModelData: 32012, customTags:[crafting_table_2]}
+data modify storage what:config blocks.crafting_table_2 set value {CustomModelData: 32012, customTags:[what.crafting_table_2]}
 data modify storage what:config blocks.obama set value {CustomModelData: 32013, block:"copper_grate"}
 data modify storage what:config blocks.trash_can set value {CustomModelData: 32014, customTags:[trash_can]}
 data modify storage what:config blocks.demon_core set value {CustomModelData: 32015, customTags:[demon_core], inter:1b, rotate:2}

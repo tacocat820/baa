@@ -1,0 +1,3 @@
+data remove storage what:config ui
+data modify storage what:config ui set value []
+data modify storage what:config ui append value [{count: 1, Slot: 8b, components: {"minecraft:custom_data": {what_ui: {}, what_ui_button: {}}}, id: "minecraft:knowledge_book"}, {count: 1, Slot: 26b, components: {"minecraft:custom_model_data": 32000, "minecraft:custom_data": {what_ui: {}}}, id: "minecraft:acacia_boat"}]

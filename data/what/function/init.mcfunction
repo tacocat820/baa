@@ -12,6 +12,7 @@ scoreboard objectives add what.etc.tax_timer dummy
 scoreboard objectives add what.etc.beeraid_countdown dummy
 scoreboard objectives add what.etc.piecesleft dummy
 scoreboard objectives add what.etc.pumpkin_gun dummy
+scoreboard objectives add what.etc.open_shulker_box minecraft.custom:minecraft.open_shulker_box
 #for achievements
 scoreboard objectives add what.etc.killed_villagers killed:villager
 scoreboard objectives add what.etc.eaten_pens dummy
@@ -55,6 +56,8 @@ scoreboard objectives add what.help trigger
 scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add what.global_events dummy
+scoreboard objectives add what.ui dummy
+scoreboard objectives add what.ui_playerid dummy
 
 #shedules
 function what:schedule/start_all
