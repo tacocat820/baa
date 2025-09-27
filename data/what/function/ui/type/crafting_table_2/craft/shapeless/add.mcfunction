@@ -1,0 +1,2 @@
+$execute if data storage what:temp ShapelessCraft.$(ItemIdName) run return run function what:ui/type/crafting_table_2/craft/shapeless/idk_3 with storage what:temp
+$data modify storage what:temp ShapelessCraft.$(ItemIdName) set value 1

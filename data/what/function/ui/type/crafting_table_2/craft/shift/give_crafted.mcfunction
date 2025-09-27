@@ -1,0 +1,2 @@
+$loot give @p loot {pools:[{rolls:$(count),entries:[{type:"minecraft:loot_table",value:"$(loot)"}]}]}
+$say loot give @p loot {pools:[{rolls:$(count),entries:[{type:"minecraft:loot_table",value:"$(loot)"}]}]}

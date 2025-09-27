@@ -1,0 +1,2 @@
+tellraw @s [{"text":"\n------------\nShapeCraft:\n", "color": "#4067c9"},{"storage": "what:temp", "nbt": "ShapelessCraft"}]
+tellraw @s [{"text":"\n------------\nShapelessCraft:\n", "color": "#c94040"},{"storage": "what:temp", "nbt": "ShapeCraft"}]
