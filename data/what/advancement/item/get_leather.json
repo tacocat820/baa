@@ -12,5 +12,6 @@
     "requirements": [["e"]],
     "rewards": {
         "recipes": [ "what:leather_sword" ]
-    }
+    },
+    "parent": "what:get_recipe"
 }

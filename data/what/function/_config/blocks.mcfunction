@@ -82,3 +82,5 @@ data modify storage what:config blocks.nether_bed set value {CustomModelData: 32
 
 data modify storage what:config blocks.blackscreen set value {CustomModelData: 32073, block:"barrier", bright:1b}
 data modify storage what:config blocks.whitescreen set value {CustomModelData: 32074, block:"barrier", bright:1b}
+data modify storage what:config blocks.sqrt_of_2_rail set value {CustomModelData: 32075, block:"tripwire", rotate:2}
+data modify storage what:config blocks.broken_glass set value {CustomModelData: 32076, block:"glass"}

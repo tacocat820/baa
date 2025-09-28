@@ -1,1 +1,1 @@
-say endededed
+tellraw @a [{"score": {"name": "count", "objective": "what.temp"}}," count"]

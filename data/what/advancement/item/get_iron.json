@@ -4,14 +4,14 @@
             "trigger": "inventory_changed",
             "conditions": {
                 "items": [
-                    { "items": [ "oak_planks" ] }
+                    { "items": [ "iron_ingot" ] }
                 ]
             }
         }
     },
     "requirements": [["e"]],
     "rewards": {
-        "recipes": [ "crafting_table", "what:crafting_table_2" ]
+        "recipes": [ "what:iron_stick", "what:micro" ]
     },
     "parent": "what:get_recipe"
 }

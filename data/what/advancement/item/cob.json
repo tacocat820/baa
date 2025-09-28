@@ -12,5 +12,6 @@
     "requirements": [["e"]],
     "rewards": {
         "recipes": [ "what:trash_can" ]
-    }
+    },
+    "parent": "what:get_recipe"
 }

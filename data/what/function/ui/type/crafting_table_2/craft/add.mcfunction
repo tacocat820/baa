@@ -1,0 +1,1 @@
+$data modify storage what:temp ShapeCraft.$(slot_craft) set from storage what:temp ItemIdName

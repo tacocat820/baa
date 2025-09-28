@@ -8,7 +8,7 @@
       "/": "minecraft:iron_ingot"
   },
   "result": {
-    "id": "minecraft:carrot_on_a_stick",
+    "id": "minecraft:clock",
     "components": {"minecraft:custom_model_data":32024,"minecraft:custom_data":{"what_type":"iron_stick"},"minecraft:item_name":"{\"translate\":\"what.item.iron_stick\"}"}
   }
 }

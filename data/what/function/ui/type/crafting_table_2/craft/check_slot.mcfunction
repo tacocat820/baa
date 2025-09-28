@@ -1,6 +1,6 @@
 scoreboard players operation slot_craft what.temp = slot what.temp
 $scoreboard players remove slot_craft what.temp $(offset)
-
+execute store result storage what:temp slot_craft int 1 run scoreboard players get slot_craft what.temp
 #tellraw @a {"score": {"name": "slot_craft", "objective": "what.temp"}}
 #tellraw @a {"storage": "what:temp", "nbt": "SlotItem"}
 
@@ -9,8 +9,8 @@ $scoreboard players remove slot_craft what.temp $(offset)
 #data modify storage what:temp ShapeCraft append from storage what:temp item_id
 
 function what:ui/type/crafting_table_2/craft/add_in_craft
-
-data modify storage what:temp ShapeCraft append from storage what:temp ItemIdName
+#data modify storage what:temp ShapeCraft append from storage what:temp ItemIdName
+function what:ui/type/crafting_table_2/craft/add with storage what:temp
 function what:ui/type/crafting_table_2/craft/shapeless/add with storage what:temp
 
 return 0

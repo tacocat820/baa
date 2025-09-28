@@ -12,5 +12,6 @@
         "recipes": [ "what:stick_from_fence", "what:stick_items/axe", "what:stick_items/hoe", 
         "what:stick_items/pickaxe", "what:stick_items/sword", "wooden_sword","wooden_pickaxe",
         "wooden_axe", "wooden_shovel", "crafting_table" ]
-    }
+    },
+    "parent": "what:get_recipe"
 }

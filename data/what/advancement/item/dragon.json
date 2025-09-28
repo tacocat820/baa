@@ -12,5 +12,6 @@
     "requirements": [["e"]],
     "rewards": {
         "recipes": [ "what:dragon_cake" ]
-    }
+    },
+    "parent": "what:get_recipe"
 }

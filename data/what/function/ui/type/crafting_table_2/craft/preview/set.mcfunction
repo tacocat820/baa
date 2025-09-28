@@ -1,0 +1,2 @@
+execute if data storage what:temp craft.loot at @s run return run function what:ui/type/crafting_table_2/craft/preview/if_loot_table with storage what:temp craft
+execute if data storage what:temp craft.minecraft_id run return run function what:ui/type/crafting_table_2/craft/preview/if_minecraft_id

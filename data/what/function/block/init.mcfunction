@@ -28,9 +28,9 @@ $execute if data storage what:config blocks.$(type).fluid_spread store result sc
 $execute if data storage what:config blocks.$(type).type run data modify entity @s item.components.minecraft:custom_data.type set from storage what:config blocks.$(type).type 
 
 #частные случаи
-$execute if data storage what:config blocks.$(type){CustomModelData: 32012} run setblock ~ ~ ~ minecraft:dropper[facing=up]{CustomName:"{'translate':'what.block.crafting_table_2'}",Items:[]}
+#$execute if data storage what:config blocks.$(type){CustomModelData: 32012} run setblock ~ ~ ~ minecraft:dropper[facing=up]{CustomName:"{'translate':'what.block.crafting_table_2'}",Items:[]}
 #$execute if data storage what:config blocks.$(type){CustomModelData: 32012} run data modify entity @s brightness set value {sky:15,block:0}
-$execute if data storage what:config blocks.$(type){CustomModelData: 32012} run setblock ~ ~ ~ minecraft:cyan_shulker_box{LootTable:"what:custom/crafting_table_2"}
+$execute if data storage what:config blocks.$(type){CustomModelData: 32012} run setblock ~ ~ ~ minecraft:cyan_shulker_box{CustomName:"{'translate':'what.block.crafting_table_2','color':'#ffffff'}",Items:[]}
 $execute if data storage what:config blocks.$(type){CustomModelData: 32014} run setblock ~ ~ ~ minecraft:cauldron
 
 #не удалять, тут потом будет что-то

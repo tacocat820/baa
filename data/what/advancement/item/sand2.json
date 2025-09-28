@@ -13,5 +13,6 @@
     "rewards": {
         "recipes": [ "what:sand_items/axe", "what:sand_items/pickaxe", "what:sand_items/shovel", "what:sand_items/sword",
         "what:sand", "what:sand_stairs" ]
-    }
+    },
+    "parent": "what:get_recipe"
 }

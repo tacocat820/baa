@@ -86,4 +86,9 @@ execute if score cmd what.temp matches 32070 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32072 run return run loot spawn ~ ~ ~ loot what:blocks/nether_bed
 
 #в кои-то веки я сделал нефть добываемой 🦅🦅
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32026 run return run loot spawn ~ ~ ~ loot what:blocks/american_oil
 execute if score cmd what.temp matches 32026 if score @s what.fluid_spread matches 2.. run return run loot spawn ~ ~ ~ loot what:blocks/american_oil
+
+execute if score cmd what.temp matches 32075 run return run loot spawn ~ ~ ~ loot what:blocks/sqrt_of_2_rail
+execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32076 run return run loot spawn ~ ~ ~ loot what:blocks/broken_glass
+execute if score cmd what.temp matches 32076 run return run loot spawn ~ ~ ~ loot minecraft:blocks/glass
