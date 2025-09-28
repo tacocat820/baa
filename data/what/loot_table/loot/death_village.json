@@ -5,10 +5,39 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:warped_fungus",
             "value": "what:items/knife",
             "weight": 2,
             "functions": [],
+            "conditions": []
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:items/banana",
+            "weight": 3,
+            "functions": [
+              {"function": "set_count",
+            "count": {"max": 15,"min": 5}}
+            ],
+            "conditions": []
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "what:items/cooked_cow_corpse",
+            "weight": 4,
+            "functions": [
+              {"function": "set_count",
+            "count": {"max": 6,"min": 5}}
+            ],
+            "conditions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "emerald",
+            "weight": 3,
+            "functions": [
+              {"function": "set_count",
+            "count": {"max": 64,"min": 5}}
+            ],
             "conditions": []
           },
           {

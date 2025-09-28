@@ -1,0 +1,1 @@
+give @s chest[block_entity_data={id:"chest",LootTable:"what:loot/death_village"}]

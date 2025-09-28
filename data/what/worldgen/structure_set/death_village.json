@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "what:shrek_village",
+      "structure": "what:death_village",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 847816213,
-    "spacing": 15,
-    "separation": 3
+    "salt": 9127459281,
+    "spacing": 16,
+    "separation": 2
   }
 }
