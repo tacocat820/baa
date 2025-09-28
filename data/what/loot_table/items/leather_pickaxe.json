@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32003, "minecraft:custom_data":{"what_type":"leather_pickaxe"}, "minecraft:item_name":"{\"translate\":\"what.item.leather_pickaxe\"}",
+                "minecraft:max_damage": 111,
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "correct_for_drops": true,
+                      "blocks": "#what:breakable/leather_tools/pickaxe",
+                      "speed": 1.1
+                    }
+                  ]}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

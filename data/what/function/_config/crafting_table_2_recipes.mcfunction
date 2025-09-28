@@ -24,6 +24,10 @@ data modify storage what:config recipes.s append value {craft:{air: 7, "minecraf
 data modify storage what:config recipes.s append value {craft:{"minecraft:stick": 1, "air": 4, "meth": 4}, loot:"what:items/meth_lollipop", count:1}
 data modify storage what:config recipes.s append value {craft:{air: 7, dust: 2}, loot:"what:blocks/dust_carpet", count:2}
 data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}
+data modify storage what:config recipes.s append value {craft:{cursed_wood: 1, air: 8}, loot:"what:blocks/cursed_planks", count:4}
+data modify storage what:config recipes.s append value {craft:{"minecraft:rotten_flesh": 9}, loot:"what:blocks/rotten_flesh_block", count:1}
+data modify storage what:config recipes.s append value {craft:{"rotten_flesh_block": 1, air: 8}, minecraft_id:"rotten_flesh", count:9}
+data modify storage what:config recipes.s append value {craft:{"nokia": 9}, loot:"what:blocks/nokia_block", count:1}
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}

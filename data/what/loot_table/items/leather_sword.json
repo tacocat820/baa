@@ -9,7 +9,8 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32006, "minecraft:custom_data":{"what_type":"leather_sword"}}
+                "components": {"minecraft:custom_model_data": 32011, "minecraft:custom_data":{"what_type":"leather_sword"},
+                "attribute_modifiers": [{"type":"attack_damage","amount":1.1111111,"id":"sword","operation":"add_value"}], "max_damage": 400}
               },
               {
                 "function": "minecraft:set_name",

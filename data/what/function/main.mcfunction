@@ -64,5 +64,6 @@ execute as @a if items entity @a hotbar.* minecraft:debug_stick at @s run functi
 
 execute at @e[tag=what.scary_box] run playsound ambient.cave hostile @a[distance=0..40] ~ ~ ~ 3
 #scoreboard players reset @s what.dropper_click
-
 #execute as @e[type=creeper] run say 1
+
+execute as @a[scores={what.fall_distance=1..}] at @s run function what:__custom/player_fall

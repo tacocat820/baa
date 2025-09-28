@@ -58,6 +58,7 @@ scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add what.global_events dummy
 scoreboard objectives add what.ui dummy
 scoreboard objectives add what.ui_playerid dummy
+scoreboard objectives add what.fall_distance minecraft.custom:minecraft.fall_one_cm
 
 #shedules
 function what:schedule/start_all
