@@ -1,0 +1,1 @@
+tp @p[distance=0..2] @n[tag=what.death_throne]

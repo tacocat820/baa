@@ -143,6 +143,7 @@ data modify storage what:config mobs.mimic set value {name: '[{"translate":"what
 data modify storage what:config mobs.cow_wheel set value {name: '[{"translate":"what.mob.cow_wheel"}]', base_mob: "husk", cmd:32055, item_id:"potion", anim_len:24, ignore_anim:1b}
 data modify storage what:config mobs.therapist set value {name: '[{"translate":"what.mob.therapist"}]', base_mob: "vindicator", cmd:32056, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.asgor set value {name: '[{"translate":"what.mob.asgor"}]', base_mob: "vindicator", cmd:32060, item_id:"potion", anim_len:24, ignore_anim:1b}
+data modify storage what:config mobs.death set value {name: '[{"translate":"what.mob.death"}]', base_mob: "vindicator", cmd:32061, item_id:"potion", anim_len:24}
 
 #damage
 function what:_config/damage

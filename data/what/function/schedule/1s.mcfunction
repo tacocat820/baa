@@ -6,3 +6,5 @@ execute if score herobrin what.global_events matches 1.. run function what:globa
 execute as @a if data entity @s SelectedItem.components."minecraft:custom_data"{what_class:"drord"} run function what:__custom/item/dwords/attack
 
 execute as @e[tag=what.mimic_zone] at @s run function what:mob/mimic/zone
+
+title @a[tag=pause] actionbar [{"text":"you are in PAUSE","color":"gray"}]
