@@ -1,3 +1,5 @@
+data remove storage what:config unfurnace
+
 data modify storage what:config unfurnace.minecraft:cooked_beef set value {id: "beef" }
 data modify storage what:config unfurnace.minecraft:cooked_porkchop set value {id: "porkchop" }
 data modify storage what:config unfurnace.minecraft:cooked_chicken set value {id: "chicken" }
@@ -46,5 +48,10 @@ data modify storage what:config unfurnace.'["what.block","backrooms"]' set value
 data modify storage what:config unfurnace.'["what.block","backrooms_carpet"]' set value {id: "white_wool" }
 data modify storage what:config unfurnace.'["what.block","beans_plant"]' set value {id: "stick" }
 
-data modify storage what:config unfurnace.minecraft:snow_block set value {loot_table: "what:blocks/icicle" }
 data modify storage what:config unfurnace.'["what.block","globe"]' set value {command: "function what:global_events/warming/end"}
+
+data modify storage what:config unfurnace.'["what.block","icicle"]' set value {id: "ice"}
+data modify storage what:config unfurnace.minecraft:snowball set value {id: "snow_block" }
+data modify storage what:config unfurnace.minecraft:snow_block set value {loot_table: "what:blocks/icicle"}
+data modify storage what:config unfurnace.minecraft:ice set value {id: "packed_ice" }
+data modify storage what:config unfurnace.minecraft:packed_ice set value {id: "blue_ice" }

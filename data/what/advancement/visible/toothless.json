@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "bone",
+            "components": {
+                "custom_model_data": 0
+            }
+        },
+        "title": {"color": "#837f66","underlined":true, "italic":true, "translate": "what.adv.toothless"},
+        "description": {"color": "#9f9c9c", "italic": true, "translate": "what.adv.toothless.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+    },
+    "parent": "what:visible/cheeseburgor"
+}

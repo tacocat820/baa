@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item"
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ],
+    "rewards": {
+      "function": "what:__custom/item/consume_food"
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": "#wooden_fences" }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+        "recipes": [ "what:stick_from_fence" ]
+    },
+    "parent": "what:get_recipe"
+}

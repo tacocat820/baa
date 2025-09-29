@@ -13,3 +13,4 @@ function what:__custom/give_item_c with storage what:temp
 #scoreboard players set @s what.etc.teeth_count 0
 
 #execute if score @s what.etc.teeth_count matches ..0 run function what:__custom/no_teeth_u003f
+execute if score @s what.etc.teeth_count matches ..0 run advancement grant @s only what:visible/toothless

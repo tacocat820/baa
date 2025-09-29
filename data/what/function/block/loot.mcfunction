@@ -92,3 +92,5 @@ execute if score cmd what.temp matches 32026 if score @s what.fluid_spread match
 execute if score cmd what.temp matches 32075 run return run loot spawn ~ ~ ~ loot what:blocks/sqrt_of_2_rail
 execute if entity @s[tag=bad_pos] if score cmd what.temp matches 32076 run return run loot spawn ~ ~ ~ loot what:blocks/broken_glass
 execute if score cmd what.temp matches 32076 run return run loot spawn ~ ~ ~ loot minecraft:blocks/glass
+execute if score cmd what.temp matches 32077 run return run loot spawn ~ ~ ~ loot what:blocks/leather_block
+execute if score cmd what.temp matches 32078 run return run loot spawn ~ ~ ~ loot what:blocks/grassblockmond_block

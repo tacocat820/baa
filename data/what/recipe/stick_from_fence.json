@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "#minecraft:fences"
+    "#minecraft:wooden_fences"
   ],
   "result": {
     "id": "stick",

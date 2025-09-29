@@ -1,3 +1,5 @@
+data remove storage what:config microwave
+
 data modify storage what:config microwave.minecraft:beef set value {id: "cooked_beef" }
 data modify storage what:config microwave.minecraft:porkchop set value {id: "cooked_porkchop" }
 data modify storage what:config microwave.minecraft:chicken set value {id: "cooked_chicken" }
@@ -68,3 +70,10 @@ data modify storage what:config microwave.minecraft:wheat_seeds set value {loot_
 data modify storage what:config microwave.minecraft:sugar set value {loot_table: "what:items/caramel" }
 
 data modify storage what:config microwave.'["what.block","globe"]' set value {command: "function what:global_events/warming/start"}
+data modify storage what:config microwave.'["what.block","broken_glass"]' set value {id: "glass"}
+
+data modify storage what:config microwave.minecraft:ice set value {loot_table: "what:blocks/icicle"}
+data modify storage what:config microwave.minecraft:snow_block set value {id: "snowball" }
+data modify storage what:config microwave.'["what.block","icicle"]' set value {id: "snow_block" }
+data modify storage what:config microwave.minecraft:packed_ice set value {id: "ice" }
+data modify storage what:config microwave.minecraft:blue_ice set value {id: "packed_ice" }
