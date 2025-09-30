@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/iron_stick",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_pane",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:blocks/redstone_2",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

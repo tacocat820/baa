@@ -1,14 +1,14 @@
+function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 0}
 function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 1}
 function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 2}
-function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 3}
 
+function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 9}
 function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 10}
 function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 11}
-function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 12}
 
+function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 18}
 function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 19}
 function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 20}
-function what:ui/type/crafting_table_2/craft/shift/remove_1 {slot: 21}
 
 scoreboard players add $count what.temp 1
 

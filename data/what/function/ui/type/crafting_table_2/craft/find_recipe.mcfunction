@@ -10,11 +10,11 @@ $execute if data storage what:temp {craft: 0} run data modify storage what:temp 
 
 #tellraw @a {"storage": "what:temp", "nbt": "craft"}
 
-execute if data storage what:temp {craft: 0} at @s run return run data remove block ~ ~ ~ Items[{Slot: 14b}]
+execute if data storage what:temp {craft: 0} at @s run return run data remove block ~ ~ ~ Items[{Slot: 13b}]
 #say yea
 
 #say uhwhu
-execute at @s run data modify block ~ ~ ~ Items append value {count: 1, Slot: 14b, id: "minecraft:clock", components:{"custom_data":{what_ui:{type:"craft_result"}}, item_name:"{\"translate\":\"what.txt.recipe\"}", custom_model_data:32026}}
+execute at @s run data modify block ~ ~ ~ Items append value {count: 1, Slot: 13b, id: "minecraft:clock", components:{"custom_data":{what_ui:{type:"craft_result"}}, item_name:"{\"translate\":\"what.txt.recipe\"}", custom_model_data:32026}}
 function what:ui/type/crafting_table_2/craft/preview/set
 
 function what:ui/commit_container_changes with storage what:temp
