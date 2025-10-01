@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:fortress",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3849993,
+    "spacing": 10,
+    "separation": 2
+  }
+}

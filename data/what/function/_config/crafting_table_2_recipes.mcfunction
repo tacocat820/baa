@@ -1,8 +1,7 @@
 data remove storage what:config recipes
 
-#типы:
-#recipes.s - бесформенные рецепты
-#recipes.e - не бесформенные рецепты
+#recipes.s - shapeless recipes
+#recipes.e - shapeful recipes ("shapeful")
 
 #если в результате крафта больше 1 типа предметов, то ставьте preview:0
 

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:box",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 837582999,
+    "spacing": 6,
+    "separation": 2
+  }
+}
