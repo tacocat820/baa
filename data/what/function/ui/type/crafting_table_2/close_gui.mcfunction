@@ -1,0 +1,1 @@
+$execute at @n[scores={what.ui_playerid=$(playerid)}] run function what:ui/type/crafting_table_2/idk5

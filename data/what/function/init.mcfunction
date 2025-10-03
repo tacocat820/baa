@@ -13,6 +13,7 @@ scoreboard objectives add what.etc.beeraid_countdown dummy
 scoreboard objectives add what.etc.piecesleft dummy
 scoreboard objectives add what.etc.pumpkin_gun dummy
 scoreboard objectives add what.etc.open_shulker_box minecraft.custom:minecraft.open_shulker_box
+scoreboard objectives add what.etc.page dummy
 #for achievements
 scoreboard objectives add what.etc.killed_villagers killed:villager
 scoreboard objectives add what.etc.eaten_pens dummy

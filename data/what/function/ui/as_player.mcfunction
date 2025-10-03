@@ -1,7 +1,7 @@
-execute unless data entity @s {Motion:[0.0,0.0,0.0]} run function what:ui/close_gui
-
 #playerid
 execute store result storage what:temp playerid int 1 run scoreboard players get @s what.playerid
+
+execute unless data entity @s {Motion:[0.0,0.0,0.0]} run function what:ui/close_gui
 
 #если игрок повернулся, то он 100% вне интерфейса
 #function what:ui/check_player_rotation_change with storage what:temp

@@ -1,3 +1,4 @@
 data remove storage what:config ui
 data modify storage what:config ui set value []
-data modify storage what:config ui append value [{count: 1, Slot: 8b, components: {"minecraft:custom_data": {what_ui: {}, what_ui_button: {}}}, id: "minecraft:knowledge_book"}, {count: 1, Slot: 26b, components: {"minecraft:custom_model_data": 32000, "minecraft:custom_data": {what_ui: {}}}, id: "minecraft:acacia_boat"}]
+#ct2
+data modify storage what:config ui append value [{count: 1, Slot: 21b, components: {"minecraft:custom_model_data": 32003, "minecraft:custom_data": {what_ui: {}}}, id: "minecraft:acacia_boat"}, {count: 1, Slot: 22b, components: {"minecraft:custom_model_data": 32000, "minecraft:custom_data": {what_ui: {}}}, id: "minecraft:acacia_boat"}, {count: 1, Slot: 24b, components: {"minecraft:custom_model_data": 32002, "minecraft:custom_data": {what_ui: {type: "last_page"}}}, id: "minecraft:acacia_boat"}, {count: 1, Slot: 26b, components: {"minecraft:custom_model_data": 32001, "minecraft:custom_data": {what_ui: {type: "next_page"}}}, id: "minecraft:acacia_boat"}]

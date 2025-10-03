@@ -36,8 +36,8 @@ data modify storage what:config recipes.s append value {craft:{"redstone_2": 9},
 data modify storage what:config recipes.s append value {craft:{"gold_2": 9}, loot:"what:blocks/gold_block_2", count:1}
 data modify storage what:config recipes.s append value {craft:{"diamond_2": 9}, loot:"what:blocks/diamond_block_2", count:1}
 
-data modify storage what:config recipes.s append value {craft:{"redstone_block_2": 1, air: 8}, loot:"what:blocks/redstone_2", count:9}
 data modify storage what:config recipes.s append value {craft:{"gold_block_2": 1, air: 8}, loot:"what:items/gold_2", count:9}
+data modify storage what:config recipes.s append value {craft:{"redstone_block_2": 1, air: 8}, loot:"what:blocks/redstone_2", count:9}
 data modify storage what:config recipes.s append value {craft:{"diamond_block_2": 1, air: 8}, loot:"what:items/diamond_2", count:9}
 
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}
@@ -46,3 +46,5 @@ data modify storage what:config recipes.s append value {craft:{"diamond_block_2"
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}
 
 #(можно скопировать крафт, если выложить в верстаке и в командном блок написать /data get storage what:temp ShapelessCraft)
+
+function what:_config/recipe_book/start
