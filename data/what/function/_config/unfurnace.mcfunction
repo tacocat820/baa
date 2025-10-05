@@ -48,7 +48,7 @@ data modify storage what:config unfurnace.'["what.block","backrooms"]' set value
 data modify storage what:config unfurnace.'["what.block","backrooms_carpet"]' set value {id: "white_wool" }
 data modify storage what:config unfurnace.'["what.block","beans_plant"]' set value {id: "stick" }
 
-data modify storage what:config unfurnace.'["what.block","globe"]' set value {command: "function what:global_events/warming/end"}
+data modify storage what:config unfurnace.'["what.block","globe"]' set value {command: "function what:global_events/ice_age/start"}
 
 data modify storage what:config unfurnace.'["what.block","icicle"]' set value {id: "ice"}
 data modify storage what:config unfurnace.minecraft:snowball set value {id: "snow_block" }

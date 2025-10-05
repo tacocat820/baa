@@ -1,1 +1,1 @@
-function what:_u/raycast/start {end_func: "what:global_events/warming/replace_block", loop_func:""}
+function what:_u/raycast/start {end_func: "what:global_events/warming/replace_block", loop_func:"", distance:80}

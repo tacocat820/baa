@@ -1,0 +1,1 @@
+scoreboard players set ice_age what.global_events 0

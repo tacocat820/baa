@@ -8,7 +8,9 @@ execute if predicate what:random_very_rare run fill ~ ~ ~ ~ ~1 ~ fire replace #a
 execute if predicate what:random_very_rare run return run fillbiome ~-2 ~-2 ~-2 ~2 ~2 ~2 desert
 
 ##-----------------
-fill ~ ~ ~ ~ ~ ~ air replace water
+fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace #what:cold
+fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air replace water
+#
 fill ~ ~ ~ ~ ~ ~ coarse_dirt replace dirt
 fill ~ ~ ~ ~ ~ ~ dirt replace rooted_dirt
 fill ~ ~ ~ ~ ~ ~ dirt replace farmland

@@ -1,3 +1,3 @@
-execute positioned ^ ^ ^ run function what:_u/raycast/start {loop_func:"", end_func:"what:mob/mimic/check_raycast"}
+execute positioned ^ ^ ^ run function what:_u/raycast/start {loop_func:"", end_func:"what:mob/mimic/check_raycast", distance:80}
 
 scoreboard players set @s what.chest_open 0 
