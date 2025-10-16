@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:the_end",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "fixed",
+      "biome": "end"
+    },
+    "settings": "minecraft:the_end"
+  }
+}

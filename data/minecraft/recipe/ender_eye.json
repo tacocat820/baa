@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ender_pearl", "blaze_powder"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dirt",
+    "components": {"minecraft:item_name":"{\"translate\":\"what.message.nothere\"}"}
+  }
+}

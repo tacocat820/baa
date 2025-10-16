@@ -1,0 +1,15 @@
+{
+    "name": "what:crafting_table_2",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "what:crafting_table_two_nether",
+          "projection": "terrain_matching",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

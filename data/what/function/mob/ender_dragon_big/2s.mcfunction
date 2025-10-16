@@ -1,0 +1,1 @@
+execute unless entity @e[type=end_crystal] run data modify entity @s Health set value 1

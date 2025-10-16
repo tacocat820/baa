@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:crafting_table_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 236969699,
+    "spacing": 10,
+    "separation": 1
+  }
+}

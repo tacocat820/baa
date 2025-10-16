@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_end"
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": { "function": "what:__custom/enter_end" }
+}

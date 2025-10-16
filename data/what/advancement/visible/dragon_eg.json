@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["dragon_egg"]}]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "dragon_egg"
+        },
+        "title": {"color": "#e460e4", "strikethrough": true, "translate": "advancements.end.dragon_egg.title"},
+        "description": {"color": "#f10101", "bold": true, "underlined":true, "translate": "what.adv.dragon_egg.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/killer"
+}
