@@ -34,6 +34,9 @@ execute as @a[scores={what.etc.goingtoheaven=0..}] at @s run function what:mob/b
 execute at @a as @e[tag=what.netherrack_2, type=item_display, distance=0..10] at @s if block ~ ~1 ~ fire run function what:global_events/herobrin/ritual/detect
 
 execute at @a as @e[distance=0..30,tag=what.npc] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
+execute as @a at @s if dimension minecraft:the_end run effect give @s resistance 5 2 true
+
+execute as @e[type=ender_dragon] at @s if dimension minecraft:the_end run function what:mob/ender_dragon_big/2s
 
 execute at @a if predicate what:random2 positioned ~ ~-1 ~ if block ~ ~ ~ #impermeable if data entity @s {OnGround:1b} run function what:block/actions/setblock_force {block:"broken_glass"}
 # DEBG 

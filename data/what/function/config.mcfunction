@@ -64,6 +64,8 @@ data modify storage what:config mob_spawner.nt_default.zombie set value {amount:
 data modify storage what:config mob_spawner.nt_default.piglin set value {amount: 5, keys: ["lefishe","cow_wheel","cow_wheel","pvz","pvz"]}
 data modify storage what:config mob_spawner.nt_default.zombified_piglin set value {amount: 5, keys: ["lefishe","lefishe","lefishe","psycho","lefishe"]}
 
+data modify storage what:config mob_spawner.ed_default.zombie set value {amount: 10, keys: ["nothing","nothing","nothing","nothing","blaze","blaze","nothing","shrek_end","shrek_end","corab"]}
+
 
 ## MEADOW
 data modify storage what:config mob_spawner.ow_meadow.sheep set value {amount: 5, keys: ["whatever","whatever","puffercopter","puffercopter","cable"]}
