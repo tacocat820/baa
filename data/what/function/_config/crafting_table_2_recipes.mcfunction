@@ -5,6 +5,9 @@ data remove storage what:config recipes
 
 #если в результате крафта больше 1 типа предметов, то ставьте preview:0
 
+
+data modify storage what:config recipes.s append value {craft:{"minecraft:blaze_powder": 1, "minecraft:gold_block": 1, "minecraft:dragon_egg": 1, "minecraft:diamond_hoe": 1, "banana": 1, air: 4}, loot:"what:loot/ender_eye", count:1}
+
 data modify storage what:config recipes.e append value {craft:{0: "air", 1: "nokia", 2: "air", 3: "air", 4: "nokia", 5: "air", 6: "air", 7: "minecraft:stick", 8: "air"}, loot:"what:items/nokia_sword", count:1}
 data modify storage what:config recipes.e append value {craft:{0: "air", 1: "air", 2: "iron_stick", 3: "air", 4: "iron_stick", 5: "air", 6: "iron_stick", 7: "air", 8: "air"}, loot:"what:items/fencing_sword", count:1}
 
@@ -39,6 +42,7 @@ data modify storage what:config recipes.s append value {craft:{"diamond_2": 9}, 
 data modify storage what:config recipes.s append value {craft:{"gold_block_2": 1, air: 8}, loot:"what:items/gold_2", count:9}
 data modify storage what:config recipes.s append value {craft:{"redstone_block_2": 1, air: 8}, loot:"what:blocks/redstone_2", count:9}
 data modify storage what:config recipes.s append value {craft:{"diamond_block_2": 1, air: 8}, loot:"what:items/diamond_2", count:9}
+
 
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}
 #data modify storage what:config recipes.s append value {craft:{air: 8, caramel_bricks: 1}, loot:"what:items/caramel", count:4}

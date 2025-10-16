@@ -38,3 +38,4 @@ execute at @a as @e[distance=0..30,tag=what.npc] at @s facing entity @p eyes run
 execute at @a if predicate what:random2 positioned ~ ~-1 ~ if block ~ ~ ~ #impermeable if data entity @s {OnGround:1b} run function what:block/actions/setblock_force {block:"broken_glass"}
 # DEBG 
 #
+

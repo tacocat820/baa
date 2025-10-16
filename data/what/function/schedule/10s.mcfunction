@@ -28,4 +28,6 @@ execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function w
 
 execute as @e[tag=what.ent.herobrin] at @s unless entity @a[distance=0..30] run kill @s
 
+execute as @a at @s if dimension the_nether if predicate what:random1 run loot give @s loot what:blocks/nether_bed
+
 execute as @r at @s run function what:__custom/setworldspawn
