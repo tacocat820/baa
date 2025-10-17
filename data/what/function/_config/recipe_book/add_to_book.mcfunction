@@ -9,7 +9,8 @@ data modify storage what:temp recipe_f.craft_type set from storage what:temp cra
 
 #----craft
 data modify storage what:temp recipe_f.craft set from storage what:temp recipe.craft
-execute if data storage what:temp {craft_type:"e"} run function what:_config/recipe_book/e/start_
+execute if data storage what:temp {craft_type:"e"} run function what:_config/recipe_book/description/e
+execute if data storage what:temp {craft_type:"s"} run function what:_config/recipe_book/description/s
 #----
 
 #-------------------------

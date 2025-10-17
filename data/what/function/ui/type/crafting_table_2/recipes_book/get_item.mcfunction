@@ -8,8 +8,11 @@ $data modify storage what:temp item.components."minecraft:custom_model_data" set
 
 #TEST
 data modify storage what:temp item.components."minecraft:lore" set value [ "__" ]
-$function what:ui/type/crafting_table_2/recipes_book/__set_lore with storage what:config recipes_book[$(indx)]
+
+function what:ui/type/crafting_table_2/recipes_book/__set_lore with storage what:temp
+
+#tellraw @a {"storage": "what:temp", "nbt": "lore", "color": "gray"}
+#$data modify storage what:temp item.components."minecraft:lore" set from storage what:config recipes_book[$(indx)].lore
 #$data modify storage what:temp item.components."minecraft:lore"[0] set string storage what:config recipes_book[$(indx)].craft
 #data modify storage what:temp item.components."minecraft:custom_data" set value {what_ui: {type: "craftitem"}}
-
 #$say get item index $(indx) || recipes_book[$(indx)].custom_model_data
