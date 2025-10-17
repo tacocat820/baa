@@ -147,6 +147,8 @@ data modify storage what:config mobs.therapist set value {name: '[{"translate":"
 data modify storage what:config mobs.asgor set value {name: '[{"translate":"what.mob.asgor"}]', base_mob: "vindicator", cmd:32060, item_id:"potion", anim_len:24, ignore_anim:1b}
 data modify storage what:config mobs.death set value {name: '[{"translate":"what.mob.death"}]', base_mob: "vindicator", cmd:32061, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.blays set value {name: '[{"translate":"what.mob.blays"}]', base_mob: "blaze", cmd:32062, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.gaster set value {name: '[{"translate":"what.mob.gaster"}]', base_mob: "marker", cmd:32063, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.happyghast set value {name: '[{"translate":"what.mob.happyghast"}]', base_mob: "spider", cmd:32064, item_id:"potion", anim_len:24, ignore_anim:1b}
 
 #damage
 function what:_config/damage

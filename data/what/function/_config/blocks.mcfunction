@@ -87,3 +87,5 @@ data modify storage what:config blocks.broken_glass set value {CustomModelData: 
 
 data modify storage what:config blocks.leather_block set value {CustomModelData: 32077, block:"mangrove_roots"}
 data modify storage what:config blocks.grassblockmond_block set value {CustomModelData: 32078, block:"glass"}
+data modify storage what:config blocks.dried_ghast set value {CustomModelData: 32079, block:"tripwire", rotate:2, customTags:[what.dried_ghast]}
+data modify storage what:config blocks.fried_ghast set value {CustomModelData: 32080, block:"tripwire", rotate:2}

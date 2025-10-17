@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32022,"minecraft:food":{"saturation":15,"nutrition":18},"minecraft:custom_data":{"what_type":"fried_ghast"},"minecraft:item_name":"{'translate':'what.item.fried_ghast'}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,5 +1,5 @@
 particle minecraft:explosion ^ ^ ^
-say GEEX
+
 execute unless entity @n[distance=0..2,type=!#what:non_mobs,tag=what.tofind_psycho] run return 0
 
 execute positioned ^ ^ ^ run tag @n[distance=0..2,type=!#what:non_mobs] remove what.tofind_psycho
