@@ -136,7 +136,7 @@
   "surface_rule": {
     "type": "minecraft:block",
     "result_state": {
-      "Name": "minecraft:red_wool"
+      "Name": "minecraft:bedrock"
     }
   }
 }
