@@ -89,3 +89,4 @@ data modify storage what:config blocks.leather_block set value {CustomModelData:
 data modify storage what:config blocks.grassblockmond_block set value {CustomModelData: 32078, block:"glass"}
 data modify storage what:config blocks.dried_ghast set value {CustomModelData: 32079, block:"tripwire", rotate:2, customTags:[what.dried_ghast]}
 data modify storage what:config blocks.fried_ghast set value {CustomModelData: 32080, block:"tripwire", rotate:2}
+data modify storage what:config blocks.spawner set value {CustomModelData: 32081, block:"barrier", customTags:[what.trail_spawner]}
