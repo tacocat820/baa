@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:bread",
+            "components": {
+              "minecraft:custom_model_data": 32001
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ],
+    "rewards": {
+      "function": "what:__custom/item/eat_evil_bread"
+    }
+  }
+  

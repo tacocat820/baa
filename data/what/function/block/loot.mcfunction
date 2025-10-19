@@ -96,3 +96,5 @@ execute if score cmd what.temp matches 32077 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32078 run return run loot spawn ~ ~ ~ loot what:blocks/grassblockmond_block
 execute if score cmd what.temp matches 32079 run return run loot spawn ~ ~ ~ loot what:blocks/dried_ghast
 execute if score cmd what.temp matches 32080 run return run loot spawn ~ ~ ~ loot what:items/fried_ghast
+execute if score cmd what.temp matches 32082 run return run loot spawn ~ ~ ~ loot what:blocks/drywall
+execute if score cmd what.temp matches 32083 run return run loot spawn ~ ~ ~ loot what:blocks/backrooms_lamp
