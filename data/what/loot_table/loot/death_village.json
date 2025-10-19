@@ -1,130 +1,160 @@
 {
-    "pools": [
-      {
-        "rolls": 11,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "value": "what:items/knife",
-            "weight": 2,
-            "functions": [],
-            "conditions": []
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "what:items/banana",
-            "weight": 3,
-            "functions": [
-              {"function": "set_count",
-            "count": {"max": 15,"min": 5}}
-            ],
-            "conditions": []
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "what:items/cooked_cow_corpse",
-            "weight": 4,
-            "functions": [
-              {"function": "set_count",
-            "count": {"max": 6,"min": 5}}
-            ],
-            "conditions": []
-          },
-          {
-            "type": "minecraft:item",
-            "name": "emerald",
-            "weight": 3,
-            "functions": [
-              {"function": "set_count",
-            "count": {"max": 64,"min": 5}}
-            ],
-            "conditions": []
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "minecraft:warped_fence",
-            "value": "what:items/glass_shards",
-            "weight": 3,
-            "functions": [],
-            "conditions": []
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "minecraft:warped_door",
-            "value": "what:items/netherite_drord",
-            "weight": 2,
-            "functions": [],
-            "conditions": [
-              {
-                "condition": "minecraft:time_check",
-                "value": {
-                  "min": 0,
-                  "max": 18000
-                },
-                "period": 24000
+  "pools": [
+    {
+      "rolls": 11,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/knife",
+          "weight": 2,
+          "functions": [],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/banana",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 15,
+                "min": 5
               }
-            ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "minecraft:warped_button",
-            "value": "what:items/fencing_sword",
-            "weight": 2,
-            "functions": [],
-            "conditions": [
-              {
-                "condition": "minecraft:time_check",
-                "value": {
-                  "min": 5000,
-                  "max": 24000
-                },
-                "period": 24000
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/evil_bread",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 15,
+                "min": 5
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:brown_candle",
-            "weight": 6,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 4
-                }
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/cooked_cow_corpse",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 5
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stonecutter",
-            "weight": 4,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                }
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "emerald",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 64,
+                "min": 5
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:acacia_door",
-            "weight": 7,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 8
-                }
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:warped_fence",
+          "value": "what:items/glass_shards",
+          "weight": 3,
+          "functions": [],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:warped_door",
+          "value": "what:items/netherite_drord",
+          "weight": 2,
+          "functions": [],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 0,
+                "max": 18000
+              },
+              "period": 24000
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:warped_button",
+          "value": "what:items/fencing_sword",
+          "weight": 2,
+          "functions": [],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 5000,
+                "max": 24000
+              },
+              "period": 24000
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_candle",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stonecutter",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_door",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
