@@ -19,8 +19,8 @@ data modify storage what:config blocks.globe set value {CustomModelData: 32010, 
 data modify storage what:config blocks.crafting_table_2 set value {CustomModelData: 32012, customTags:[what.crafting_table_2], rotate:2}
 data modify storage what:config blocks.obama set value {CustomModelData: 32013, block:"copper_grate"}
 data modify storage what:config blocks.trash_can set value {CustomModelData: 32014, customTags:[trash_can]}
-data modify storage what:config blocks.demon_core set value {CustomModelData: 32015, customTags:[demon_core], inter:1b, rotate:2}
-data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"tripwire"}
+data modify storage what:config blocks.demon_core set value {CustomModelData: 32015, customTags:[demon_core], inter:1b, rotate:2, no_chunking:1b}
+data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"tripwire", no_chunking:1b}
 data modify storage what:config blocks.lego set value {CustomModelData: 32021, rotate:2, block:"tripwire", customTags:[lego],}
 data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1b}
 data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid], pause:1b}
@@ -32,7 +32,7 @@ data modify storage what:config blocks.solid_dust set value {CustomModelData: 32
 data modify storage what:config blocks.dust_carpet set value {CustomModelData: 32031, block:"tripwire", falling:1b, customTags:[dust_carpet]}
 #data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
-data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"locked_shulker", customTags:[microwave]}
+data modify storage what:config blocks.microwave set value {CustomModelData: 32032, rotate:2, inter:1b, block:"locked_shulker", customTags:[microwave], no_chunking:1b}
 data modify storage what:config blocks.plasma set value {CustomModelData: 32033, block:"glass", bright:1b}
 data modify storage what:config blocks.obamium set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium], item_display:"head"}
 data modify storage what:config blocks.obamium_short set value {CustomModelData: 32034, block:"tripwire", rotate:2, customTags:[obamium_short]}
@@ -45,7 +45,7 @@ data modify storage what:config blocks.gold_ore_2 set value {CustomModelData: 32
 data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 32041, block:"azalea_leaves"}
 data modify storage what:config blocks.uranium_block set value {CustomModelData: 32042, block:"copper_grate", bright:1b}
 data modify storage what:config blocks.nokia_block set value {CustomModelData: 32043, block:"barrier"}
-data modify storage what:config blocks.unfurnace set value {CustomModelData: 32044, rotate:2, inter:1b, block:"locked_shulker", customTags:[unfurnace]}
+data modify storage what:config blocks.unfurnace set value {CustomModelData: 32044, rotate:2, inter:1b, block:"locked_shulker", customTags:[unfurnace], no_chunking:1b}
 data modify storage what:config blocks.rotten_flesh_block set value {CustomModelData: 32045, block:"azalea_leaves"}
 data modify storage what:config blocks.caramel_bricks set value {CustomModelData: 32047, block:"glass", customTags:[caramel_bricks]}
 
@@ -59,10 +59,10 @@ data modify storage what:config blocks.floppa set value {CustomModelData: 32055,
 data modify storage what:config blocks.sacabambaspis set value {CustomModelData: 32056, block:"barrier"}
 data modify storage what:config blocks.greenscreen set value {CustomModelData: 32064, block:"barrier", bright:1b}
 
-data modify storage what:config blocks.tright set value {CustomModelData: 32057, inter:1b, block:"barrier"}
-data modify storage what:config blocks.tleft set value {CustomModelData: 32058, inter:1b, block:"barrier"}
-data modify storage what:config blocks.trotate set value {CustomModelData: 32059, inter:1b, block:"barrier"}
-data modify storage what:config blocks.t set value {CustomModelData: 32060, block:"barrier"}
+data modify storage what:config blocks.tright set value {CustomModelData: 32057, inter:1b, block:"barrier", no_chunking:1b}
+data modify storage what:config blocks.tleft set value {CustomModelData: 32058, inter:1b, block:"barrier", no_chunking:1b}
+data modify storage what:config blocks.trotate set value {CustomModelData: 32059, inter:1b, block:"barrier", no_chunking:1b}
+data modify storage what:config blocks.t set value {CustomModelData: 32060, block:"barrier", no_chunking:1b, no_chunking:1b}
 #sacabambaspis
 
 data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1b}

@@ -67,3 +67,6 @@ execute at @e[tag=what.scary_box] run playsound ambient.cave hostile @a[distance
 #execute as @e[type=creeper] run say 1
 
 execute as @a[scores={what.fall_distance=1..}] at @s run function what:__custom/player_fall
+
+##chunk load
+execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..30,tag=what.blocks_chunk,limit=8,sort=nearest] run function what:block/chunk/load/_
