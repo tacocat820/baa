@@ -1,5 +1,5 @@
 execute unless entity @e[distance=0..12, type=item_display, tag=what.block_placed, tag=!what.no_chunking,tag=!falling] run return 0
-say DAMN!!
+#say DAMN!!
 
 data remove storage what:temp chunk_data
 data modify storage what:temp chunk_data set from entity @s data.chunk_data
