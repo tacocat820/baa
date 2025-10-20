@@ -92,3 +92,4 @@ data modify storage what:config blocks.fried_ghast set value {CustomModelData: 3
 data modify storage what:config blocks.spawner set value {CustomModelData: 32081, block:"barrier", customTags:[what.trail_spawner]}
 data modify storage what:config blocks.drywall set value {CustomModelData: 32082, block:"mangrove_roots"}
 data modify storage what:config blocks.backrooms_lamp set value {CustomModelData: 32083, block:"light", rotate:2}
+data modify storage what:config blocks.twitter set value {CustomModelData: 32084, block:"copper_grate", rotate:0}

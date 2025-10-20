@@ -24,3 +24,4 @@ execute if entity @s[tag=what.ent.mimic] run function what:mob/mimic/10t
 execute if entity @s[tag=what.ent.therapist] run function what:mob/therapist/10t
 execute if entity @s[tag=what.ent.death] run function what:mob/death/10t
 execute if entity @s[tag=what.ent.wtf] run function what:mob/wtf/10t
+execute if entity @s[tag=what.ent.elon] run function what:mob/elon/10t
