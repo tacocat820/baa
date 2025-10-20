@@ -1,9 +1,4 @@
-function what:block/chunk/load/for_each_block
-function what:block/chunk/load/for_each_block
-function what:block/chunk/load/for_each_block
-function what:block/chunk/load/for_each_block
-function what:block/chunk/load/for_each_block
-function what:block/chunk/load/for_each_block
+scoreboard players set $blocks_left what.temp 16
 function what:block/chunk/load/for_each_block
 
 ###----------------------###
