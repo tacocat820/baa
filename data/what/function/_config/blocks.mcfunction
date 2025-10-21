@@ -93,3 +93,4 @@ data modify storage what:config blocks.spawner set value {CustomModelData: 32081
 data modify storage what:config blocks.drywall set value {CustomModelData: 32082, block:"mangrove_roots"}
 data modify storage what:config blocks.backrooms_lamp set value {CustomModelData: 32083, block:"light", rotate:2}
 data modify storage what:config blocks.twitter set value {CustomModelData: 32084, block:"copper_grate", rotate:0}
+data modify storage what:config blocks.elon_mask_painting set value {CustomModelData: 32085, block:"tripwire", rotate:2, item_display:"head"}
