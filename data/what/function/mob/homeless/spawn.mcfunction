@@ -12,6 +12,6 @@ summon marker ~ ~ ~ {Tags:[what.temp,homeless]}
 summon marker ~ ~ ~ {Tags:[what.temp,homeless]}
 summon marker ~ ~ ~ {Tags:[what.temp,homeless]}
 
-spreadplayers ~ ~ 20 100 false @e[tag=what.temp,tag=homeless]
+spreadplayers ~ ~ 20 100 false @e[tag=what.temp,tag=homeless,distance=0..1]
 execute at @e[tag=what.temp,tag=homeless] unless entity @a[distance=0..20] run function what:mob/_spawner/homeless
 kill @e[tag=what.temp,tag=homeless]

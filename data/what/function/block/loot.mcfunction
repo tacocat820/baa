@@ -99,3 +99,4 @@ execute if score cmd what.temp matches 32080 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32082 run return run loot spawn ~ ~ ~ loot what:blocks/drywall
 execute if score cmd what.temp matches 32083 run return run loot spawn ~ ~ ~ loot what:blocks/backrooms_lamp
 execute if score cmd what.temp matches 32085 run return run loot spawn ~ ~ ~ loot what:blocks/elon_mask_painting
+execute if score cmd what.temp matches 32086 run return run loot spawn ~ ~ ~ loot what:blocks/error_painting

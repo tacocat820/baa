@@ -10,7 +10,7 @@ data modify storage what:config blocks.uranium_ore set value {CustomModelData: 3
 data modify storage what:config blocks.backrooms set value {CustomModelData: 32003, block:"copper_grate"}
 data modify storage what:config blocks.backrooms_carpet set value {CustomModelData: 32011, block:"copper_grate"}
 
-data modify storage what:config blocks.meth_crystal set value {CustomModelData: 32004, rotate:1b, block:"tripwire"}
+data modify storage what:config blocks.meth_crystal set value {CustomModelData: 32004, rotate:1, block:"tripwire"}
 data modify storage what:config blocks.chair_plant set value {CustomModelData: 32005, block:"tripwire", plant:1b, customTags:[plant, chair_plant]}
 #= 32005 - 32007
 data modify storage what:config blocks.stool set value {CustomModelData: 32008, rotate:2, block:"tripwire"}
@@ -22,7 +22,7 @@ data modify storage what:config blocks.trash_can set value {CustomModelData: 320
 data modify storage what:config blocks.demon_core set value {CustomModelData: 32015, customTags:[demon_core], inter:1b, rotate:2, no_chunking:1b}
 data modify storage what:config blocks.pipe_bomb set value {CustomModelData: 32020, inter:1b, rotate:2, block:"tripwire", no_chunking:1b}
 data modify storage what:config blocks.lego set value {CustomModelData: 32021, rotate:2, block:"tripwire", customTags:[lego],}
-data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1b}
+data modify storage what:config blocks.beans_plant set value {CustomModelData: 32022, block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1}
 data modify storage what:config blocks.american_oil set value {CustomModelData: 32026, block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid], pause:1b}
 data modify storage what:config blocks.bing_chilling set value {CustomModelData: 32027, block:"copper_grate"}
 data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
@@ -40,7 +40,7 @@ data modify storage what:config blocks.diamond_ore_2 set value {CustomModelData:
 data modify storage what:config blocks.diamond_block_2 set value {CustomModelData: 32036, block:"azalea_leaves"}
 data modify storage what:config blocks.redstone_ore_2 set value {CustomModelData: 32037, block:"azalea_leaves"}
 data modify storage what:config blocks.redstone_block_2 set value {CustomModelData: 32038, block:"azalea_leaves"}
-data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"tripwire",rotate:1b, bright:1b}
+data modify storage what:config blocks.redstone_2 set value {CustomModelData: 32039, block:"tripwire",rotate:1, bright:1b}
 data modify storage what:config blocks.gold_ore_2 set value {CustomModelData: 32040, block:"azalea_leaves"}
 data modify storage what:config blocks.gold_block_2 set value {CustomModelData: 32041, block:"azalea_leaves"}
 data modify storage what:config blocks.uranium_block set value {CustomModelData: 32042, block:"copper_grate", bright:1b}
@@ -65,7 +65,7 @@ data modify storage what:config blocks.trotate set value {CustomModelData: 32059
 data modify storage what:config blocks.t set value {CustomModelData: 32060, block:"barrier", no_chunking:1b, no_chunking:1b}
 #sacabambaspis
 
-data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1b}
+data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1}
 data modify storage what:config blocks.RCWIP set value {CustomModelData: 32062, block:"tripwire", rotate:2}
 #rail_corner_without_iron_pickaxe ^^^
 data modify storage what:config blocks.VLC set value {CustomModelData: 32063, block:"tripwire", item_display:"head", falling:1b}
@@ -87,10 +87,11 @@ data modify storage what:config blocks.broken_glass set value {CustomModelData: 
 
 data modify storage what:config blocks.leather_block set value {CustomModelData: 32077, block:"mangrove_roots"}
 data modify storage what:config blocks.grassblockmond_block set value {CustomModelData: 32078, block:"glass"}
-data modify storage what:config blocks.dried_ghast set value {CustomModelData: 32079, block:"tripwire", rotate:2, customTags:[what.dried_ghast]}
+data modify storage what:config blocks.dried_ghast set value {CustomModelData: 32079, block:"tripwire", rotate:3, customTags:[what.dried_ghast]}
 data modify storage what:config blocks.fried_ghast set value {CustomModelData: 32080, block:"tripwire", rotate:2}
 data modify storage what:config blocks.spawner set value {CustomModelData: 32081, block:"barrier", customTags:[what.trail_spawner]}
 data modify storage what:config blocks.drywall set value {CustomModelData: 32082, block:"mangrove_roots"}
-data modify storage what:config blocks.backrooms_lamp set value {CustomModelData: 32083, block:"light", rotate:2}
+#data modify storage what:config blocks.backrooms_lamp set value {CustomModelData: 32083, block:"light", rotate:2}
 data modify storage what:config blocks.twitter set value {CustomModelData: 32084, block:"copper_grate", rotate:0}
-data modify storage what:config blocks.elon_mask_painting set value {CustomModelData: 32085, block:"tripwire", rotate:2, item_display:"head"}
+data modify storage what:config blocks.elon_mask_painting set value {CustomModelData: 32085, block:"tripwire", rotate:3, item_display:"head"}
+data modify storage what:config blocks.error_painting set value {CustomModelData: 32086, block:"tripwire", rotate:3, item_display:"head"}

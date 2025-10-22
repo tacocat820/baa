@@ -5,8 +5,9 @@ $execute if data storage what:config blocks.$(type).customTags run data modify e
 
 tag @s add what.block_placed
 
-$execute if data storage what:config blocks.$(type){rotate:1b} run data modify entity @s Rotation set from storage what:temp r
+$execute if data storage what:config blocks.$(type){rotate:1} run data modify entity @s Rotation set from storage what:temp r
 $execute if data storage what:config blocks.$(type){rotate:2} run function what:block/actions/rotate_horiz
+$execute if data storage what:config blocks.$(type){rotate:3} run function what:block/actions/rotate_horiz_and_vert
 #
 $execute if data storage what:config blocks.$(type){falling:1b} run tag @s add falling_block
 $execute if data storage what:config blocks.$(type).falling run data modify entity @s teleport_duration set value 2

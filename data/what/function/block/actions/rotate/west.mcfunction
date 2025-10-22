@@ -1,1 +1,1 @@
-data modify entity @s Rotation set value [90f, 0f, 0f]
+data modify entity @s Rotation[0] set value 90f

@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 40,
+      "weight": 35,
       "element": {
         "location": "what:backrooms/t_corridor",
         "processors": "minecraft:empty",
@@ -11,8 +11,17 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
+    {
+      "weight": 5,
+      "element": {
+        "location": "what:backrooms/t_corridor_2",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
   	{	
-      "weight": 40,
+      "weight": 26,
       "element": {
         "location": "what:backrooms/l_corridor",
         "processors": "minecraft:empty",
@@ -20,8 +29,35 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
+  	{	
+      "weight": 5,
+      "element": {
+        "location": "what:backrooms/l_corridor_1",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  	{	
+      "weight": 5,
+      "element": {
+        "location": "what:backrooms/l_corridor_2",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  	{	
+      "weight": 3,
+      "element": {
+        "location": "what:backrooms/l_corridor_3",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
     {	
-      "weight": 40,
+      "weight": 20,
       "element": {
         "location": "what:backrooms/x_corridor",
         "processors": "minecraft:empty",
@@ -29,7 +65,15 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-
+    {	
+      "weight": 10,
+      "element": {
+        "location": "what:backrooms/x_corridor_2",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
 
     {	
       "weight": 5,
@@ -76,12 +120,19 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-
-
-    {	
-      "weight": 40,
+    {
+      "weight": 5,
       "element": {
-        "location": "what:backrooms/l_corridor_end",
+        "location": "what:backrooms/room_6",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "what:backrooms/room_7",
         "processors": "minecraft:empty",
 	    	"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
