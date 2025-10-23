@@ -95,3 +95,4 @@ data modify storage what:config blocks.drywall set value {CustomModelData: 32082
 data modify storage what:config blocks.twitter set value {CustomModelData: 32084, block:"copper_grate", rotate:0}
 data modify storage what:config blocks.elon_mask_painting set value {CustomModelData: 32085, block:"tripwire", rotate:3, item_display:"head"}
 data modify storage what:config blocks.error_painting set value {CustomModelData: 32086, block:"tripwire", rotate:3, item_display:"head"}
+data modify storage what:config blocks.sv set value {CustomModelData: 32087, block:"copper_grate"}
