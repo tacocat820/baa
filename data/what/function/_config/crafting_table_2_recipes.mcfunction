@@ -9,6 +9,7 @@ data remove storage what:config recipes
 
 data modify storage what:config recipes.e append value {craft:{0: "air", 1: "nokia", 2: "air", 3: "air", 4: "nokia", 5: "air", 6: "air", 7: "minecraft:stick", 8: "air"}, loot:"what:items/nokia_sword", count:1}
 data modify storage what:config recipes.e append value {craft:{0: "air", 1: "air", 2: "iron_stick", 3: "air", 4: "iron_stick", 5: "air", 6: "iron_stick", 7: "air", 8: "air"}, loot:"what:items/fencing_sword", count:1}
+data modify storage what:config recipes.e append value {craft:{0: "air", 1: "wolfberries", 2: "air", 3: "wolfberries", 4: "glass_empty", 5: "wolfberries", 6: "air", 7: "wolfberries", 8: "air"}, loot:"what:items/glass_of_poison", count:1}
 
 data modify storage what:config recipes.s append value {craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:blaze_powder"}, {count: 1, id: "minecraft:gold_block"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "caramel"}, {count: 1, id: "minecraft:diamond_hoe"}], loot:"what:loot/ender_eye", count:1}
 data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}

@@ -27,5 +27,6 @@ execute if data storage what:temp {what_type:pumpkin_gun} anchored eyes run retu
 execute if data storage what:temp {what_type:hairdryer} anchored eyes run return run function what:carrot_on_a_stick/hairdryer
 execute if data storage what:temp {what_type:rehsiugnitxe_erif} run return run function what:carrot_on_a_stick/rehsiugnitxe_erif/run
 execute if data storage what:temp {what_type:marker_tool} run return run function what:carrot_on_a_stick/marker_tool/_
+execute if data storage what:temp {what_type:glass_of_poison} run return run function what:carrot_on_a_stick/glass/wolf
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}
 #anchored eyes run summon creeper ^ ^ ^.1 {Fuse:0,ExplosionRadius:-1,ignited:1,Silent:1b}

@@ -31,3 +31,6 @@ execute as @e[tag=what.ent.herobrin] at @s unless entity @a[distance=0..30] run 
 execute as @a at @s if dimension the_nether if predicate what:random1 run loot give @s loot what:blocks/nether_bed
 
 execute as @r at @s run function what:__custom/setworldspawn
+
+execute as @e[type=wandering_trader,tag=what.ent.elon] at @s run function what:mob/elon/10s
+execute as @a at @s if dimension what:backrooms at @e[tag=what.backrooms_spawn,limit=1,sort=random] unless entity @e[tag=what.ent.elon] unless score $elon what.global_events matches 1 run function what:mob/_spawner/elon

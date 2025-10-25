@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.4 ~0.5 run summon item_display ~ ~ ~ {Tags:["what.ent.poison_tree"],item:{id:"cookie",components:{custom_model_data:32023},count:1}}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon interaction ~ ~ ~ {height:3,width:3,Tags:["poison_tree_inter"]}

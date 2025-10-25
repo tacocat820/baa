@@ -48,3 +48,4 @@ execute at @a as @e[distance=0..120, type=item_display, tag=what.block_placed, t
 # DEBG 
 #
 
+execute at @e[type=minecraft:marker,tag=what.backrooms_spawnpoint] run fill ~ ~ ~ ~ ~1 ~ air destroy

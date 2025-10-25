@@ -17,6 +17,7 @@ data modify storage what:config inter.nether_bed set value {target: "what:block/
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 data modify storage what:config inter.tree_inter set value {target: "",attack: "what:mob/big_tree/inter"}
+data modify storage what:config inter.poison_tree_inter set value {target: "",attack: "what:mob/big_tree/poison_inter"}
 data modify storage what:config inter.wave_inter set value {target: "what:mob/wave/collect_wave",attack: ""}
 
 data modify storage what:config inter.micro set value {target: "what:block/microwave/micro_add_wave",attack: "what:block/actions/destroy_block"}
