@@ -6,10 +6,11 @@
 
 #say 1
 
-execute if entity @s[tag=falling] unless block ~ ~ ~ #what:replaceable run function what:block/break
 
-execute if entity @s[tag=falling] unless block ^ ^ ^-1 #what:replaceable run function what:block/falling_blocks/set
 #execute unless block ~ ~-1 ~ #what:replaceable run function what:block/falling_blocks/set
 #execute unless block ~ ~-2 ~ #what:replaceable run function what:block/falling_blocks/set
 
-execute if block ^ ^ ^-1 #what:replaceable run function what:block/falling_blocks/fall
+execute if entity @s[tag=falling] unless block ~ ~-1 ~ #what:replaceable run function what:block/falling_blocks/set
+execute if block ^ ^ ^-1 #what:replaceable run function what:block/falling_blocks/check_2
+execute if entity @s[tag=falling] unless block ^ ^ ^-1 #what:replaceable run function what:block/falling_blocks/set
+ 

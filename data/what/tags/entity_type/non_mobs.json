@@ -23,6 +23,7 @@
 	"leash_knot",
 	"block_display",
 	"#arrows",
-	"#minecraft:impact_projectiles"
+	"#minecraft:impact_projectiles",
+	"#minecraft:boat"
 	]
 }

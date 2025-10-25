@@ -5,7 +5,7 @@ data modify storage what:temp func set value "what:ui/type/crafting_table_2/slot
 data remove storage what:temp ShapelessCraft
 data remove storage what:temp ShapeCraft
 
-particle angry_villager
+#particle angry_villager
 
 $tag @n[scores={what.ui_playerid=$(playerid)}] add what.this_ui
 #$say @p $(playerid)

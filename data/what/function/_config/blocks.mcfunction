@@ -27,7 +27,7 @@ data modify storage what:config blocks.american_oil set value {CustomModelData: 
 data modify storage what:config blocks.bing_chilling set value {CustomModelData: 32027, block:"copper_grate"}
 data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
 
-data modify storage what:config blocks.dust set value {CustomModelData: 32029, block:"azalea_leaves", falling:1b, customTags:[dust]}
+data modify storage what:config blocks.dust set value {CustomModelData: 32029, block:"azalea_leaves", falling:1b}
 data modify storage what:config blocks.solid_dust set value {CustomModelData: 32030, block:"mangrove_roots"}
 data modify storage what:config blocks.dust_carpet set value {CustomModelData: 32031, block:"tripwire", falling:1b, customTags:[dust_carpet]}
 #data modify storage what:config blocks.chinese_anvil set value {CustomModelData: 32028, rotate:2, falling:1b, customTags:[chinese_anvil]}
@@ -65,7 +65,7 @@ data modify storage what:config blocks.trotate set value {CustomModelData: 32059
 data modify storage what:config blocks.t set value {CustomModelData: 32060, block:"barrier", no_chunking:1b, no_chunking:1b}
 #sacabambaspis
 
-data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, customTags:[icicle], rotate:1}
+data modify storage what:config blocks.icicle set value {CustomModelData: 32061, falling:2, rotate:1}
 data modify storage what:config blocks.RCWIP set value {CustomModelData: 32062, block:"tripwire", rotate:2}
 #rail_corner_without_iron_pickaxe ^^^
 data modify storage what:config blocks.VLC set value {CustomModelData: 32063, block:"tripwire", item_display:"head", falling:1b}
