@@ -1,4 +1,4 @@
-summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.elon","tick1s"],PersistenceRequired:1b,attributes:[{id:"follow_range",base:1000}]}
+summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.elon","tick1s"],PersistenceRequired:1b,attributes:[{id:"follow_range",base:1000}],Invincible:1b}
 effect give @n[tag=what.temp_new] speed infinite 4 true
 effect give @n[tag=what.temp_new] strength infinite 1 true
 effect give @n[tag=what.temp_new] fire_resistance infinite 255 true

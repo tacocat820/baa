@@ -43,8 +43,7 @@ execute at @a if predicate what:random2 positioned ~ ~-1 ~ if block ~ ~ ~ #imper
 
 #execute at @a as @e[distance=30..700, type=marker, tag=what.blocks_chunk,limit=16] at @s run function what:block/chunk/create/_
 execute at @a as @e[distance=45..700,type=marker, tag=what.blocks_chunk] at @s run function what:block/chunk/create/_
-execute at @a as @e[distance=0..120, type=item_display, tag=what.block_placed, tag=!what.no_chunking,tag=!falling,  sort=random,limit=35] at @s run function what:block/chunk/check
-
+execute at @a if dimension what:backrooms as @e[distance=0..120, type=item_display, tag=what.block_placed, tag=!what.no_chunking,tag=!falling,sort=random,limit=35] at @s run function what:block/chunk/check
 # DEBG 
 #
 

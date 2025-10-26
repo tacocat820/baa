@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to": "what:heaven"
+            }
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32074
+            }
+        },
+        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.theend"},
+        "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.theend.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/heck"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "what:heaven",
+      "lakes": false,
+      "layers": [
+        {
+          "height": 200,
+          "block": "minecraft:barrier"
+        }
+      ]
+    }
+  }
+}

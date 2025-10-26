@@ -1,0 +1,1 @@
+execute in what:tetris run place template what:frying_ghasts 0 150 0

@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["swamp","taiga","badlands","beach","cherry_grove","jungle","stony_peaks","stony_shore","desert","plains","forest","flower_forest"],
+    "biomes": ["swamp","taiga","badlands","beach","cherry_grove","jungle","stony_peaks","stony_shore","desert","plains","forest","flower_forest","what:heaven"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",

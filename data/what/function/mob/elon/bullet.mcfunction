@@ -6,3 +6,5 @@ particle large_smoke ~ ~ ~ 0.1 0.1 0.1 0.1 10 normal
 
 scoreboard players add @s what.ent.action 1
 execute if score @s what.ent.action matches 200.. run kill @s
+
+playsound block.fire.ambient hostile @a[distance=0..20] ~ ~ ~
