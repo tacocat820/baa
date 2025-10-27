@@ -1,6 +1,4 @@
-say __________________
-say GENERATING NEW BACKROOMS... PLEASE WAIT...
-execute as @a if dimension what:backrooms run effect give @s slowness 6 9 true
+say GENERATING BACKROOMS... PLEASE WAIT...
 
 #place
 execute in what:backrooms run place jigsaw what:backrooms_start start 11 0 0 0
