@@ -8,7 +8,7 @@
       "layers": [
         {
           "height": 100,
-          "block": "minecraft:crimson_nylium"
+          "block": "minecraft:lava"
         }
       ]
     }
