@@ -3,23 +3,23 @@
         "e" : {
             "trigger": "changed_dimension",
             "conditions": {
-                "to": "what:heaven"
+                "to": "minecraft:the_end"
             }
         }
     },
     "display": {
-        "hidden": true,
+        "hidden": false,
         "icon": {
             "id": "item_frame",
             "components": {
-                "custom_model_data": 32074
+                "custom_model_data": 32080
             }
         },
-        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.theend"},
-        "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.theend.desc"},
+        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.frying"},
+        "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.frying.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true
     },
-    "parent": "what:visible/backrooms"
+    "parent": "what:visible/heck"
 }
