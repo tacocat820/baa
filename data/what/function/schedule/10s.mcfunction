@@ -37,3 +37,4 @@ execute as @a at @s if dimension what:backrooms at @e[tag=what.backrooms_spawn,l
 
 execute as @a[scores={what.etc.gaster_timer=1..}] run scoreboard players remove @s what.etc.gaster_timer 1
 execute as @r[scores={what.etc.gaster_timer=..1}] run function what:__custom/gaster/send
+execute as @a[tag=what.gastering] at @s run function what:mob/gaster/talk
