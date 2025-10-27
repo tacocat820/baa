@@ -17,3 +17,7 @@ tag @s remove tick1s
 
 summon marker ~ ~ ~ {Tags:["what.death_marker"]}
 tag @s remove what.pumpkin_gun.active
+
+tag @s remove what.gastering
+tag @s remove what.at_gaster
+tag @s remove what.ghast_killing

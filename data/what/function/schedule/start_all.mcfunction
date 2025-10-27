@@ -4,3 +4,4 @@ schedule function what:schedule/2s 2s replace
 schedule function what:schedule/1s 1s replace
 schedule function what:schedule/5t 5t replace
 schedule function what:schedule/2t 2t replace
+schedule function what:schedule/5s 5s replace

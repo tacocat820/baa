@@ -8,3 +8,5 @@ playsound minecraft:what.scream player @a ~ ~ ~
 
 tag @s remove what.dried_ghast
 data modify entity @s item.components.minecraft:custom_model_data set value 32080
+
+execute if dimension what:tetris run scoreboard players add @p what.etc.gaster 1

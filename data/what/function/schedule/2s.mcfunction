@@ -48,3 +48,4 @@ execute at @a if dimension what:backrooms as @e[distance=0..120, type=item_displ
 #
 
 execute at @e[type=minecraft:marker,tag=what.backrooms_spawnpoint] run fill ~ ~ ~ ~ ~1 ~ air destroy
+execute at @e[type=minecraft:marker,tag=what.ghast_fryer] run fill ~ ~ ~ ~ ~ ~ fire destroy
