@@ -16,6 +16,7 @@ scoreboard objectives add what.etc.open_shulker_box minecraft.custom:minecraft.o
 scoreboard objectives add what.etc.page dummy
 scoreboard objectives add what.etc.gaster dummy
 scoreboard objectives add what.etc.gaster_timer dummy
+scoreboard objectives add what.etc.backrooms_exit_timer dummy
 #for achievements
 scoreboard objectives add what.etc.killed_villagers killed:villager
 scoreboard objectives add what.etc.eaten_pens dummy

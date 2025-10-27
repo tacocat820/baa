@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:bath",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1803284819,
+    "spacing": 10,
+    "separation": 2
+  }
+}
