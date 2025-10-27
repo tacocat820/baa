@@ -1,3 +1,9 @@
-execute in what:backrooms run place jigsaw what:backrooms_start start 15 0 0 0
+say __________________
+say GENERATING NEW BACKROOMS... PLEASE WAIT...
+execute as @a if dimension what:backrooms run effect give @s slowness 6 9 true
 
-execute in what:backrooms at @e[tag=what.backrooms_spawn,limit=1,sort=random] run function what:mob/big_tree/poison_spawn
+#place
+execute in what:backrooms run place jigsaw what:backrooms_start start 11 0 0 0
+
+#wolfberries
+execute unless entity @n[tag=what.ent.poison_tree] at @e[tag=what.backrooms_spawn,limit=1,sort=random] run function what:mob/big_tree/poison_spawn

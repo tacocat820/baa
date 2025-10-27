@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ dragon_egg run function what:__custom/end/portal

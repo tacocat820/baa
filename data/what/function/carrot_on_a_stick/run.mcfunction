@@ -24,7 +24,7 @@ execute if data storage what:temp {what_type:glass_of_oil} run return run functi
 execute if data storage what:temp {what_type:melon_gun} anchored eyes run return run function what:carrot_on_a_stick/melon_gun/run
 execute if data storage what:temp {what_type:wave_bucket} anchored eyes run return run function what:carrot_on_a_stick/wave_bucket/place
 execute if data storage what:temp {what_type:pumpkin_gun} anchored eyes run return run function what:carrot_on_a_stick/pumpkin_gun/run
-execute if data storage what:temp {what_type:hairdryer} anchored eyes run return run function what:carrot_on_a_stick/hairdryer
+execute if data storage what:temp {what_type:hairdryer} anchored eyes run return run function what:carrot_on_a_stick/hairdryer/_
 execute if data storage what:temp {what_type:rehsiugnitxe_erif} run return run function what:carrot_on_a_stick/rehsiugnitxe_erif/run
 execute if data storage what:temp {what_type:marker_tool} run return run function what:carrot_on_a_stick/marker_tool/_
 execute if data storage what:temp {what_type:glass_of_poison} run return run function what:carrot_on_a_stick/glass/wolf
