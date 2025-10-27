@@ -29,6 +29,7 @@ execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function w
 execute as @e[tag=what.ent.herobrin] at @s unless entity @a[distance=0..30] run kill @s
 
 execute as @a at @s if dimension the_nether if predicate what:random1 run loot give @s loot what:blocks/nether_bed
+execute as @a at @s if dimension the_end if predicate what:random1 run loot give @s loot what:blocks/nether_bed
 
 execute as @r at @s run function what:__custom/setworldspawn
 
@@ -39,3 +40,6 @@ execute as @a at @s if dimension what:backrooms if score $elon what.global_event
 execute as @a[tag=what.gastering] at @s run function what:mob/gaster/talk
 execute as @a[scores={what.etc.gaster_timer=1..}] run scoreboard players remove @s what.etc.gaster_timer 1
 execute as @r[scores={what.etc.gaster_timer=..1}] run function what:__custom/gaster/send
+
+execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/dolphin
+execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/vroomba

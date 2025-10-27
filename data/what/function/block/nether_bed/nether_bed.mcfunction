@@ -1,4 +1,5 @@
-execute unless dimension minecraft:the_nether as @p run kill @s
+execute unless dimension minecraft:the_nether unless dimension minecraft:end as @p run kill @s
+execute unless dimension minecraft:the_nether unless dimension minecraft:end run return 0
 
 execute as @p run spawnpoint @s ~ ~ ~
 setblock ~ ~ ~ air

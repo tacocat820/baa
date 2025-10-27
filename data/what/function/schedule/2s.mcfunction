@@ -51,3 +51,5 @@ execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=65..150,
 
 execute at @e[type=minecraft:marker,tag=what.backrooms_spawnpoint] run fill ~ ~ ~ ~ ~1 ~ air destroy
 execute at @e[type=minecraft:marker,tag=what.ghast_fryer] run fill ~ ~ ~ ~ ~ ~ fire destroy
+
+execute as @a at @s if dimension what:backrooms run function what:__custom/backrooms/above
