@@ -35,6 +35,6 @@ execute as @r at @s run function what:__custom/setworldspawn
 execute as @e[type=wandering_trader,tag=what.ent.elon] at @s run function what:mob/elon/10s
 execute as @a at @s if dimension what:backrooms at @e[tag=what.backrooms_spawn,limit=1,sort=random] unless entity @e[tag=what.ent.elon] unless score $elon what.global_events matches 1 run function what:mob/_spawner/elon
 
+execute as @a[tag=what.gastering] at @s run function what:mob/gaster/talk
 execute as @a[scores={what.etc.gaster_timer=1..}] run scoreboard players remove @s what.etc.gaster_timer 1
 execute as @r[scores={what.etc.gaster_timer=..1}] run function what:__custom/gaster/send
-execute as @a[tag=what.gastering] at @s run function what:mob/gaster/talk
