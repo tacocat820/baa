@@ -12,6 +12,7 @@ data modify storage what:config recipes.e append value {craft:{0: "air", 1: "air
 data modify storage what:config recipes.e append value {craft:{0: "air", 1: "wolfberries", 2: "air", 3: "wolfberries", 4: "glass_empty", 5: "wolfberries", 6: "air", 7: "wolfberries", 8: "air"}, loot:"what:items/glass_of_poison", count:1}
 
 data modify storage what:config recipes.s append value {craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:blaze_powder"}, {count: 1, id: "minecraft:gold_block"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "caramel"}, {count: 1, id: "minecraft:diamond_hoe"}], loot:"what:loot/ender_eye", count:1}
+data modify storage what:config recipes.s append value {craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "rotten_flesh_block"}, {count: 1, id: "pc"}, {count: 1, id: "glass_of_water"}, {count: 1, id: "nether_bed"}], loot:"what:items/herobrine_spray", count:1}
 data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
 data modify storage what:config recipes.s append value {craft:[{count: 8, id: "banana"}, {count: 1, id: "cucumber"}], loot:"what:items/caramel", count:1}
 data modify storage what:config recipes.s append value {craft:[{count: 8, id: "air"}, {count: 1, id: "caramel_bricks"}], loot:"what:items/caramel", count:4}
@@ -48,7 +49,10 @@ data modify storage what:config recipes.s append value {craft:[{count: 9, id: "n
 data modify storage what:config recipes.s append value {craft:[{count: 7, id: "air"}, {count: 1, id: "evil_bread"}, {count: 1, id: "fire_extinguisher"}], loot:"what:items/rehsiugnitxe_erif", count:1}
 
 data modify storage what:config recipes.s append value {craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
-#data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
 
+#data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
+#data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
+#data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
+#data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
 
 function what:_config/recipe_book/start
