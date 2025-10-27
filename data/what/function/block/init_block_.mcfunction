@@ -8,6 +8,7 @@ $execute if data storage what:config blocks.$(type){block:"azalea_leaves"} run s
 $execute if data storage what:config blocks.$(type){block:"barrier"} run setblock ~ ~ ~ barrier
 $execute if data storage what:config blocks.$(type){block:"mangrove_roots"} run setblock ~ ~ ~ mangrove_roots
 $execute if data storage what:config blocks.$(type){block:"light"} run setblock ~ ~ ~ ochre_froglight
+$execute if data storage what:config blocks.$(type){block:"end_portal_frame"} run setblock ~ ~ ~ minecraft:end_portal_frame
 
 $execute if data storage what:config blocks.$(type){CustomModelData: 32061} run setblock ~ ~ ~ minecraft:light_blue_stained_glass_pane
 $execute if data storage what:config blocks.$(type){CustomModelData: 32075} run setblock ~ ~ ~ minecraft:rail

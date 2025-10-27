@@ -47,7 +47,7 @@ data modify storage what:config recipes.s append value {craft:[{count: 4, id: "a
 data modify storage what:config recipes.s append value {craft:[{count: 9, id: "nokia"}], loot:"what:blocks/nokia_block", count:1}
 data modify storage what:config recipes.s append value {craft:[{count: 7, id: "air"}, {count: 1, id: "evil_bread"}, {count: 1, id: "fire_extinguisher"}], loot:"what:items/rehsiugnitxe_erif", count:1}
 
-#data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
+data modify storage what:config recipes.s append value {craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes.s append value {craft:[{count: 9, id: "minecraft:apple"}], loot:"what:items/banana", count:1}
 
 
