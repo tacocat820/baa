@@ -4,5 +4,3 @@ function what:__custom/gaster/teleport
 tag @s add what.at_gaster
 
 scoreboard players reset @s what.etc.gaster_timer
-
-tag @s add what.gastered
