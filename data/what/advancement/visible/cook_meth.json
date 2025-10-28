@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["clock"],
+                    "components": {
+                        "custom_model_data": 32000
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "clock",
+            "components": {
+                "custom_model_data": 32000
+            }
+        },
+        "title": {"color": "#ff6f10","underlined":false, "bold":true, "translate": "what.adv.cook_meth"},
+        "description": {"color": "#e9e4bb", "bold": false, "translate": "what.adv.cook_meth.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+        },
+    "parent": "what:visible/microwave"
+}

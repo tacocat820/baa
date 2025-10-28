@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "what:items/red_meth"
+          "value": "what:items/meth"
         }
       ]
     }
