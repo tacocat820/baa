@@ -99,3 +99,5 @@ data modify storage what:config blocks.sv set value {CustomModelData: 32087, blo
 data modify storage what:config blocks.backrooms_portal set value {CustomModelData: 32088, block:"end_portal_frame", bright:1b, customTags:[what.backrooms_portal], no_chunking:1b}
 data modify storage what:config blocks.nuke set value {CustomModelData: 32089, customTags:[what.nuke], inter:1b, rotate:2, no_chunking:1b, block:"copper_grate"}
 data modify storage what:config blocks.drem set value {CustomModelData: 32090, customTags:[what.drem], inter:1b, rotate:2, no_chunking:1b, block:"barrier"}
+data modify storage what:config blocks.hell_stone set value {CustomModelData: 32091, block:"barrier"}
+data modify storage what:config blocks.hell_stone_wedge set value {CustomModelData: 32092, block:"barrier", rotate:3, item_display:"head"}
