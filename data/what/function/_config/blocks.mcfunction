@@ -96,4 +96,6 @@ data modify storage what:config blocks.twitter set value {CustomModelData: 32084
 data modify storage what:config blocks.elon_mask_painting set value {CustomModelData: 32085, block:"tripwire", rotate:3, item_display:"head"}
 data modify storage what:config blocks.error_painting set value {CustomModelData: 32086, block:"tripwire", rotate:3, item_display:"head"}
 data modify storage what:config blocks.sv set value {CustomModelData: 32087, block:"copper_grate"}
-data modify storage what:config blocks.backrooms_portal set value {CustomModelData: 32088, block:"end_portal_frame", bright:1b, customTags:[what.backrooms_portal]}
+data modify storage what:config blocks.backrooms_portal set value {CustomModelData: 32088, block:"end_portal_frame", bright:1b, customTags:[what.backrooms_portal], no_chunking:1b}
+data modify storage what:config blocks.nuke set value {CustomModelData: 32089, customTags:[what.nuke], inter:1b, rotate:2, no_chunking:1b, block:"copper_grate"}
+data modify storage what:config blocks.drem set value {CustomModelData: 32090, customTags:[what.drem], inter:1b, rotate:2, no_chunking:1b, block:"barrier"}

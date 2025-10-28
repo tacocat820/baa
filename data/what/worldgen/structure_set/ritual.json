@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:ritual",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 9821826925,
+    "spacing": 19,
+    "separation": 10
+  }
+}

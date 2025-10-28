@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["mace"],
+                    "components": {
+                        "custom_model_data": 32000
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "mace",
+            "components": {
+                "custom_model_data": 32000
+            }
+        },
+        "title": {"color": "#67a07c", "strikethrough": false, "translate": "what.adv.demon_core_mace"},
+        "description": {"color": "#a126f1", "bold": true, "underlined":true, "translate": "what.adv.demon_core_mace.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/demon_core"
+}

@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["item_frame"],
+                    "components": {
+                        "custom_model_data": 32089
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32089
+            }
+        },
+        "title": {"color": "#67a07c", "strikethrough": false, "translate": "what.adv.demon_core_nuke"},
+        "description": {"color": "#a126f1", "bold": true, "underlined":true, "translate": "what.adv.demon_core_nuke.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/demon_core"
+}

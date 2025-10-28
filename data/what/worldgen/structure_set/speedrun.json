@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:speedrun",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 8271925,
+    "spacing": 13,
+    "separation": 7
+  }
+}

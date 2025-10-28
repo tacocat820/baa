@@ -1,4 +1,6 @@
 #scoreboards
+scoreboard objectives add what.etc.speedrun_timer dummy
+
 scoreboard objectives add what.etc.uranium dummy
 scoreboard objectives add what.etc.wob dummy
 scoreboard objectives add what.etc.drink dummy
@@ -14,6 +16,8 @@ scoreboard objectives add what.etc.piecesleft dummy
 scoreboard objectives add what.etc.pumpkin_gun dummy
 scoreboard objectives add what.etc.open_shulker_box minecraft.custom:minecraft.open_shulker_box
 scoreboard objectives add what.etc.page dummy
+scoreboard objectives add what.etc.dirt minecraft.mined:minecraft.dirt
+scoreboard objectives add what.etc.cobblestone minecraft.mined:minecraft.cobblestone
 scoreboard objectives add what.etc.gaster dummy
 scoreboard objectives add what.etc.gaster_timer dummy
 scoreboard objectives add what.etc.backrooms_exit_timer dummy

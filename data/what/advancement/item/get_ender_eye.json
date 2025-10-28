@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    { "items": [ "ender_eye" ] }
+                ]
+            }
+        }
+    },
+    "requirements": [["e"]],
+    "rewards": {
+      "function": "what:__custom/speedrun/get_eye"
+    }
+}

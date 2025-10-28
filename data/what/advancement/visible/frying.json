@@ -1,10 +1,7 @@
 {
     "criteria": {
         "e" : {
-            "trigger": "changed_dimension",
-            "conditions": {
-                "to": "minecraft:the_end"
-            }
+            "trigger": "impossible"
         }
     },
     "display": {

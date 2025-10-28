@@ -10,3 +10,5 @@ execute as @a if data entity @s SelectedItem.components."minecraft:custom_data"{
 execute as @e[tag=what.mimic_zone] at @s run function what:mob/mimic/zone
 
 title @a[tag=pause] actionbar [{"text":"you are in PAUSE","color":"gray"}]
+
+execute as @a[tag=what.speedrunner] at @s run function what:__custom/speedrun/1s
