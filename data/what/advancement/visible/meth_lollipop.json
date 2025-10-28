@@ -17,5 +17,5 @@
         "frame": "challenge",
         "announce_to_chat": true
         },
-    "parent": "what:visible/microwave"
+    "parent": "what:visible/crafting_2"
 }

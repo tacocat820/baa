@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["carrot_on_a_stick"],
+                    "components": {
+                        "custom_model_data": 32017
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "carrot_on_a_stick",
+            "components": {
+                "custom_model_data": 32017
+            }
+        },
+        "title": {"color": "#1f6f10","underlined":false, "bold":true, "translate": "what.adv.rehsiugnitxe_erif"},
+        "description": {"color": "#1904bb", "bold": true, "translate": "what.adv.rehsiugnitxe_erif.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+        },
+    "parent": "what:visible/crafting_2"
+}

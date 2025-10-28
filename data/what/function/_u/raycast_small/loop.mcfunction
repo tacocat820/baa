@@ -1,6 +1,6 @@
 scoreboard players remove @s what.distance 1
 
-execute align xyz unless block ~ ~ ~ #minecraft:replaceable run function what:_u/raycast_small/end with storage what:temp raycast
+execute align xyz unless block ~ ~ ~ #minecraft:replaceable run return run function what:_u/raycast_small/end with storage what:temp raycast
 
 execute unless data storage what:temp raycast{loop_func:"0"} run function what:_u/raycast_small/loop_func with storage what:temp raycast
 
