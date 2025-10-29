@@ -87,3 +87,4 @@ data modify storage what:config blocks append value {name: nuke, CustomModelData
 data modify storage what:config blocks append value {name: drem, CustomModelData: [32090], customTags:[what.drem], inter:1b, rotate:2, no_chunking:1b, block:"barrier"}
 data modify storage what:config blocks append value {name: hell_stone, CustomModelData: [32091], block:"barrier"}
 data modify storage what:config blocks append value {name: hell_stone_wedge, CustomModelData: [32092], block:"barrier", rotate:3, item_display:"head"}
+data modify storage what:config blocks append value {name: weather_vane, CustomModelData: [32093], block:"tripwire", customTags:[what.weather_vane], item_display:"head"}

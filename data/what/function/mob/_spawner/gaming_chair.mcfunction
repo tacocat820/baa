@@ -1,4 +1,4 @@
-summon husk ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.gaming_chair"],PersistenceRequired:1b}
+summon husk ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","ignore_anim","what.ent.gaming_chair"],PersistenceRequired:1b}
 attribute @n[tag=what.temp_new] minecraft:scale base set 10
 attribute @n[tag=what.temp_new] minecraft:step_height base set 9
 attribute @n[tag=what.temp_new] minecraft:follow_range base set 100

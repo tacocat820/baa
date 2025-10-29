@@ -104,3 +104,4 @@ execute if score cmd what.temp matches 32086 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32089 run return run loot spawn ~ ~ ~ loot what:blocks/nuke
 execute if score cmd what.temp matches 32091 run return run loot spawn ~ ~ ~ loot what:blocks/hell_stone
 execute if score cmd what.temp matches 32092 run return run loot spawn ~ ~ ~ loot what:blocks/hell_stone_wedge
+execute if score cmd what.temp matches 32093 run return run loot spawn ~ ~ ~ loot what:blocks/weather_vane

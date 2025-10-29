@@ -28,6 +28,9 @@ execute if data storage what:temp block.item_display run data modify entity @s i
 execute if data storage what:temp block.fluid_spread store result score @s what.fluid_spread run data get storage what:temp block.fluid_spread 
 execute if data storage what:temp block.type run data modify entity @s item.components.minecraft:custom_data.type set from storage what:temp block.type 
 
+execute if data storage what:temp block{name: weather_vane} run data modify entity @s teleport_duration set value 40
+
+
 #не удалять, тут потом будет что-то
 
 tag @s remove new
