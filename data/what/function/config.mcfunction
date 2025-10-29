@@ -153,6 +153,7 @@ data modify storage what:config mobs.blays set value {name: '[{"translate":"what
 data modify storage what:config mobs.gaster set value {name: '[{"translate":"what.mob.gaster"}]', base_mob: "marker", cmd:32063, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.happyghast set value {name: '[{"translate":"what.mob.happyghast"}]', base_mob: "spider", cmd:32064, item_id:"potion", anim_len:24, ignore_anim:1b}
 data modify storage what:config mobs.elon set value {name: '[{"translate":"what.mob.elon"}]', base_mob: "spider", cmd:32065, item_id:"potion", anim_len:24, ignore_anim:1b}
+data modify storage what:config mobs.boulder set value {name: '[{"translate":"what.mob.boulder"}]', base_mob: "cow", cmd:32067, item_id:"potion", anim_len:24, ignore_anim:1b}
 
 #damage
 function what:_config/damage

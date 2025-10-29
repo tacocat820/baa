@@ -1,0 +1,3 @@
+summon cow ~ ~ ~ {Silent:1b,Tags:["what.temp_new", "what.checked", "what.ent.boulder", "tick1s", "what.ai"],active_effects:[{id:invisibility,duration:999999999,amplifier:0,show_particles:0b},{id:resistance,duration:999999999,amplifier:4,show_particles:0b}],attributes:[{id:movement_speed,base:0f},{id:scale,base:2f},{id:knockback_resistance,base:0.6f},{id:step_height,base:1.1f}]}
+
+execute as @n[tag=what.temp_new] at @s run function what:mob/__spawn {"type":"boulder"}

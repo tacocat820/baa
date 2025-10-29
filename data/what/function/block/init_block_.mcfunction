@@ -10,6 +10,7 @@ execute if data storage what:temp block{block:"barrier"} run setblock ~ ~ ~ barr
 execute if data storage what:temp block{block:"mangrove_roots"} run setblock ~ ~ ~ mangrove_roots
 execute if data storage what:temp block{block:"light"} run setblock ~ ~ ~ ochre_froglight
 execute if data storage what:temp block{block:"end_portal_frame"} run setblock ~ ~ ~ minecraft:end_portal_frame
+execute if data storage what:temp block{block:"slab"} run setblock ~ ~ ~ minecraft:end_stone_brick_slab
 
 execute if data storage what:temp block{CustomModelData: [32061]} run setblock ~ ~ ~ minecraft:light_blue_stained_glass_pane
 execute if data storage what:temp block{CustomModelData: [32075]} run setblock ~ ~ ~ minecraft:rail
