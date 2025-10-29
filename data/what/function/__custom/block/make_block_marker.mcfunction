@@ -2,9 +2,12 @@
 execute if entity @s[tag=what.temp] run return 0
 
 tag @s remove what.block
-data modify storage what:temp type set from entity @s Tags[0]
+data modify storage what:temp name set from entity @s Tags[0]
 
-function what:__custom/block/init with storage what:temp
+#data
+function what:block/get_block_data with storage what:temp
+
+function what:__custom/block/init
 execute unless data storage what:temp {spawn:1b} run return run function what:block/run
 
 execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:[what.block, what.new]}

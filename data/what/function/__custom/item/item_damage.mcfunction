@@ -1,6 +1,8 @@
 #slot - слот предмета в инвентаре ( weapon.mainhand )
 $data modify storage what:temp slot set value $(slot)
-execute store result score damage_2048 what.temp run data get entity @s SelectedItem.components.minecraft:damage -2048
+$data modify storage what:temp slot_nbt set value '$(slot_nbt)'
+
+$execute store result score damage_2048 what.temp run data get entity @s $(slot_nbt).components.minecraft:damage -2048
 
 #убираем 2048
 scoreboard players remove damage_2048 what.temp 2048
