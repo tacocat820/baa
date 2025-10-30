@@ -1,5 +1,4 @@
 #say what.block_loader
 tag @s add what.block_loader
 
-data modify entity @s data.timer.type set value "block_loader"
-scoreboard players add @s what.timer 2
+function what:timer/_ {func:'what:__custom/kill', loop_func:'', time:20}

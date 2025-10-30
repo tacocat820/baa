@@ -1,5 +1,8 @@
 #give @a tnt[minecraft:custom_model_data=32000,minecraft:enchantment_glint_override=true,minecraft:custom_name="mogus"]
 
+#timer
+execute as @e[type=marker, scores={what.timer=-1..}] at @s run function what:timer/tick
+
 #кастомынй блок
 execute at @a[tag=!pause] as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
 execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check

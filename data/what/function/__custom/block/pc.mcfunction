@@ -1,4 +1,4 @@
-execute if score @s what.timer matches 8.. run return 0
+execute if score @s what.timer matches 80.. run return 0
 
 particle minecraft:flame ~ ~ ~ 0 0 0 0.2 13
 particle minecraft:large_smoke ~ ~ ~ 0 0 0 0.1 15

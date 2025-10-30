@@ -1,3 +1,3 @@
 function what:block/unfurnace/spawn_item
-scoreboard players reset @s what.timer
+function what:timer/remove_
 tag @s remove what.this

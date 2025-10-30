@@ -7,5 +7,5 @@ execute on target unless data entity @s SelectedItem run return run tag @n[tag=w
 execute on target at @n[tag=what.this,type=item_display] run data modify block ~ ~ ~ Items append from entity @s SelectedItem
 execute on target run item replace entity @s weapon.mainhand with air
 
-execute as @n[tag=what.this,type=item_display] run function what:timer/set {time:10, type:"unfurnace"}
+execute as @n[tag=what.this,type=item_display] run function what:timer/_ {time:100, func:"what:block/unfurnace/end", loop_func:""}
 tag @n[tag=what.this,type=item_display] remove what.this
