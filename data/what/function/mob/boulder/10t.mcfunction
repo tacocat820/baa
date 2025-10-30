@@ -1,1 +1,1 @@
-execute positioned ~-2 ~ ~-2 as @e[type=!#what:non_mobs, dx=2.5,dy=2.5,dz=2.5, tag=!what.ent.boulder] run damage @s 5 mace_smash by @n[tag=what.ent.boulder]
+execute positioned ~-1.8 ~ ~-1.8 as @e[type=!#what:non_mobs, dx=2.8,dy=2.8,dz=2.8, tag=!what.ent.boulder] run damage @s 7 mace_smash by @n[tag=what.ent.boulder]
