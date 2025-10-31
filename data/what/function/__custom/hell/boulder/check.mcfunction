@@ -1,2 +1,1 @@
-execute positioned ~-3 ~-3 ~-3 as @n[tag=what.ent.boulder,distance=0..10,dx=6,dy=6,dz=6] at @s run function what:__custom/hell/boulder/break
-#execute positioned ~-3 ~-3 ~-3 if entity @n[tag=what.ent.boulder,distance=0..10,dx=6,dy=6,dz=6] run 
+execute unless function what:timer/exists_ run function what:timer/_ {time:80, func:"what:__custom/hell/boulder/tp", loop_func:"what:__custom/hell/boulder/break"}

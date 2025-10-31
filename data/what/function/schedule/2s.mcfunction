@@ -57,4 +57,4 @@ execute as @a at @s if dimension what:backrooms run function what:__custom/backr
 #weather_vane
 execute at @a as @e[distance=0..25,type=item_display,tag=what.weather_vane] run data modify entity @s Rotation[0] set from storage what:temp WindDirection[0]
 
-execute at @a[predicate=what:in_hell] as @e[type=marker,distance=0..15,tag=what.boulder_end] run function what:__custom/hell/boulder/check
+execute at @a[predicate=what:in_hell] at @e[type=marker,distance=0..20,tag=what.boulder_end] positioned ~-3 ~-3 ~-3 as @n[tag=what.ent.boulder,distance=0..10,dx=6,dy=6,dz=6] run function what:__custom/hell/boulder/check
