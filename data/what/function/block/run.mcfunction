@@ -1,4 +1,4 @@
-execute if entity @s[tag=what.temp] run return 0
+#execute if entity @s[tag=what.temp] run return 0
 
 tag @s remove what.block
 data modify storage what:temp name set from entity @s Tags[0]

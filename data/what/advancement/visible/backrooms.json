@@ -3,7 +3,7 @@
         "e" : {
             "trigger": "changed_dimension",
             "conditions": {
-                "to": "minecraft:the_end"
+                "to": "minecraft:backrooms"
             }
         }
     },
