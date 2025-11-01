@@ -15,7 +15,7 @@
                 "custom_model_data": 32003
             }
         },
-        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.backrooms"},
+        "title": {"color": "#a28098", "bold": false, "translate": "what.adv.backrooms", "font":"minecraft:slim"},
         "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.backrooms.desc"},
         "frame": "challenge",
         "announce_to_chat": true,

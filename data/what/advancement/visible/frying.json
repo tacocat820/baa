@@ -12,7 +12,7 @@
                 "custom_model_data": 32080
             }
         },
-        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.frying"},
+        "title": {"color": "#a28098", "bold": false, "translate": "what.adv.frying", "font":"minecraft:slim"},
         "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.frying.desc"},
         "frame": "challenge",
         "announce_to_chat": true,

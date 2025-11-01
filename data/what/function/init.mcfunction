@@ -77,3 +77,4 @@ gamerule doTraderSpawning false
 #Config
 function what:config
 say алё
+say hi

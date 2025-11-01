@@ -15,7 +15,7 @@
                 "custom_model_data": 32007
             }
         },
-        "title": {"color": "#0c4c83", "bold":true, "italic": true, "translate": "what.adv.drord"},
+        "title": {"color": "#0c4c83", "bold":true, "italic": true, "translate": "what.adv.drord", "font":"minecraft:slim"},
         "description": {"color": "#c1163b", "underlined":true, "translate": "what.adv.drord.desc"},
         "frame": "challenge",
         "announce_to_chat": true

@@ -13,7 +13,7 @@
             }
         },
         "title": {"color": "#3d5ef1", "strikethrough": true, "translate": "what.adv.pipebomb"},
-        "description": {"color": "#bdf12e", "bold": true, "italic": true, "underlined":true, "translate": "what.adv.pipebomb.desc"},
+        "description": {"color": "#bdf12e", "bold": true, "italic": true, "underlined":true, "translate": "what.adv.pipebomb.desc", "font":"minecraft:slim"},
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true,

@@ -22,7 +22,7 @@
         "icon": {
             "id": "brain_coral_block"
         },
-        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.bigbrain"},
+        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.bigbrain", "font":"minecraft:slim"},
         "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.bigbrain.desc"},
         "frame": "challenge",
         "announce_to_chat": true,

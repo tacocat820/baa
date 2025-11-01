@@ -1,8 +1,8 @@
 data modify storage what:temp craft set value 0
 #$data modify storage what:temp loot set from storage what:config recipes.e.'$(ShapeCraft)'.loot
-$data modify storage what:temp craft set from storage what:config recipes.e[{craft: $(ShapeCraft) }]
+$data modify storage what:temp craft set from storage what:config recipes[{type:"e", craft: $(ShapeCraft) }]
 #$execute if data storage what:temp {loot: 0} run data modify storage what:temp loot set from storage what:config recipes.s.'$(ShapelessCraft)'.loot
-$execute if data storage what:temp {craft: 0} run data modify storage what:temp craft set from storage what:config recipes.s[{craft: $(ShapelessCraft) }]
+$execute if data storage what:temp {craft: 0} run data modify storage what:temp craft set from storage what:config recipes[{type:"s", craft: $(ShapelessCraft) }]
 
 
 #$say recipes.s.'$(ShapelessCraft)'.loot

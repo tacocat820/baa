@@ -12,7 +12,7 @@
                 "custom_model_data": 0
             }
         },
-        "title": {"color": "#837f66","underlined":true, "italic":true, "translate": "what.adv.toothless"},
+        "title": {"color": "#837f66","underlined":true, "italic":true, "translate": "what.adv.toothless", "font":"minecraft:slim"},
         "description": {"color": "#9f9c9c", "italic": true, "translate": "what.adv.toothless.desc"},
         "frame": "challenge",
         "announce_to_chat": true

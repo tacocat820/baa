@@ -12,7 +12,7 @@
                 "custom_model_data": 32007
             }
         },
-        "title": {"color": "#f70dff","underlined":true, "bold":true, "translate": "what.adv.nuclear"},
+        "title": {"color": "#f70dff","underlined":false, "bold":false, "translate": "what.adv.nuclear", "font":"minecraft:slim"},
         "description": {"color": "#ff0000", "bold": true, "translate": "what.adv.nuclear.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
