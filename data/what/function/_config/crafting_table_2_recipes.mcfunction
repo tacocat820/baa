@@ -7,7 +7,7 @@ data modify storage what:config recipes append value {type:e,craft:{0: "air", 1:
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:blaze_powder"}, {count: 1, id: "minecraft:gold_block"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "caramel"}, {count: 1, id: "minecraft:diamond_hoe"}], loot:"what:loot/ender_eye", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "rotten_flesh_block"}, {count: 1, id: "pc"}, {count: 1, id: "glass_of_water"}, {count: 1, id: "nether_bed"}], loot:"what:items/herobrine_spray", count:1}
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "diamond_2", 2: "diamond_2", 3: "air", 4: "minecraft:stick", 5: "air", 6: "air", 7: "minecraft:stick", 8: "air"}, loot:"what:items/diamond_hoe", count:1}
-data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "minecraft:dragon_egg"}], loot:"minecraft:blocks/obsidian", count:9}
+data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "minecraft:dragon_egg"}], loot:"minecraft:blocks/obsidian", count:1}
 
 #weapon
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "air", 2: "iron_stick", 3: "air", 4: "iron_stick", 5: "air", 6: "iron_stick", 7: "air", 8: "air"}, loot:"what:items/fencing_sword", count:1}

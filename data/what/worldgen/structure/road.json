@@ -1,6 +1,82 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["plains","snowy_plains","sunflower_plains","forest","frozen_ocean","frozen_peaks","frozen_river","river","cherry_grove","the_end","stony_shore","stony_peaks","taiga","snowy_taiga","birch_forest","old_growth_birch_forest","badlands","beach","desert","meadow"],
+        "biomes": [
+  "ocean",
+  "plains",
+  "desert",
+  
+  "forest",
+  "taiga",
+  "swamp",
+  "river",
+  "nether_wastes",
+  "the_end",
+  "frozen_ocean",
+  "frozen_river",
+  
+  
+  "mushroom_fields",
+  
+  "beach",
+  
+  
+  
+  
+  "jungle",
+  
+  
+  "deep_ocean",
+  
+  "snowy_beach",
+  "birch_forest",
+  
+  "dark_forest",
+  "snowy_taiga",
+  
+  
+  
+  
+  "savanna",
+  "savanna_plateau",
+  "badlands","old_growth_pine_taiga",
+  
+  
+  "small_end_islands",
+  "end_midlands",
+  "end_highlands",
+  "end_barrens",
+  "warm_ocean",
+  "lukewarm_ocean",
+  "cold_ocean",
+  
+  "deep_lukewarm_ocean",
+  "deep_cold_ocean",
+  "deep_frozen_ocean",
+  "the_void",
+  "sunflower_plains",
+  
+  
+  "flower_forest",
+  
+  
+  "ice_spikes",
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "eroded_badlands",
+  
+  
+  "bamboo_jungle"
+  
+],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
