@@ -23,6 +23,20 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "what:items/banana",
+          "weight": 49,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "what:items/dust",
           "weight": 90,
           "functions": [
