@@ -1,6 +1,5 @@
 #execute if entity @s[tag=!bad_pos] run particle item{item:{id:item_frame,components:{"custom_model_data":32000}}} ~ ~0.1 ~ .2 .2 .2 0.1 20 normal
 execute if entity @s[tag=what.temp] run return 0
-
 tag @s add what.temp
 
 execute if entity @s[tag=!bad_pos] run kill @e[limit=1,distance=0..6,sort=nearest,nbt={Age:0s}]

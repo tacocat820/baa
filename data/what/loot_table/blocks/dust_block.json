@@ -9,13 +9,13 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data": 32029, "minecraft:entity_data": {"Tags": ["what.block", "dust"], "id": "item_frame", "Invisible": 1}}
+              "components": {"minecraft:custom_model_data": 32029, "minecraft:entity_data": {"Tags": ["what.block", "dust_block"], "id": "item_frame", "Invisible": 1}}
             },
             {
               "function": "minecraft:set_name",
               "target": "item_name",
               "name": {
-                "translate": "what.block.dust"
+                "translate": "what.block.dust_block"
               }
             }
           ]

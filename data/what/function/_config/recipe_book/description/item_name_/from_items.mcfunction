@@ -1,0 +1,1 @@
+$loot replace block ~ -64 ~ container.0 loot what:items/$(text)

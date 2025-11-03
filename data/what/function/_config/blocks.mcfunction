@@ -25,7 +25,7 @@ data modify storage what:config blocks append value {name: beans_plant, CustomMo
 data modify storage what:config blocks append value {name: american_oil, CustomModelData: [32026], block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid], pause:1b}
 data modify storage what:config blocks append value {name: bing_chilling, CustomModelData: [32027], block:"copper_grate"}
 data modify storage what:config blocks append value {name: chinese_anvil, CustomModelData: [32028], block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
-data modify storage what:config blocks append value {name: dust, CustomModelData: [32029], block:"azalea_leaves", falling:1b}
+data modify storage what:config blocks append value {name: dust_block, CustomModelData: [32029], block:"azalea_leaves", falling:1b}
 data modify storage what:config blocks append value {name: solid_dust, CustomModelData: [32030], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: dust_carpet, CustomModelData: [32031], block:"tripwire", falling:1b}
 data modify storage what:config blocks append value {name: microwave, CustomModelData: [32032], rotate:2, inter:1b, block:"locked_shulker", customTags:[microwave], no_chunking:1b}
@@ -58,7 +58,7 @@ data modify storage what:config blocks append value {name: tleft, CustomModelDat
 data modify storage what:config blocks append value {name: trotate, CustomModelData: [32059], inter:1b, block:"barrier", no_chunking:1b}
 data modify storage what:config blocks append value {name: t, CustomModelData: [32060], block:"barrier", no_chunking:1b, no_chunking:1b}
 data modify storage what:config blocks append value {name: icicle, CustomModelData: [32061], falling:2, rotate:1}
-data modify storage what:config blocks append value {name: RCWIP, CustomModelData: [32062], block:"tripwire", rotate:2}
+data modify storage what:config blocks append value {name: rcwip, CustomModelData: [32062], block:"tripwire", rotate:2}
 data modify storage what:config blocks append value {name: VLC, CustomModelData: [32063], block:"tripwire", item_display:"head", falling:1b}
 data modify storage what:config blocks append value {name: barrel_with_meth, CustomModelData: [32065], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: pan, CustomModelData: [32066], block:"tripwire", rotate:2}
