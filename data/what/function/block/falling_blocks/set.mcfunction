@@ -5,7 +5,6 @@ tag @s remove falling
 #tag @s remove has_inter
 #tag @s remove falling_block_2
 #tag @s remove what.temp
-#tag @s remove what.block.loot
 
 #execute store result score cmd what.temp run data get entity @s item.components."minecraft:custom_model_data"
 

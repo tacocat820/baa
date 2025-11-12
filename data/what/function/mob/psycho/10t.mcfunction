@@ -12,4 +12,7 @@ execute as @e[type=item,tag=!what.psycho_correct,distance=0..10] run function wh
 execute at @n[type=item,tag=what.psycho_correct,distance=0..10] run function what:mob/_pathfinding/set
 execute at @n[type=item,tag=what.psycho_correct,distance=0..2] run function what:mob/psycho/eat_item
 #execute as @n[type=item,tag=what.psycho_correct,distance=0..10] run say HHUHUHUHU
-#
+
+###happiness
+execute if predicate what:random3 if score @s what.etc.happiness matches -9.. run scoreboard players remove @s what.etc.happiness 1
+execute if score @s what.etc.happiness matches 100.. if predicate what:random1 run particle minecraft:happy_villager ~ ~1.1 ~ .1 .4 .1 0 1

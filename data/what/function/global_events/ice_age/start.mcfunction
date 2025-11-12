@@ -10,6 +10,6 @@ execute if score global_warming what.global_events matches 1.. run return run sc
 playsound minecraft:entity.wither.death master @a
 playsound minecraft:entity.wither.hurt master @a
 
-scoreboard players set ice_age what.global_events 100
+scoreboard players set ice_age what.global_events 1
 #say The Global Cooling....
 function what:global_events/ice_age/set_wind_direction

@@ -7,5 +7,5 @@ data modify storage what:temp cmd set from entity @n[type=item_display,tag=what.
 
 data modify storage what:temp block_params set from storage what:config etc.block_params_default
 
-execute if entity @s[scores={what.shift=1..}] run return run function what:block/detect_who_break/_if_player_in_survival
-execute if entity @s[gamemode=!creative,gamemode=!spectator] run function what:block/detect_who_break/_if_player_in_survival
+execute if entity @s[gamemode=creative,scores={what.shift=1..}] run return run function what:block/detect_who_break/_if_player_in_creative
+execute if entity @s[gamemode=!spectator,gamemode=!creative] run function what:block/detect_who_break/_if_player_in_survival

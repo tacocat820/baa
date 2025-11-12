@@ -5,6 +5,7 @@
 
 summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.psycho","tick1s","what.checked"],DeathLootTable:"what:items/caramel",Offers:{Recipes:[{buy:{id:'air',count:1b},sell:{id:'air',count:1b}}]}}
 
+scoreboard players set @n[tag=what.temp_new] what.etc.happiness 1
 execute as @n[tag=what.temp_new] at @s run function what:mob/__spawn {"type":"psycho"}
 tag @n[tag=what.temp_new] add what.checked
 tag @n[tag=what.temp_new] remove what.temp_new

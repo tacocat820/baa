@@ -15,6 +15,7 @@ execute align xyz run summon minecraft:item_display ~.5 ~.5 ~.5 {transformation:
 #set cmd to block
 data modify entity @e[limit=1,distance=0..0.5,tag=what.block_placed,tag=new] item.components.minecraft:custom_model_data set from storage what:temp block.CustomModelData[0]
 
+scoreboard players set $bad_pos what.temp 0
 execute unless block ~ ~ ~ #what:solid_blocks_placeable_on run return run function what:block/bad_pos
 
 execute as @e[limit=1,distance=0..0.5,tag=new] at @s run function what:block/init

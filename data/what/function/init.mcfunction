@@ -21,6 +21,7 @@ scoreboard objectives add what.etc.cobblestone minecraft.mined:minecraft.cobbles
 scoreboard objectives add what.etc.gaster dummy
 scoreboard objectives add what.etc.gaster_timer dummy
 scoreboard objectives add what.etc.backrooms_exit_timer dummy
+scoreboard objectives add what.etc.happiness dummy
 #for achievements
 scoreboard objectives add what.etc.killed_villagers killed:villager
 scoreboard objectives add what.etc.eaten_pens dummy

@@ -4,3 +4,5 @@ execute anchored eyes run particle item{item:{id:nether_wart_block}} ^ ^ ^0.2 0.
 
 function what:mob/psycho/state/not_angry
 execute if predicate what:random1 run function what:mob/psycho/reset_waypoint
+
+scoreboard players add @s what.etc.happiness 6
