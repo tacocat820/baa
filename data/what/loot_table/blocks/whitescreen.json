@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "target": "item_name",
                 "name": {
-                  "translate": "what.block.blackscreen"
+                  "translate": "what.block.whitescreen"
                 }
               }
             ]

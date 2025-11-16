@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:entity_data": {"id": "item_frame", "Invisible": 1, "Tags": ["what.block", "chair"]}, "minecraft:custom_model_data": 32009}
+                "components": {"minecraft:entity_data": {"id": "item_frame", "Invisible": true, "Tags": ["what.block", "chair"]}, "minecraft:custom_model_data": 32009}
               },
               {
                 "function": "minecraft:set_name",

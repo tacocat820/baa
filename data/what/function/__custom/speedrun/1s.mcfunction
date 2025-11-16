@@ -7,14 +7,14 @@ effect give @s water_breathing 5 5 true
 effect give @s haste 5 3 true
 effect give @s saturation 5 5 true
 
-execute if score @s what.etc.dirt matches 1.. run give @s obsidian 
+execute if score @s what.etc.dirt matches 1.. run give @s obsidian
 execute if score @s what.etc.dirt matches 1.. run give @s lime_wool 64
 execute if score @s what.etc.dirt matches 1.. run give @s iron_ingot
 execute if score @s what.etc.dirt matches 1.. run give @s stone_pickaxe
 execute if score @s what.etc.dirt matches 1.. run give @s diamond_hoe
 scoreboard players set @s what.etc.dirt 0
 
-execute if score @s what.etc.cobblestone matches 1.. run give @s dragon_egg 
+execute if score @s what.etc.cobblestone matches 1.. run give @s dragon_egg
 execute if score @s what.etc.cobblestone matches 1.. run give @s iron_block 64
 execute if score @s what.etc.cobblestone matches 1.. run give @s oak_planks 64
 execute if score @s what.etc.cobblestone matches 1.. run give @s blaze_rod 64
