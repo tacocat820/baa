@@ -1,0 +1,21 @@
+{
+  "temperature": 99,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 4297982,
+    "fog_color": 11262461,
+    "water_color": 6532863,
+    "water_fog_color": 6532863,
+    "grass_color": 8235799,
+    "foliage_color": 4088079
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+    "features": [
+        [
+        "what:concrete"
+        ]
+    ]
+}
