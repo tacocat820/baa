@@ -15,7 +15,7 @@
         "minecraft:entity_data": {
           "id": "item_frame",
           "Tags":["what.block","trash_can"],
-          "Invisible": 1
+          "Invisible": true
         },
         "minecraft:custom_model_data": 32014,
         "minecraft:item_name": "{'translate':'what.block.trash_can'}"

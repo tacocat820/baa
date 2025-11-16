@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32012, "minecraft:entity_data": {"Tags": ["what.block", "crafting_table_2"], "id": "item_frame", "Invisible": 1}}
+                "components": {"minecraft:custom_model_data": 32012, "minecraft:entity_data": {"Tags": ["what.block", "crafting_table_2"], "id": "item_frame", "Invisible": true}}
               },
               {
                 "function": "minecraft:set_name",

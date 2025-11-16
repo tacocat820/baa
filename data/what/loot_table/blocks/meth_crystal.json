@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32004, "minecraft:entity_data": {"Tags": ["what.block", "meth_crystal"], "id": "item_frame", "Invisible": 1}}
+                "components": {"minecraft:custom_model_data": 32004, "minecraft:entity_data": {"Tags": ["what.block", "meth_crystal"], "id": "item_frame", "Invisible": true}}
               },
               {
                 "function": "minecraft:set_name",

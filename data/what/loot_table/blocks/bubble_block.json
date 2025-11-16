@@ -9,13 +9,23 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data": 32031, "minecraft:entity_data": {"Tags": ["what.block", "dust_carpet"], "id": "item_frame", "Invisible": true}}
+              "components": {
+                "minecraft:custom_model_data": 32095,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "what.block",
+                    "bubble_block"
+                  ],
+                  "id": "item_frame",
+                  "Invisible": true
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "target": "item_name",
               "name": {
-                "translate": "what.block.dust_carpet"
+                "translate": "what.block.bubble_block"
               }
             }
           ]
