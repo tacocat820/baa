@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:xp_restroom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2001238143,
+    "spacing": 9,
+    "separation": 5
+  }
+}

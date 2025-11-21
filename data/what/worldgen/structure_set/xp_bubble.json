@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:xp_bubble",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1001238143,
+    "spacing": 3,
+    "separation": 1
+  }
+}

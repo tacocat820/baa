@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:xp_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 5001238143,
+    "spacing": 9,
+    "separation": 5
+  }
+}

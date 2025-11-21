@@ -105,6 +105,7 @@ execute if score cmd what.temp matches 32089 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32091 run return run loot spawn ~ ~ ~ loot what:blocks/hell_stone
 execute if score cmd what.temp matches 32092 run return run loot spawn ~ ~ ~ loot what:blocks/hell_stone_wedge
 execute if score cmd what.temp matches 32093 run return run loot spawn ~ ~ ~ loot what:blocks/weather_vane
-#execute if score cmd what.temp matches 32094 run return run loot spawn ~ ~ ~ loot what:blocks/task
+execute if score cmd what.temp matches 32094 run return run loot spawn ~ ~ ~ loot what:loot/task
 execute if score cmd what.temp matches 32095 run return run loot spawn ~ ~ ~ loot what:blocks/bubble_block
 execute if score cmd what.temp matches 32096 run return run loot spawn ~ ~ ~ loot what:blocks/xp_glass
+execute if score cmd what.temp matches 32097 run return run loot spawn ~ ~ ~ loot what:blocks/shitter

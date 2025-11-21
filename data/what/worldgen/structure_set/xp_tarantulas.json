@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:xp_tarantulas",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10001238143,
+    "spacing": 5,
+    "separation": 4
+  }
+}

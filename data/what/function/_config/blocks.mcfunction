@@ -91,3 +91,4 @@ data modify storage what:config blocks append value {name: weather_vane, CustomM
 data modify storage what:config blocks append value {name: task, CustomModelData: [32094], customTags:[what.task], block:"copper_grate"}
 data modify storage what:config blocks append value {name: bubble_block, CustomModelData: [32095], block:"white_glass"}
 data modify storage what:config blocks append value {name: xp_glass, CustomModelData: [32096], block:"blue_glass"}
+data modify storage what:config blocks append value {name: shitter, CustomModelData: [32097], customTags:[trash_can]}

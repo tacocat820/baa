@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/fknife",
+          "weight": 2,
+          "functions": [],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/optical_disc",
+          "weight": 3,
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/inflation",
+          "weight": 3,
+          "conditions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/crystal_ball",
+          "weight": 4,
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

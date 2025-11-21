@@ -69,6 +69,8 @@ execute at @e[tag=what.scary_box] run playsound ambient.cave hostile @a[distance
 #scoreboard players reset @s what.dropper_click
 #execute as @e[type=creeper] run say 1
 
+execute as @e[tag=what.crystal_ball] at @s run function what:carrot_on_a_stick/crystal_ball/ball
+
 execute as @a[scores={what.fall_distance=1..}] at @s run function what:__custom/player_fall
 
 ##chunk load

@@ -3,6 +3,7 @@ effect give @n[tag=what.temp_new] speed infinite 4 true
 effect give @n[tag=what.temp_new] strength infinite 1 true
 effect give @n[tag=what.temp_new] fire_resistance infinite 255 true
 attribute @n[tag=what.temp_new] minecraft:max_health base set 60
+attribute @n[tag=what.temp_new] minecraft:scale base set 2
 data modify entity @n[tag=what.temp_new] Health set value 60
 scoreboard players set @n[tag=what.temp_new] what.ent.action 0
 

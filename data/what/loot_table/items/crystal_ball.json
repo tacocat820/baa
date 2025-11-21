@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data":32023,
+                "minecraft:custom_data":{"what_type":"crystal_ball"},
+                "max_damage": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "what.item.crystal_ball"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
