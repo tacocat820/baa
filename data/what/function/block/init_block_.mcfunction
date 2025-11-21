@@ -1,7 +1,7 @@
 #tellraw @a [{"nbt": "type", "storage":"what:temp"}, " - block/init_block"]
 execute if data storage what:temp block{block:"tripwire"} run setblock ~ ~ ~ tripwire
 execute if data storage what:temp block{block:"copper_grate"} run setblock ~ ~ ~ waxed_copper_grate
-execute if data storage what:temp block{block:"locked_shulker"} run setblock ~ ~ ~ minecraft:shulker_box[facing=down]{Lock:"😂😂😄🙂‱‰"}
+execute if data storage what:temp block{block:"locked_shulker"} run setblock ~ ~ ~ minecraft:shulker_box[facing=down]{Lock:"😂😂😄🙂‱‰wqueiwqpueqyuiytyipuqeiqioieywqtuerpowquriuwqtortwqeuuowpqueywqiry",lock:{components:{item_model:"acacia_boat"}}}
 execute if data storage what:temp block{block:"spawner"} run setblock ~ ~ ~ spawner
 execute if data storage what:temp block{block:"stone_slab"} run setblock ~ ~ ~ minecraft:stone_slab[type=bottom]
 execute if data storage what:temp block{block:"structure_void"} run setblock ~ ~ ~ structure_void
@@ -16,5 +16,5 @@ execute if data storage what:temp block{block:"blue_glass"} run setblock ~ ~ ~ m
 
 execute if data storage what:temp block{CustomModelData: [32061]} run setblock ~ ~ ~ minecraft:light_blue_stained_glass_pane
 execute if data storage what:temp block{CustomModelData: [32075]} run setblock ~ ~ ~ minecraft:rail
-execute if data storage what:temp block{CustomModelData: [32012]} run setblock ~ ~ ~ minecraft:cyan_shulker_box{CustomName:"{'translate':'what.block.crafting_table_2','color':'#ffffff'}",Items:[]}
+execute if data storage what:temp block{CustomModelData: [32012]} run setblock ~ ~ ~ minecraft:cyan_shulker_box{CustomName:"{\"translate\":\"what.block.crafting_table_2\",\"color\":\"#ffffff\"}",Items:[]}
 execute if data storage what:temp block{CustomModelData: [32014]} run setblock ~ ~ ~ minecraft:cauldron
