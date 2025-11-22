@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/villager_meat",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zoglin_spawn_egg",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:blocks/error_painting",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
