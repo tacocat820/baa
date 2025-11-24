@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32019, "minecraft:food":{"saturation":3,"nutrition":2},"minecraft:custom_data":{"what_type":"lefishe"},"minecraft:item_name":"{'translate':'what.mob.lefishe'}"}
+                "components": {"minecraft:custom_model_data":32019, "minecraft:food":{"saturation":3,"nutrition":2},"minecraft:custom_data":{"what_type":"lefishe"},"minecraft:item_name":"{\"translate\":\"what.mob.lefishe\"}"}
               }
             ]
           }

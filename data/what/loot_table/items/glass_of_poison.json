@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data":32020,"minecraft:custom_data":{"what_type":"glass_of_poison"},"minecraft:item_name":"{'translate':'what.item.glass_of_poison'}"}
+              "components": {"minecraft:custom_model_data":32020,"minecraft:custom_data":{"what_type":"glass_of_poison"},"minecraft:item_name":"{\"translate\":\"what.item.glass_of_poison\"}"}
             }
           ]
         }

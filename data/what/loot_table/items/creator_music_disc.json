@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32004, "minecraft:custom_data": {"what_type": "music_disc_creator"}, "minecraft:item_name": "{'translate':'what.item.music_disc_creator'}",
+                "components": {"minecraft:custom_model_data": 32004, "minecraft:custom_data": {"what_type": "music_disc_creator"}, "minecraft:item_name": "{\"translate\":\"what.item.music_disc_creator\"}",
                 "jukebox_playable":{"song":"what:creator"}, "rarity": "rare"
               }
               }

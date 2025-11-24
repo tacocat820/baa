@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32016, "minecraft:custom_data":{"what_type":"caramel"},"minecraft:item_name":"{'translate':'what.item.caramel'}"}
+                "components": {"minecraft:custom_model_data":32016, "minecraft:custom_data":{"what_type":"caramel"},"minecraft:item_name":"{\"translate\":\"what.item.caramel\"}"}
               }
             ]
           }

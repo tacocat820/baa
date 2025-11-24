@@ -11,7 +11,7 @@
                 "function": "minecraft:set_components",
                 "components": {"minecraft:custom_model_data": 32003, 
                   "minecraft:custom_data": {"what_type": "fortnite_card"}, 
-                  "minecraft:item_name": "{'translate':'what.item.fortnite_card'}",
+                  "minecraft:item_name": "{\"translate\":\"what.item.fortnite_card\"}",
                   "minecraft:food": {
                       "nutrition": 0,
                       "saturation": 0,

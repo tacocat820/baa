@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32013,"minecraft:custom_data":{"what_type":"iphone"},"minecraft:item_name":"{'translate':'what.item.iphone'}"}
+                "components": {"minecraft:custom_model_data":32013,"minecraft:custom_data":{"what_type":"iphone"},"minecraft:item_name":"{\"translate\":\"what.item.iphone\"}"}
               }
             ]
           }

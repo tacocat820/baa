@@ -13,7 +13,7 @@
                 "minecraft:custom_model_data":32007,
                 "minecraft:max_damage":16,
                 "minecraft:custom_data":{"what_type":"glass_of_oil"},
-                "minecraft:item_name":"{'translate':'what.item.glass_of_oil'}"
+                "minecraft:item_name":"{\"translate\":\"what.item.glass_of_oil\"}"
               }
             }
           ]

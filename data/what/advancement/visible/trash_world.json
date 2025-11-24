@@ -3,7 +3,7 @@
         "e" : {
             "trigger": "changed_dimension",
             "conditions": {
-                "to": "what:backrooms"
+                "to": "what:trash"
             }
         }
     },
@@ -12,14 +12,14 @@
         "icon": {
             "id": "item_frame",
             "components": {
-                "custom_model_data": 32003
+                "custom_model_data": 32098
             }
         },
-        "title": {"color": "#a28098", "bold": false, "translate": "what.adv.backrooms", "font":"minecraft:slim"},
-        "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.backrooms.desc"},
+        "title": {"color": "#d530a3", "bold": false, "translate": "what.adv.trash_world", "font":"minecraft:default"},
+        "description": {"color": "#8389ae", "underlined":true, "italic": false, "translate": "what.adv.trash_world.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true
     },
-    "parent": "what:visible/end"
+    "parent": "what:visible/hello"
 }

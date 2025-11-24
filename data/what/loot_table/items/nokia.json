@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32006, "minecraft:custom_data": {"what_type": "nokia"}, "minecraft:item_name": "{'translate':'what.item.nokia'}"}
+                "components": {"minecraft:custom_model_data": 32006, "minecraft:custom_data": {"what_type": "nokia"}, "minecraft:item_name": "{\"translate\":\"what.item.nokia\"}"}
               }
             ]
           }

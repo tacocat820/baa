@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:carrot_on_a_stick",
+            "name": "minecraft:clock",
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32012, "minecraft:custom_data":{"what_type":"wave_bucket"},"minecraft:item_name":"{\"translate\":\"what.item.wave_bucket\"}"}
+                "components": {"minecraft:custom_model_data": 32028, "minecraft:custom_data":{"what_type":"plastic_bag"}, "minecraft:item_name":"{\"translate\":\"what.item.plastic_bag\"}"}
               }
             ]
           }
@@ -17,4 +17,3 @@
       }
     ]
   }
-  

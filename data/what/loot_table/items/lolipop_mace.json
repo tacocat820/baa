@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data":32020,"minecraft:custom_data":{"what_type":"lolipop_mace"},"minecraft:item_name":"{'translate':'what.item.lolipop_mace'}",
+              "components": {"minecraft:custom_model_data":32020,"minecraft:custom_data":{"what_type":"lolipop_mace"},"minecraft:item_name":"{\"translate\":\"what.item.lolipop_mace\"}",
               "minecraft:food": {
                       "can_always_eat": true,
                       "nutrition": 30,

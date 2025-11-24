@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32008, "minecraft:food":{"saturation":5,"nutrition":9},"minecraft:custom_data":{"what_type":"cucumber"},"minecraft:item_name":"{'translate':'what.item.cucumber'}"}
+                "components": {"minecraft:custom_model_data":32008, "minecraft:food":{"saturation":5,"nutrition":9},"minecraft:custom_data":{"what_type":"cucumber"},"minecraft:item_name":"{\"translate\":\"what.item.cucumber\"}"}
               }
             ]
           }

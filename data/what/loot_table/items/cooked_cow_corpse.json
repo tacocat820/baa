@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32014, "minecraft:food":{"saturation":9,"nutrition":7},"minecraft:custom_data":{"what_type":"cooked_cow_corpse"},"minecraft:item_name":"{'translate':'what.item.cooked_cow_corpse'}"}
+                "components": {"minecraft:custom_model_data":32014, "minecraft:food":{"saturation":9,"nutrition":7},"minecraft:custom_data":{"what_type":"cooked_cow_corpse"},"minecraft:item_name":"{\"translate\":\"what.item.cooked_cow_corpse\"}"}
               }
             ]
           }

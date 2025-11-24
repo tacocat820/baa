@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_data":{"what_type":"sand_ingot"},"minecraft:item_name":"{'translate':'what.item.sand_ingot'}"}
+                "components": {"minecraft:custom_data":{"what_type":"sand_ingot"},"minecraft:item_name":"{\"translate\":\"what.item.sand_ingot\"}"}
               }
             ]
           }

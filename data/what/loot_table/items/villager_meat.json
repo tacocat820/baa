@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32010, "minecraft:food":{"saturation":11,"nutrition":10},"minecraft:custom_data":{"what_type":"villager_meat"},"minecraft:item_name":"{'translate':'what.item.villager_meat'}"}
+                "components": {"minecraft:custom_model_data":32010, "minecraft:food":{"saturation":11,"nutrition":10},"minecraft:custom_data":{"what_type":"villager_meat"},"minecraft:item_name":"{\"translate\":\"what.item.villager_meat\"}"}
               }
             ]
           }

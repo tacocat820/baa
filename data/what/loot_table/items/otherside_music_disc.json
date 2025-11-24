@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32025, "minecraft:custom_data": {"what_type": "music_disc_otherside"}, "minecraft:item_name": "{'translate':'what.item.music_disc_otherside'}",
+                "components": {"minecraft:custom_model_data": 32025, "minecraft:custom_data": {"what_type": "music_disc_otherside"}, "minecraft:item_name": "{\"translate\":\"what.item.music_disc_otherside\"}",
                 "jukebox_playable":{"song":"what:otherside"}, "rarity": "rare"
               }
               }

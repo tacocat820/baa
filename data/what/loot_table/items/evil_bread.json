@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32001,"minecraft:custom_data":{"what_type":"evil_bread"},"minecraft:item_name":"{'translate':'what.item.evil_bread'}"}
+                "components": {"minecraft:custom_model_data":32001,"minecraft:custom_data":{"what_type":"evil_bread"},"minecraft:item_name":"{\"translate\":\"what.item.evil_bread\"}"}
               }
             ]
           }

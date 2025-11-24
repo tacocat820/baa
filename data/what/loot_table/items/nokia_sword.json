@@ -20,7 +20,7 @@
                   },
 
                   "minecraft:custom_data": {"what_type": "nokia_sword"},
-                  "minecraft:item_name": "{'translate':'what.item.nokia_sword'}"
+                  "minecraft:item_name": "{\"translate\":\"what.item.nokia_sword\"}"
                 }
               }
             ]
