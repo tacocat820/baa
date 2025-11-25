@@ -4,4 +4,4 @@ execute if entity @e[tag=what.worldspawn,distance=0..100] run return run execute
 setworldspawn ~ ~ ~
 summon marker ~ ~ ~ {Tags:[what.worldspawn]}
 
-say gex
+#say gex
