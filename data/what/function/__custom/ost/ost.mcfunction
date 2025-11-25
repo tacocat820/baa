@@ -1,5 +1,5 @@
 scoreboard players remove @s what.music 1
-execute if entity @s[tag=what.speedrunner] run function what:__custom/ost/specific/herobrin
+execute if entity @s[tag=what.speedrunner] run function what:__custom/ost/specific/speedrun
 execute if entity @e[tag=what.ent.asgor,distance=0..40] run return run function what:__custom/ost/specific/asgor
 
 execute if entity @e[tag=what.ct2_showcase,distance=0..15] run return run function what:__custom/ost/specific/crafting_table_2

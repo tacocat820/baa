@@ -18,6 +18,46 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "what:items/garbage_music_disc",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/pen",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/knife",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/pig_corpse",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/rickroll",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/cheeseburger_crumbs",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/rock",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "what:items/stick_pickaxe",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "what:items/dust",
           "weight": 60
         },

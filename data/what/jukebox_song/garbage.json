@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.ost.garbagemusic"
+  },
+  "description": {
+    "translate": "what.jukebox_song.garbagemusic"
+  },
+  "length_in_seconds": 150,
+  "comparator_output": 0
+}
