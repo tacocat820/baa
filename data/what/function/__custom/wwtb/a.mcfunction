@@ -1,1 +1,1 @@
-say a
+execute on target run say A

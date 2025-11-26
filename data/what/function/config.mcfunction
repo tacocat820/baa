@@ -30,9 +30,9 @@ data modify storage what:config inter.tright set value {target: "what:__custom/t
 data modify storage what:config inter.tleft set value {target: "what:__custom/tetrisgame/move/r", attack: ""}
 data modify storage what:config inter.trotate set value {target: "what:__custom/tetrisgame/rotate/test", attack: ""}
 
-data modify storage what:config inter.button_a set value {target: "what:__custom/wwtb/a", attack: ""}
-data modify storage what:config inter.button_b set value {target: "what:__custom/wwtb/b", attack: ""}
-data modify storage what:config inter.button_c set value {target: "what:__custom/wwtb/c", attack: ""}
+data modify storage what:config inter.button_a set value {target: "what:__custom/wwtb/a", attack: "what:__custom/block/destroy_if_in_creative"}
+data modify storage what:config inter.button_b set value {target: "what:__custom/wwtb/b", attack: "what:__custom/block/destroy_if_in_creative"}
+data modify storage what:config inter.button_c set value {target: "what:__custom/wwtb/c", attack: "what:__custom/block/destroy_if_in_creative"}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
