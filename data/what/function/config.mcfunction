@@ -18,6 +18,7 @@ data modify storage what:config inter.nuke set value {target: "what:block/nuke/b
 data modify storage what:config inter.drem set value {target: "what:__custom/speedrun/start",attack: ""}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
+data modify storage what:config inter.vroomba_chair set value {target: "what:mob/vroomba/ride_chair",attack: ""}
 data modify storage what:config inter.tree_inter set value {target: "",attack: "what:mob/big_tree/inter"}
 data modify storage what:config inter.poison_tree_inter set value {target: "",attack: "what:mob/big_tree/poison_inter"}
 data modify storage what:config inter.wave_inter set value {target: "what:mob/wave/collect_wave",attack: ""}
@@ -28,6 +29,10 @@ data modify storage what:config inter.pc set value {target: "what:__custom/pc/oh
 data modify storage what:config inter.tright set value {target: "what:__custom/tetrisgame/move/l", attack: ""}
 data modify storage what:config inter.tleft set value {target: "what:__custom/tetrisgame/move/r", attack: ""}
 data modify storage what:config inter.trotate set value {target: "what:__custom/tetrisgame/rotate/test", attack: ""}
+
+data modify storage what:config inter.button_a set value {target: "what:__custom/wwtb/a", attack: ""}
+data modify storage what:config inter.button_b set value {target: "what:__custom/wwtb/b", attack: ""}
+data modify storage what:config inter.button_c set value {target: "what:__custom/wwtb/c", attack: ""}
 
 #timer
 data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
@@ -115,6 +120,7 @@ data modify storage what:config mobs.pillager set value {name: '[{"translate":"w
 data modify storage what:config mobs.betterhorse set value {name: '[{"translate":"what.mob.betterhorse"}]', base_mob: "husk", cmd:32000, item_id:"potion", anim_len:24, bossbar: 1b, bossbar_data: {color: "pink"}}
 data modify storage what:config mobs.gaming_chair set value {name: '[{"translate":"what.mob.gaming_chair"}]', base_mob: "husk", cmd:32004, item_id:"potion", anim_len:0, bossbar: 1b, bossbar_data: {color: "green"}}
 data modify storage what:config mobs.vroomba set value {name: '[{"translate":"what.mob.vroomba"}]', base_mob: "chicken", cmd:32005, item_id:"potion", anim_len:24,inter:{a:1b,id:"vroomba",width:1,height:0.3}}
+data modify storage what:config mobs.vroomba_chair set value {name: '[{"translate":"what.mob.vroomba"}]', base_mob: "chicken", cmd:32005, item_id:"potion", anim_len:24,inter:{a:1b,id:"vroomba_chair",width:1,height:0.3}}
 data modify storage what:config mobs.plane set value {name: '[{"translate":"what.mob.plane"}]', base_mob: "horse", cmd:32006, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.donalds set value {name: '[{"translate":"what.mob.donalds"}]', base_mob: "villager", cmd:32007, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.cable set value {name: '[{"translate":"what.mob.cable"}]', base_mob: "husk", cmd:32008, item_id:"clock", anim_len:0}

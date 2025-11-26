@@ -94,3 +94,6 @@ data modify storage what:config blocks append value {name: xp_glass, CustomModel
 data modify storage what:config blocks append value {name: shitter, CustomModelData: [32097], customTags:[trash_can]}
 data modify storage what:config blocks append value {name: trash_bag, CustomModelData: [32098], block:"mangrove_roots", rotate:2, falling:3}
 data modify storage what:config blocks append value {name: plastic_block, CustomModelData: [32099], block:"azalea_leaves"}
+data modify storage what:config blocks append value {name: button_a, CustomModelData: [32100], block:"structure_void", customTags:[button_a], inter:1b, rotate:2, no_chunking:1b}
+data modify storage what:config blocks append value {name: button_b, CustomModelData: [32101], block:"structure_void", customTags:[button_b], inter:1b, rotate:2, no_chunking:1b}
+data modify storage what:config blocks append value {name: button_c, CustomModelData: [32102], block:"structure_void", customTags:[button_c], inter:1b, rotate:2, no_chunking:1b}
