@@ -12,7 +12,7 @@
         "Invisible": true
       },
       "minecraft:custom_model_data": 32012,
-      "minecraft:item_name": "{'translate':'what.block.crafting_table_2'}"
+      "minecraft:item_name": "{\"translate\":\"what.block.crafting_table_2\"}"
     }
   }
 }

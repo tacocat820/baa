@@ -17,7 +17,7 @@
           "Invisible": true
         },
         "minecraft:custom_model_data": 32005,
-        "minecraft:item_name": "{'translate':'what.block.chair_plant'}"
+        "minecraft:item_name": "{\"translate\":\"what.block.chair_plant\"}"
       }
     }
   }

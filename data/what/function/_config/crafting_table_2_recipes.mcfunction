@@ -46,6 +46,7 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 8, i
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "meth"}, {count: 1, id: "minecraft:barrel"}], loot:"what:blocks/barrel_with_meth", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "rcwip"}, {count: 1, id: "minecraft:iron_pickaxe"}], minecraft_id:"minecraft:rail", count:1}
+data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "plastic", 2: "air", 3: "air", 4: "plastic", 5: "air", 6: "air", 7: "minecraft:stick", 8: "air"}, loot:"what:items/plastic_sword", count:1}
 
 
 #food & drinks
@@ -57,6 +58,7 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 4, i
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "caramel"}, {count: 1, id: "iphone"}], loot:"what:items/fith_", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "air"}, {count: 4, id: "minecraft:gray_concrete"}, {count: 1, id: "minecraft:bread"}], loot:"what:items/concrete_baguette", count:1}
 
+data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "rock"}], minecraft_id:"cobblestone", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "plastic"}], loot:"what:blocks/plastic_block", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "plastic_block"}], loot:"what:items/plastic", count:9}

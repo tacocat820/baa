@@ -14,22 +14,22 @@
         {
           "type": "minecraft:loot_table",
           "value": "what:items/rock",
-          "weight": 60
+          "weight": 40
         },
         {
           "type": "minecraft:loot_table",
           "value": "what:items/garbage_music_disc",
-          "weight": 30
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "what:items/pen",
-          "weight": 50
+          "weight": 38
         },
         {
           "type": "minecraft:loot_table",
           "value": "what:items/knife",
-          "weight": 30
+          "weight": 19
         },
         {
           "type": "minecraft:loot_table",
@@ -39,22 +39,17 @@
         {
           "type": "minecraft:loot_table",
           "value": "what:items/rickroll",
-          "weight": 60
+          "weight": 55
         },
         {
           "type": "minecraft:loot_table",
           "value": "what:items/cheeseburger_crumbs",
-          "weight": 60
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "what:items/rock",
-          "weight": 30
+          "weight": 55
         },
         {
           "type": "minecraft:loot_table",
           "value": "what:items/stick_pickaxe",
-          "weight": 30
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",

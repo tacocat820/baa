@@ -17,7 +17,7 @@
                 ]},
                 "minecraft:custom_data": {"what_type": "email_boots"},
                 "minecraft:dyed_color": {"rgb":16769556},
-                "minecraft:item_name": "{'translate':'what.item.email_boots'}"
+                "minecraft:item_name": "{\"translate\":\"what.item.email_boots\"}"
               }
             }
           ]

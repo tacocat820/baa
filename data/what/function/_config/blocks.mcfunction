@@ -24,10 +24,10 @@ data modify storage what:config blocks append value {name: lego, CustomModelData
 data modify storage what:config blocks append value {name: beans_plant, CustomModelData: [32022], block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1}
 data modify storage what:config blocks append value {name: american_oil, CustomModelData: [32026], block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid], pause:1b}
 data modify storage what:config blocks append value {name: bing_chilling, CustomModelData: [32027], block:"copper_grate"}
-data modify storage what:config blocks append value {name: chinese_anvil, CustomModelData: [32028], block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[chinese_anvil]}
-data modify storage what:config blocks append value {name: dust_block, CustomModelData: [32029], block:"azalea_leaves", falling:1b}
+data modify storage what:config blocks append value {name: chinese_anvil, CustomModelData: [32028], block:"tripwire", inter:1b, rotate:2, falling:1, customTags:[chinese_anvil]}
+data modify storage what:config blocks append value {name: dust_block, CustomModelData: [32029], block:"azalea_leaves", falling:3}
 data modify storage what:config blocks append value {name: solid_dust, CustomModelData: [32030], block:"mangrove_roots"}
-data modify storage what:config blocks append value {name: dust_carpet, CustomModelData: [32031], block:"tripwire", falling:1b}
+data modify storage what:config blocks append value {name: dust_carpet, CustomModelData: [32031], block:"tripwire", falling:3}
 data modify storage what:config blocks append value {name: microwave, CustomModelData: [32032], rotate:2, inter:1b, block:"locked_shulker", customTags:[microwave], no_chunking:1b}
 data modify storage what:config blocks append value {name: plasma, CustomModelData: [32033], block:"glass", bright:1b}
 data modify storage what:config blocks append value {name: obamium, CustomModelData: [32034], block:"tripwire", rotate:2, customTags:[obamium], item_display:"head"}
@@ -49,7 +49,7 @@ data modify storage what:config blocks append value {name: sand, CustomModelData
 data modify storage what:config blocks append value {name: flower, CustomModelData: [32050], block:"copper_grate"}
 data modify storage what:config blocks append value {name: die, CustomModelData: [32051], block:"tripwire", customTags:[die]}
 data modify storage what:config blocks append value {name: door2, CustomModelData: [32052], inter:1b, block:"copper_grate", customTags:[door2]}
-data modify storage what:config blocks append value {name: pc, CustomModelData: [32054, 32053], block:"tripwire", inter:1b, rotate:2, falling:1b, customTags:[pc]}
+data modify storage what:config blocks append value {name: pc, CustomModelData: [32054, 32053], block:"tripwire", inter:1b, rotate:2, falling:1, customTags:[pc]}
 data modify storage what:config blocks append value {name: floppa, CustomModelData: [32055], block:"azalea_leaves"}
 data modify storage what:config blocks append value {name: sacabambaspis, CustomModelData: [32056], block:"barrier"}
 data modify storage what:config blocks append value {name: greenscreen, CustomModelData: [32064], block:"barrier", bright:1b}
@@ -59,7 +59,7 @@ data modify storage what:config blocks append value {name: trotate, CustomModelD
 data modify storage what:config blocks append value {name: t, CustomModelData: [32060], block:"barrier", no_chunking:1b, no_chunking:1b}
 data modify storage what:config blocks append value {name: icicle, CustomModelData: [32061], falling:2, rotate:1}
 data modify storage what:config blocks append value {name: rcwip, CustomModelData: [32062], block:"tripwire", rotate:2}
-data modify storage what:config blocks append value {name: VLC, CustomModelData: [32063], block:"tripwire", item_display:"head", falling:1b}
+data modify storage what:config blocks append value {name: VLC, CustomModelData: [32063], block:"tripwire", item_display:"head", falling:1}
 data modify storage what:config blocks append value {name: barrel_with_meth, CustomModelData: [32065], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: pan, CustomModelData: [32066], block:"tripwire", rotate:2}
 data modify storage what:config blocks append value {name: netherrack_2, CustomModelData: [32067], block:"mangrove_roots", customTags:[what.netherrack_2]}
@@ -92,5 +92,5 @@ data modify storage what:config blocks append value {name: task, CustomModelData
 data modify storage what:config blocks append value {name: bubble_block, CustomModelData: [32095], block:"white_glass"}
 data modify storage what:config blocks append value {name: xp_glass, CustomModelData: [32096], block:"blue_glass"}
 data modify storage what:config blocks append value {name: shitter, CustomModelData: [32097], customTags:[trash_can]}
-data modify storage what:config blocks append value {name: trash_bag, CustomModelData: [32098], block:"mangrove_roots", rotate:2, falling:1b}
+data modify storage what:config blocks append value {name: trash_bag, CustomModelData: [32098], block:"mangrove_roots", rotate:2, falling:3}
 data modify storage what:config blocks append value {name: plastic_block, CustomModelData: [32099], block:"azalea_leaves"}

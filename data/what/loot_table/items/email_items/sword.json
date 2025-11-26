@@ -25,7 +25,7 @@
                       }
                     ]
                     },
-                  "minecraft:item_name": "{'translate':'what.item.email_sword'}"
+                  "minecraft:item_name": "{\"translate\":\"what.item.email_sword\"}"
                 }
               }
             ]

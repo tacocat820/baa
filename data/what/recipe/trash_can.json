@@ -18,7 +18,7 @@
           "Invisible": true
         },
         "minecraft:custom_model_data": 32014,
-        "minecraft:item_name": "{'translate':'what.block.trash_can'}"
+        "minecraft:item_name": "{\"translate\":\"what.block.trash_can\"}"
       }
     }
   }

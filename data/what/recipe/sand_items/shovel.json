@@ -14,7 +14,7 @@
       "id": "minecraft:golden_shovel",
       "components": {
         "minecraft:custom_model_data": 32002,
-        "minecraft:item_name": "{'translate':'what.item.sand_shovel'}",
+        "minecraft:item_name": "{\"translate\":\"what.item.sand_shovel\"}",
         "minecraft:max_damage": 5,
         "minecraft:damage": 0,
         "minecraft:food": {

@@ -6,4 +6,4 @@ execute if entity @s[tag=what.ent.elon] run summon minecraft:lightning_bolt
 execute if entity @s[tag=what.ent.elon] run playsound entity.ender_dragon.death player @a ~ ~ ~
 kill @s[tag=what.ent.elon]
 
-say gexasd
+#say gexasd

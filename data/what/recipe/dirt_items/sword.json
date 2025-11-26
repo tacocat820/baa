@@ -13,7 +13,7 @@
       "id": "minecraft:golden_sword",
       "components": {
         "minecraft:custom_model_data": 32000,
-        "minecraft:item_name": "{'translate':'what.item.dirt_sword'}",
+        "minecraft:item_name": "{\"translate\":\"what.item.dirt_sword\"}",
         "minecraft:max_damage": 7,
         "minecraft:damage": 0,
         "minecraft:food": {

@@ -21,7 +21,7 @@
                       }
                     ]
                     },
-                  "minecraft:item_name": "{'translate':'what.item.email_pickaxe'}"
+                  "minecraft:item_name": "{\"translate\":\"what.item.email_pickaxe\"}"
                 }
               }
             ]

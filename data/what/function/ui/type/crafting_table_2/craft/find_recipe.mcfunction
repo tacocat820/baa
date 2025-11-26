@@ -17,7 +17,7 @@ execute if data storage what:temp {craft: 0} at @s run return run data remove bl
 #say yea
 
 #say uhwhu
-execute at @s run data modify block ~ ~ ~ Items append value {count: 1, Slot: 13b, id: "minecraft:clock", components:{"custom_data":{what_ui:{type:"craft_result"}}, item_name:"{\"translate\":\"what.txt.recipe\"}", custom_model_data:32026, "minecraft:attribute_modifiers": {show_in_tooltip: 0b, modifiers: []}}}
+execute at @s run data modify block ~ ~ ~ Items append value {count: 1, Slot: 13b, id: "minecraft:clock", components:{"custom_data":{what_ui:{type:"craft_result"}}, custom_model_data:32026, "minecraft:attribute_modifiers": {show_in_tooltip: 0b, modifiers: []}}}
 function what:ui/type/crafting_table_2/craft/preview/set
 
 function what:ui/commit_container_changes with storage what:temp

@@ -12,6 +12,6 @@
   },
   "result": {
     "id": "minecraft:carrot_on_a_stick",
-    "components": {"minecraft:custom_model_data":32001,"minecraft:custom_data":{"what_type":"pen"},"minecraft:item_name":"{'translate':'what.item.pen'}"}
+    "components": {"minecraft:custom_model_data":32001,"minecraft:custom_data":{"what_type":"pen"},"minecraft:item_name":"{\"translate\":\"what.item.pen\"}"}
   }
 }

@@ -12,6 +12,6 @@
   },
   "result": {
     "id": "minecraft:bow",
-    "components": {"minecraft:custom_model_data": 32000, "minecraft:custom_data": {"what_type": "wob"}, "minecraft:item_name": "{'translate':'what.item.wob'}"}
+    "components": {"minecraft:custom_model_data": 32000, "minecraft:custom_data": {"what_type": "wob"}, "minecraft:item_name": "{\"translate\":\"what.item.wob\"}"}
   }
 }

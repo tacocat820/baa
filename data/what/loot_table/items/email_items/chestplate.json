@@ -17,7 +17,7 @@
                 ]},
                 "minecraft:custom_data": {"what_type": "email_chestplate"},
                 "minecraft:dyed_color": {"rgb":16769556},
-                "minecraft:item_name": "{'translate':'what.item.email_chestplate'}"
+                "minecraft:item_name": "{\"translate\":\"what.item.email_chestplate\"}"
               }
             }
           ]
