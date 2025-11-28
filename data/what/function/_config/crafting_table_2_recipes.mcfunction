@@ -2,7 +2,7 @@ data remove storage what:config recipes
 
 #если в результате крафта больше 1 типа предметов, то ставьте preview:0
 
-data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "wolfberries", 2: "air", 3: "wolfberries", 4: "glass_empty", 5: "wolfberries", 6: "air", 7: "wolfberries", 8: "air"}, loot:"what:items/glass_of_poison", count:1}
+data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "wolfberries", 2: "air", 3: "wolfberries", 4: "glass_empty", 5: "wolfberries", 6: "air", 7: "wolfberries", 8: "air"}, loot:"what:items/glass_of_poison", count:1, advancements:["what:visible/ender_eye"]}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:blaze_powder"}, {count: 1, id: "minecraft:gold_block"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "caramel"}, {count: 1, id: "minecraft:diamond_hoe"}], loot:"what:loot/ender_eye", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "air"}, {count: 1, id: "minecraft:dragon_egg"}, {count: 1, id: "rotten_flesh_block"}, {count: 1, id: "pc"}, {count: 1, id: "glass_of_water"}, {count: 1, id: "nether_bed"}], loot:"what:items/herobrine_spray", count:1}

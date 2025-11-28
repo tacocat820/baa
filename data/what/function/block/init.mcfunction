@@ -19,8 +19,10 @@ execute if data storage what:temp block{no_chunking:1b} run tag @s add no_chunki
 execute if data storage what:temp block{plant:1b} run function what:block/plants/set_age
 execute if data storage what:temp block{bright:1b} run data modify entity @s brightness set value {sky:10,block:10}
 
+execute if data storage what:temp block.size run function what:block/custom_size/_
+
 #Init 2
-function what:block/init_block_
+execute if score $bad_pos what.temp matches 0 run function what:block/init_block_
 execute if data storage what:temp block{inter:1b} run function what:block/init_inter_ with storage what:temp
 
 execute if data storage what:temp block.item_display run data modify entity @s item_display set from storage what:temp block.item_display

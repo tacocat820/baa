@@ -68,6 +68,7 @@ scoreboard objectives add what.global_events dummy
 scoreboard objectives add what.ui dummy
 scoreboard objectives add what.ui_playerid dummy
 scoreboard objectives add what.fall_distance minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add what.block_id dummy
 
 #shedules
 function what:schedule/start_all

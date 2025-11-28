@@ -113,3 +113,4 @@ execute if score cmd what.temp matches 32097 run return run loot spawn ~ ~ ~ loo
 execute if score $bad_pos what.temp matches 1 if score cmd what.temp matches 32098 run return run loot spawn ~ ~ ~ loot what:blocks/trash_bag
 execute if score cmd what.temp matches 32098 run return run loot spawn ~ ~ ~ loot what:loot/trash
 execute if score cmd what.temp matches 32099 run return run loot spawn ~ ~ ~ loot what:blocks/plastic_block
+execute if score cmd what.temp matches 32103 run return run loot spawn ~ ~ ~ loot what:blocks/just_big_block

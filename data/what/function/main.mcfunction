@@ -6,6 +6,7 @@ execute as @e[type=marker, scores={what.timer=-1..}] at @s run function what:tim
 #кастомынй блок
 execute at @a[tag=!pause] as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
 execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
+execute at @a as @e[type=marker,distance=0..20,tag=what.block_handler,tag=!what.temp] at @s if block ~ ~ ~ #what:replaceable run function what:block/custom_size/check_subblock with entity @s data
 
 execute at @e[type=marker,tag=what.block_loader] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
 

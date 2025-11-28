@@ -97,3 +97,4 @@ data modify storage what:config blocks append value {name: plastic_block, Custom
 data modify storage what:config blocks append value {name: button_a, CustomModelData: [32100], block:"structure_void", customTags:[button_a], inter:1b, rotate:2, no_chunking:1b}
 data modify storage what:config blocks append value {name: button_b, CustomModelData: [32101], block:"structure_void", customTags:[button_b], inter:1b, rotate:2, no_chunking:1b}
 data modify storage what:config blocks append value {name: button_c, CustomModelData: [32102], block:"structure_void", customTags:[button_c], inter:1b, rotate:2, no_chunking:1b}
+data modify storage what:config blocks append value {name: just_big_block, CustomModelData: [32103], block:"white_glass", size:{x:3,y:3,z:3, offset_x:-2,offset_y:-1,offset_z:-2}, item_display:"head",pause:1b}

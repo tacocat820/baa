@@ -1,0 +1,1 @@
+$execute as @e[distance=0..50,type=marker,sort=nearest,tag=what.block_handler, nbt={data:{block_id:$(block_id)}}] at @s run function what:block/custom_size/remove_block
