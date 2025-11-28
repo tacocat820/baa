@@ -23,3 +23,4 @@ execute if entity @s[tag=what.ent.death] run function what:mob/death/tick
 execute if entity @s[tag=what.ent.blays] run function what:mob/blays/tick
 execute if entity @s[tag=what.ent.happyghast] run function what:mob/happyghast/tick
 execute if entity @s[tag=what.ent.twitter] run function what:mob/elon/bullet
+execute if entity @s[tag=what.ent.trebuchet] run function what:mob/trebuchet/tick

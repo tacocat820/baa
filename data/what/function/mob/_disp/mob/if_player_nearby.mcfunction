@@ -1,3 +1,5 @@
+execute if entity @s[tag=no_walk] run return 0
+
 execute unless entity @s[tag=nonstop_anim] unless entity @e[tag=what.cur,distance=0..1,nbt={Motion:[0.0,0.0,0.0]}] run function what:mob/_disp/mob/walk
 execute unless entity @s[tag=nonstop_anim] if entity @e[tag=what.cur,distance=0..1,nbt={Motion:[0.0,0.0,0.0]}] if score @s what.ent.animation matches 8388609.. run function what:mob/_disp/mob/walk
 execute unless entity @s[tag=ignore_anim] if entity @s[tag=nonstop_anim] run function what:mob/_disp/mob/walk
