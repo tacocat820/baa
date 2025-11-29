@@ -61,7 +61,7 @@ data modify storage what:config mob_spawner.ow_default.cow set value {amount: 5,
 data modify storage what:config mob_spawner.ow_default.zombie set value {amount: 7, keys: ["gigachicken","mogus","mogus","mogus","dolphin","dolphin","pigeon"]}
 data modify storage what:config mob_spawner.ow_default.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","cable","puffercopter"]}
 data modify storage what:config mob_spawner.ow_default.pig set value {amount: 5, keys: ["whatever","whatever","whatever","whatever","whatever"]}
-data modify storage what:config mob_spawner.ow_default.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","mosscow","mosscow"]}
+data modify storage what:config mob_spawner.ow_default.sheep set value {amount: 5, keys: ["mosscow","mosscow","mosscow","trebuchet","trebuchet"]}
 data modify storage what:config mob_spawner.ow_default.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","mosscow","mosscow","ender_dragon"]}
 data modify storage what:config mob_spawner.ow_default.skeleton set value {amount: 5, keys: ["mogus","mogus","puffercopter","puffercopter"]}
 

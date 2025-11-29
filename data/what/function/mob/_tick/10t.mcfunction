@@ -26,3 +26,4 @@ execute if entity @s[tag=what.ent.death] run function what:mob/death/10t
 execute if entity @s[tag=what.ent.wtf] run function what:mob/wtf/10t
 execute if entity @s[tag=what.ent.elon] run function what:mob/elon/10t
 execute if entity @s[tag=what.ent.boulder] run function what:mob/boulder/10t
+execute if entity @s[tag=what.ent.trebuchet] run function what:mob/trebuchet/10t

@@ -1,7 +1,12 @@
-summon wolf ~ ~ ~ {Tags:["what.temp_new","what.ent.trebuchet"],PersistenceRequired:true}
+summon wolf ~ ~ ~ {Tags:["what.temp_new","what.ent.trebuchet","tick1s"],PersistenceRequired:true}
 effect give @n[tag=what.temp_new] invisibility infinite 0 true
 effect give @n[tag=what.temp_new] jump_boost infinite 2 true
 effect give @n[tag=what.temp_new] speed infinite 3 true
+
+
+attribute @n[tag=what.temp_new] minecraft:max_health base set 700
+attribute @n[tag=what.temp_new] minecraft:follow_range base set 1000
+data modify entity @n[tag=what.temp_new] Health set value 700
 
 attribute @n[tag=what.temp_new] scale base set 30
 
