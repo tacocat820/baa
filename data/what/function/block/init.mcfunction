@@ -5,6 +5,8 @@ execute if data storage what:temp block.customTags run data modify entity @s Tag
 
 tag @s add what.block_placed
 
+scoreboard players set sin what.temp 0
+scoreboard players set cos what.temp 1
 execute if data storage what:temp block{rotate:1} run data modify entity @s Rotation set from storage what:temp r
 execute if data storage what:temp block{rotate:2} run function what:block/actions/rotate_horiz
 execute if data storage what:temp block{rotate:3} run function what:block/actions/rotate_horiz_and_vert
