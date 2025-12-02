@@ -1,1 +1,2 @@
-execute on target run say C
+execute on target run title @s actionbar [{"text":"C","bold":true,"color":"#570db0"}]
+execute on target run scoreboard players set @s what.etc.wwtb.answer 3
