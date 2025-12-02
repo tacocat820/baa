@@ -1,0 +1,1 @@
+scoreboard players set $wwtb what.global_events 1

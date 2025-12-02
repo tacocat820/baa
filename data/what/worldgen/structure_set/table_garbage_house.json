@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:table_garbage_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 737693225,
+    "spacing": 9,
+    "separation": 3
+  }
+}
