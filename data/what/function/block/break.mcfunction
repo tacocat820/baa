@@ -1,12 +1,10 @@
 #execute if score $bad_pos what.temp matches 0 run particle item{item:{id:item_frame,components:{"custom_model_data":32000}}} ~ ~0.1 ~ .2 .2 .2 0.1 20 normal
-
 execute if entity @s[tag=what.temp] run return 0
 tag @s add what.temp
 
-execute if score $bad_pos what.temp matches 0 run function what:block/remove_loot
-
-execute if score $bad_pos what.temp matches 0 run data modify storage what:temp CustomModelData set from entity @s item.components.minecraft:custom_model_data
-execute if score $bad_pos what.temp matches 0 run function what:block/particles with storage what:temp
+function what:block/remove_loot
+data modify storage what:temp CustomModelData set from entity @s item.components.minecraft:custom_model_data
+function what:block/particles with storage what:temp
 
 execute if entity @s[tag=has_inter] run kill @n[type=interaction]
 
@@ -20,6 +18,7 @@ execute unless entity @a[distance=0..7] run scoreboard players set $loot what.te
 
 execute if entity @s[scores={what.block_id=0..}] run function what:block/custom_size/idk8
 
+scoreboard players set $bad_pos what.temp 0
 execute if score $loot what.temp matches 1 if entity @a[tag=what.temp_b2,distance=0..7] run function what:block/loot
 
 #удаляем следы
