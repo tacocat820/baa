@@ -55,6 +55,7 @@ data modify storage what:config microwave.glass_of_oil set value {loot_table: "w
 data modify storage what:config microwave.glass_of_water set value {loot_table: "what:items/glass_empty" }
 data modify storage what:config microwave.fire set value {loot_table: "what:blocks/plasma" }
 data modify storage what:config microwave.'["what.block","redstone_2"]' set value {loot_table: "what:items/meth" }
+data modify storage what:config microwave.pig_corpse set value {loot_table: "what:items/cooked_pig_corpse"}
 data modify storage what:config microwave.cow_corpse set value {loot_table: "what:items/cooked_cow_corpse"}
 
 data modify storage what:config microwave.minecraft:packed_mud set value {loot_table: "what:blocks/backrooms" }

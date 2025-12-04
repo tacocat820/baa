@@ -13,12 +13,12 @@ execute if entity @s[tag=what.loot] run scoreboard players set $loot what.temp 1
 
 #scoreboard players set $bad_pos what.temp 0
 # detect player who break
+scoreboard players set $bad_pos what.temp 0
 execute as @a[distance=0..7,sort=nearest] anchored eyes at @s run function what:block/detect_who_break/check
 execute unless entity @a[distance=0..7] run scoreboard players set $loot what.temp 1
 
 execute if entity @s[scores={what.block_id=0..}] run function what:block/custom_size/idk8
 
-scoreboard players set $bad_pos what.temp 0
 execute if score $loot what.temp matches 1 if entity @a[tag=what.temp_b2,distance=0..7] run function what:block/loot
 
 #удаляем следы

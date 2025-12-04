@@ -19,3 +19,4 @@ execute if data storage what:temp block{CustomModelData: [32075]} run setblock ~
 execute if data storage what:temp block{CustomModelData: [32012]} run setblock ~ ~ ~ minecraft:cyan_shulker_box{CustomName:"{\"translate\":\"what.block.crafting_table_2\",\"color\":\"#ffffff\"}",Items:[]}
 execute if data storage what:temp block{CustomModelData: [32014]} run setblock ~ ~ ~ minecraft:cauldron
 execute if data storage what:temp block{CustomModelData: [32097]} run setblock ~ ~ ~ minecraft:cauldron
+execute if data storage what:temp block{CustomModelData: [32106]} run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,open=false,powered=true]

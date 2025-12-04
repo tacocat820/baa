@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:vindicator",
+              "nbt": "{Tags:[what.ent.flat_design]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "what:mob/flat_design/hit_payer"
+  }
+}

@@ -13,7 +13,8 @@ execute if data storage what:temp block{rotate:3} run function what:block/action
 #
 execute if data storage what:temp block{falling:1} run tag @s add falling_block
 execute if data storage what:temp block{falling:2} run tag @s add falling_block_2
-execute if data storage what:temp block{falling:3} run tag @s add what.sand_physic
+execute if data storage what:temp block{falling:3} run tag @s add what.sand_physics
+execute if data storage what:temp block{falling:4} run tag @s add what.water_physics
 execute if data storage what:temp block.falling run data modify entity @s teleport_duration set value 2
 
 execute if data storage what:temp block{no_chunking:1b} run tag @s add no_chunking

@@ -27,12 +27,12 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 9, i
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "nokia"}], loot:"what:blocks/nokia_block", count:1}
 
 #minerals 2
-data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "redstone_2"}], loot:"what:blocks/redstone_block_2", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "gold_2"}], loot:"what:blocks/gold_block_2", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "diamond_2"}], loot:"what:blocks/diamond_block_2", count:1}
-data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "redstone_block_2"}], loot:"what:blocks/redstone_2", count:9}
-data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "diamond_block_2"}], loot:"what:items/diamond_2", count:9}
+data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "redstone_2"}], loot:"what:blocks/redstone_block_2", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "gold_block_2"}], loot:"what:items/gold_2", count:9}
+data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "diamond_block_2"}], loot:"what:items/diamond_2", count:9}
+data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "redstone_block_2"}], loot:"what:blocks/redstone_2", count:9}
 
 #hmmm
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "minecraft:leather"}], loot:"what:blocks/leather_block", count:1}

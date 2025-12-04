@@ -34,13 +34,6 @@ data modify storage what:config inter.button_a set value {target: "what:__custom
 data modify storage what:config inter.button_b set value {target: "what:__custom/wwtb/b", attack: "what:__custom/block/destroy_if_in_creative"}
 data modify storage what:config inter.button_c set value {target: "what:__custom/wwtb/c", attack: "what:__custom/block/destroy_if_in_creative"}
 
-#timer
-data modify storage what:config timer.pipe_bomb set value {func: "what:__custom/explode"}
-data modify storage what:config timer.microwave_p1 set value {func: "what:block/microwave/warming"}
-data modify storage what:config timer.block_loader set value {func: "what:__custom/kill"}
-data modify storage what:config timer.unfurnace set value {func: "what:block/unfurnace/end"}
-data modify storage what:config timer.pc set value {func: "what:__custom/block/pc_ohmypc"}
-data modify storage what:config timer.pc.explode set value {func: "what:__custom/explode_small"}
 
 data modify storage what:players a set value {}
 
@@ -162,6 +155,7 @@ data modify storage what:config mobs.elon set value {name: '[{"translate":"what.
 data modify storage what:config mobs.boulder set value {name: '[{"translate":"what.mob.boulder"}]', base_mob: "cow", cmd:32067, item_id:"potion", anim_len:24, ignore_anim:1b}
 data modify storage what:config mobs.tarantula set value {name: '[{"translate":"what.mob.tarantula"}]', base_mob: "husk", cmd:32068, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.trebuchet set value {name: '[{"translate":"what.mob.trebuchet"}]', base_mob: "wolf", cmd:32069, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.flat_design set value {name: '[{"translate":"what.mob.flat_design"}]', base_mob: "vindicator", cmd:32070, item_id:"potion", anim_len:24, bossbar: 1b, bossbar_data: {color: "pink"}}
 
 #damage
 function what:_config/damage

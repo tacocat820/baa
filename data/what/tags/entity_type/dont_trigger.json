@@ -1,0 +1,18 @@
+{
+"values": [
+	"item_frame",
+	"glow_item_frame",
+	"painting", 
+	"armor_stand", 
+	"#arrows",
+	"egg",
+	"snowball",
+	"ender_pearl",
+	"item_display",
+	"interaction",
+	"marker",
+	"leash_knot",
+	"block_display",
+	"#minecraft:impact_projectiles"
+	]
+}

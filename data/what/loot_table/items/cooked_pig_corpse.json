@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32025, "minecraft:food":{"saturation":10,"nutrition":8}, "minecraft:custom_data":{"what_type":"cooked_pig_corpse"}, "minecraft:item_name":"{\"translate\":\"what.item.cooked_pig_corpse\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

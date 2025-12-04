@@ -23,7 +23,9 @@ data modify storage what:config unfurnace.minecraft:sea_pickle set value {loot_t
 data modify storage what:config unfurnace.minecraft:potion set value {loot_table: "what:items/glass_shards" }
 
 data modify storage what:config unfurnace.cooked_cow_corpse set value {loot_table: "what:items/cow_corpse" }
+data modify storage what:config unfurnace.cooked_pig_corpse set value {loot_table: "what:items/pig_corpse"}
 data modify storage what:config unfurnace.cow_corpse set value {command: "summon cow ~ ~ ~ {Tags:[what.checked]}" }
+data modify storage what:config unfurnace.pig_corpse set value {command: "summon pig ~ ~ ~ {Tags:[what.checked]}" }
 
 data modify storage what:config unfurnace.dust set value {id: "snowball"}
 data modify storage what:config unfurnace.cucumber set value {id: "apple"}

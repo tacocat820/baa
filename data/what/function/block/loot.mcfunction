@@ -115,3 +115,5 @@ execute if score cmd what.temp matches 32098 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32099 run return run loot spawn ~ ~ ~ loot what:blocks/plastic_block
 execute if score cmd what.temp matches 32103 run return run loot spawn ~ ~ ~ loot what:blocks/just_big_block
 execute if score cmd what.temp matches 32104 run return run loot spawn ~ ~ ~ loot what:blocks/big_crafting_table
+execute if score cmd what.temp matches 32105 run return run loot spawn ~ ~ ~ loot what:blocks/plastic_pool_balls
+execute if score cmd what.temp matches 32106 run return run loot spawn ~ ~ ~ loot what:blocks/conveyor_belt

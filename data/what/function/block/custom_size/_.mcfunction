@@ -1,4 +1,4 @@
-
+scoreboard players set $bad_pos what.temp 0
 tag @s add no_chunking
 function what:block/custom_size/fill with storage what:temp block.size
 execute if score $bad_pos what.temp matches 1 run function what:block/bad_pos
