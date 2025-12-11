@@ -79,6 +79,11 @@ function what:schedule/start_all
 #GAME RULES
 gamerule doTraderSpawning false
 
+#version
+data modify storage what:temp prev_version set from storage what:config version
+#
+data modify storage what:config version set value "1.21.10001"
+
 #Config
 function what:config
 say алё
