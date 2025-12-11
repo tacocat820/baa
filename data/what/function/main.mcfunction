@@ -74,5 +74,7 @@ execute as @e[tag=what.crystal_ball] at @s run function what:carrot_on_a_stick/c
 
 execute as @a[scores={what.fall_distance=1..}] at @s run function what:__custom/player_fall
 
+execute as @e[type=marker,tag=what.unthirst] at @s run function what:__custom/unthirst
+
 ##chunk load
 execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..30,tag=what.blocks_chunk,limit=8,sort=nearest] run function what:block/chunk/load/_
