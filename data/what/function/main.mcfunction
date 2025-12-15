@@ -13,10 +13,8 @@ execute at @e[type=marker,tag=what.block_loader] as @e[distance=0..20,tag=what.b
 execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=item_frame] at @s run function what:__custom/block/make_block_marker
 execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=marker] at @s if block ~ ~ ~ #air run kill @s
 
-#execute at @e[type=creeper] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s if block ~ ~ ~ #what:replaceable run return run function what:block/break
-
-#блок но падает
-#execute at @a as @e[distance=..40,tag=falling_block] at @s run function what:block/falling_blocks/run
+### remove temp_1t tag
+execute at @a run tag @e[distance=0..20,type=item_display,tag=what.block_placed,tag=what.temp_1t] remove what.temp_1t
 
 # mob
 
