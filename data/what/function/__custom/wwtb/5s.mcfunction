@@ -14,7 +14,5 @@ execute if score $wwtb what.global_events matches 12 run scoreboard players rese
 execute if score $wwtb what.global_events matches 12 run scoreboard objectives setdisplay sidebar what.etc.wwtb.points
 execute if score $wwtb what.global_events matches 12 run scoreboard players set @a[tag=what.wwtb.player] what.etc.wwtb.points 0
 
-execute if score $wwtb what.global_events matches 13 run function what:__custom/wwtb/question
-execute if score $wwtb what.global_events matches 13 run say question 1 what is 2 + 2 
-execute if score $wwtb what.global_events matches 13 run say A : 1, B : 3000, C : 4
+execute if score $wwtb what.global_events matches 13 run function what:__custom/wwtb/question {i:1}
 execute if score $wwtb what.global_events matches 15 run function what:__custom/wwtb/questiond {correct:3}
