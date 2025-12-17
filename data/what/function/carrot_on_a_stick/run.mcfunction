@@ -30,5 +30,6 @@ execute if data storage what:temp {what_type:marker_tool} run return run functio
 execute if data storage what:temp {what_type:glass_of_poison} run return run function what:carrot_on_a_stick/glass/wolf
 execute if data storage what:temp {what_type:herobrine_spray} run return run function what:carrot_on_a_stick/herobrine_spray/_
 execute if data storage what:temp {what_type:crystal_ball} run return run function what:carrot_on_a_stick/crystal_ball/_
+execute if data storage what:temp {what_type:heating_radiator} run return run function what:carrot_on_a_stick/heating_radiator/_
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}
 #anchored eyes run summon creeper ^ ^ ^.1 {Fuse:0,ExplosionRadius:-1,ignited:1,Silent:1b}
