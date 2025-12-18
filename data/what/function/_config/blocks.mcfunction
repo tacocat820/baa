@@ -107,3 +107,4 @@ data modify storage what:config blocks append value {name: fridge, CustomModelDa
 data modify storage what:config blocks append value {name: 914_blocks_stare, CustomModelData: [32108], block:"tripwire", rotate:3, item_display:"head"}
 data modify storage what:config blocks append value {name: brazil_painting, CustomModelData: [32109], block:"tripwire", rotate:3, item_display:"head"}
 data modify storage what:config blocks append value {name: red_wall, CustomModelData: [32110], block:"barrier"}
+data modify storage what:config blocks append value {name: radiator, CustomModelData: [32111], block:"copper_grate"}

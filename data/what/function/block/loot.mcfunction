@@ -120,3 +120,4 @@ execute if score cmd what.temp matches 32106 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32107 run return run loot spawn ~ ~ ~ loot what:blocks/fridge
 execute if score cmd what.temp matches 32108 run return run loot spawn ~ ~ ~ loot what:blocks/914_blocks_stare
 execute if score cmd what.temp matches 32109 run return run loot spawn ~ ~ ~ loot what:blocks/brazil_painting
+execute if score cmd what.temp matches 32111 run return run loot spawn ~ ~ ~ loot what:items/heating_radiator
