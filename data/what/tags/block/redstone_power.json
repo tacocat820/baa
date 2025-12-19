@@ -1,0 +1,9 @@
+{
+	"values": [
+		"minecraft:redstone_wire",
+		"minecraft:sculk_sensor",
+		"minecraft:daylight_detector",
+		"minecraft:detector_rail",
+		"minecraft:target"
+		]
+}

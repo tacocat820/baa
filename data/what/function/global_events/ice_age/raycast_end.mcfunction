@@ -1,3 +1,4 @@
+execute if entity @n[distance=0..10,tag=what.activated,tag=what.radiator] run return -1
 
 #particle flame ~ ~ ~ 0.2 0.2 0.2 0.07 3
 particle snowflake ~ ~ ~ 0.2 0.2 0.2 0.03 10
@@ -15,6 +16,7 @@ fill ~ ~ ~ ~ ~ ~ ice replace water
 fill ~ ~ ~ ~ ~ ~ dirt replace grass_block
 fill ~ ~ ~ ~ ~ ~ dirt replace rooted_dirt
 fill ~ ~ ~ ~ ~ ~ dirt replace farmland
+fill ~ ~ ~ ~ ~ ~ dirt replace dirt_path
 execute if predicate what:random1 run fill ~ ~ ~ ~ ~ ~ mangrove_roots replace #leaves
 fill ~ ~ ~ ~ ~ ~ air replace #leaves
 fill ~ ~ ~ ~ ~ ~ dead_bush replace #flowers
