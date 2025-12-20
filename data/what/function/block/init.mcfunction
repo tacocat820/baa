@@ -21,6 +21,7 @@ execute if data storage what:temp block{no_chunking:1b} run tag @s add no_chunki
 
 execute if data storage what:temp block{plant:1b} run function what:block/plants/set_age
 execute if data storage what:temp block{bright:1b} run data modify entity @s brightness set value {sky:10,block:10}
+execute if data storage what:temp block{sky_bright:1b} run data modify entity @s brightness set value {sky:15,block:0}
 
 execute if data storage what:temp block.size run function what:block/custom_size/_
 
@@ -35,7 +36,6 @@ execute if data storage what:temp block.fluid_spread store result score @s what.
 execute if data storage what:temp block.type run data modify entity @s item.components.minecraft:custom_data.type set from storage what:temp block.type 
 
 execute if data storage what:temp block{name: weather_vane} run data modify entity @s teleport_duration set value 40
-
 
 #не удалять, тут потом будет что-то
 
