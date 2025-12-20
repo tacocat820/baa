@@ -1,5 +1,4 @@
 summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.shrek","tick1s","what.checked"],DeathLootTable:"what:loot/shrek",DespawnDelay:500}
-#СДЕЛАТЬ ОТДЕЛЬНУЮ ТАБЛИЦУ ЛУТА
 
 effect give @n[tag=what.temp_new] speed infinite 4 true
 

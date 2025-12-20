@@ -1,5 +1,4 @@
 summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.shrek_house","tick1s","what.checked"],DeathLootTable:"what:items/rehsiugnitxe_erif"}
-#СДЕЛАТЬ ОТДЕЛЬНУЮ ТАБЛИЦУ ЛУТА
 
 effect give @n[tag=what.temp_new] speed infinite 4 true
 attribute @n[tag=what.temp_new] scale base set 3

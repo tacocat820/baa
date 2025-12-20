@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "nbt": "{Tags:[\"what.ent.nest\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "what:__custom/eat_bee/killed_nest"
+    }
+  }
+  

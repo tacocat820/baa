@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "acacia_sign"
+        },
+        "title": {"color": "#0d5aff","underlined":true, "bold":true, "translate": "what.adv.evilmachine"},
+        "description": {"color": "#0400ff", "bold": true, "translate": "what.adv.evilmachine.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/theend"
+}

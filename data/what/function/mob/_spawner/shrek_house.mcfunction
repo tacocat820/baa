@@ -1,5 +1,4 @@
 summon marker ~ ~ ~ {Tags:["what.temp_new","what.ent.shrek_house","tick1s","what.checked"]}
-#СДЕЛАТЬ ОТДЕЛЬНУЮ ТАБЛИЦУ ЛУТА
 
 effect give @n[tag=what.temp_new] speed infinite 4 true
 

@@ -157,6 +157,7 @@ data modify storage what:config mobs.tarantula set value {name: '[{"translate":"
 data modify storage what:config mobs.trebuchet set value {name: '[{"translate":"what.mob.trebuchet"}]', base_mob: "wolf", cmd:32069, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.flat_design set value {name: '[{"translate":"what.mob.flat_design"}]', base_mob: "vindicator", cmd:32070, item_id:"potion", anim_len:24, bossbar: 1b, bossbar_data: {color: "pink"}}
 data modify storage what:config mobs.trasher set value {name: '[{"translate":"what.mob.trasher"}]', base_mob: "vindicator", cmd:32072, item_id:"potion", anim_len:72}
+data modify storage what:config mobs.nest set value {name: '[{"translate":"what.mob.nest"}]', base_mob: "cow", cmd:32073, item_id:"potion", anim_len:24}
 
 #damage
 function what:_config/damage

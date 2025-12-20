@@ -1,10 +1,7 @@
 {
     "criteria": {
         "e" : {
-            "trigger": "changed_dimension",
-            "conditions": {
-                "to": "what:tetris"
-            }
+            "trigger": "impossible"
         }
     },
     "display": {
