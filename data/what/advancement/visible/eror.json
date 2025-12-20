@@ -3,7 +3,7 @@
         "e" : {
             "trigger": "changed_dimension",
             "conditions": {
-                "to": "what:trash"
+                "to": "what:xp"
             }
         }
     },
@@ -12,14 +12,14 @@
         "icon": {
             "id": "item_frame",
             "components": {
-                "custom_model_data": 32098
+                "custom_model_data": 32097
             }
         },
-        "title": {"color": "#d530a3", "bold": false, "translate": "what.adv.trash_world", "font":"minecraft:default"},
-        "description": {"color": "#8389ae", "underlined":true, "italic": false, "translate": "what.adv.trash_world.desc"},
+        "title": {"color": "#b79be8", "bold": false, "translate": "what.adv.eror", "font":"minecraft:default"},
+        "description": {"color": "#e8b29b", "underlined":true, "italic": false, "translate": "what.adv.eror.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true
     },
-    "parent": "what:visible/hello"
+    "parent": "what:visible/heck"
 }

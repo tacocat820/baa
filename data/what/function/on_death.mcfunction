@@ -21,3 +21,8 @@ tag @s remove what.pumpkin_gun.active
 tag @s remove what.gastering
 tag @s remove what.at_gaster
 tag @s remove what.ghast_killing
+
+
+scoreboard players add @s what.etc.died 1
+advancement grant @s only what:visible/l
+execute if score @s what.etc.died matches 100.. run advancement grant @s only what:visible/massivel
