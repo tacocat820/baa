@@ -123,3 +123,4 @@ execute if score cmd what.temp matches 32109 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32111 run return run loot spawn ~ ~ ~ loot what:blocks/radiator
 execute if score cmd what.temp matches 32112 run return run loot spawn ~ ~ ~ loot what:items/heating_radiator
 execute if score cmd what.temp matches 32113 run return run loot spawn ~ ~ ~ loot what:blocks/crappy_cobblestone
+execute if score cmd what.temp matches 32114 run return run loot spawn ~ ~ ~ loot what:blocks/cloud
