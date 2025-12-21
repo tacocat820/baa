@@ -109,4 +109,5 @@ data modify storage what:config blocks append value {name: brazil_painting, Cust
 data modify storage what:config blocks append value {name: red_wall, CustomModelData: [32110], block:"barrier"}
 data modify storage what:config blocks append value {name: radiator, CustomModelData: [32111, 32112], block:"copper_grate", rotate:2, customTags:[what.radiator]}
 data modify storage what:config blocks append value {name: crappy_cobblestone, CustomModelData: [32113], block:"glass"}
-data modify storage what:config blocks append value {name: cloud, CustomModelData: [32114], block:"white_glass"}
+data modify storage what:config blocks append value {name: cloud, CustomModelData: [32114], block:"white_glass",sky_bright:1b}
+data modify storage what:config blocks append value {name: matrix_block, CustomModelData: [32115], block:"glass"}

@@ -1,5 +1,6 @@
 execute if dimension what:tetris run return -1
 execute if dimension minecraft:the_nether run return -1
+execute if dimension what:xp run return -1
 
 particle minecraft:cloud ~ 180 ~ 18 0 18 0 300 force @s
 particle minecraft:snowflake ~ 180 ~ 12 12 12 0.06 300 force @s
