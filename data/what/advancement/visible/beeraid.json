@@ -7,10 +7,13 @@
     "display": {
         "hidden": true,
         "icon": {
-            "id": "acacia_sign"
+            "id": "cookie",
+            "components": {
+                "custom_model_data": 32018
+            }
         },
-        "title": {"color": "#0d5aff","underlined":true, "bold":true, "translate": "what.adv.evilmachine"},
-        "description": {"color": "#0400ff", "bold": true, "translate": "what.adv.evilmachine.desc"},
+        "title": {"color": "#fccb0a","underlined":true, "bold":true, "translate": "what.adv.beeraid"},
+        "description": {"color": "#e00afc", "bold": true, "translate": "what.adv.beeraid.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true,

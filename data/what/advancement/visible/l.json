@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "clock",
+            "components": {
+                "custom_model_data": 32017
+            }
+        },
+        "title": {"color": "#ff0003","underlined":true, "bold":true, "translate": "what.adv.l"},
+        "description": {"color": "#ff0003", "bold": true, "translate": "what.adv.l.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/hello"
+}
