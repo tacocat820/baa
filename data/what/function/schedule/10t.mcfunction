@@ -6,7 +6,7 @@ execute as @e[tag=what.bossbar] at @s run function what:mob/_disp/bossbar/keepup
 execute as @a at @s if entity @e[tag=die,distance=0..1] run function what:__custom/die
 
 #теперь здесь
-execute at @a as @e[distance=0..20,tag=what.block_placed] at @s run function what:__custom/blocks_10t
+execute at @a as @e[distance=0..70,tag=what.block_placed] at @s run function what:__custom/blocks_10t
 
 #function what:__custom/blocks_10t
 
