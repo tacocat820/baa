@@ -126,3 +126,4 @@ execute if score cmd what.temp matches 32113 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32114 run return run loot spawn ~ ~ ~ loot what:blocks/cloud
 execute if score cmd what.temp matches 32115 run return run loot spawn ~ ~ ~ loot what:blocks/matrix_block
 execute if score cmd what.temp matches 32116 run return run loot spawn ~ ~ ~ loot what:blocks/epilepsyrooms
+execute if score cmd what.temp matches 32118 run return run loot spawn ~ ~ ~ loot what:blocks/epilepsy_nolines

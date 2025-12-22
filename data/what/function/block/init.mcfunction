@@ -24,6 +24,7 @@ execute if data storage what:temp block{bright:1b} run data modify entity @s bri
 execute if data storage what:temp block{sky_bright:1b} run data modify entity @s brightness set value {sky:15,block:0}
 
 execute if data storage what:temp block.size run function what:block/custom_size/_
+#execute if data storage what:temp block{a_little_bigger:1b} run data modify entity @s transformation.scale set value [1.15,1.15,1.15]
 
 #Init 2
 execute unless data storage what:temp block.size run function what:block/init_block_
