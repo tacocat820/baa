@@ -22,7 +22,7 @@ data modify storage what:config blocks append value {name: demon_core, CustomMod
 data modify storage what:config blocks append value {name: pipe_bomb, CustomModelData: [32020], inter:1b, rotate:2, block:"tripwire", no_chunking:1b}
 data modify storage what:config blocks append value {name: lego, CustomModelData: [32021], rotate:2, block:"tripwire", customTags:[what.lego],}
 data modify storage what:config blocks append value {name: beans_plant, CustomModelData: [32022], block:"tripwire", plant:1b, customTags:[plant, beans_plant], rotate:1}
-data modify storage what:config blocks append value {name: american_oil, CustomModelData: [32026], block:"tripwire", fluid_spread:2, type:"american_oil", customTags:[what.fluid], pause:1b}
+data modify storage what:config blocks append value {name: american_oil, CustomModelData: [32026], block:"tripwire", fluid_spread:3, type:"american_oil", pause:1b}
 data modify storage what:config blocks append value {name: bing_chilling, CustomModelData: [32027], block:"copper_grate"}
 data modify storage what:config blocks append value {name: chinese_anvil, CustomModelData: [32028], block:"tripwire", inter:1b, rotate:2, falling:1, customTags:[what.chinese_anvil]}
 data modify storage what:config blocks append value {name: dust_block, CustomModelData: [32029], block:"azalea_leaves", falling:3}
