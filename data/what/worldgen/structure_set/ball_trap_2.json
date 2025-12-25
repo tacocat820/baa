@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:ball_trap_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 184582999,
+    "spacing": 8,
+    "separation": 3
+  }
+}

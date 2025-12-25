@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:conveyor_trap",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 782193999,
+    "spacing": 8,
+    "separation": 3
+  }
+}

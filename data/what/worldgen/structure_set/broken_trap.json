@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:broken_trap",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 792582999,
+    "spacing": 8,
+    "separation": 3
+  }
+}

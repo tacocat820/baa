@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:gamecrasher",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 728173777,
+    "spacing": 8,
+    "separation": 3
+  }
+}

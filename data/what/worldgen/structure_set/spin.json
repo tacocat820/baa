@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:spin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 583582999,
+    "spacing": 8,
+    "separation": 3
+  }
+}

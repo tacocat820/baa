@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:treadmill",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 383938111,
+    "spacing": 8,
+    "separation": 3
+  }
+}

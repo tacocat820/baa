@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:unthirstinator",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 738193999,
+    "spacing": 8,
+    "separation": 3
+  }
+}
