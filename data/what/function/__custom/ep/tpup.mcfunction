@@ -1,4 +1,4 @@
-tp @s ~ ~7 ~ 
+tp @s ~ ~7 ~
 scoreboard players add @s what.etc.ep.progress 1
 
 execute if entity @s[x_rotation=30..180] run scoreboard players set @s what.etc.ep.progress 0

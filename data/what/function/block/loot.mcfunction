@@ -129,3 +129,5 @@ execute if score cmd what.temp matches 32116 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32118 run return run loot spawn ~ ~ ~ loot what:blocks/epilepsy_nolines
 execute if score $bad_pos what.temp matches 1 if score cmd what.temp matches 32119 run return run loot spawn ~ ~ ~ loot what:blocks/xp_defender
 execute if score cmd what.temp matches 32119 run return run function what:block/xp_defender/break
+execute if score cmd what.temp matches 32120 run return run loot spawn ~ ~ ~ loot what:blocks/plastic_ladder
+execute if score cmd what.temp matches 32121 run return run loot spawn ~ ~ ~ loot what:blocks/xp_metal_block

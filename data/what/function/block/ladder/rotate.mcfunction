@@ -1,0 +1,5 @@
+execute if entity @s[y_rotation=-30..30] run return run setblock ~ ~ ~ minecraft:ladder[facing=north]
+execute if entity @s[y_rotation=31..120] run return run setblock ~ ~ ~ minecraft:ladder[facing=east]
+execute if entity @s[y_rotation=121..180] run return run setblock ~ ~ ~ minecraft:ladder[facing=south]
+execute if entity @s[y_rotation=-180..-130] run return run setblock ~ ~ ~ minecraft:ladder[facing=south]
+execute if entity @s[y_rotation=-131..-31] run return run setblock ~ ~ ~ minecraft:ladder[facing=west]
