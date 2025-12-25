@@ -1,0 +1,1 @@
+$tellraw @a[distance=0..15] {"translate": "what.message.flatdesign_summon_$(count)"}
