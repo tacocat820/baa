@@ -101,6 +101,12 @@
             },
             {
                 "type": "minecraft:loot_table",
+                "value": "what:items/mushroom",
+                "weight": 8,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
                 "value": "what:items/glass_empty",
                 "weight": 8,
                 "quality": 1

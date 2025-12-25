@@ -5,18 +5,18 @@
         }
     },
     "display": {
-        "hidden": false,
+        "hidden": true,
         "icon": {
             "id": "cookie",
             "components": {
                 "custom_model_data": 32026
             }
         },
-        "title": {"color": "#690743", "bold": false, "translate": "what.adv.edibles", "font":"minecraft:slim"},
-        "description": {"color": "#433823", "italic": true, "translate": "what.adv.edibles.desc"},
+        "title": {"color": "#690743", "bold": false, "translate": "what.adv.moreedibles", "font":"minecraft:slim"},
+        "description": {"color": "#433823", "italic": true, "translate": "what.adv.moreedibles.desc"},
         "frame": "challenge",
         "announce_to_chat": true,
         "show_toast": true
     },
-    "parent": "what:visible/heck"
+    "parent": "what:visible/edibles"
 }

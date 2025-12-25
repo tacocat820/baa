@@ -1,7 +1,15 @@
+
+advancement revoke @s only what:food/mushroom
+
+scoreboard players add @s what.etc.ep.ate 1
+execute if score @s what.etc.ep.ate matches 10.. run return run kill @s
+
+execute if entity @s[tag=what.ep.amplified] run return fail
+execute if entity @s[tag=what.ep.player] run return run function what:__custom/ep/amplify
+
 function what:__custom/tetrisgame/saveinitpos
 
 tag @s add what.totpep
-advancement revoke @s only what:food/mushroom
 advancement grant @s only what:visible/edibles
 
 execute in what:tetris run tp @s 0 200 0

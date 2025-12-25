@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32026, "minecraft:food":{"saturation":9,"nutrition":8},"minecraft:custom_data":{"what_type":"mushroom"},"minecraft:item_name":"{\"translate\":\"what.item.mushroom\"}"}
+                "components": {"minecraft:custom_model_data":32026, "minecraft:food":{"saturation":9,"nutrition":8,"can_always_eat": true},"minecraft:custom_data":{"what_type":"mushroom"},"minecraft:item_name":"{\"translate\":\"what.item.mushroom\"}"}
               }
             ]
           }

@@ -6,6 +6,7 @@ scoreboard players set @s what.etc.teeth_count 32
 tag @s remove what.fire2
 tag @s remove what.bleeding
 tag @s remove what.taxing
+tag @s remove what.ep.amplified
 attribute @s scale base set 1
 attribute @s jump_strength base set 0.42
 attribute @s minecraft:max_health base set 20

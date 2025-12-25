@@ -2,6 +2,7 @@
 scoreboard objectives add what.etc.speedrun_timer dummy
 
 scoreboard objectives add what.etc.ep.progress dummy
+scoreboard objectives add what.etc.ep.ate dummy
 scoreboard objectives add what.etc.died dummy
 scoreboard objectives add what.etc.uranium dummy
 scoreboard objectives add what.etc.wob dummy
