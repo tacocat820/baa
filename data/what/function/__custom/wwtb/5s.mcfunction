@@ -40,3 +40,17 @@ execute if score $wwtb what.global_events matches 46 run function what:__custom/
 execute if score $wwtb what.global_events matches 48 run function what:__custom/wwtb/questiond {correct:1}
 execute if score $wwtb what.global_events matches 49 run function what:__custom/wwtb/question {i:13}
 execute if score $wwtb what.global_events matches 51 run function what:__custom/wwtb/questiond {correct:2}
+execute if score $wwtb what.global_events matches 52 run function what:__custom/wwtb/question {i:14}
+execute if score $wwtb what.global_events matches 54 run function what:__custom/wwtb/questiond {correct:1}
+execute if score $wwtb what.global_events matches 55 run function what:__custom/wwtb/question {i:15}
+execute if score $wwtb what.global_events matches 57 run function what:__custom/wwtb/questiond {correct:3}
+execute if score $wwtb what.global_events matches 59 run function what:__custom/wwtb/question {i:16}
+execute if score $wwtb what.global_events matches 61 run function what:__custom/wwtb/questiond {correct:3}
+execute if score $wwtb what.global_events matches 62 run function what:__custom/wwtb/question {i:17}
+execute if score $wwtb what.global_events matches 64 run function what:__custom/wwtb/questiond {correct:2}
+execute if score $wwtb what.global_events matches 65 run function what:__custom/wwtb/question {i:18}
+execute if score $wwtb what.global_events matches 67 run function what:__custom/wwtb/questiond {correct:1}
+execute if score $wwtb what.global_events matches 68 run function what:__custom/wwtb/question {i:19}
+execute if score $wwtb what.global_events matches 70 run function what:__custom/wwtb/questiond {correct:1}
+execute if score $wwtb what.global_events matches 71 run function what:__custom/wwtb/question {i:20}
+execute if score $wwtb what.global_events matches 73 run function what:__custom/wwtb/questiond {correct:3}
