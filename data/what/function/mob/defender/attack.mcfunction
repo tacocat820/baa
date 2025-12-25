@@ -1,0 +1,1 @@
+damage @p[distance=0..2] 4 mob_attack by @s

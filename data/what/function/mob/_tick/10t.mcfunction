@@ -30,3 +30,4 @@ execute if entity @s[tag=what.ent.trebuchet] run function what:mob/trebuchet/10t
 #execute if entity @s[tag=what.ent.flat_design] run say YEYY
 execute if entity @s[tag=what.ent.trasher] run function what:mob/trasher/10t
 execute if entity @s[tag=what.ent.nest] run function what:mob/nest/10t
+execute if entity @s[tag=what.ent.defender] run function what:mob/defender/10t
