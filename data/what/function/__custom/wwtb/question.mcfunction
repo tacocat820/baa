@@ -5,3 +5,11 @@ $tellraw @a[tag=what.wwtb.player] [{"text": "C : "}, {"translate":"what.message.
 
 execute as @a at @s run playsound minecraft:what.ost.speedrun player @s
 scoreboard players reset @a what.wwtb.answer
+
+$scoreboard players set @e[tag=what.wwtb.therapist] what.ent.task $(i_1)
+$scoreboard players set @e[tag=what.wwtb.psycho] what.ent.task $(i_2)
+$scoreboard players set @e[tag=what.wwtb.mole] what.ent.task $(i_3)
+
+$scoreboard players set Therapist what.etc.wwtb.answer $(i_1)
+$scoreboard players set Psycho what.etc.wwtb.answer $(i_2)
+$scoreboard players set Mole what.etc.wwtb.answer $(i_3)

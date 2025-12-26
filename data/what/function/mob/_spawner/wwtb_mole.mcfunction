@@ -1,4 +1,4 @@
-summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.wwtb.cpu","what.wwtb.mole","tick1s","what.checked"],DeathLootTable:"what:items/rock",NoAI:1b}
+summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.wwtb.cpu","what.wwtb.mole","tick1s","what.checked"],DeathLootTable:"what:items/rock"}
 
 tag @s remove what.wwtb.temp_seat
 
