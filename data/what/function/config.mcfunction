@@ -159,6 +159,9 @@ data modify storage what:config mobs.flat_design set value {name: '[{"translate"
 data modify storage what:config mobs.trasher set value {name: '[{"translate":"what.mob.trasher"}]', base_mob: "vindicator", cmd:32072, item_id:"potion", anim_len:72}
 data modify storage what:config mobs.nest set value {name: '[{"translate":"what.mob.nest"}]', base_mob: "cow", cmd:32073, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.defender set value {name: '[{"translate":"what.mob.defender"}]', base_mob: "cow", cmd:32074, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.wwtb_therapist set value {name: '[{"translate":"what.mob.therapist"}]', base_mob: "vindicator", cmd:32075, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.wwtb_psycho set value {name: '[{"translate":"what.mob.psycho"}]', base_mob: "vindicator", cmd:32076, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.wwtb_mole set value {name: '[{"translate":"what.mob.mole"}]', base_mob: "vindicator", cmd:32077, item_id:"potion", anim_len:24}
 
 #damage
 function what:_config/damage
