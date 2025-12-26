@@ -115,4 +115,4 @@ data modify storage what:config blocks append value {name: epilepsyrooms, Custom
 data modify storage what:config blocks append value {name: epilepsy_nolines, CustomModelData: [32118], block:"barrier"}
 data modify storage what:config blocks append value {name: xp_defender, CustomModelData: [32119], block:"tripwire", rotate:2, size:{x:3,y:2,z:1, offset_x:-2,offset_y:-1,offset_z:-1}, customTags:[what.xp_defender]}
 data modify storage what:config blocks append value {name: plastic_ladder, CustomModelData: [32120], block:"ladder", rotate:2, item_display:"head"}
-data modify storage what:config blocks append value {name: xp_metal_block, CustomModelData: [32121], block:"glass"}
+data modify storage what:config blocks append value {name: xp_metal_block, CustomModelData: [32121], block:"copper_grate"}
