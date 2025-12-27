@@ -117,3 +117,4 @@ data modify storage what:config blocks append value {name: xp_defender, CustomMo
 data modify storage what:config blocks append value {name: plastic_ladder, CustomModelData: [32120], block:"ladder", rotate:2, item_display:"head"}
 data modify storage what:config blocks append value {name: xp_metal_block, CustomModelData: [32121], block:"copper_grate"}
 data modify storage what:config blocks append value {name: ceramic_tiles, CustomModelData: [32122], block:"copper_grate"}
+data modify storage what:config blocks append value {name: bad_rock, CustomModelData: [32123], block:"mangrove_roots"}
