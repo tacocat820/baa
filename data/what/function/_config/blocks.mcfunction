@@ -119,3 +119,4 @@ data modify storage what:config blocks append value {name: xp_metal_block, Custo
 data modify storage what:config blocks append value {name: ceramic_tiles, CustomModelData: [32122], block:"copper_grate"}
 data modify storage what:config blocks append value {name: bad_rock, CustomModelData: [32123], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: fog_block, CustomModelData: [32124], block:"copper_grate"}
+data modify storage what:config blocks append value {name: wwtb, CustomModelData: [32125], block:"copper_grate", customTags:[what.wwtb.block], inter:1b, rotate:2, no_chunking:1b}
