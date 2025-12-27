@@ -1,0 +1,33 @@
+{
+  "name": "what:main",
+  "fallback": "what:poolrooms_end",
+  "elements": [
+    {
+      "weight": 35,
+      "element": {
+        "location": "what:poolrooms/l_cor",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "what:poolrooms/t_cor",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 70,
+      "element": {
+        "location": "what:poolrooms/transition",
+        "processors": "minecraft:empty",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
