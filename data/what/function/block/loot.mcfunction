@@ -133,3 +133,4 @@ execute if score cmd what.temp matches 32120 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32121 run return run loot spawn ~ ~ ~ loot what:blocks/xp_metal_block
 execute if score cmd what.temp matches 32122 run return run loot spawn ~ ~ ~ loot what:blocks/ceramic_tiles
 #execute if score cmd what.temp matches 32123 run return run loot spawn ~ ~ ~ loot what:blocks/bad_rock
+execute if score cmd what.temp matches 32124 run return run loot spawn ~ ~ ~ loot what:blocks/fog_block

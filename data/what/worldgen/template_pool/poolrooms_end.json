@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 32,
       "element": {
         "location": "what:poolrooms/fallback",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 33,
       "element": {
         "location": "what:poolrooms/fallback_2",
         "processors": "minecraft:empty",

@@ -5,4 +5,5 @@ execute store result score $blocks_left what.temp run data get entity @s data.ch
 #execute if score $blocks_left what.temp matches ..121 run tp @p @s
 
 execute if score $blocks_left what.temp matches ..80 run function what:block/chunk/load/for_each_block
+execute if score $blocks_left what.temp matches ..80 on vehicle run kill @s
 execute if score $blocks_left what.temp matches ..80 run kill @s

@@ -118,3 +118,4 @@ data modify storage what:config blocks append value {name: plastic_ladder, Custo
 data modify storage what:config blocks append value {name: xp_metal_block, CustomModelData: [32121], block:"copper_grate"}
 data modify storage what:config blocks append value {name: ceramic_tiles, CustomModelData: [32122], block:"copper_grate"}
 data modify storage what:config blocks append value {name: bad_rock, CustomModelData: [32123], block:"mangrove_roots"}
+data modify storage what:config blocks append value {name: fog_block, CustomModelData: [32124], block:"copper_grate"}
