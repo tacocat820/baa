@@ -1,4 +1,5 @@
 scoreboard players add $wwtb what.global_events 1
+#execute if score $wwtb what.global_events matches 2 run function what:__custom/wwtb/spawn_players
 execute if score $wwtb what.global_events matches 3 run function what:__custom/wwtb/host
 execute if score $wwtb what.global_events matches 4 run say heyy yall 😘😘😘
 execute if score $wwtb what.global_events matches 5 run say it's your fav who wants to be a quadrillionare  hostttt
@@ -54,5 +55,38 @@ execute if score $wwtb what.global_events matches 68 run function what:__custom/
 execute if score $wwtb what.global_events matches 70 run function what:__custom/wwtb/questiond {correct:1}
 execute if score $wwtb what.global_events matches 71 run function what:__custom/wwtb/question {i:20,i_1:3,i_2:2,i_3:3}
 execute if score $wwtb what.global_events matches 73 run function what:__custom/wwtb/questiond {correct:3}
+
+execute if score $wwtb what.global_events matches 74 unless score $wwtb_exec what.global_events matches 1 run function what:__custom/wwtb/place_exec
+execute if score $wwtb what.global_events matches 75 run say omg😱😱😱
+execute if score $wwtb what.global_events matches 76 run say you guys were so good
+execute if score $wwtb what.global_events matches 77 run say now's thy time for our tradition!!
+execute if score $wwtb what.global_events matches 78 run say executing the loser!!!
+execute if score $wwtb what.global_events matches 79 run function what:__custom/wwtb/loser
+
+execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.view] run tp @a[tag=what.wwtb.player] ~ ~ ~
+execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.view] run tp @e[tag=what.wwtb.cpu] ~ ~ ~
+execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.cage] run tp @e[tag=what.wwtb.loser] ~ ~ ~
+execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser] remove what.wwtb.psycho
+execute if score $wwtb what.global_events matches 80 run effect clear @e[tag=what.wwtb.loser] 
+execute if score $wwtb what.global_events matches 80 run data modify entity @e[tag=what.wwtb.loser,limit=1] NoAI set value 0b
+execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser,limit=1] remove what.wwtb.player
+execute if score $wwtb what.global_events matches 82 run say 3
+execute if score $wwtb what.global_events matches 83 run say 2
+execute if score $wwtb what.global_events matches 84 run say 1!!
+execute if score $wwtb what.global_events matches 85 at @e[tag=what.wwtb.notjuan_spawner] run function what:mob/_spawner/asgor 
+execute if score $wwtb what.global_events matches 90 run say what a sight that was lol 
+execute if score $wwtb what.global_events matches 91 run say now's the time for our reward!!
+execute if score $wwtb what.global_events matches 92 run give @a[tag=what.wwtb.winner] emerald_block 6400
+execute if score $wwtb what.global_events matches 93 run give @a[tag=what.wwtb.winner] emerald_block 6400
+execute if score $wwtb what.global_events matches 94 run give @a[tag=what.wwtb.winner] emerald_block 6400
+execute if score $wwtb what.global_events matches 95 run give @a[tag=what.wwtb.winner] emerald_block 6400
+execute if score $wwtb what.global_events matches 96 run say yayyy
+execute if score $wwtb what.global_events matches 97 run say so much muns
+execute if score $wwtb what.global_events matches 99 run say bye everyone cya!
+execute if score $wwtb what.global_events matches 100 run kill @e[tag=what.ent.asgor] 
+execute if score $wwtb what.global_events matches 100 run kill @e[tag=what.wwtb.cpu]
+execute if score $wwtb what.global_events matches 100 run kill @e[tag=what.wwtb.host]
+execute if score $wwtb what.global_events matches 100 as @a[tag=what.wwtb.player] run function what:__custom/wwtb/exit
+execute if score $wwtb what.global_events matches 100 run scoreboard players reset $wwtb what.global_events
 
 time set midnight
