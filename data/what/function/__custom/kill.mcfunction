@@ -1,1 +1,2 @@
+say NONONO
 kill @s

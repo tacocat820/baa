@@ -8,7 +8,7 @@ execute at @a[tag=!pause] as @e[distance=0..20,tag=what.block,tag=!what.temp] at
 execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
 execute at @a as @e[type=marker,distance=0..20,tag=what.block_handler,tag=!what.temp] at @s if block ~ ~ ~ #what:replaceable run function what:block/custom_size/check_subblock with entity @s data
 
-#execute at @e[type=marker,tag=what.block_loader] as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
+execute at @e[type=marker,tag=what.block_loader] if loaded ~ ~ ~ as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
 
 execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=item_frame] at @s run function what:__custom/block/make_block_marker
 execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=marker] at @s if block ~ ~ ~ #air run kill @s
@@ -77,4 +77,4 @@ execute as @e[type=marker,tag=what.gamecrasher] at @s run function what:__custom
 
 
 ##chunk load
-execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..50,tag=what.blocks_chunk,limit=20,sort=nearest] run function what:block/chunk/load/_
+execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..32,tag=what.blocks_chunk,limit=10,sort=nearest] run function what:block/chunk/load/_

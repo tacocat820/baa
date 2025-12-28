@@ -6,5 +6,6 @@ execute if entity @s[tag=what.worldspawn] at @s run return run particle dust{col
 execute if entity @s[tag=what.block_handler] at @s run return run particle dust{color:[0.2,0.8,0.1],scale:0.9} ~ ~ ~ 0 0 0 0 1 force @a
 execute if entity @s[tag=what.blocks_chunk] at @s run return run particle dust{color:[0.3,1.0,0.7],scale:4} ~ ~ ~ 0.3 0.3 0.3 0 1 force @a
 execute if entity @s[tag=what.backrooms_spawn] at @s run return run particle dust{color:[0.552,0.545,0.301],scale:2} ~ ~ ~ 0.1 0.1 0.1 0 1 force @a
+execute if entity @s[scores={what.timer=-1..}] at @s run return run particle dust{color:[0.0,0.0,1.0],scale:1} ~ ~ ~ 0 0 0 0 1 force @a
 
 execute at @s run particle dust{color:[1.0,1.0,1.0],scale:1} ~ ~ ~ 0 0 0 0 1 force @a
