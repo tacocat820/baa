@@ -57,6 +57,7 @@ execute if score $wwtb what.global_events matches 71 run function what:__custom/
 execute if score $wwtb what.global_events matches 73 run function what:__custom/wwtb/questiond {correct:3}
 
 execute if score $wwtb what.global_events matches 74 unless score $wwtb_exec what.global_events matches 1 run function what:__custom/wwtb/place_exec
+execute if score $wwtb what.global_events matches 75 run advancement grant @a[tag=what.wwtb.player] only what:visible/wwtb
 execute if score $wwtb what.global_events matches 75 run tellraw @a [{"translate":"what.message.wwtb.outro.1"}]
 execute if score $wwtb what.global_events matches 76 run tellraw @a [{"translate":"what.message.wwtb.outro.2"}]
 execute if score $wwtb what.global_events matches 77 run tellraw @a [{"translate":"what.message.wwtb.outro.3"}]

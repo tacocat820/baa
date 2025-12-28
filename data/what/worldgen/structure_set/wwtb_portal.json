@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:wwtb_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 384284999,
+    "spacing": 8,
+    "separation": 3
+  }
+}
