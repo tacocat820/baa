@@ -16,7 +16,7 @@ data modify storage what:config inter.door2 set value {target: "what:block/door/
 data modify storage what:config inter.nether_bed set value {target: "what:block/nether_bed/nether_bed",attack: "what:block/actions/destroy_block"}
 data modify storage what:config inter.nuke set value {target: "what:block/nuke/boom",attack: "what:block/actions/destroy_block"}
 data modify storage what:config inter.drem set value {target: "what:__custom/speedrun/start",attack: ""}
-data modify storage what:config inter.wwtb set value {target: "what:__custom/wwtb/enter",attack: ""}
+data modify storage what:config inter.wwtb set value {target: "what:__custom/wwtb/tpatp",attack: ""}
 
 data modify storage what:config inter.vroomba set value {target: "what:mob/vroomba/ride",attack: ""}
 data modify storage what:config inter.vroomba_chair set value {target: "what:mob/vroomba/ride_chair",attack: ""}
