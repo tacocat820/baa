@@ -68,13 +68,13 @@ execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.view] r
 execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.view] run tp @e[tag=what.wwtb.cpu] ~ ~ ~
 execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.cage] run tp @e[tag=what.wwtb.loser] ~ ~ ~
 execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser] remove what.wwtb.psycho
-execute if score $wwtb what.global_events matches 80 run effect clear @e[tag=what.wwtb.loser] 
+execute if score $wwtb what.global_events matches 80 run effect clear @e[tag=what.wwtb.loser]
 execute if score $wwtb what.global_events matches 80 run data modify entity @e[tag=what.wwtb.loser,limit=1] NoAI set value 0b
 execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser,limit=1] remove what.wwtb.player
 execute if score $wwtb what.global_events matches 82 run tellraw @a [{"translate":"what.message.wwtb.outro.5"}]
 execute if score $wwtb what.global_events matches 83 run tellraw @a [{"translate":"what.message.wwtb.outro.6"}]
 execute if score $wwtb what.global_events matches 84 run tellraw @a [{"translate":"what.message.wwtb.outro.7"}]
-execute if score $wwtb what.global_events matches 85 at @e[tag=what.wwtb.notjuan_spawner] run function what:mob/_spawner/asgor 
+execute if score $wwtb what.global_events matches 85 at @e[tag=what.wwtb.notjuan_spawner] run function what:mob/_spawner/asgor
 execute if score $wwtb what.global_events matches 90 run tellraw @a [{"translate":"what.message.wwtb.outro.8"}]
 execute if score $wwtb what.global_events matches 91 run tellraw @a [{"translate":"what.message.wwtb.outro.9"}]
 execute if score $wwtb what.global_events matches 92 run give @a[tag=what.wwtb.winner] emerald_block 6400
