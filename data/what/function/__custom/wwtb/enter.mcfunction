@@ -1,3 +1,5 @@
+function what:__custom/tetrisgame/saveinitpos
+tag @s add what.wwtb.savedinitpos
 execute in what:tetris run tp @s 0 0 0
 
 effect give @s slow_falling 5 5 true

@@ -71,6 +71,8 @@ execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.lo
 execute if score $wwtb what.global_events matches 80 run effect clear @e[tag=what.wwtb.loser]
 execute if score $wwtb what.global_events matches 80 run data modify entity @e[tag=what.wwtb.loser,limit=1] NoAI set value 0b
 execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser,limit=1] remove what.wwtb.player
+execute if score $wwtb what.global_events matches 80 run gamemode survival @a[tag=what.wwtb.loser,limit=1]
+execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser,limit=1] remove what.wwtb.loser
 execute if score $wwtb what.global_events matches 82 run tellraw @a [{"translate":"what.message.wwtb.outro.5"}]
 execute if score $wwtb what.global_events matches 83 run tellraw @a [{"translate":"what.message.wwtb.outro.6"}]
 execute if score $wwtb what.global_events matches 84 run tellraw @a [{"translate":"what.message.wwtb.outro.7"}]
