@@ -6,7 +6,7 @@ data remove storage what:temp fill
 data modify storage what:temp fill set value {}
 
 #data modify storage what:temp fill.replace_filter set value "stone"
-$data modify storage what:temp fill.replace_filter set value $(filter)
+$data modify storage what:temp fill.replace_filter set value '$(filter)'
 #data modify storage what:temp fill.custom_block set value "windows_12"
 $data modify storage what:temp fill.custom_block set value $(block)
 
