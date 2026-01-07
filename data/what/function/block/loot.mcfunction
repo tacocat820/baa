@@ -137,3 +137,4 @@ execute if score cmd what.temp matches 32124 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32126 run return run loot spawn ~ ~ ~ loot what:blocks/calcium_oxide
 execute if score cmd what.temp matches 32127 run return run loot spawn ~ ~ ~ loot what:blocks/calcium_hydroxide
 execute if score cmd what.temp matches 32128 run return run loot spawn ~ ~ ~ loot what:blocks/table
+execute if score cmd what.temp matches 32129 run return run loot spawn ~ ~ ~ loot what:blocks/wtf_block

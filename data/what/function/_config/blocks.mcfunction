@@ -123,3 +123,4 @@ data modify storage what:config blocks append value {name: wwtb, CustomModelData
 data modify storage what:config blocks append value {name: calcium_oxide, CustomModelData: [32126], block:"azalea_leaves", falling:3, customTags:[what.calcium_oxide]}
 data modify storage what:config blocks append value {name: calcium_hydroxide, CustomModelData: [32127], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: table, CustomModelData: [32128], block:"copper_grate"}
+data modify storage what:config blocks append value {name: wtf_block, CustomModelData: [32129], block:"copper_grate"}
