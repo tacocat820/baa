@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["clock"],
+                    "components": {
+                        "custom_model_data": 32030
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "clock",
+            "components": {
+                "custom_model_data": 32030
+            }
+        },
+        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.epstein_file"},
+        "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.epstein_file.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/epstein_island"
+}
