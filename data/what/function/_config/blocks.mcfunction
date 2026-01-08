@@ -124,3 +124,4 @@ data modify storage what:config blocks append value {name: calcium_oxide, Custom
 data modify storage what:config blocks append value {name: calcium_hydroxide, CustomModelData: [32127], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: table, CustomModelData: [32128], block:"copper_grate"}
 data modify storage what:config blocks append value {name: wtf_block, CustomModelData: [32129], block:"copper_grate"}
+data modify storage what:config blocks append value {name: liquid_glass, CustomModelData: [32130], block:"tripwire", fluid_spread:4, type:"liquid_glass", pause:1b}
