@@ -10,7 +10,7 @@
         }
     },
     "display": {
-        "hidden": true,
+        "hidden": false,
         "icon": {
             "id": "cake"
         },

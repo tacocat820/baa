@@ -33,8 +33,11 @@
           "items": [
             {
               "items": [
-                "blaze_rod"
-              ]
+                "potion"
+              ],
+              "components": {
+                "custom_model_data": 32001
+              }
             }
           ]
         }
@@ -51,7 +54,6 @@
       "title": {
         "color": "#f2a411",
         "translate": "what.adv.triple_stick",
-        "font": "minecraft:slim",
         "italic": false
       },
       "description": {

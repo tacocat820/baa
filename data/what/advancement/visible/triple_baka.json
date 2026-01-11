@@ -1,0 +1,48 @@
+{
+    "criteria": {
+
+      "n_0" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32010}}]}},
+      "n_1" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["item_frame"],"components": {"custom_model_data": 32036}}]}},
+
+      "m_0" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32011}}]}},
+      "m_1" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["item_frame"],"components": {"custom_model_data": 32041}}]}},
+
+      "t_0" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["item_frame"],"components": {"custom_model_data": 32039}}]}},
+      "t_1" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["item_frame"],"components": {"custom_model_data": 32038}}]}}
+
+    },
+    "display": {
+      "hidden": false,
+      "icon": {
+        "id": "clock",
+        "components": {
+          "custom_model_data": 32024
+        }
+      },
+      "title": {
+        "color": "#f2a411",
+        "translate": "what.adv.triple_baka",
+        "italic": false
+      },
+      "description": {
+        "color": "#097764",
+        "translate": "what.adv.triple_baka.desc",
+        "italic": true
+      },
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "show_toast": true
+    },
+    "requirements": [
+      [
+        "n_0","n_1"
+      ],
+      [
+        "m_0","m_1"
+      ],
+      [
+        "t_0","t_1"
+      ]
+    ],
+    "parent": "what:visible/crafting"
+  }

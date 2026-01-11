@@ -25,6 +25,7 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 2, i
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "grassblockmond"}], loot:"what:blocks/grassblockmond_block", count:1}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "nokia"}], loot:"what:blocks/nokia_block", count:1}
+data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "plastic", 2: "air", 3: "air", 4: "plastic", 5: "air", 6: "air", 7: "minecraft:stick", 8: "air"}, loot:"what:items/plastic_sword", count:1}
 
 #minerals 2
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "gold_2"}], loot:"what:blocks/gold_block_2", count:1}
@@ -46,7 +47,6 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 8, i
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "meth"}, {count: 1, id: "minecraft:barrel"}], loot:"what:blocks/barrel_with_meth", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "rcwip"}, {count: 1, id: "minecraft:iron_pickaxe"}], minecraft_id:"minecraft:rail", count:1}
-data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "plastic", 2: "air", 3: "air", 4: "plastic", 5: "air", 6: "air", 7: "minecraft:stick", 8: "air"}, loot:"what:items/plastic_sword", count:1}
 
 
 #food & drinks

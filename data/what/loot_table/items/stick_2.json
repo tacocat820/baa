@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32001, "minecraft:custom_data":{"what_type":"stick_2"},"minecraft:custom_name":"{\"translate\":\"what.item.stick_2\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
