@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "impossible"
+      }
+    },
+    "display": {
+      "hidden": true,
+      "icon": {
+        "id": "clock",
+        "components": {
+          "custom_model_data": 32031,
+          "enchantment_glint_override": true
+        }
+      },
+      "title": {
+        "font": "minecraft:slim",
+        "color": "#59a0f7",
+        "underlined": true,
+        "italic": false,
+        "translate": "what.adv.global_cooling"
+      },
+      "description": {
+        "color": "#57a6a6",
+        "italic": true,
+        "translate": "what.adv.global_cooling.desc"
+      },
+      "frame": "challenge",
+      "announce_to_chat": true
+    },
+    "parent": "what:visible/unfurnace"
+  }

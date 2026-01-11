@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["cake"]
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "cake"
+        },
+        "title": {"color": "#9fa280", "bold": true, "translate": "what.adv.cake_day"},
+        "description": {"color": "#166952", "underlined": false, "italic": true, "translate": "what.adv.cake_day.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/dragon_eg"
+}

@@ -1,0 +1,78 @@
+{
+    "criteria": {
+      "iron": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "clock"
+              ],
+              "components": {
+                "custom_model_data": 32024
+              }
+            }
+          ]
+        }
+      },
+      "wooden": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "stick"
+              ]
+            }
+          ]
+        }
+      },
+      "blaze": {
+        "trigger": "inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "blaze_rod"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "hidden": false,
+      "icon": {
+        "id": "clock",
+        "components": {
+          "custom_model_data": 32024
+        }
+      },
+      "title": {
+        "color": "#f2a411",
+        "translate": "what.adv.triple_stick",
+        "font": "minecraft:slim",
+        "italic": false
+      },
+      "description": {
+        "color": "#097764",
+        "translate": "what.adv.triple_stick.desc",
+        "italic": true
+      },
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "show_toast": true
+    },
+    "requirements": [
+      [
+        "wooden"
+      ],
+      [
+        "iron"
+      ],
+      [
+        "blaze"
+      ]
+    ],
+    "parent": "what:visible/crafting"
+  }

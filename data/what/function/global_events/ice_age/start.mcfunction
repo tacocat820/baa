@@ -11,5 +11,6 @@ playsound minecraft:entity.wither.death master @a
 playsound minecraft:entity.wither.hurt master @a
 
 scoreboard players set ice_age what.global_events 1
+advancement grant @a only what:visible/global_cooling
 #say The Global Cooling....
 function what:global_events/ice_age/set_wind_direction

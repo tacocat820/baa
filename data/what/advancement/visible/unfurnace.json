@@ -20,7 +20,7 @@
                 "custom_model_data": 32044
             }
         },
-        "title": {"color": "#0a3874", "bold": true, "translate": "what.adv.unfurnace", "font":"minecraft:slim"},
+        "title": {"color": "#0a3874", "bold": false, "translate": "what.adv.unfurnace", "font":"minecraft:slim"},
         "description": {"color": "#1a345e", "underlined": true, "italic": true, "translate": "what.adv.unfurnace.desc"},
         "frame": "challenge",
         "announce_to_chat": true,

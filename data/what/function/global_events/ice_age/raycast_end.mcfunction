@@ -3,7 +3,7 @@ execute if entity @n[distance=0..10,tag=what.activated,tag=what.radiator] run re
 #particle flame ~ ~ ~ 0.2 0.2 0.2 0.07 3
 particle snowflake ~ ~ ~ 0.2 0.2 0.2 0.03 10
 #setblock ^ ^ ^ air
-
+execute if predicate what:random_rare run loot spawn ~ ~ ~ loot what:items/snowflake
 playsound minecraft:block.amethyst_block.fall block @a[distance=0..50] ~ ~ ~ 1 2
 
 ##-----------------
