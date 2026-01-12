@@ -78,3 +78,5 @@ data modify storage what:config microwave.minecraft:snow_block set value {id: "s
 data modify storage what:config microwave.'["what.block","icicle"]' set value {id: "snow_block" }
 data modify storage what:config microwave.minecraft:packed_ice set value {id: "ice" }
 data modify storage what:config microwave.minecraft:blue_ice set value {id: "packed_ice" }
+
+data modify storage what:config microwave.snowflake set value {loot_table: "what:items/small_water_bucket"}

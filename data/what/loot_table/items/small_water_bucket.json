@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32025, "minecraft:custom_data":{"what_type":"small_water_bucket"}, "minecraft:item_name":"{\"translate\":\"item.minecraft.water_bucket\", \"font\":\"minecraft:slim\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

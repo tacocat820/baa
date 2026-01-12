@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^ run return run function what:_u/raycast/start {loop_func:"", end_func:"what:carrot_on_a_stick/small_water_bucket/setwater", distance:8}
