@@ -1,5 +1,6 @@
 scoreboard players set @s what.death 0
 scoreboard players set @s what.etc.uranium 0
+scoreboard players set @s what.etc.respiratory_failure 0
 scoreboard players set @s what.etc.thirst 500
 scoreboard players set @s what.etc.teeth_count 32
 

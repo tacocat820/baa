@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:potion_contents":{"custom_color":8723298},
+                    "minecraft:custom_data":{"what_type":"hypermangan"},
+                    "minecraft:custom_name":"{\"translate\":\"what.item.hypermangan\",\"italic\":false}"
+            
+            
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

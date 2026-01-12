@@ -54,6 +54,8 @@ execute at @e[type=minecraft:marker,tag=what.ghast_fryer] run fill ~ ~ ~ ~ ~ ~ f
 
 execute as @a at @s if dimension what:backrooms run function what:__custom/backrooms/above
 
+execute as @a[scores={what.etc.respiratory_failure=1..}] at @s run function what:__custom/respiratory_failure
+
 #weather_vane
 execute at @a as @e[distance=0..25,type=item_display,tag=what.weather_vane] run data modify entity @s Rotation[0] set from storage what:temp WindDirection[0]
 

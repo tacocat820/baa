@@ -1,6 +1,8 @@
 #scoreboards
 scoreboard objectives add what.etc.speedrun_timer dummy
 
+scoreboard objectives add what.etc.respiratory_failure dummy
+
 scoreboard objectives add what.etc.ep.progress dummy
 scoreboard objectives add what.etc.ep.ate dummy
 scoreboard objectives add what.etc.died dummy

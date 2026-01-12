@@ -14,9 +14,9 @@
     "display": {
       "hidden": false,
       "icon": {
-        "id": "clock",
+        "id": "item_frame",
         "components": {
-          "custom_model_data": 32024
+          "custom_model_data": 32038
         }
       },
       "title": {

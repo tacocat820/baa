@@ -40,6 +40,7 @@ data modify storage what:players a set value {}
 
 #slow raycastng
 data modify storage what:config raycast_slow.melon_gun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/melon_gun/particles", end_func:"what:carrot_on_a_stick/melon_gun/explode"}
+data modify storage what:config raycast_slow.hypermangun set value {speed:4, max_distance:100, loop_func:"what:carrot_on_a_stick/hypermangun/particles", end_func:"what:carrot_on_a_stick/hypermangun/explode"}
 
 # microwave
 function what:_config/microwave
@@ -163,6 +164,7 @@ data modify storage what:config mobs.defender set value {name: '[{"translate":"w
 data modify storage what:config mobs.wwtb_therapist set value {name: '[{"translate":"what.mob.therapist"}]', base_mob: "vindicator", cmd:32075, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.wwtb_psycho set value {name: '[{"translate":"what.mob.psycho"}]', base_mob: "vindicator", cmd:32076, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.wwtb_mole set value {name: '[{"translate":"what.mob.mole"}]', base_mob: "vindicator", cmd:32077, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.freaking set value {name: '[{"translate":"what.mob.freaking"}]', base_mob: "vindicator", cmd:32078, item_id:"potion", anim_len:24}
 
 #damage
 function what:_config/damage
