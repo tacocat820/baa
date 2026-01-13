@@ -31,3 +31,4 @@ execute if entity @s[tag=what.ent.trebuchet] run function what:mob/trebuchet/10t
 execute if entity @s[tag=what.ent.trasher] run function what:mob/trasher/10t
 execute if entity @s[tag=what.ent.nest] run function what:mob/nest/10t
 execute if entity @s[tag=what.ent.defender] run function what:mob/defender/10t
+execute if entity @s[tag=what.ent.darksouls_skeleton] run function what:mob/darksouls_skeleton/10t

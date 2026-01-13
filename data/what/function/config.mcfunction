@@ -165,6 +165,7 @@ data modify storage what:config mobs.wwtb_therapist set value {name: '[{"transla
 data modify storage what:config mobs.wwtb_psycho set value {name: '[{"translate":"what.mob.psycho"}]', base_mob: "vindicator", cmd:32076, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.wwtb_mole set value {name: '[{"translate":"what.mob.mole"}]', base_mob: "vindicator", cmd:32077, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.freaking set value {name: '[{"translate":"what.mob.freaking"}]', base_mob: "vindicator", cmd:32078, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.darksouls_skeleton set value {name: '[{"translate":"what.mob.darksouls_skeleton"}]', base_mob: "vindicator", cmd:32079, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.potentiallyjuan set value {name: '[{"translate":"what.mob.potentiallyjuan"}]', base_mob: "vindicator", cmd:32081, item_id:"potion", anim_len:24}
 
 #damage
