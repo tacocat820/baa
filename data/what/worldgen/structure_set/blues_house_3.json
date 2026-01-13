@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:blues_house_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 124218189,
+    "spacing": 12,
+    "separation": 4
+  }
+}

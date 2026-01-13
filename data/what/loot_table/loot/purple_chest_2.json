@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 9,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/hypermangan",
+                "weight": 3,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/hypermangun",
+                "weight": 1,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/small_water_bucket",
+                "weight": 3,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/flying_bread",
+                "weight": 2,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/mashed_potatoes",
+                "weight": 4,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/stick_2",
+                "weight": 2,
+                "quality": 1
+            },
+            {
+                "type": "minecraft:empty",
+                "weight": 8,
+                "quality": 3
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/snowflake",
+                "weight": 8,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  
