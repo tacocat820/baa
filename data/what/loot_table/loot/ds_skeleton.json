@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:acacia_fence",
+            "value": "what:items/iron_stick",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.04
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:acacia_button",
+            "value": "what:items/wrench",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.09
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:acacia_button",
+            "value": "what:items/mashed_potatoes",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.01
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "conditions": [],
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
