@@ -59,6 +59,51 @@
                     }
                 }
                 ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/potassium_permanganate_sandwich",
+                "weight": 8,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/pufferfish_chocolate",
+                "weight": 2,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:loot_table",
+                "value": "what:items/mogus_candy",
+                "weight": 2,
+                "quality": 6,
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 4,
+                    "max": 16
+                    }
+                }
+                ]
             }
         ]
       }
