@@ -105,6 +105,17 @@ data modify storage what:config mob_spawner.ow_rocks.pig set value {amount: 5, k
 data modify storage what:config mob_spawner.ow_rocks.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
 data modify storage what:config mob_spawner.ow_rocks.zombie set value {amount: 5, keys: ["new_zealand","new_zealand","new_zealand","new_zealand","mogus"]}
 
+
+## FOREST
+data modify storage what:config mob_spawner.bl_blues.cow set value {amount: 5, keys: ["juan_banana","juan_bulldozer","juan_snowberry","juan_snowberry","juan_worm"]}
+data modify storage what:config mob_spawner.bl_blues.pig set value {amount: 5, keys: ["whatever","whatever","whatever","juan_worm","juan_worm"]}
+data modify storage what:config mob_spawner.bl_blues.chicken set value {amount: 10, keys: ["camel","camel","irs_tank","irs_tank","oilstructure","polpot","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.bl_blues.sheep set value {amount: 5, keys: ["pvz","pvz","pvz","pvz","pvz"]}
+
+data modify storage what:config mob_spawner.bl_blues.spider set value {amount: 5, keys: ["new_zealand","new_zealand","freaking","freaking","freaking"]}
+data modify storage what:config mob_spawner.bl_blues.skeleton set value {amount: 5, keys: ["darksouls_skeleton","darksouls_skeleton","darksouls_skeleton","potentiallyjuan"]}
+data modify storage what:config mob_spawner.bl_blues.zombie set value {amount: 5, keys: ["freaking","freaking","freaking","trasher","trasher"]}
+
 ## TRASH
 data modify storage what:config mob_spawner.tr_trash.pig set value {amount: 5, keys: ["psycho","psycho","psycho","psycho","puffercopter"]}
 
@@ -167,6 +178,10 @@ data modify storage what:config mobs.wwtb_mole set value {name: '[{"translate":"
 data modify storage what:config mobs.freaking set value {name: '[{"translate":"what.mob.freaking"}]', base_mob: "vindicator", cmd:32078, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.skeleton2 set value {name: '[{"translate":"what.mob.skeleton2"}]', base_mob: "vindicator", cmd:32079, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.potentiallyjuan set value {name: '[{"translate":"what.mob.potentiallyjuan"}]', base_mob: "vindicator", cmd:32081, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.juan_banana set value {name: '[{"translate":"what.mob.juan.banana"}]', base_mob: "cow", cmd:32050, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.juan_bulldozer set value {name: '[{"translate":"what.mob.juan.bulldozer"}]', base_mob: "cow", cmd:32051, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.juan_frostberry set value {name: '[{"translate":"what.mob.juan.frostberry"}]', base_mob: "cow", cmd:32052, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.juan_worm set value {name: '[{"translate":"what.mob.juan.worm"}]', base_mob: "cow", cmd:32053, item_id:"potion", anim_len:24}
 
 #damage
 function what:_config/damage
