@@ -1,14 +1,28 @@
 {
     "criteria": {
-      "eat": {
+      "concrete_baguette": {
         "trigger": "minecraft:consume_item",
         "conditions": {
           "item": {
             "items": "minecraft:bread",
             "components": {
               "minecraft:custom_data": {
-				  "what_type":"concrete_baguette"
-			  }
+				        "what_type":"concrete_baguette"
+			        }
+            }
+          }
+        }
+      },
+
+      "macadamia": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_data": {
+				        "what_type":"macadamia"
+			        }
             }
           }
         }
@@ -16,7 +30,7 @@
     },
     "requirements": [
       [
-        "eat"
+        "concrete_baguette", "macadamia"
       ]
     ],
     "rewards": {

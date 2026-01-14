@@ -14,9 +14,9 @@
     "display": {
       "hidden": false,
       "icon": {
-        "id": "item_frame",
+        "id": "bread",
         "components": {
-          "custom_model_data": 32038
+          "custom_model_data": 32004
         }
       },
       "title": {
@@ -44,5 +44,8 @@
         "t_0","t_1"
       ]
     ],
+    "rewards": {
+      "function":"what:__custom/icecream"
+    },
     "parent": "what:visible/crafting"
   }

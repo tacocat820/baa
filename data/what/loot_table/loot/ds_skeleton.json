@@ -6,7 +6,6 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:acacia_fence",
             "value": "what:items/iron_stick",
             "conditions": [
               {
@@ -22,7 +21,6 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:acacia_button",
             "value": "what:items/wrench",
             "conditions": [
               {
@@ -43,7 +41,7 @@
             "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.01
+                "chance": 0.10
               }
             ]
           }

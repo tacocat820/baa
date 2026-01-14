@@ -9,7 +9,11 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":32001, "minecraft:custom_data":{"what_type":"stick_2"},"minecraft:custom_name":"{\"translate\":\"what.item.stick_2\"}"}
+                "components": {"minecraft:custom_model_data":32001, "minecraft:custom_data":{"what_type":"stick_2"},"minecraft:custom_name":"{\"translate\":\"what.item.stick_2\"}",
+                "attribute_modifiers": [
+                  {"type":"attack_damage","amount":0.33333,"operation":"add_value","id":"mcrapweapon","slot":"mainhand"}
+                ]
+                }
               }
             ]
           }

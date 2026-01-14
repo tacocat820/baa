@@ -1,4 +1,4 @@
-summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.mogus","tick1s"],HandItems:[{id:"air",count:1},{id:"air",count:1}],DeathLootTable:"what:items/knife"}
+summon vindicator ~ ~ ~ {Tags:["what.temp_new","what.ent.mogus","tick1s"],HandItems:[{id:"air",count:1},{id:"air",count:1}],DeathLootTable:"what:loot/mogus"}
 attribute @n[tag=what.temp_new] minecraft:scale base set 1
 attribute @n[tag=what.temp_new] movement_speed base set 0.5
 

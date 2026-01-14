@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "hmm": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:potion",
+              "components": {
+                "minecraft:custom_model_data": 32001
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "what:__custom/item/stick_2"
+  }
+}
