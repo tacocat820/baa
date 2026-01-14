@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32009, "minecraft:custom_data":{"what_type":"potassium_permanganate_sandwich"}, "minecraft:item_name":"{\"translate\":\"what.item.potassium_permanganate_sandwich\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
