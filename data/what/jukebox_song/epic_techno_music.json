@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.musichall.epic_techno_music"
+  },
+  "description": {
+    "translate": "what.jukebox_song.epic_techno_music"
+  },
+  "length_in_seconds": 94,
+  "comparator_output": 15
+}

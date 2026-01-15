@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.musichall.potentially_tetris"
+  },
+  "description": {
+    "translate": "what.jukebox_song.potentially_tetris"
+  },
+  "length_in_seconds": 65,
+  "comparator_output": 15
+}

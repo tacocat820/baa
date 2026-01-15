@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.musichall.very_orchestral_music"
+  },
+  "description": {
+    "translate": "what.jukebox_song.very_orchestral_music"
+  },
+  "length_in_seconds": 62,
+  "comparator_output": 15
+}

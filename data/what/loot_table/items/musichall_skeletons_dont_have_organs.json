@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32036, "minecraft:custom_data": {"what_type": "musichall_skeletons_dont_have_organs"}, "minecraft:item_name": "{\"translate\":\"what.item.musichall_skeletons_dont_have_organs\"}",
+                "jukebox_playable":{"song":"what:skeletons_dont_have_organs"}, "rarity": "rare"
+              }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

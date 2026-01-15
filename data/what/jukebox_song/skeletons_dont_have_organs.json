@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:what.musichall.skeletons_dont_have_organs"
+  },
+  "description": {
+    "translate": "what.jukebox_song.skeletons_dont_have_organs"
+  },
+  "length_in_seconds": 59,
+  "comparator_output": 15
+}

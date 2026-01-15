@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32038, "minecraft:custom_data": {"what_type": "untoast"}, "minecraft:item_name": "{\"translate\":\"what.item.untoast\"}",
+                "jukebox_playable":{"song":"what:thisisnotatoaster"}, "rarity": "rare", "hide_tooltip" : {}
+              }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
