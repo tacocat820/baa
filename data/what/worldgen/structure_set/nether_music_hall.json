@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:nether_music_hall",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19399876,
+    "spacing": 12,
+    "separation": 5
+  }
+}

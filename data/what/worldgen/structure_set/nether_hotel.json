@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:nether_hotel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 72821239,
+    "spacing": 12,
+    "separation": 5
+  }
+}
