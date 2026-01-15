@@ -139,3 +139,4 @@ execute if score cmd what.temp matches 32127 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32128 run return run loot spawn ~ ~ ~ loot what:blocks/table
 execute if score cmd what.temp matches 32129 run return run loot spawn ~ ~ ~ loot what:blocks/wtf_block
 execute if score $bad_pos what.temp matches 1 if score cmd what.temp matches 32130 run return run loot spawn ~ ~ ~ loot what:blocks/liquid_glass
+execute if score cmd what.temp matches 32131 run return run loot spawn ~ ~ ~ loot what:blocks/chinese_lantern

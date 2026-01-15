@@ -1,0 +1,55 @@
+{
+    "criteria": {
+      "32015": {
+        "trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {
+        "custom_model_data": 32015}}]}
+      },
+      "32016": {
+        "trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {
+        "custom_model_data": 32016}}]}
+      },
+      "32017": {
+        "trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {
+        "custom_model_data": 32017}}]}
+      },
+      "32018": {
+        "trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {
+        "custom_model_data": 32018}}]}
+      },
+      "32019": {
+        "trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {
+        "custom_model_data": 32019}}]}
+      },
+      "32020": {
+        "trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {
+        "custom_model_data": 32020}}]}
+      }
+      
+    },
+    "display": {
+      "hidden": false,
+      "icon": {
+        "id": "clock",
+        "components": {
+          "custom_model_data": 32018
+        }
+      },
+      "title": {
+        "color": "#A79755",
+        "translate": "what.adv.nfts",
+        "italic": true
+      },
+      "description": {
+        "color": "#E44E55",
+        "translate": "what.adv.nfts.desc",
+        "italic": false
+      },
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "show_toast": true
+    },
+    "requirements": [
+      ["32015"],["32016"],["32017"],["32018"],["32019"],["32020"]
+    ],
+    "parent": "what:visible/hello"
+  }

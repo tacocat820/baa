@@ -21,3 +21,4 @@ execute if data storage what:temp block{CustomModelData: [32012]} run setblock ~
 execute if data storage what:temp block{CustomModelData: [32014]} run setblock ~ ~ ~ minecraft:cauldron
 execute if data storage what:temp block{CustomModelData: [32097]} run setblock ~ ~ ~ minecraft:cauldron
 execute if data storage what:temp block{CustomModelData: [32106]} run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,open=false,powered=true]
+execute if data storage what:temp block{CustomModelData: [32131]} run setblock ~ ~ ~ minecraft:lantern[hanging=true,waterlogged=false]

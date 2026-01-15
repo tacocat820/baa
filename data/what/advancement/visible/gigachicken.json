@@ -9,7 +9,7 @@
         "icon": {
             "id": "chicken"
         },
-        "title": {"color": "#f4c9a7","underlined":true, "bold":true, "translate": "what.adv.gigachicken"},
+        "title": {"color": "#f4c9a7","underlined":true, "bold":false, "translate": "what.adv.gigachicken", "font":"minecraft:slim"},
         "description": {"color": "#debe5d", "bold": true, "translate": "what.adv.gigachicken.desc"},
         "frame": "task",
         "announce_to_chat": true
