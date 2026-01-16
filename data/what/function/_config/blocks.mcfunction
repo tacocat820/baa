@@ -126,3 +126,4 @@ data modify storage what:config blocks append value {name: table, CustomModelDat
 data modify storage what:config blocks append value {name: wtf_block, CustomModelData: [32129], block:"copper_grate"}
 data modify storage what:config blocks append value {name: liquid_glass, CustomModelData: [32130], block:"tripwire", fluid_spread:4, type:"liquid_glass", pause:1b}
 data modify storage what:config blocks append value {name: chinese_lantern, CustomModelData: [32131], block:"copper_grate"}
+data modify storage what:config blocks append value {name: jelly_block, CustomModelData: [32132], block:"copper_grate"}
