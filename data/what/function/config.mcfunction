@@ -189,7 +189,5 @@ function what:_config/damage
 #ui
 function what:_config/ui
 
-function what:_config/constans
-
 #другое
 data modify storage what:config etc.block_params_default set value {"loot_if_predicate":"what:always_true"}
