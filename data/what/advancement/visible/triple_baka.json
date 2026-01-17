@@ -14,9 +14,9 @@
     "display": {
       "hidden": false,
       "icon": {
-        "id": "bread",
+        "id": "clock",
         "components": {
-          "custom_model_data": 32004
+          "custom_model_data": 32039
         }
       },
       "title": {
