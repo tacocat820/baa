@@ -1,7 +1,7 @@
 {
     "pools": [
       {
-        "rolls": 6,
+        "rolls": 2,
         "entries": [
           {
             "type": "minecraft:item",
@@ -38,6 +38,12 @@
             ]
           }
         ]
+      },
+
+      {
+        "rolls": 1,"entries": [{"type": "minecraft:loot_table",
+        "value": "what:items/ice_cream",
+        "conditions": [{"condition": "minecraft:random_chance","chance": 0.18}]}]
       }
     ]
   }
