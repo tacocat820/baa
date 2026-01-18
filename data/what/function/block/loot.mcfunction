@@ -142,3 +142,6 @@ execute if score $bad_pos what.temp matches 1 if score cmd what.temp matches 321
 execute if score cmd what.temp matches 32131 run return run loot spawn ~ ~ ~ loot what:blocks/chinese_lantern
 execute if score cmd what.temp matches 32132 run return run loot spawn ~ ~ ~ loot what:blocks/jelly_block
 execute if score cmd what.temp matches 32133 run return run loot spawn ~ ~ ~ loot what:blocks/badapple
+execute if score cmd what.temp matches 32134 run return run loot spawn ~ ~ ~ loot what:blocks/solar_panel
+execute if score cmd what.temp matches 32135 run return run loot spawn ~ ~ ~ loot what:blocks/xp_green_glass
+execute if score cmd what.temp matches 32136 run return run loot spawn ~ ~ ~ loot what:blocks/xp_red_glass

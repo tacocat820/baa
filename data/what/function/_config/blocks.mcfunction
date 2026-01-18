@@ -128,3 +128,6 @@ data modify storage what:config blocks append value {name: liquid_glass, CustomM
 data modify storage what:config blocks append value {name: chinese_lantern, CustomModelData: [32131], block:"copper_grate"}
 data modify storage what:config blocks append value {name: jelly_block, CustomModelData: [32132], block:"copper_grate"}
 data modify storage what:config blocks append value {name: badapple, CustomModelData: [32133], block:"tripwire", rotate:3, item_display:"head"}
+data modify storage what:config blocks append value {name: solar_panel, CustomModelData: [32134], block:"copper_grate", item_display:"head", rotate:2, size:{x:2,y:1,z:1, offset_x:-2,offset_y:-1,offset_z:-1}}
+data modify storage what:config blocks append value {name: xp_green_glass, CustomModelData: [32135], block:"blue_glass"}
+data modify storage what:config blocks append value {name: xp_red_glass, CustomModelData: [32136], block:"blue_glass"}
