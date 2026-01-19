@@ -182,6 +182,7 @@ data modify storage what:config mobs.juan_banana set value {name: '[{"translate"
 data modify storage what:config mobs.juan_bulldozer set value {name: '[{"translate":"what.mob.juan.bulldozer"}]', base_mob: "cow", cmd:32051, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.juan_frostberry set value {name: '[{"translate":"what.mob.juan.frostberry"}]', base_mob: "cow", cmd:32052, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.juan_worm set value {name: '[{"translate":"what.mob.juan.worm"}]', base_mob: "cow", cmd:32053, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.wwtb_notjuan set value {name: '[{"translate":"what.mob.wwtb_notjuan"}]', base_mob: "vindicator", cmd:32000, item_id:"potion", anim_len:24}
 
 #damage
 function what:_config/damage

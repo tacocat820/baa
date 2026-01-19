@@ -1,9 +1,16 @@
+execute if score $wwtb_route what.global_events matches 2 run return run function what:__custom/wwtb/5s_alt
+
 scoreboard players add $wwtb what.global_events 1
 #execute if score $wwtb what.global_events matches 2 run function what:__custom/wwtb/spawn_players
 execute if score $wwtb what.global_events matches 3 run function what:__custom/wwtb/host
 execute if score $wwtb what.global_events matches 4 run tellraw @a [{"translate":"what.message.wwtb.intro.1"}]
 execute if score $wwtb what.global_events matches 5 run tellraw @a [{"translate":"what.message.wwtb.intro.2"}]
-execute if score $wwtb what.global_events matches 6 run tellraw @a [{"translate":"what.message.wwtb.intro.3"}]
+execute if score $wwtb what.global_events matches 6 unless score $wwtb_dead what.global_events matches -1.. run tellraw @a [{"translate":"what.message.wwtb.intro.3"}]
+execute if score $wwtb what.global_events matches 6 if score $wwtb_dead what.global_events matches 1 run tellraw @a [{"translate":"what.message.wwtb.intro.3.alt_1"}]
+execute if score $wwtb what.global_events matches 6 if score $wwtb_dead what.global_events matches 2 run tellraw @a [{"translate":"what.message.wwtb.intro.3.alt_2"}]
+execute if score $wwtb what.global_events matches 6 if score $wwtb_dead what.global_events matches 3.. run tellraw @a [{"translate":"what.message.wwtb.intro.3.alt_3"}]
+execute if score $wwtb what.global_events matches 6 if score $wwtb_dead what.global_events matches 3.. run scoreboard players set $wwtb_route what.global_events 2
+
 execute if score $wwtb what.global_events matches 7 run tellraw @a [{"translate":"what.message.wwtb.intro.4"}]
 execute if score $wwtb what.global_events matches 8 run tellraw @a [{"translate":"what.message.wwtb.intro.5"}]
 execute if score $wwtb what.global_events matches 9 run tellraw @a [{"translate":"what.message.wwtb.intro.6"}]
@@ -67,6 +74,10 @@ execute if score $wwtb what.global_events matches 79 run function what:__custom/
 execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.view] run tp @a[tag=what.wwtb.player] ~ ~ ~
 execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.view] run tp @e[tag=what.wwtb.cpu] ~ ~ ~
 execute if score $wwtb what.global_events matches 80 at @e[tag=what.wwtb.cage] run tp @e[tag=what.wwtb.loser] ~ ~ ~
+execute if score $wwtb what.global_events matches 80 if entity @e[tag=what.wwtb.loser,tag=what.wwtb.cpu] run scoreboard players add $wwtb_dead what.global_events 1
+execute if score $wwtb what.global_events matches 80 if entity @e[tag=what.wwtb.loser,tag=what.wwtb.therapist] run scoreboard players set $wwtb_therapist what.global_events -1
+execute if score $wwtb what.global_events matches 80 if entity @e[tag=what.wwtb.loser,tag=what.wwtb.psycho] run scoreboard players set $wwtb_psycho what.global_events -1
+execute if score $wwtb what.global_events matches 80 if entity @e[tag=what.wwtb.loser,tag=what.wwtb.mole] run scoreboard players set $wwtb_mole what.global_events -1
 execute if score $wwtb what.global_events matches 80 run tag @e[tag=what.wwtb.loser] remove what.wwtb.psycho
 execute if score $wwtb what.global_events matches 80 run effect clear @e[tag=what.wwtb.loser]
 execute if score $wwtb what.global_events matches 80 run data modify entity @e[tag=what.wwtb.loser,limit=1] NoAI set value 0b
