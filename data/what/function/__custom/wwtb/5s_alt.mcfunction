@@ -1,5 +1,6 @@
 scoreboard players add $wwtb what.global_events 1
 
+execute if score $wwtb what.global_events matches 7 run advancement grant @a[tag=what.wwtb.player] only what:visible/wwtb_final
 
 execute if score $wwtb what.global_events matches 7 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.4"}]
 execute if score $wwtb what.global_events matches 8 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.5"}]
