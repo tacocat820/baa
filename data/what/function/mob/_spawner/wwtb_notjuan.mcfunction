@@ -1,4 +1,4 @@
-summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.wwtb.cpu","what.wwtb.therapist","tick1s","what.checked"],DeathLootTable:"what:items/rock",NoAI:1b}
+summon husk ~ ~ ~ {Tags:["what.temp_new","what.wwtb.cpu","what.wwtb.notjuan","tick1s","what.checked"],DeathLootTable:"what:items/rock",NoAI:1b}
 
 tag @s remove what.wwtb.temp_seat
 

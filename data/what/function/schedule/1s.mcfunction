@@ -12,3 +12,5 @@ execute as @e[tag=what.mimic_zone] at @s run function what:mob/mimic/zone
 title @a[tag=pause] actionbar [{"text":"you are in PAUSE","color":"gray"}]
 
 execute as @a[tag=what.speedrunner] at @s run function what:__custom/speedrun/1s
+
+execute if score $wwtb_alt_outro what.global_events matches 1.. run function what:__custom/wwtb/alt_outro

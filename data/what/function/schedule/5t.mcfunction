@@ -21,3 +21,8 @@ execute at @e[tag=what.ep.youwin] as @a[distance=0..1] at @s run function what:_
 effect give @a[tag=what.ep.player] resistance 5 3 true
 effect give @a[tag=what.ep.player] saturation 5 5 true
 effect give @a[tag=what.ep.player] night_vision 5 5 true
+
+
+execute at @e[type=marker,tag=what.wwtb.to_exec_cage] as @a[distance=0..1.5] at @s run tp @s 48 -46 42
+execute at @e[type=marker,tag=what.wwtb.from_exec_cage] as @a[distance=0..1.5] at @s run tp @s 16 -46 20
+execute at @e[type=marker,tag=what.wwtb.exit] as @a[distance=0..1.5] at @s run function what:__custom/wwtb/exit

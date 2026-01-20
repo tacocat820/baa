@@ -5,10 +5,14 @@ execute if score $wwtb what.global_events matches 7 run tellraw @a [{"translate"
 execute if score $wwtb what.global_events matches 8 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.5"}]
 execute if score $wwtb what.global_events matches 9 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.6"}]
 execute if score $wwtb what.global_events matches 10 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.7"}]
-execute if score $wwtb what.global_events matches 10 as @e[tag=what.wwtb.temp_seat] at @s run function what:mob/_spawner/wwtb_notjuan
+execute if score $wwtb what.global_events matches 10 as @e[tag=what.wwtb.temp_seat,limit=1,sort=random] at @s run function what:mob/_spawner/wwtb_notjuan
+execute if score $wwtb what.global_events matches 10 at @e[tag=what.wwtb.temp_seat,limit=1,sort=random] run tp @e[tag=what.wwtb.host] ~ ~ ~ facing entity @n[tag=what.wwtb.center]
+execute if score $wwtb what.global_events matches 10 run tag @e[tag=what.wwtb.host] add what.wwtb.cpu
+execute if score $wwtb what.global_events matches 10 run tag @e[tag=what.wwtb.host] add what.wwtb.player
+execute if score $wwtb what.global_events matches 10 run tag @e[tag=what.wwtb.host] add what.wwtb.host_player
 
 execute if score $wwtb what.global_events matches 11 as @a at @s if entity @e[tag=what.wwtb.host,distance=0..50] run tag @s add what.wwtb.player
-execute if score $wwtb what.global_events matches 11 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.7"}]
+execute if score $wwtb what.global_events matches 11 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.8"}]
 execute if score $wwtb what.global_events matches 12 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.9"}]
 execute if score $wwtb what.global_events matches 12 run scoreboard players reset * what.etc.wwtb.points
 execute if score $wwtb what.global_events matches 12 run scoreboard objectives setdisplay sidebar what.etc.wwtb.points
@@ -58,3 +62,6 @@ execute if score $wwtb what.global_events matches 54 run function what:__custom/
 
 execute if score $wwtb what.global_events matches 55 run function what:__custom/wwtb/question_alt {i:35,i_1:1,i_2:1}
 execute if score $wwtb what.global_events matches 57 run function what:__custom/wwtb/questiond {correct:1}
+
+execute if score $wwtb what.global_events matches 58 run tellraw @a [{"translate":"what.message.wwtb.solo_outro.1"}]
+execute if score $wwtb what.global_events matches 59 run scoreboard players set $wwtb_alt_outro what.global_events 1

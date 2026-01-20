@@ -1,3 +1,5 @@
+execute if score $wwtb_over what.global_events matches 1 run return run function what:__custom/wwtb/enter_over
+
 function what:__custom/tetrisgame/saveinitpos
 tag @s add what.wwtb.savedinitpos
 execute in what:tetris run tp @s 0 0 0
