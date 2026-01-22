@@ -33,6 +33,9 @@ execute if data storage what:temp {what_type:herobrine_spray} run return run fun
 execute if data storage what:temp {what_type:crystal_ball} run return run function what:carrot_on_a_stick/crystal_ball/_
 execute if data storage what:temp {what_type:heating_radiator} run return run function what:carrot_on_a_stick/heating_radiator/_
 execute if data storage what:temp {what_type:blues_crystal} run return run function what:carrot_on_a_stick/blues_crystal/_
+execute if data storage what:temp {what_type:glass_of_liquid_glass} run return run function what:carrot_on_a_stick/glass/liquid_glass/_
+execute if data storage what:temp {what_type:glass_of_stool} run return run function what:carrot_on_a_stick/glass/stool/_
+execute if data storage what:temp {what_type:glass_of_pee} run return run function what:carrot_on_a_stick/glass/pee/_
 
 #small_water_bucket
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}

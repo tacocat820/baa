@@ -131,3 +131,4 @@ data modify storage what:config blocks append value {name: badapple, CustomModel
 data modify storage what:config blocks append value {name: solar_panel, CustomModelData: [32134], block:"copper_grate", item_display:"head", rotate:2, size:{x:2,y:1,z:1, offset_x:-2,offset_y:-1,offset_z:-1}}
 data modify storage what:config blocks append value {name: xp_green_glass, CustomModelData: [32135], block:"blue_glass"}
 data modify storage what:config blocks append value {name: xp_red_glass, CustomModelData: [32136], block:"blue_glass"}
+data modify storage what:config blocks append value {name: liquid_stool, CustomModelData: [32138], block:"tripwire", fluid_spread:3, type:"liquid_stool", pause:1b}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32033, "minecraft:custom_data":{"what_type":"glass_of_uranium"}, "minecraft:item_name":"{\"translate\":\"what.item.glass_of_uranium\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
