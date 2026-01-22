@@ -4,4 +4,4 @@ say GENERATING BACKROOMS... PLEASE WAIT...
 execute in what:backrooms run place jigsaw what:backrooms_start start 11 0 0 0
 
 #wolfberries
-execute unless entity @n[tag=what.ent.poison_tree] at @e[tag=what.backrooms_spawn,limit=1,sort=random] run function what:mob/big_tree/poison_spawn
+execute unless entity @n[tag=what.ent.poison_tree] run function what:__custom/backrooms/wolf

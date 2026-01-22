@@ -1,6 +1,5 @@
 scoreboard players add $wwtb what.global_events 1
 
-execute if score $wwtb what.global_events matches 7 run advancement grant @a[tag=what.wwtb.player] only what:visible/wwtb_final
 
 execute if score $wwtb what.global_events matches 7 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.4"}]
 execute if score $wwtb what.global_events matches 8 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.5"}]
@@ -12,7 +11,11 @@ execute if score $wwtb what.global_events matches 10 run tag @e[tag=what.wwtb.ho
 execute if score $wwtb what.global_events matches 10 run tag @e[tag=what.wwtb.host] add what.wwtb.player
 execute if score $wwtb what.global_events matches 10 run tag @e[tag=what.wwtb.host] add what.wwtb.host_player
 
+execute if score $wwtb what.global_events matches 10 run effect give @e[tag=what.wwtb.host] resistance infinite 25 true
+
 execute if score $wwtb what.global_events matches 11 as @a at @s if entity @e[tag=what.wwtb.host,distance=0..50] run tag @s add what.wwtb.player
+execute if score $wwtb what.global_events matches 11 as @a at @s if entity @e[tag=what.wwtb.host,distance=0..50] run tag @s add what.wwtb.final_ep
+execute if score $wwtb what.global_events matches 11 run advancement grant @a[tag=what.wwtb.player] only what:visible/wwtb_final
 execute if score $wwtb what.global_events matches 11 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.8"}]
 execute if score $wwtb what.global_events matches 12 run tellraw @a [{"translate":"what.message.wwtb.solo_intro.9"}]
 execute if score $wwtb what.global_events matches 12 run scoreboard players reset * what.etc.wwtb.points

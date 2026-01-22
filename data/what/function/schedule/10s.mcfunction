@@ -21,6 +21,8 @@ execute as @e[type=item] at @s unless entity @a[distance=0..45] unless entity @e
 execute as @e[tag=what.death_marker] if entity @a[distance=0..15] run kill @s
 # item despawning ++
 
+execute as @e[type=marker,tag=what.ent.puffercopter] at @s run function what:mob/puffercopter/despawner
+
 execute as @a at @s run function what:__custom/ost/ost
 
 execute as @e[tag=what.point.smurf_house,tag=!what.checked] at @s run function what:mob/_spawner/smurf_cat
