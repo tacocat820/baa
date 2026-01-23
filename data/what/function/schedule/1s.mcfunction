@@ -14,3 +14,6 @@ title @a[tag=pause] actionbar [{"text":"you are in PAUSE","color":"gray"}]
 execute as @a[tag=what.speedrunner] at @s run function what:__custom/speedrun/1s
 
 execute if score $wwtb_alt_outro what.global_events matches 1.. run function what:__custom/wwtb/alt_outro
+
+execute as @e[tag=what.credits] run function what:__custom/credits/single
+execute as @a[tag=what.credits.watching] at @s run function what:__custom/credits/1s

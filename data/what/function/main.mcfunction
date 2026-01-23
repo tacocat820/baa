@@ -63,7 +63,6 @@ execute as @a[scores={what.chest_open=1..}] at @s run function what:__custom/ope
 execute as @a[tag=what.pumpkin_gun.active] at @s run function what:carrot_on_a_stick/pumpkin_gun/pl_tp_entity
 execute as @a if items entity @a hotbar.* minecraft:debug_stick at @s run function what:__custom/_light_markers
 
-
 execute at @e[tag=what.scary_box] run playsound ambient.cave hostile @a[distance=0..40] ~ ~ ~ 3
 #scoreboard players reset @s what.dropper_click
 #execute as @e[type=creeper] run say 1
