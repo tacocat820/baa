@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data": 32011, "minecraft:custom_data":{"what_type":"golden_dandelion"}, "minecraft:item_name":"{\"translate\":\"what.item.golden_dandelion\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
