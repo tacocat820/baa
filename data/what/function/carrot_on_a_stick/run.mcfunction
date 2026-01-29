@@ -36,6 +36,7 @@ execute if data storage what:temp {what_type:blues_crystal} run return run funct
 execute if data storage what:temp {what_type:glass_of_liquid_glass} run return run function what:carrot_on_a_stick/glass/liquid_glass/_
 execute if data storage what:temp {what_type:glass_of_stool} run return run function what:carrot_on_a_stick/glass/stool/_
 execute if data storage what:temp {what_type:glass_of_pee} run return run function what:carrot_on_a_stick/glass/pee/_
+execute if data storage what:temp {what_type:glass_of_uranium} run return run function what:carrot_on_a_stick/glass/uranium/_
 
 #small_water_bucket
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}

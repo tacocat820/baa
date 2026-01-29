@@ -132,4 +132,12 @@ data modify storage what:config blocks append value {name: solar_panel, CustomMo
 data modify storage what:config blocks append value {name: xp_green_glass, CustomModelData: [32135], block:"blue_glass"}
 data modify storage what:config blocks append value {name: xp_red_glass, CustomModelData: [32136], block:"blue_glass"}
 data modify storage what:config blocks append value {name: liquid_stool, CustomModelData: [32138], block:"tripwire", fluid_spread:3, type:"liquid_stool", pause:1b}
-data modify storage what:config blocks append value {name: nuclear_waste, CustomModelData: [32139], block:"tripwire"}
+data modify storage what:config blocks append value {name: nuclear_waste, CustomModelData: [32139], block:"tripwire", fluid_spread:4, type:"nuclear_waste", pause:1b}
+
+data modify storage what:config blocks append value {name: golden_dandelion, CustomModelData: [32140], block:"tripwire"}
+data modify storage what:config blocks append value {name: copper_dandelion, CustomModelData: [32141], block:"tripwire"}
+data modify storage what:config blocks append value {name: lapis_dandelion, CustomModelData: [32142], block:"tripwire"}
+data modify storage what:config blocks append value {name: redstone_dandelion, CustomModelData: [32143], block:"tripwire"}
+data modify storage what:config blocks append value {name: iron_dandelion, CustomModelData: [32144], block:"tripwire"}
+data modify storage what:config blocks append value {name: diamond_dandelion, CustomModelData: [32145], block:"tripwire"}
+data modify storage what:config blocks append value {name: emerald_dandelion, CustomModelData: [32146], block:"tripwire"}
