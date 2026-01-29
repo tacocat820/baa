@@ -145,3 +145,4 @@ execute if score cmd what.temp matches 32133 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32134 run return run loot spawn ~ ~ ~ loot what:blocks/solar_panel
 execute if score cmd what.temp matches 32135 run return run loot spawn ~ ~ ~ loot what:blocks/xp_green_glass
 execute if score cmd what.temp matches 32136 run return run loot spawn ~ ~ ~ loot what:blocks/xp_red_glass
+execute if score cmd what.temp matches 32139 run return run loot spawn ~ ~ ~ loot what:blocks/nuclear_waste
