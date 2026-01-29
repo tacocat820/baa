@@ -132,4 +132,4 @@ data modify storage what:config blocks append value {name: solar_panel, CustomMo
 data modify storage what:config blocks append value {name: xp_green_glass, CustomModelData: [32135], block:"blue_glass"}
 data modify storage what:config blocks append value {name: xp_red_glass, CustomModelData: [32136], block:"blue_glass"}
 data modify storage what:config blocks append value {name: liquid_stool, CustomModelData: [32138], block:"tripwire", fluid_spread:3, type:"liquid_stool", pause:1b}
-data modify storage what:config blocks append value {name: nuclear_waste, CustomModelData: [32139], block:"glass"}
+data modify storage what:config blocks append value {name: nuclear_waste, CustomModelData: [32139], block:"tripwire"}
