@@ -75,5 +75,6 @@ execute as @e[type=marker,tag=what.unthirst] at @s run function what:__custom/un
 execute as @e[type=marker,tag=what.gamecrasher] at @s run function what:__custom/gamecrasher
 execute as @e[type=item_display,tag=what.blues_crystal] at @s run function what:__custom/blues_crystal
 
+#тест
 ##chunk load
 execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..32,tag=what.blocks_chunk,limit=12,sort=nearest] run function what:block/chunk/load/_
