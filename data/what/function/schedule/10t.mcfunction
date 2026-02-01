@@ -11,4 +11,4 @@ execute at @a as @e[distance=0..70,tag=what.block_placed] at @s run function wha
 #function what:__custom/blocks_10t
 
 execute as @a at @s if block ~ ~ ~ stonecutter run function what:__custom/stonecutter
-execute as @a at @s if block ~ ~ ~ tripwire if data entity @n[distance=0..0.8,tag=what.block_placed,tag=what.fluid] item.components.minecraft:custom_data{type:"american_oil"} run effect give @s slowness 1 3 true
+execute as @a at @s if block ~ ~ ~ tripwire if entity @n[distance=0..0.8,tag=what.block_placed,tag=what.fluid] run function what:block/fluids/10t
