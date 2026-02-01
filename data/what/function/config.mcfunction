@@ -35,6 +35,7 @@ data modify storage what:config inter.button_a set value {target: "what:__custom
 data modify storage what:config inter.button_b set value {target: "what:__custom/wwtb/b", attack: "what:__custom/block/destroy_if_in_creative"}
 data modify storage what:config inter.button_c set value {target: "what:__custom/wwtb/c", attack: "what:__custom/block/destroy_if_in_creative"}
 
+data modify storage what:config inter.toaster set value {target: "what:block/toaster/run",attack: "what:block/actions/destroy_block"}
 
 data modify storage what:players a set value {}
 
