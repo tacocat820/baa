@@ -32,3 +32,4 @@ execute if entity @s[tag=what.ent.trasher] run function what:mob/trasher/10t
 execute if entity @s[tag=what.ent.nest] run function what:mob/nest/10t
 execute if entity @s[tag=what.ent.defender] run function what:mob/defender/10t
 execute if entity @s[tag=what.ent.skeleton2] run function what:mob/skeleton2/10t
+execute if entity @s[tag=what.ent.crish] run function what:mob/crish/10t
