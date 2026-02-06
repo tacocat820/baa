@@ -1,4 +1,4 @@
-summon drowned ~ ~ ~ {Tags:["what.temp_new","what.ent.crish","tick1s"]}
+summon drowned ~ ~ ~ {Tags:["what.temp_new","what.ent.crish","tick1s"],PersistenceRequired:1b}
 
 #attribute @n[tag=what.temp_new] generic.movement_speed base set 0.6
 attribute @n[tag=what.temp_new] minecraft:movement_speed base set 1.5

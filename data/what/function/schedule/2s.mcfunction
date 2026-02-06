@@ -10,6 +10,7 @@ execute as @e[type=spider,tag=!what.checked] run function what:mob/_disp/random/
 execute as @e[type=wither_skeleton,tag=!what.checked] run function what:mob/_disp/random/init {type:"wither_skeleton"}
 execute as @e[type=piglin,tag=!what.checked] run function what:mob/_disp/random/init {type:"piglin"}
 execute as @e[type=zombified_piglin,tag=!what.checked] run function what:mob/_disp/random/init {type:"zombified_piglin"}
+execute as @e[type=drowned,tag=!what.checked] run function what:mob/_disp/random/init {type:"drowned"}
 #execute as @e[type=pig,tag=!what.checked] run function what:mob/_disp/random/init {type:"pig"}
 
 execute at @a as @e[distance=0..10,tag=what.fluid,scores={what.fluid_spread=1..}] at @s run function what:block/fluids/spread
