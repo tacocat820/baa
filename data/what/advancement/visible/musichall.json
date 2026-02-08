@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "e": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "what:nether_music_hall"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "jukebox"
+        },
+        "title": {"color": "#dc62e5", "bold": true, "translate": "what.adv.musichall", "font":"minecraft:slim"},
+        "description": {"color": "#9b62e5", "underlined": false, "italic": true, "translate": "what.adv.musichall.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/heck"
+}

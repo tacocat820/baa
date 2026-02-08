@@ -1,0 +1,1 @@
+loot give @s loot {pools:[{rolls:1,entries:[{type:"minecraft:loot_table",name:"minecraft:amethyst_block",value:"what:items/mogus_candy",functions:[{function:"minecraft:set_count",count:100}]}]}]}

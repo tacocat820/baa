@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["item_frame"],
+                    "components": {
+                        "custom_model_data": 32148
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "bread",
+            "components": {
+                "custom_model_data": 32011
+            }
+        },
+        "title": {"color": "#a28098", "bold": true, "translate": "what.adv.toaster", "font":"minecraft:slim"},
+        "description": {"color": "#69164b", "underlined": false, "italic": true, "translate": "what.adv.toaster.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "what:visible/musichall"
+}

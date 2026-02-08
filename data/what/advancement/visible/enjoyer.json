@@ -1,0 +1,42 @@
+{
+    "criteria": {
+
+      "n_0" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32029}}]}},
+      "n_1" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32034}}]}},
+      "n_2" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32035}}]}},
+      "n_3" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32036}}]}},
+      "n_4" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32037}}]}},
+      "n_5" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32025}}]}},
+      "n_6" : {"trigger": "inventory_changed","conditions": {"items": [{"items": ["clock"],"components": {"custom_model_data": 32004}}]}}
+
+    },
+    "display": {
+      "hidden": false,
+      "icon": {
+        "id": "clock",
+        "components": {
+          "custom_model_data": 32034
+        }
+      },
+      "title": {
+        "color": "#96ba07",
+        "translate": "what.adv.enjoyer",
+        "italic": false
+      },
+      "description": {
+        "color": "#07ba66",
+        "translate": "what.adv.enjoyer.desc",
+        "italic": true
+      },
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "show_toast": true
+    },
+    "requirements": [
+        ["n_0"],["n_1"],["n_2"],["n_3"],["n_4"],["n_5"],["n_6"]
+    ],
+    "rewards": {
+      "function":"what:__custom/prize"
+    },
+    "parent": "what:visible/musichall"
+  }

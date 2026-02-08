@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to": "what:ohio"
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "carrot_on_a_stick",
+            "components": {
+                "custom_model_data": 32029
+            }
+        },
+        "title": {"color": "#2194e0", "italic": true, "translate": "what.adv.blues"},
+        "description": {"color": "#bae021", "bold": true, "strikethrough": true, "underlined":true, "translate": "what.adv.blues.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/musichall"
+}
