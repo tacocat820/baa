@@ -7,6 +7,6 @@ particle item{item:{id:item_frame,components:{"custom_model_data":32139}}} ~ ~-0
 
 playsound minecraft:what.uranium master @a ~ ~ ~ 1 1
 
-execute positioned ~-2 ~-2 ~-2 as @e[dx=2,dy=2,dz=2,type=!#what:non_mobs] run damage @s 2
+execute positioned ~-2 ~-2 ~-2 as @e[dx=2,dy=2,dz=2,type=!#what:non_mobs] run damage @s 32
 execute positioned ~-2 ~-2 ~-2 as @e[dx=2,dy=2,dz=2,type=!#what:non_mobs] run effect give @s poison 10 2 true
 execute positioned ~-2 ~-2 ~-2 as @a[dx=2,dy=2,dz=2] run scoreboard players add @s what.etc.uranium 1
