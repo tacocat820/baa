@@ -78,3 +78,6 @@ execute as @e[type=item_display,tag=what.blues_crystal] at @s run function what:
 #тест
 ##chunk load
 execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..32,tag=what.blocks_chunk,limit=12,sort=nearest] run function what:block/chunk/load/_
+
+#proj
+execute as @e[tag=what.proj] at @s run function what:_u/proj/main

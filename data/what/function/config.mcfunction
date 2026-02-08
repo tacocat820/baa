@@ -108,9 +108,9 @@ data modify storage what:config mob_spawner.ow_forest.drowned set value {amount:
 data modify storage what:config mob_spawner.ow_safari.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}
 data modify storage what:config mob_spawner.ow_safari.pig set value {amount: 5, keys: ["lion","lion","lion","lion","lion"]}
 data modify storage what:config mob_spawner.ow_safari.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
-data modify storage what:config mob_spawner.ow_safari.sheep set value {amount: 5, keys: ["floppa","floppa","oilstructure","juan_bulldozer","juan_bulldozer"]}
+data modify storage what:config mob_spawner.ow_safari.sheep set value {amount: 5, keys: ["floppa","floppa","juan_bulldozer","juan_bulldozer","juan_bulldozer"]}
 
-data modify storage what:config mob_spawner.ow_safari.spider set value {amount: 5, keys: ["lion","lion","lion","lion","oilstructure"]}
+data modify storage what:config mob_spawner.ow_safari.spider set value {amount: 5, keys: ["lion","lion","lion","lion","lion"]}
 data modify storage what:config mob_spawner.ow_safari.skeleton set value {amount: 5, keys: ["gigachicken","gigachicken","lion","lion"]}
 data modify storage what:config mob_spawner.ow_safari.zombie set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","mogus","mogus"]}
 data modify storage what:config mob_spawner.ow_safari.drowned set value {amount: 5, keys: ["crish","crish","crish","juan_banana"]}

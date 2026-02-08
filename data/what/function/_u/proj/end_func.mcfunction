@@ -1,0 +1,1 @@
+$function $(end_func)
