@@ -100,8 +100,20 @@ data modify storage what:config mob_spawner.ow_forest.sheep set value {amount: 5
 
 data modify storage what:config mob_spawner.ow_forest.spider set value {amount: 5, keys: ["ender_dragon","ender_dragon","ender_dragon","ender_dragon","ender_dragon"]}
 data modify storage what:config mob_spawner.ow_forest.skeleton set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","pigeon"]}
-data modify storage what:config mob_spawner.ow_plains.zombie set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","mogus","mogus"]}
-data modify storage what:config mob_spawner.ow_meadow.drowned set value {amount: 5, keys: ["crish","crish","crish","juan_banana"]}
+data modify storage what:config mob_spawner.ow_forest.zombie set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","mogus","mogus"]}
+data modify storage what:config mob_spawner.ow_forest.drowned set value {amount: 5, keys: ["crish","crish","crish","juan_banana"]}
+
+
+## SAFARI (not a savanna)
+data modify storage what:config mob_spawner.ow_safari.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}
+data modify storage what:config mob_spawner.ow_safari.pig set value {amount: 5, keys: ["lion","lion","lion","lion","lion"]}
+data modify storage what:config mob_spawner.ow_safari.chicken set value {amount: 10, keys: ["betterhorse","betterhorse","gaming_chair","gaming_chair","vroomba","vroomba","vroomba","vroomba","vroomba","puffercopter","puffercopter"]}
+data modify storage what:config mob_spawner.ow_safari.sheep set value {amount: 5, keys: ["floppa","floppa","oilstructure","juan_bulldozer","juan_bulldozer"]}
+
+data modify storage what:config mob_spawner.ow_safari.spider set value {amount: 5, keys: ["lion","lion","lion","lion","oilstructure"]}
+data modify storage what:config mob_spawner.ow_safari.skeleton set value {amount: 5, keys: ["gigachicken","gigachicken","lion","lion"]}
+data modify storage what:config mob_spawner.ow_safari.zombie set value {amount: 5, keys: ["gigachicken","gigachicken","gigachicken","mogus","mogus"]}
+data modify storage what:config mob_spawner.ow_safari.drowned set value {amount: 5, keys: ["crish","crish","crish","juan_banana"]}
 
 ## ROCKS
 data modify storage what:config mob_spawner.ow_rocks.cow set value {amount: 5, keys: ["cable","cable","cable","cable","cable"]}
@@ -189,6 +201,7 @@ data modify storage what:config mobs.juan_frostberry set value {name: '[{"transl
 data modify storage what:config mobs.juan_worm set value {name: '[{"translate":"what.mob.juan.worm"}]', base_mob: "cow", cmd:32053, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.wwtb_notjuan set value {name: '[{"translate":"what.mob.wwtb_notjuan"}]', base_mob: "vindicator", cmd:32000, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.crish set value {name: '[{"translate":"what.mob.crish"}]', base_mob: "drowned", cmd:32082, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.lion set value {name: '[{"translate":"what.mob.lion"}]', base_mob: "vindicator", cmd:32083, item_id:"potion", anim_len:36}
 
 #damage
 function what:_config/damage

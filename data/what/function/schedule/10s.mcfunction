@@ -45,3 +45,5 @@ execute as @r[scores={what.etc.gaster_timer=..1}] run function what:__custom/gas
 
 execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/dolphin
 execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/vroomba
+
+execute as @a at @s if predicate what:night if biome ~ ~ ~ minecraft:savanna run function what:__custom/lions
