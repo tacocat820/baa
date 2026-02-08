@@ -1,5 +1,7 @@
 scoreboard players set @s what.cooldown 10
 
+scoreboard players add @s what.etc.dangerous_things 10
+
 execute unless function what:carrot_on_a_stick/melon_gun/melon_clear run return 0
 function what:carrot_on_a_stick/item_break {slot:weapon.mainhand}
 

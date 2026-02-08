@@ -29,6 +29,7 @@ scoreboard objectives add what.etc.gaster dummy
 scoreboard objectives add what.etc.gaster_timer dummy
 scoreboard objectives add what.etc.backrooms_exit_timer dummy
 scoreboard objectives add what.etc.happiness dummy
+scoreboard objectives add what.etc.dangerous_things dummy
 scoreboard objectives add what.etc.wwtb.answer dummy
 scoreboard objectives add what.etc.wwtb.points dummy
 scoreboard objectives add what.constans dummy
