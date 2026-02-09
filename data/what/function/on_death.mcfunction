@@ -23,6 +23,7 @@ tag @s remove what.pumpkin_gun.active
 tag @s remove what.gastering
 tag @s remove what.at_gaster
 tag @s remove what.ghast_killing
+tag @s remove what.radiation_poisoning
 
 
 scoreboard players add @s what.etc.died 1

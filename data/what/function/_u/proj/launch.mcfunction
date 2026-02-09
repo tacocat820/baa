@@ -1,6 +1,7 @@
-$scoreboard players set X what.proj.speed $(speed)
+$scoreboard players set X what.proj.speed $(V)
 $data modify storage what:temp proj set value {loop_func:'$(loop_func)', end_func:'$(end_func)'}
 
+$scoreboard players set X what.proj.gravity $(g)
 #item:{id:"acacia_boat"}
 
 $summon item_display ~ ~ ~ {Tags:[what.proj, what.temp], item:$(item), teleport_duration: 1}

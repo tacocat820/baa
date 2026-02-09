@@ -26,4 +26,5 @@ function what:_u/proj/check_hit
 function what:_u/proj/y_steps
 function what:_u/proj/y with storage what:temp
 
-scoreboard players add @s what.proj.y_vel 10
+#scoreboard players add @s what.proj.y_vel 10
+scoreboard players operation @s what.proj.y_vel += @s what.proj.gravity

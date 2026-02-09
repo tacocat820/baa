@@ -84,6 +84,7 @@ scoreboard objectives add what.block_id dummy
 
 #proj
 scoreboard objectives add what.proj.speed dummy
+scoreboard objectives add what.proj.gravity dummy
 scoreboard objectives add what.proj.y_vel dummy
 scoreboard players set one_step what.temp 100
 scoreboard players set one_step_2 what.temp 50
