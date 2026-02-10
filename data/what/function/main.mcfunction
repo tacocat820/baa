@@ -81,3 +81,6 @@ execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=0..32,ta
 
 #proj
 execute as @e[tag=what.proj] at @s run function what:_u/proj/main
+
+#dmg queue
+execute as @e[scores={what.damage_queue=0..},type=!#what:non_mobs] run function what:__custom/damage_queue/in

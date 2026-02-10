@@ -1,0 +1,1 @@
+execute if score @s what.proj.y_vel matches 90.. run kill @s

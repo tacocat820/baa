@@ -89,6 +89,8 @@ scoreboard objectives add what.proj.y_vel dummy
 scoreboard players set one_step what.temp 100
 scoreboard players set one_step_2 what.temp 50
 
+scoreboard objectives add what.damage_queue dummy
+
 #shedules
 function what:schedule/start_all
 
