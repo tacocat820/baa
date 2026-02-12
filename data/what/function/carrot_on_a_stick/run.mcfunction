@@ -1,5 +1,3 @@
-scoreboard players reset @s what.COAS
-
 #say 1
 data modify storage what:temp what_type set value 0
 data modify storage what:temp what_type set from entity @s SelectedItem.components.minecraft:custom_data.what_type
@@ -39,6 +37,9 @@ execute if data storage what:temp {what_type:glass_of_pee} run return run functi
 execute if data storage what:temp {what_type:glass_of_uranium} run return run function what:carrot_on_a_stick/glass/uranium/_
 execute if data storage what:temp {what_type:toastthrower} run return run function what:carrot_on_a_stick/toastthrower/_
 execute if data storage what:temp {what_type:minitoastgun} run return run function what:carrot_on_a_stick/minitoastgun/_
+
+###
+###
 
 #small_water_bucket
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}

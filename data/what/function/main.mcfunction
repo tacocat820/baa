@@ -28,7 +28,9 @@ execute as @a[scores={what.etc.open_shulker_box=1..}] at @s run function what:ui
 execute as @a[scores={what.ui=0..}] run function what:ui/as_player
 
 execute as @a[scores={what.help=1..}] at @s run function what:help
-execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/run
+
+execute as @a[scores={what.COAS=1..}] at @s run function what:carrot_on_a_stick/click
+execute as @a[scores={what.COAS_ticks=1..}] at @s run function what:carrot_on_a_stick/run_tick
 
 # cooldown
 

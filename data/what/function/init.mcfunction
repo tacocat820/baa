@@ -75,6 +75,7 @@ scoreboard objectives add what.chest_open minecraft.custom:minecraft.open_chest
 
 scoreboard objectives add what.help trigger
 scoreboard objectives add what.COAS minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add what.COAS_ticks dummy
 
 scoreboard objectives add what.global_events dummy
 scoreboard objectives add what.ui dummy
