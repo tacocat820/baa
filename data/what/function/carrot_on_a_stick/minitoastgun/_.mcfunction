@@ -1,4 +1,6 @@
 #апасна детям не игрушка!!!!!
+execute unless function what:carrot_on_a_stick/minitoastgun/ammo_clear run return 0
+
 scoreboard players add @s what.etc.dangerous_things 10
 
 execute if score @s what.COAS matches 1 run scoreboard players set @s what.COAS_ticks 5

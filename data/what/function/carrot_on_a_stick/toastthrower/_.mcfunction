@@ -1,6 +1,9 @@
 #btw this is shotgun
 scoreboard players set @s what.cooldown 15
 
+execute unless function what:carrot_on_a_stick/toastthrower/ammo_check run return 0
+clear @s bread[minecraft:custom_data~{"what_type":"toast_crumbs"}] 5
+
 #апасна детям не игрушка!!!!!
 scoreboard players add @s what.etc.dangerous_things 10
 

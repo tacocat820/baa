@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": ["carrot_on_a_stick"],
+                    "components": {
+                        "custom_model_data": 32035
+                    }
+                }]
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "carrot_on_a_stick",
+            "components": {
+                "custom_model_data": 32035
+            }
+        },
+        "title": {"color": "#ffaa22","underlined":true, "bold":false, "translate": "what.adv.minigun", "font":"minecraft:slim"},
+        "description": {"color": "#a94105", "bold": false, "translate": "what.adv.minigun.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true
+        },
+    "parent": "what:visible/crafting_2"
+}
