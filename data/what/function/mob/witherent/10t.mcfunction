@@ -1,0 +1,1 @@
+execute unless entity @e[tag=what.ent.witherent.head,distance=0..20] run summon item_display ~ ~ ~ {Tags:["what.ent.witherent.head"],item:{"id":"skeleton_skull"},transformation:[2.0000f,0.0000f,0.0000f,0.0000f,0.0000f,2.1250f,0.0000f,0.0000f,0.0000f,0.0000f,2.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
