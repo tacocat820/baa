@@ -202,7 +202,7 @@ data modify storage what:config mobs.juan_worm set value {name: '[{"translate":"
 data modify storage what:config mobs.wwtb_notjuan set value {name: '[{"translate":"what.mob.wwtb_notjuan"}]', base_mob: "vindicator", cmd:32000, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.crish set value {name: '[{"translate":"what.mob.crish"}]', base_mob: "drowned", cmd:32082, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.lion set value {name: '[{"translate":"what.mob.lion"}]', base_mob: "vindicator", cmd:32083, item_id:"potion", anim_len:36}
-data modify storage what:config mobs.witherent set value {name: '[{"translate":"what.mob.witherent"}]', base_mob: "vindicator", cmd:32084, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.witherent set value {name: '[{"translate":"what.mob.witherent"}]', base_mob: "vindicator", cmd:32084, item_id:"potion", anim_len:24, bossbar: 1b, bossbar_data: {color: "pink"}}
 
 #damage
 function what:_config/damage
