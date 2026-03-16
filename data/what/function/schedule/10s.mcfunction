@@ -46,4 +46,8 @@ execute as @r[scores={what.etc.gaster_timer=..1}] run function what:__custom/gas
 execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/dolphin
 execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/vroomba
 
+execute as @e[tag=what.ent.witherent.head] at @s run function what:mob/witherent/head
+
 execute as @a at @s if predicate what:night if biome ~ ~ ~ minecraft:savanna run function what:__custom/lions
+
+execute if score $witherent what.global_events matches -1.. run function what:mob/witherent/await

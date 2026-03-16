@@ -1,5 +1,5 @@
 summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.witherent","tick1s"],PersistenceRequired:1b}
-#effect give @n[tag=what.temp_new] speed infinite 1 true
+effect give @n[tag=what.temp_new] slowness infinite 0 true
 effect give @n[tag=what.temp_new] strength infinite 1 true
 effect give @n[tag=what.temp_new] fire_resistance infinite 255 true
 attribute @n[tag=what.temp_new] minecraft:max_health base set 150

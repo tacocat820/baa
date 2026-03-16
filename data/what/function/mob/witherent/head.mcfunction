@@ -1,0 +1,1 @@
+execute unless entity @e[tag=what.ent.witherent,distance=0..30] run function what:mob/witherent/die
