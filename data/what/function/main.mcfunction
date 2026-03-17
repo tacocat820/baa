@@ -86,3 +86,5 @@ execute as @e[tag=what.proj] at @s run function what:_u/proj/main
 
 #dmg queue
 execute as @e[scores={what.damage_queue=0..},type=!#what:non_mobs] run function what:__custom/damage_queue/in
+
+execute as @e[tag=what.ent.witherent.shoot] at @s run function what:mob/witherent/toshoot

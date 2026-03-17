@@ -3,7 +3,7 @@ execute as @n[tag=what.ent.witherent.head,distance=0..30] at @s run tp @s ~ ~ ~ 
 execute as @n[tag=what.ent.witherent.head,distance=0..30] at @s run tp @s ^ ^ ^0.5 facing ^ ^ ^-1
 
 
-tp @s ^ ^ ^0.01 facing entity @p 
+tp @s ^ ^ ^0.05 facing entity @p 
 
 effect give @s speed infinite 5 true
 effect give @s levitation 3 1 true

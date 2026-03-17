@@ -2,8 +2,8 @@ summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","nonstop_anim","what.ent.wi
 effect give @n[tag=what.temp_new] slowness infinite 0 true
 effect give @n[tag=what.temp_new] strength infinite 1 true
 effect give @n[tag=what.temp_new] fire_resistance infinite 255 true
-attribute @n[tag=what.temp_new] minecraft:max_health base set 150
-data modify entity @n[tag=what.temp_new] Health set value 150
+attribute @n[tag=what.temp_new] minecraft:max_health base set 250
+data modify entity @n[tag=what.temp_new] Health set value 250
 scoreboard players set @n[tag=what.temp_new] what.ent.action 0
 
 execute as @n[tag=what.temp_new] at @s run function what:mob/__spawn {"type":"witherent"}
