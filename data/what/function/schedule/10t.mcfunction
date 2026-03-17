@@ -12,3 +12,5 @@ execute at @a as @e[distance=0..70,tag=what.block_placed] at @s run function wha
 
 execute as @a at @s if block ~ ~ ~ stonecutter run function what:__custom/stonecutter
 execute as @a at @s if block ~ ~ ~ tripwire if entity @n[distance=0..0.8,tag=what.block_placed,tag=what.fluid] run function what:block/fluids/10t
+
+execute as @a if items entity @s hotbar.* minecraft:carrot_on_a_stick[minecraft:custom_data={what_type:"glass_of_lava"}] at @s if block ~ ~ ~ #replaceable run function what:__custom/lava_glass
