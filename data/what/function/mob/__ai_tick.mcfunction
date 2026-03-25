@@ -25,6 +25,7 @@ execute if entity @s[tag=what.ent.happyghast] run function what:mob/happyghast/t
 execute if entity @s[tag=what.ent.twitter] run function what:mob/elon/bullet
 execute if entity @s[tag=what.ent.trebuchet] run function what:mob/trebuchet/tick
 execute if entity @s[tag=what.ent.witherent] run function what:mob/witherent/tick
+execute if entity @s[tag=what.ent.ievil] run function what:mob/ievil/tick
 
 execute if entity @s[tag=what.wwtb.therapist] run function what:mob/wwtb/therapist
 execute if entity @s[tag=what.wwtb.psycho] run function what:mob/wwtb/psycho
