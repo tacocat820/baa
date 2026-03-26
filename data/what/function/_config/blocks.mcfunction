@@ -143,3 +143,5 @@ data modify storage what:config blocks append value {name: diamond_dandelion, Cu
 data modify storage what:config blocks append value {name: emerald_dandelion, CustomModelData: [32146], block:"tripwire"}
 
 data modify storage what:config blocks append value {name: toaster, CustomModelData: [32147], block:"tripwire", rotate:2, inter:1b, customTags:[toaster], no_chunking:1b}
+data modify storage what:config blocks append value {name: yellow_metal_block, CustomModelData: [32150], block:"copper_grate"}
+data modify storage what:config blocks append value {name: golden_window, CustomModelData: [32151], block:"white_glass"}
