@@ -1,7 +1,7 @@
+execute unless entity @e[tag=what.ear,distance=0..1,type=item_display] run return fail 
+loot spawn ~ ~ ~ loot what:blocks/sulfuric_acid
+
 scoreboard players set $bool what.temp 1
-
-execute if entity @e[tag=what.ear,distance=0..1,type=item_display] run loot spawn ~ ~ ~ loot what:items/sulfur
-
 playsound minecraft:what.pop player @a[distance=0..20] ~ ~ ~ 2
 
 
