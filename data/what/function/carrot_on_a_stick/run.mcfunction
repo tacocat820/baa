@@ -39,6 +39,7 @@ execute if data storage what:temp {what_type:toastthrower} run return run functi
 execute if data storage what:temp {what_type:minitoastgun} run return run function what:carrot_on_a_stick/minitoastgun/_
 execute if data storage what:temp {what_type:glass_of_lava} run return run say AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 execute if data storage what:temp {what_type:small_water_bucket} run return run function what:carrot_on_a_stick/small_water_bucket/_
+execute if data storage what:temp {what_type:cotton_swab} run return run function what:carrot_on_a_stick/cotton_swab/_
 
 #small_water_bucket
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}
