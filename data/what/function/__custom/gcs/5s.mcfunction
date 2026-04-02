@@ -1,9 +1,14 @@
+execute if score $gcs what.global_events matches ..4 as @e[tag=what.gcs.gaster] at @s at @p run function what:mob/_pathfinding/set
+execute if score $gcs what.global_events matches 4.. as @e[tag=what.gcs.gaster] at @s at @n[tag=what.gcs.pan_spawner] run function what:mob/_pathfinding/set
+
 execute if score $gcs what.global_events matches 2 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_1"}]
 execute if score $gcs what.global_events matches 3 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_2"}]
 execute if score $gcs what.global_events matches 4 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_3"}]
+
 execute if score $gcs what.global_events matches 5 at @n[tag=what.gcs.pan_spawner] run summon minecraft:item_display ~ ~0.5 ~ {item:{id:"item_frame", components:{"minecraft:custom_model_data":32066}},Tags:[what.gcs.pan]}
 execute if score $gcs what.global_events matches 5 at @n[tag=what.gcs.pan_spawner] run summon minecraft:interaction ~ ~ ~ {Tags:[what.gcs.pani],width:1,height:1}
 execute if score $gcs what.global_events matches 5 at @n[tag=what.gcs.pan_spawner] run particle minecraft:explosion ~ ~ ~ 0.4 0.4 0.4 0.1 50 force
+
 execute if score $gcs what.global_events matches 6 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_4"}]
 execute if score $gcs what.global_events matches 7 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_5"}]
 execute if score $gcs what.global_events matches 8 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_6"}]
@@ -14,7 +19,7 @@ execute if score $gcs what.global_events matches 15 run tellraw @a[distance=0..3
 execute if score $gcs what.global_events matches 17 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_10"}]
 
 execute if score $gcs what.global_events matches ..18 run scoreboard players add $gcs what.global_events 1
-execute if score $gcs what.global_events matches 19..30 run scoreboard players add $gcs what.global_events 1
+execute if score $gcs what.global_events matches 20..30 run scoreboard players add $gcs what.global_events 1
 execute if score $gcs what.global_events matches 32.. run scoreboard players add $gcs what.global_events 1
 
 execute if score $gcs what.global_events matches 21 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_12"}]
@@ -39,7 +44,9 @@ execute if score $gcs what.global_events matches 33 run playsound minecraft:enti
 execute if score $gcs what.global_events matches 33 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_19"}]
 execute if score $gcs what.global_events matches 34 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_20"}]
 
-execute if score $gcs what.global_events matches 35 run kill @e[tag=what.gcs.pan]
-execute if score $gcs what.global_events matches 35 run kill @e[tag=what.gcs.pani]
-execute if score $gcs what.global_events matches 35 run kill @e[tag=what.gcs.gaster]
-execute if score $gcs what.global_events matches 35 run scoreboard players set $gcs what.global_events 0
+
+execute if score $gcs what.global_events matches 45 run kill @e[tag=what.gcs.pan]
+execute if score $gcs what.global_events matches 45 run kill @e[tag=what.gcs.pan_food]
+execute if score $gcs what.global_events matches 45 run kill @e[tag=what.gcs.pani]
+execute if score $gcs what.global_events matches 45 run kill @e[tag=what.gcs.gaster]
+execute if score $gcs what.global_events matches 45 run scoreboard players set $gcs what.global_events 0
