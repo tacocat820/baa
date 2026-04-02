@@ -15,6 +15,7 @@ data modify storage what:config recipes append value {type:e,craft:{0: "air", 1:
 data modify storage what:config recipes append value {type:e,craft:{0: "minecraft:iron_block", 1: "minecraft:iron_block", 2: "minecraft:iron_block", 3: "minecraft:iron_block", 4: "demon_core", 5: "minecraft:iron_block", 6: "minecraft:iron_block", 7: "minecraft:iron_block", 8: "minecraft:iron_block"}, loot:"what:blocks/nuke", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "evil_bread"}, {count: 1, id: "fire_extinguisher"}], loot:"what:items/rehsiugnitxe_erif", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "demon_core"}, {count: 1, id: "minecraft:stick"}], loot:"what:items/demon_core_mace", count:1}
+data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "minecraft:white_wool", 2: "air", 3: "air", 4: "minecraft:stick", 5: "air", 6: "air", 7: "minecraft:white_wool", 8: "air"}, loot:"what:items/cotton_swab", count:1}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "uranium"}], loot:"what:blocks/uranium_block", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "uranium_block"}], loot:"what:items/uranium", count:8}

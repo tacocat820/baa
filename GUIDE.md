@@ -1,9 +1,8 @@
 # Miencrap 2 minerat guide (wip)
 
-this guide explains how to beat each part of miencrap 2 minerat
+this guide explains how to beat each part of miencrap 2 minerat (minimal spoilers)
 
-## short version
-### Overworld
+## Overworld
 <details>
   <summary>View</summary>
 
@@ -55,7 +54,7 @@ On the right is the recipe book where you can find recipes for things (make sure
 
 </details>
 
-### Garbage dump (optional)
+## Garbage dump (optional)
 <details>
   <summary>View</summary>
 
@@ -65,7 +64,7 @@ You can find quite a bit of trash in there! But except for this there isn't anyt
 
 </details>
 
-### The Nether
+## The Nether
 <details>
   <summary>View</summary>
 
@@ -82,7 +81,7 @@ Then, he'll disappear and leave a hair dryer. You should right click on the "dem
 
 </details>
 
-### XP (optional)
+## XP (optional)
 <details>
   <summary>View</summary>
 
@@ -94,7 +93,7 @@ Also i really like how the battle theme there has turned out to be pretty good i
 
 </details>
 
-### Blues (optional)
+## Blues (optional)
 <details>
   <summary>View</summary>
 
@@ -104,7 +103,7 @@ you can find a lot of food in there!!!!!! and in some chests you can find a real
 
 </details>
 
-### Post-Nether overworld
+## Post-Nether overworld
 <details>
   <summary>View</summary>
 
@@ -119,7 +118,7 @@ make sure to bring some blocks just in case
 
 </details>
 
-### The End
+## The End
 <details>
   <summary>View</summary>
 
@@ -132,7 +131,7 @@ you will get useful items in there every so often so you won't need to return or
 
 </details>
 
-### ??? ?????????
+## ??? ?????????
 
 
 <details>
@@ -147,7 +146,7 @@ In the middle of that place you'll find a crafting table 2. you'll need it
 </details>
 
 
-### ??????
+## ??????
 <details>
   <summary>View</summary>
 

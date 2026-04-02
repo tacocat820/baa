@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:ears2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1212335625,
+    "spacing": 18,
+    "separation": 2
+  }
+}

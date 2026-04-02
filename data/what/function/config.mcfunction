@@ -37,6 +37,8 @@ data modify storage what:config inter.button_c set value {target: "what:__custom
 
 data modify storage what:config inter.toaster set value {target: "what:block/toaster/run",attack: "what:block/actions/destroy_block"}
 
+data modify storage what:config inter.what.gcs.pani set value {target: "what:__custom/gcs/pan_inter",attack: "what:__custom/gcs/pan_attack"}
+
 data modify storage what:players a set value {}
 
 #slow raycastng
