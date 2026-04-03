@@ -41,10 +41,13 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 9, i
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "leather_block"}], minecraft_id:"leather", count:9}
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "minecraft:rotten_flesh"}], loot:"what:blocks/rotten_flesh_block", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "rotten_flesh_block"}], minecraft_id:"rotten_flesh", count:9}
+data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "sulfur"}, {count: 5, id: "air"}], loot:"what:blocks/sulfur_block", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "sulfur_block"}], loot:"what:items/sulfur", count:4}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 2, id: "dust"}, {count: 7, id: "air"}], loot:"what:blocks/dust_carpet", count:2}
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "dust"}, {count: 5, id: "air"}], loot:"what:blocks/dust_block", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "cursed_wood"}], loot:"what:blocks/cursed_planks", count:4}
+data modify storage what:config recipes append value {type:s,craft:[{count: 6, id: "toast_crumbs"}, {count: 3, id: "blue_tape"}], loot:"what:items/toast", count:1}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "meth"}, {count: 1, id: "minecraft:barrel"}], loot:"what:blocks/barrel_with_meth", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "rcwip"}, {count: 1, id: "minecraft:iron_pickaxe"}], minecraft_id:"minecraft:rail", count:1}
@@ -67,6 +70,13 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 8, i
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "air", 2: "air", 3: "plastic", 4: "air", 5: "plastic", 6: "air", 7: "plastic", 8: "air"}, loot:"what:items/plastic_bag", count:1}
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "iron_stick", 2: "air", 3: "iron_stick", 4: "iron_stick", 5: "iron_stick", 6: "air", 7: "iron_stick", 8: "air"}, loot:"what:blocks/weather_vane", count:1}
 
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:golden_ingot"}], loot:"what:blocks/golden_dandelion", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:iron_ingot"}], loot:"what:blocks/iron_dandelion", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:emerald"}], loot:"what:blocks/emerald_dandelion", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:diamond"}], loot:"what:blocks/diamond_dandelion", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:redstone_dust"}], loot:"what:blocks/redstone_dandelion", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:copper_ingot"}], loot:"what:blocks/copper_dandelion", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:lapis_lazuri"}], loot:"what:blocks/lapis_dandelion", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}

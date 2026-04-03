@@ -148,3 +148,6 @@ data modify storage what:config blocks append value {name: golden_window, Custom
 #data modify storage what:config blocks append value {name: sulfuric_acid, CustomModelData: [32152], block:"tripwire"}
 data modify storage what:config blocks append value {name: sulfuric_acid, CustomModelData: [32152], block:"tripwire", fluid_spread:3, type:"sulfuric_acid", pause:1b}
 data modify storage what:config blocks append value {name: ear, CustomModelData: [32153], block:"copper_grate", fluid_spread:3, type:"ear", pause:1b, customTags:[what.ear]}
+
+data modify storage what:config blocks append value {name: package, CustomModelData: [32154], block:"tripwire", rotate:2}
+data modify storage what:config blocks append value {name: sulfur_block, CustomModelData: [32155], block:"azalea_leaves"}

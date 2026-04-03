@@ -159,3 +159,5 @@ execute if score cmd what.temp matches 32149 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32150 run return run loot spawn ~ ~ ~ loot what:blocks/yellow_metal_block
 execute if score cmd what.temp matches 32151 run return run loot spawn ~ ~ ~ loot what:blocks/golden_window
 #execute if score cmd what.temp matches 32152 run return run loot spawn ~ ~ ~ loot what:blocks/sulfuric_acid
+execute if score cmd what.temp matches 32154 run return run loot spawn ~ ~ ~ loot what:blocks/package
+execute if score cmd what.temp matches 32155 run return run loot spawn ~ ~ ~ loot what:blocks/sulfur_block
