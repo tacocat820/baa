@@ -109,6 +109,9 @@ you can find a lot of food in there!!!!!! and in some chests you can find a real
 
 Make sure to bring a weapon with you and not lose it! you might see a boss some time later
 
+also a good weapon against the boss in question is a glass of PISS (to obtain it you need to get a glass of water from the nether / buy one from the mc donalds structure, empty it and fill it with water from a biome where it is yellow)
+
+
 Much like in normal minecraft you'll need to find the stronghold with ender pearls you have crafted on a crafting table 2
 
 
