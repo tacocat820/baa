@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"minecraft:custom_model_data":32016,"minecraft:custom_data":{"what_type":"fried_apple"},"minecraft:item_name":"{\"translate\":\"what.item.fried_apple\"}"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
