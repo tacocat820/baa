@@ -1,0 +1,1 @@
+execute in what:tetris run place template what:gcs -33 -33 5

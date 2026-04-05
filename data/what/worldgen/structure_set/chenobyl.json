@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:chenobyl",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1102381225,
+    "spacing": 15,
+    "separation": 2
+  }
+}
