@@ -1,13 +1,13 @@
 {
   "structures": [
     {
-      "structure": "what:diamond_2",
-      "weight": 20
+      "structure": "what:geyser",
+      "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 742992019,
+    "salt": 742292029,
     "spacing": 4,
     "separation": 1
   }

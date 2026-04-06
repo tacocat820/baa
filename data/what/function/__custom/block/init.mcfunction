@@ -7,7 +7,7 @@ execute if data storage what:temp block{rotate:2} run function what:block/action
 execute if data storage what:temp block{rotate:3} run function what:block/actions/rotate_horiz_and_vert
 
 data modify entity @s data.Rotation set from entity @s Rotation
-tellraw @a [{"entity": "@s", "nbt": "Rotation"}, " rotation"]
+#tellraw @a [{"entity": "@s", "nbt": "Rotation"}, " rotation"]
 
 #say 12
 

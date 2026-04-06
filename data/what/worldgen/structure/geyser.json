@@ -1,0 +1,93 @@
+{
+    "type": "minecraft:jigsaw",
+        "biomes": [
+  "ocean",
+  "plains",
+  "desert",
+  
+  "forest",
+  "taiga",
+  "swamp",
+  "river",
+  "nether_wastes",
+  "the_end",
+  "frozen_ocean",
+  "frozen_river",
+  
+  
+  "mushroom_fields",
+  
+  "beach",
+  
+  
+  
+  
+  "jungle",
+  
+  
+  "deep_ocean",
+  
+  "snowy_beach",
+  "birch_forest",
+  
+  "dark_forest",
+  "snowy_taiga",
+  
+  
+  
+  
+  "savanna",
+  "savanna_plateau",
+  "badlands","old_growth_pine_taiga",
+  
+  
+  "small_end_islands",
+  "end_midlands",
+  "end_highlands",
+  "end_barrens",
+  "warm_ocean",
+  "lukewarm_ocean",
+  "cold_ocean",
+  
+  "deep_lukewarm_ocean",
+  "deep_cold_ocean",
+  "deep_frozen_ocean",
+  "the_void",
+  "sunflower_plains",
+  
+  
+  "flower_forest",
+  
+  
+  "ice_spikes",
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "eroded_badlands",
+  
+  
+  "bamboo_jungle",
+  
+  "the_end",
+  "what:trash/trash"
+],
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "what:geyser",
+    "size": 1,
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 60,
+    "use_expansion_hack": false
+  } 
