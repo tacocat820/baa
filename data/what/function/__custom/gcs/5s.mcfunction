@@ -23,6 +23,8 @@ execute if score $gcs what.global_events matches 13 run tellraw @a[distance=0..3
 execute if score $gcs what.global_events matches 15 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_9"}]
 execute if score $gcs what.global_events matches 17 run tellraw @a[distance=0..30] [{"translate":"what.message.gcs_10"}]
 
+execute if score $gcs what.global_events matches 7 run advancement grant @a only what:visible/bapple
+
 execute if score $gcs what.global_events matches 6..9 at @e[tag=what.gcs.gaster] run playsound minecraft:what.gaster neutral @a[distance=0..30] ~ ~ ~
 execute if score $gcs what.global_events matches 13 at @e[tag=what.gcs.gaster] run playsound minecraft:what.gaster neutral @a[distance=0..30] ~ ~ ~
 execute if score $gcs what.global_events matches 15 at @e[tag=what.gcs.gaster] run playsound minecraft:what.gaster neutral @a[distance=0..30] ~ ~ ~

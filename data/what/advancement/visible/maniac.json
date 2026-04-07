@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "iron_axe",
+            "components": {
+                "custom_model_data": 32001
+            }
+        },
+        "title": {"color": "#22f5f5", "strikethrough": false, "translate": "what.adv.maniac"},
+        "description": {"color": "#668001", "underlined":true, "bold": true, "translate": "what.adv.maniac.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/heck"
+}

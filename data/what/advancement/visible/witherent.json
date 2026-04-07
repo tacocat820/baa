@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+            "entity": {
+                "type": "minecraft:wandering_trader",
+                "nbt": "{Tags:[what.ent.witherent]}"
+            }
+            }
+        }
+    },
+    "display": {
+        "hidden": false,
+        "icon": {
+            "id": "clock",
+            "components": {
+                "custom_model_data": 32019
+            }
+        },
+        "title": {"color": "#22f5f5", "strikethrough": false, "translate": "what.adv.witherent"},
+        "description": {"color": "#bee7ee", "underlined":true, "bold": true, "translate": "what.adv.witherent.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/killer"
+}

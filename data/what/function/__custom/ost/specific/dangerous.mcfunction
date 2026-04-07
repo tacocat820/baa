@@ -1,3 +1,5 @@
+advancement grant @s only what:visible/maniac
+
 execute unless score @s what.musictype matches 7 run stopsound @s music
 execute unless score @s what.musictype matches 7 run scoreboard players set @s what.music 0
 

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "bread",
+            "components": {
+                "custom_model_data": 32015
+            }
+        },
+        "title": {"color": "#32421a", "strikethrough": false, "translate": "what.adv.bapple"},
+        "description": {"color": "#b75411", "underlined":true, "bold": true, "translate": "what.adv.bapple.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/end"
+}
