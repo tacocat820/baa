@@ -43,6 +43,8 @@ execute as @a[tag=what.gastering] at @s run function what:mob/gaster/talk
 execute as @a[scores={what.etc.gaster_timer=1..}] run scoreboard players remove @s what.etc.gaster_timer 1
 execute as @r[scores={what.etc.gaster_timer=..1}] run function what:__custom/gaster/send
 
+execute if score $gcst what.global_events matches 0.. run function what:__custom/gcs/timer
+
 execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/dolphin
 execute at @e[type=minecraft:silverfish] if entity @a[distance=0..20] run function what:mob/_spawner/vroomba
 

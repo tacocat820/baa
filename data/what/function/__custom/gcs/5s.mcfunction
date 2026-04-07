@@ -121,7 +121,8 @@ execute if score $gcs what.global_events matches 50 run kill @e[tag=what.gcs.pan
 execute if score $gcs what.global_events matches 50 run kill @e[tag=what.gcs.pan_food]
 execute if score $gcs what.global_events matches 50 run kill @e[tag=what.gcs.pani]
 execute if score $gcs what.global_events matches 50 run kill @e[tag=what.gcs.gaster]
-execute if score $gcs what.global_events matches 50 as @a[distance=0..30] run function what:__custom/tetrisgame/exit
 execute if score $gcs what.global_events matches 50 run gamemode survival @a[distance=0..30]
+execute if score $gcs what.global_events matches 50 run tag @a[tag=what.gcs.player] remove what.gcs.player
+execute if score $gcs what.global_events matches 50 as @a[distance=0..30] run function what:__custom/tetrisgame/exit
 execute if score $gcs what.global_events matches 50 run scoreboard players set $gcs what.global_events 0
 

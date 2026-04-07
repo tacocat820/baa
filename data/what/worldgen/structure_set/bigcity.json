@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "what:geyser",
+      "structure": "what:bigcity",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 242292029,
-    "spacing": 4,
-    "separation": 1
+    "salt": 559695625,
+    "spacing": 16,
+    "separation": 2
   }
 }
