@@ -97,7 +97,7 @@ function what:schedule/start_all
 
 #GAME RULES
 gamerule doTraderSpawning false
-
+gamerule maxCommandChainLength 131072
 #version
 data modify storage what:temp prev_version set from storage what:config version
 #
