@@ -45,8 +45,8 @@ execute if score $wwtb_alt_outro what.global_events matches 30 run scoreboard pl
 execute if score $wwtb_alt_outro what.global_events matches 30 run tp @e[tag=what.wwtb.notjuan] 0 -1000 0
 execute if score $wwtb_alt_outro what.global_events matches 30 run kill @e[tag=what.wwtb.notjuan]
 
+execute if score $wwtb_alt_outro what.global_events matches 30 at @e[tag=what.wwtb.center] as @a[distance=0..30] at @s run function what:__custom/credits/start
+
 execute if score $wwtb_alt_outro what.global_events matches 30 run scoreboard objectives setdisplay sidebar
 execute if score $wwtb_alt_outro what.global_events matches 30 run scoreboard players reset $wwtb what.global_events
 execute if score $wwtb_alt_outro what.global_events matches 30 run scoreboard players reset $wwtb_alt_outro what.global_events
-
-execute if score $wwtb_alt_outro what.global_events matches 30 at @e[tag=what.wwtb.center] as @a[distance=0..30] at @s run function what:__custom/credits/start
