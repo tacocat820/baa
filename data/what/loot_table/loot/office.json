@@ -92,6 +92,12 @@
             },
             {
                 "type": "minecraft:loot_table",
+                "value": "what:items/blue_tape",
+                "weight": 6,
+                "quality": 6
+            },
+            {
+                "type": "minecraft:loot_table",
                 "value": "what:blocks/rcwip",
                 "weight": 4,
                 "quality": 6,
