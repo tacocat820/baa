@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:pool",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 391852,
+    "spacing": 20,
+    "separation": 8
+  }
+}

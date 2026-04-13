@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:mph",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 135328189,
+    "spacing": 20,
+    "separation": 8
+  }
+}
