@@ -10,12 +10,11 @@ execute if score @s what.ent.action matches 100.. at @s run tp @s ~ ~ ~ facing ^
 execute if score @s what.ent.action matches 100.. at @s run tp @s ^ ^ ^-1
 execute unless score @s what.ent.action matches 100.. at @s run tp @s ~ ~ ~ facing ^ ^ ^-1
 execute unless score @s what.ent.action matches 100.. at @s run tp @s ^ ^ ^-0.5
-execute unless score @s what.ent.action matches 100.. at @s unless entity @a[distance=0..40] run tp @s ^ ^ ^-1.5
 
 
 scoreboard players remove @s what.ent.action 1
 execute if score @s what.ent.action matches 100 run playsound minecraft:what.ed2_hysteria hostile @a[distance=0..] ~ ~ ~ 10.5
-execute if score @s what.ent.time matches ..400 if score @s what.ent.action matches 300 run scoreboard players set @s what.ent.action 100
+execute if score @s what.ent.time matches ..200 if score @s what.ent.action matches 300 run scoreboard players set @s what.ent.action 100
 execute if score @s what.ent.action matches ..0 run scoreboard players set @s what.ent.action 500
 
 
