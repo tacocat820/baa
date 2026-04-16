@@ -1,7 +1,7 @@
 data remove storage what:config recipes
 
 #если в результате крафта больше 1 типа предметов, то ставьте preview:0
-data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"},{count: 1, id: "minecraft:debug_stick"}], loot:"what:blocks/fridge", count:1, function:"what:mob/_spawner/happyghast", _no_items:1b}
+#data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"},{count: 1, id: "minecraft:debug_stick"}], loot:"what:blocks/fridge", count:1, function:"what:mob/_spawner/happyghast", _no_items:1b}
 
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "wolfberries", 2: "air", 3: "wolfberries", 4: "glass_empty", 5: "wolfberries", 6: "air", 7: "wolfberries", 8: "air"}, loot:"what:items/glass_of_poison", count:1, advancements:["what:visible/ender_eye"]}
 
@@ -72,7 +72,9 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 8, i
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "air", 2: "air", 3: "plastic", 4: "air", 5: "plastic", 6: "air", 7: "plastic", 8: "air"}, loot:"what:items/plastic_bag", count:1}
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "iron_stick", 2: "air", 3: "iron_stick", 4: "iron_stick", 5: "iron_stick", 6: "air", 7: "iron_stick", 8: "air"}, loot:"what:blocks/weather_vane", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "villager"}], loot:"what:blocks/villager_block", count:1}
-data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "villager"}], loot:"what:items/villager_meat_raw", count:2}
+data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "villager_meat_raw"}], loot:"what:blocks/villager", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "villager"}], loot:"what:items/villager_meat_raw", count:9}
+data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "villager_block", 2: "air", 3: "villager_block", 4: "villager_block", 5: "villager_block", 6: "air", 7: "villager_block", 8: "air"},  loot:"what:items/volem", count:1, function:"what:mob/_spawner/volem", _no_items:1b}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:golden_ingot"}], loot:"what:blocks/golden_dandelion", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:iron_ingot"}], loot:"what:blocks/iron_dandelion", count:1}
@@ -84,5 +86,7 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 7,id
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
+
+
 
 function what:_config/recipe_book/start
