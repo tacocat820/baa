@@ -1,3 +1,6 @@
+execute if data storage what:temp craft.function run return 0
+#i'm too lazy to make that shit fine working with shift
+
 clear @p *[minecraft:custom_data~{what_ui:{}}]
 
 data modify storage what:temp is_last set value 0

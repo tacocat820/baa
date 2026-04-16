@@ -1,6 +1,7 @@
 data remove storage what:config recipes
 
 #если в результате крафта больше 1 типа предметов, то ставьте preview:0
+data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"},{count: 1, id: "minecraft:debug_stick"}], loot:"what:blocks/fridge", count:1, function:"what:mob/_spawner/happyghast", _no_items:1b}
 
 data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "wolfberries", 2: "air", 3: "wolfberries", 4: "glass_empty", 5: "wolfberries", 6: "air", 7: "wolfberries", 8: "air"}, loot:"what:items/glass_of_poison", count:1, advancements:["what:visible/ender_eye"]}
 
