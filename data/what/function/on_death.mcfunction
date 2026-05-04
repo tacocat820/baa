@@ -24,6 +24,7 @@ tag @s remove what.gastering
 tag @s remove what.at_gaster
 tag @s remove what.ghast_killing
 tag @s remove what.radiation_poisoning
+tag @s remove what.den.player
 
 
 scoreboard players add @s what.etc.died 1

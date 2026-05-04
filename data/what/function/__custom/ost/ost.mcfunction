@@ -3,6 +3,7 @@ execute unless entity @s[tag=what.dangerous_things] if score @s what.etc.dangero
 scoreboard players remove @s what.music 1
 execute if entity @s[tag=what.wwtb.final_ep] run return run function what:__custom/ost/specific/wwtb_final
 execute if entity @s[tag=what.wwtb.player] run return run function what:__custom/ost/specific/wwtb
+execute if entity @s[tag=what.den.player] run return run function what:__custom/ost/specific/den
 execute if entity @s[tag=what.speedrunner] run return run function what:__custom/ost/specific/speedrun
 execute if entity @s[tag=what.ep.amplified] run return run function what:__custom/ost/specific/amplified
 execute if entity @e[tag=what.ent.witherent,distance=0..60] run return run function what:__custom/ost/specific/witherent
