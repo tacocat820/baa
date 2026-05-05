@@ -153,3 +153,4 @@ data modify storage what:config blocks append value {name: package, CustomModelD
 data modify storage what:config blocks append value {name: sulfur_block, CustomModelData: [32155], block:"azalea_leaves"}
 data modify storage what:config blocks append value {name: villager, CustomModelData: [32156], block:"copper_grate", rotate:2}
 data modify storage what:config blocks append value {name: villager_block, CustomModelData: [32157], block:"copper_grate"}
+data modify storage what:config blocks append value {name: banana_tape_art, CustomModelData: [32158], block:"tripwire", rotate:2}
