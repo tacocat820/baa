@@ -145,7 +145,6 @@ data modify storage what:config blocks append value {name: emerald_dandelion, Cu
 data modify storage what:config blocks append value {name: toaster, CustomModelData: [32147], block:"tripwire", rotate:2, inter:1b, customTags:[toaster], no_chunking:1b}
 data modify storage what:config blocks append value {name: yellow_metal_block, CustomModelData: [32150], block:"copper_grate"}
 data modify storage what:config blocks append value {name: golden_window, CustomModelData: [32151], block:"white_glass"}
-#data modify storage what:config blocks append value {name: sulfuric_acid, CustomModelData: [32152], block:"tripwire"}
 data modify storage what:config blocks append value {name: sulfuric_acid, CustomModelData: [32152], block:"tripwire", fluid_spread:3, type:"sulfuric_acid", pause:1b}
 data modify storage what:config blocks append value {name: ear, CustomModelData: [32153], block:"copper_grate", fluid_spread:3, type:"ear", pause:1b, customTags:[what.ear]}
 
@@ -153,4 +152,4 @@ data modify storage what:config blocks append value {name: package, CustomModelD
 data modify storage what:config blocks append value {name: sulfur_block, CustomModelData: [32155], block:"azalea_leaves"}
 data modify storage what:config blocks append value {name: villager, CustomModelData: [32156], block:"copper_grate", rotate:2}
 data modify storage what:config blocks append value {name: villager_block, CustomModelData: [32157], block:"copper_grate"}
-data modify storage what:config blocks append value {name: banana_tape_art, CustomModelData: [32158], block:"tripwire", rotate:2}
+data modify storage what:config blocks append value {name: banana_tape_art, CustomModelData: [32158], block:"tripwire", rotate:3, item_display:"head"}

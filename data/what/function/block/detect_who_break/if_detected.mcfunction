@@ -1,11 +1,2 @@
-#say I BREAKED I BREAKED!!!!!
-#particle angry_villager
-execute if entity @a[tag=what.temp_b2,distance=0..15] run return 0
-
-
-data modify storage what:temp cmd set from entity @n[type=item_display,tag=what.temp,distance=0..7] item.components."minecraft:custom_model_data"
-
-data modify storage what:temp block_params set from storage what:config etc.block_params_default
-
-execute if entity @s[gamemode=creative,scores={what.shift=1..}] run return run function what:block/detect_who_break/_if_player_in_creative
-execute if entity @s[gamemode=!spectator,gamemode=!creative] run function what:block/detect_who_break/_if_player_in_survival
+execute if entity @s[gamemode=survival] run return run scoreboard players set $loot what.temp 2
+execute if score $loot what.temp matches 1 if entity @s[gamemode=creative] run return run scoreboard players set $loot what.temp -1
