@@ -52,7 +52,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "what:items/flying_bread",
-          "weight": 6,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
