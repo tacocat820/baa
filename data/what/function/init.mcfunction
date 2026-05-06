@@ -32,6 +32,7 @@ scoreboard objectives add what.etc.happiness dummy
 scoreboard objectives add what.etc.dangerous_things dummy
 scoreboard objectives add what.etc.wwtb.answer dummy
 scoreboard objectives add what.etc.wwtb.points dummy
+scoreboard objectives add what.etc.adios dummy
 scoreboard objectives add what.constans dummy
 
 #for achievements

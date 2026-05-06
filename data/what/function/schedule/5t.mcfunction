@@ -29,6 +29,8 @@ execute at @e[type=marker,tag=what.wwtb.exit] as @a[distance=0..1.5] at @s run f
 
 execute as @a[tag=what.credits.watching] at @s run spectate @n[tag=what.credits.watch]
 
+execute as @a[tag=what.museum.visitor] at @s run function what:__custom/museum/visitor
+
 #плаванье в жижкости
 execute as @e[type=!#what:non_mobs, tag=what.swimming] at @s if loaded ~ ~ ~ unless block ~ ~ ~ tripwire run function what:block/fluids/stop_swimming
 execute as @e[type=!#what:non_mobs] at @s if loaded ~ ~ ~ if block ~ ~ ~ tripwire if entity @n[distance=0..0.8,tag=what.block_placed,tag=what.fluid] run function what:block/fluids/swimming

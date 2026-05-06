@@ -1,3 +1,8 @@
+
+execute if entity @s[type=#what:evil] if score $peacefulmode what.global_events matches 1 if dimension minecraft:overworld run return run tp @s ~ -1000 ~
+execute if entity @s[tag=what.ent.puffercopter] if score $peacefulmode what.global_events matches 1 if dimension minecraft:overworld run return run tp @s ~ -1000 ~
+execute if entity @s[tag=what.ent.pigeon] if score $peacefulmode what.global_events matches 1 if dimension minecraft:overworld run return run tp @s ~ -1000 ~
+
 $data modify storage what:temp cmd set from storage what:config mobs.$(type).cmd 
 $data modify storage what:temp anim_len set from storage what:config mobs.$(type).anim_len 
 $data modify storage what:temp data set from storage what:config mobs.$(type).data 
