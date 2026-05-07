@@ -1,3 +1,4 @@
+execute if entity @s[gamemode=adventure] run return fail
 
 scoreboard players set @s what.cooldown 10
 

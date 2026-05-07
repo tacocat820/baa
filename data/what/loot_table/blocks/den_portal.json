@@ -1,3 +1,4 @@
+
 {
   "pools": [
     {
@@ -9,13 +10,13 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data": 32008, "minecraft:entity_data": {"Tags": ["what.block", "stool"], "id": "item_frame", "Invisible": true}}
+              "components": {"minecraft:custom_model_data": 32159, "minecraft:entity_data": {"Tags": ["what.block", "den_portal"], "id": "item_frame", "Invisible": true}}
             },
             {
               "function": "minecraft:set_name",
               "target": "item_name",
               "name": {
-                "translate": "what.block.stool"
+                "translate": "what.block.den_portal"
               }
             }
           ]
