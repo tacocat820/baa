@@ -1,0 +1,1 @@
+execute unless score @s what.etc.wback matches 1000.. run scoreboard players set @s what.etc.wback 1000

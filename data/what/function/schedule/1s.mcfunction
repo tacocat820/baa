@@ -18,5 +18,9 @@ execute if score $wwtb_alt_outro what.global_events matches 1.. run function wha
 execute as @e[tag=what.credits] run function what:__custom/credits/single
 execute as @a[tag=what.credits.watching] at @s run function what:__custom/credits/1s
 
+execute as @a[scores={what.etc.wback=1..}] at @s run function what:__custom/wback/1s
+
+execute as @a at @s if entity @e[tag=what.wback.give,distance=0..3] run function what:__custom/wback/set
+
 execute as @e[type=#what:non_mobs, tag=what.radiation_poisoning] at @s run function what:__custom/radiation_poisoning
 execute as @e[type=player, tag=what.radiation_poisoning] at @s run function what:__custom/radiation_poisoning

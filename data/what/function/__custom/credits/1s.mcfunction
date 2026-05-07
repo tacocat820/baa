@@ -27,6 +27,7 @@ execute if score @s what.etc.credits matches 48 run function what:__custom/credi
 execute if score @s what.etc.credits matches 55 run function what:__custom/credits/spaw {text:"what.credits.end.1"}
 execute if score @s what.etc.credits matches 56 run function what:__custom/credits/spaw {text:"what.credits.end.2"}
 
+execute if score @s what.etc.credits matches 58 run scoreboard players set @s what.etc.wback 1
 execute if score @s what.etc.credits matches 58 run kill @n[tag=what.credits.watch]
 execute if score @s what.etc.credits matches 58 run tag @s remove what.credits.watching
 execute if score @s what.etc.credits matches 58 run kill @s
