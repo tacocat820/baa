@@ -12,7 +12,9 @@ execute if score @s what.etc.wback matches 14 run title @s title [{"translate":"
 execute if score @s what.etc.wback matches 16 run title @s title [{"translate":"what.message.wback.6","font":"minecraft:slim"}]
 execute if score @s what.etc.wback matches 18 run title @s title [{"translate":"what.message.wback.7","font":"minecraft:slim"}]
 execute if score @s what.etc.wback matches 20 in minecraft:the_end run tp @s 0 100 0
+execute if score @s what.etc.wback matches 20 run schedule function what:__custom/wback/end_spawn 5t
 execute if score @s what.etc.wback matches 20 run tag @s add what.wback
+execute if score @s what.etc.wback matches 20 run give @s dirt 640
 execute if score @s what.etc.wback matches 20 run effect give @s slow_falling 9 0 true
 execute if score @s what.etc.wback matches 20 run gamemode survival @s
 execute if score @s what.etc.wback matches 20 run scoreboard players reset @s what.etc.wback
