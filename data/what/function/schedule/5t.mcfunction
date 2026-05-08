@@ -8,7 +8,7 @@ execute as @a[scores={what.death=1..}] at @s run function what:on_death
 
 execute as @p[predicate=what:in_end] in minecraft:the_end positioned 0 255 0 facing 0 0 0 run function what:_u/raycast/start {loop_func:"", end_func:"what:__custom/end/raycast_end", distance:400}
 execute as @a at @s if dimension minecraft:the_end align xyz if block ~ ~ ~ end_portal_frame positioned ~.5 ~.5 ~.5 if entity @n[tag=what.backrooms_portal,distance=0..0.1] run function what:__custom/backrooms/tp
-execute as @a at @s if dimension minecraft:the_end align xyz if block ~ ~ ~ light positioned ~.5 ~.5 ~.5 if entity @n[tag=what.den_portal,distance=0..0.1] run function what:__custom/den/teleport
+execute as @a at @s if dimension minecraft:the_end align xyz if block ~ ~ ~ light positioned ~.5 ~.5 ~.5 if entity @n[tag=what.den_portal,distance=0..0.1] run function what:__custom/wback/teleport
 execute as @a at @s if dimension what:tetris align xyz if block ~ ~ ~ light positioned ~.5 ~.5 ~.5 if entity @n[tag=what.den_portal,distance=0..0.1] run function what:__custom/den/teleport
 
 loot give ArchLinuxLover loot what:items/bad_gpu
