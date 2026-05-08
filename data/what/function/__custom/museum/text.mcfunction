@@ -1,6 +1,5 @@
 scoreboard players add @s what.etc.adios 1
 
-
 execute if score @s what.etc.adios matches 30 run title @s title [{"translate":"what.message.adios.1"}]
 execute if score @s what.etc.adios matches 60 run title @s title [{"translate":"what.message.adios.2","font":"minecraft:slim"}]
 execute if score @s what.etc.adios matches 80 run title @s title [{"translate":"what.message.adios.3","font":"minecraft:slim"}]
@@ -18,4 +17,5 @@ execute if score @s what.etc.adios matches 240 run playsound minecraft:what.ost.
 
 execute if score @s what.etc.adios matches 260.. run tag @s remove what.museum.adios
 execute if score @s what.etc.adios matches 260.. run effect clear @s
+execute if score @s what.etc.adios matches 260.. run tag @s remove what.museum.visitor
 execute if score @s what.etc.adios matches 260.. run scoreboard players reset @s what.etc.adios

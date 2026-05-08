@@ -1,5 +1,6 @@
 execute if score @s what.etc.wback matches ..20 unless dimension minecraft:overworld run return fail
-execute if score @s what.etc.wback matches 21.. unless dimension what:tetris run return fail
+execute if score @s what.etc.wback matches 21..3000 unless dimension what:tetris run return fail
+execute if score @s what.etc.wback matches 3000.. unless dimension what:hell run return fail
 execute if score @s what.etc.wback matches 50..80 unless entity @s[tag=what.wback.wfront] run return fail
 scoreboard players add @s what.etc.wback 1
 
@@ -34,6 +35,13 @@ execute if score @s what.etc.wback matches 1012 run title @s title [{"translate"
 execute if score @s what.etc.wback matches 1001 run spawnpoint @s 38 -46 12
 execute if score @s what.etc.wback matches 1012 run tag @s add what.wback.wfront
 
-
+execute if score @s what.etc.wback matches 5001 run title @s title [{"translate":"what.message.wback_wfront.1","font":"minecraft:slim"}]
+execute if score @s what.etc.wback matches 5006 run clear @s
+execute if score @s what.etc.wback matches 5006 run title @s title [{"translate":"what.message.wback_wfront.2","font":"minecraft:slim"}]
+execute if score @s what.etc.wback matches 5011 run effect give @s levitation infinite 2 true
+execute if score @s what.etc.wback matches 5011 run title @s title [{"translate":"what.message.wback_wfront.3","font":"minecraft:slim"}]
+execute if score @s what.etc.wback matches 5045 run effect clear @s
+execute if score @s what.etc.wback matches 5045 run say tp
+execute if score @s what.etc.wback matches 5045 run scoreboard players reset @s what.etc.wback
 
 execute if score @s what.etc.wback matches 1050 run scoreboard players set @s what.etc.wback 1015

@@ -53,6 +53,7 @@ execute as @e[tag=what.ent.witherent.head] at @s run function what:mob/witherent
 execute as @a at @s if predicate what:night if biome ~ ~ ~ minecraft:savanna run function what:__custom/lions
 
 execute if score $witherent what.global_events matches -1.. run function what:mob/witherent/await
+execute as @a[tag=what.den.player] at @s run function what:__custom/den/chdone
 
 # little trolling
 clear @a diamond
