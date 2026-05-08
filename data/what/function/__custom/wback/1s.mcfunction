@@ -41,7 +41,7 @@ execute if score @s what.etc.wback matches 5006 run title @s title [{"translate"
 execute if score @s what.etc.wback matches 5011 run effect give @s levitation infinite 2 true
 execute if score @s what.etc.wback matches 5011 run title @s title [{"translate":"what.message.wback_wfront.3","font":"minecraft:slim"}]
 execute if score @s what.etc.wback matches 5045 run effect clear @s
-execute if score @s what.etc.wback matches 5045 run say tp
+execute if score @s what.etc.wback matches 5045 run function what:__custom/museum/teleport
 execute if score @s what.etc.wback matches 5045 run scoreboard players reset @s what.etc.wback
 
 execute if score @s what.etc.wback matches 1050 run scoreboard players set @s what.etc.wback 1015
