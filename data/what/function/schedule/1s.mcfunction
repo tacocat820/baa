@@ -19,6 +19,7 @@ execute as @e[tag=what.credits] run function what:__custom/credits/single
 execute as @a[tag=what.credits.watching] at @s run function what:__custom/credits/1s
 
 execute as @a[scores={what.etc.wback=1..}] at @s run function what:__custom/wback/1s
+execute as @a[tag=what.wback.retp] at @s run function what:__custom/wback/retp
 
 execute as @a at @s if entity @e[tag=what.wback.give,distance=0..3] run function what:__custom/wback/set
 

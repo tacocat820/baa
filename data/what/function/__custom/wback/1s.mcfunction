@@ -14,6 +14,7 @@ execute if score @s what.etc.wback matches 18 run title @s title [{"translate":"
 execute if score @s what.etc.wback matches 20 in minecraft:the_end run tp @s 0 100 0
 execute if score @s what.etc.wback matches 20 run schedule function what:__custom/wback/end_spawn 5t
 execute if score @s what.etc.wback matches 20 run tag @s add what.wback
+execute if score @s what.etc.wback matches 20 run tag @s add what.wback.retp
 execute if score @s what.etc.wback matches 20 run give @s dirt 640
 execute if score @s what.etc.wback matches 20 run effect give @s slow_falling 9 0 true
 execute if score @s what.etc.wback matches 20 run gamemode survival @s
