@@ -63,3 +63,4 @@ execute at @a as @e[distance=0..25,type=item_display,tag=what.weather_vane] run 
 execute at @a[predicate=what:in_hell] at @e[type=marker,distance=0..20,tag=what.boulder_end] positioned ~-3 ~-3 ~-3 as @n[tag=what.ent.boulder,distance=0..10,dx=6,dy=6,dz=6] run function what:__custom/hell/boulder/check
 
 execute as @a[scores={what.etc.dangerous_things=0..}] at @s run scoreboard players remove @s what.etc.dangerous_things 1
+execute as @e[type=minecraft:marker,tag=what.bgb.lever] at @s if loaded ~ ~ ~ unless block ~ ~ ~ minecraft:lever[powered=true] run function what:__custom/bgb/off

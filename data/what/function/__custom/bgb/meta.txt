@@ -7,4 +7,11 @@ what.bgb.puzzle
 what.bgb.alarm_spawner
 what.bgb.alarm_wire
 what.bgb.copilor_entrance
-what.bgb.lever
+what.bgb.lever -> what.bgb.block
+
+what.bgb.battle_wire:
+    w1
+    w2
+    w3
+    w4
+    w5
