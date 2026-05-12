@@ -35,3 +35,4 @@ execute if entity @s[tag=what.ent.skeleton2] run function what:mob/skeleton2/10t
 execute if entity @s[tag=what.ent.crish] run function what:mob/crish/10t
 execute if entity @s[tag=what.ent.witherent] run function what:mob/witherent/10t
 execute if entity @s[tag=what.ent.ievil] run function what:mob/ievil/10t
+execute if entity @s[tag=what.bgb.steve_jobs] run function what:__custom/bgb/steve

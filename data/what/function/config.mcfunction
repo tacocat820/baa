@@ -207,6 +207,7 @@ data modify storage what:config mobs.lion set value {name: '[{"translate":"what.
 data modify storage what:config mobs.witherent set value {name: '[{"translate":"what.mob.witherent"}]', base_mob: "vindicator", cmd:32084, item_id:"potion", anim_len:24, bossbar: 1b, bossbar_data: {color: "pink"}}
 data modify storage what:config mobs.ievil set value {name: '[{"translate":"what.mob.ievil"}]', base_mob: "vindicator", cmd:32085, item_id:"potion", anim_len:48, bossbar: 1b, bossbar_data: {color: "red"}, ignore_anim:1b}
 data modify storage what:config mobs.volem set value {name: '[{"translate":"what.mob.volem"}]', base_mob: "vindicator", cmd:32086, item_id:"potion", anim_len:24}
+data modify storage what:config mobs.gates set value {name: '[{"translate":"what.mob.gates"}]', base_mob: "wandering_trader", cmd:32087, item_id:"potion", anim_len:0}
 
 #damage
 function what:_config/damage

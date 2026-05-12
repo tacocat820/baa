@@ -89,3 +89,4 @@ execute as @e[scores={what.damage_queue=0..},type=!#what:non_mobs] run function 
 
 execute as @e[tag=what.ent.witherent.shoot] at @s run function what:mob/witherent/toshoot
 execute as @e[tag=what.ent.ievil.shoot] at @s run function what:mob/ievil/toshoot
+execute as @e[type=marker,tag=what.bgb.alarm_wire] at @s if entity @a[distance=0..12] run function what:__custom/bgb/toshoot
