@@ -6,4 +6,4 @@ execute if score @s what.ent.action matches ..0 run kill @s
 
 scoreboard players remove @s what.ent.action 1
 
-execute at @n[tag=what.ent.ievil] run tp @s ~ ~2 ~
+execute at @n[tag=what.ent.flat_design] run tp @s ~ ~2 ~

@@ -4,6 +4,8 @@ what.bgb.spawner_copilor:
     what.bgb.slop
 
 what.bgb.puzzle
+what.bgb.flat
+what.bgb.flat_goto
 what.bgb.alarm_spawner
 what.bgb.alarm_wire
 what.bgb.copilor_entrance

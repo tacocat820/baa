@@ -168,7 +168,7 @@ data modify storage what:config mobs.camel set value {name: '[{"translate":"enti
 data modify storage what:config mobs.dolphin set value {name: '[{"translate":"entity.dolphin.name"}]', base_mob: "zombie", cmd:32038, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.lefishe set value {name: '[{"translate":"what.mob.lefishe"}]', base_mob: "zombie", cmd:32039, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.ender_dragon set value {name: '[{"translate":"what.mob.ender_dragon"}]', base_mob: "zombie", cmd:32040, item_id:"potion", anim_len:24}
-data modify storage what:config mobs.steve_jobs set value {name: '[{"translate":"what.mob.steve_jobs"}]', base_mob: "villager", cmd:32041, item_id:"potion", anim_len:0}
+data modify storage what:config mobs.steve_jobs set value {name: '[{"translate":"what.mob.steve_jobs"}]', base_mob: "villager", cmd:32041, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.polpot set value {name: '[{"translate":"what.mob.polpot"}]', base_mob: "wandering_trader", cmd:32042, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.floppa set value {name: '[{"translate":"what.mob.floppa"}]', base_mob: "wolf", cmd:32044, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.bath set value {name: '[{"translate":"what.mob.bath"}]', base_mob: "wandering_trader", cmd:32045, item_id:"potion", anim_len:24}

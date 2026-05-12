@@ -88,6 +88,6 @@ execute as @e[tag=what.proj] at @s run function what:_u/proj/main
 execute as @e[scores={what.damage_queue=0..},type=!#what:non_mobs] run function what:__custom/damage_queue/in
 
 execute as @e[tag=what.ent.witherent.shoot] at @s run function what:mob/witherent/toshoot
-execute as @e[tag=what.ent.ievil.shoot] at @s run function what:mob/ievil/toshoot
+execute as @e[tag=what.ent.flat_design.shoot] at @s run function what:mob/ievil/toshoot
 execute as @e[type=marker,tag=what.bgb.alarm_wire] at @s if entity @a[distance=0..12] run function what:__custom/bgb/toshoot
-execute as @e[type=marker,tag=what.bgb.battle_wire,tag=w5] at @s if entity @a[distance=0..12] run function what:__custom/bgb/toshoot
+execute as @e[type=marker,tag=what.bgb.battle_wire,tag=w3] at @s if entity @a[distance=0..12] run function what:__custom/bgb/toshoot
