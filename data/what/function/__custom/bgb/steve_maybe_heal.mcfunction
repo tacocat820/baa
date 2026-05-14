@@ -1,0 +1,1 @@
+execute if score @s what.ent.task matches ..25 run function what:__custom/bgb/steve_heal

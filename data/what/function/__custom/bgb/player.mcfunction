@@ -1,0 +1,1 @@
+execute if entity @s[gamemode=survival] as @e[tag=what.bgb.spawner_once,distance=0..10] at @s run function what:__custom/bgb/spawner_once

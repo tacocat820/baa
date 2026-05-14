@@ -2,6 +2,7 @@ what.bgb.spawner_once:
 what.bgb.spawner_copilor:
     what.bgb.tarantula
     what.bgb.slop
+    what.bgb.defender
 
 what.bgb.puzzle
 what.bgb.flat

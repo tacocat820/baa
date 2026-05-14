@@ -64,3 +64,5 @@ execute at @a[predicate=what:in_hell] at @e[type=marker,distance=0..20,tag=what.
 
 execute as @a[scores={what.etc.dangerous_things=0..}] at @s run scoreboard players remove @s what.etc.dangerous_things 1
 execute as @e[type=minecraft:marker,tag=what.bgb.lever] at @s if loaded ~ ~ ~ unless block ~ ~ ~ minecraft:lever[powered=true] run function what:__custom/bgb/off
+
+execute as @a[tag=what.bgb.player] at @s run function what:__custom/bgb/player
