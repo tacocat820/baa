@@ -45,7 +45,7 @@ execute at @a if predicate what:random2 positioned ~ ~-1 ~ if block ~ ~ ~ #imper
 # DEBG 
 #
 #CHUNKS
-execute as @a at @s run function what:block/chunk/create/check
+execute as @a[tag=!what.pausechanks] at @s run function what:block/chunk/create/check
 execute at @a as @e[distance=0..120, type=item_display, tag=what.block_placed, tag=!what.no_chunking,tag=!falling,  sort=random,limit=36] at @s run function what:block/chunk/check
 #- execute as @a unless entity @s[gamemode=spectator] at @s as @e[distance=65..150,tag=what.blocks_chunk,limit=8,sort=random] run function what:block/chunk/delete/check
 
