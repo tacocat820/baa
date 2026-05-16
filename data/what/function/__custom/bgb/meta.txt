@@ -19,6 +19,10 @@ what.bgb.copilor_entrance
 what.bgb.copilor_trig
 what.bgb.lever -> what.bgb.block
 
+what.bgb.ceil
+what.bgb.ceilm
+what.bgb.bill_spawner
+
 what.bgb.battle_wire:
     w1
     w2

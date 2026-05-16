@@ -66,3 +66,5 @@ execute as @a[scores={what.etc.dangerous_things=0..}] at @s run scoreboard playe
 execute as @e[type=minecraft:marker,tag=what.bgb.lever] at @s if loaded ~ ~ ~ unless block ~ ~ ~ minecraft:lever[powered=true] run function what:__custom/bgb/off
 
 execute as @a[tag=what.bgb.player] at @s run function what:__custom/bgb/player
+
+execute if score $bgb_fight what.global_events matches 1.. run function what:__custom/bgb/epic
