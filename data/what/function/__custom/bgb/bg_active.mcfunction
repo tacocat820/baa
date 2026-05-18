@@ -1,0 +1,1 @@
+function what:_u/raycast/start {loop_func:"what:__custom/bgb/bg_toshf", end_func:"what:__custom/bgb/end", distance:80}

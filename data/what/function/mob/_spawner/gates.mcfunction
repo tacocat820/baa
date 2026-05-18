@@ -1,10 +1,13 @@
 summon wandering_trader ~ ~ ~ {Tags:["what.temp_new","what.ent.gates","tick1s"],attributes:[{id:"scale",base:0.1f}]}
 
-attribute @n[tag=what.temp_new] minecraft:scale base set 0.4
+attribute @n[tag=what.temp_new] minecraft:scale base set 1
 
 #attribute @n[tag=what.temp_new] generic.movement_speed base set 0.6
 #attribute @n[tag=what.temp_new] generic.attack_damage base set 6
 attribute @n[tag=what.temp_new] movement_speed base set 1.8
+
+attribute @n[tag=what.temp_new] minecraft:max_health base set 140
+data modify entity @n[tag=what.temp_new] Health set value 140
 
 effect give @n[tag=what.temp_new] slow_falling 5 1 true
 

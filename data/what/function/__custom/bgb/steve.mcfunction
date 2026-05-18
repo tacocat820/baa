@@ -1,3 +1,4 @@
+execute if entity @s[tag=water] run function what:__custom/bgb/water
 execute if entity @s[tag=flat_joke] run function what:__custom/bgb/flat_joke
 execute if entity @s[tag=imafraid] run function what:__custom/bgb/imafraid
 execute at @p if entity @e[tag=what.bgb.flat,distance=0..4] unless entity @s[tag=was_flat] run function what:__custom/bgb/flat_joke_start
@@ -7,6 +8,8 @@ execute at @a if entity @e[tag=what.bgb.imnotafraid_place,distance=0..7] unless 
 execute if entity @s[tag=except] run return fail
 
 execute if entity @e[type=marker,tag=what.bgb.down,distance=0..5] run tag @s remove wasntafraid
+
+execute if entity @e[tag=what.ent.gates,distance=0..40] if block ~ ~ ~ fire run function what:__custom/bgb/steve_water
 
 execute at @p run function what:mob/_pathfinding/set
 
