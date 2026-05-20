@@ -1,3 +1,4 @@
+effect give @e[tag=what.bgb.steve_jobs] resistance 5 25 true
 particle minecraft:falling_dust{block_state:{Name:"blue_stained_glass"}} ~ ~ ~ 0 0 0 0.001 1
 particle minecraft:gust ~ ~ ~ 0 0 0 0.001 1
 summon minecraft:lightning_bolt

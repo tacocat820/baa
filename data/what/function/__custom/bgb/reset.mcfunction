@@ -18,3 +18,4 @@ execute at @e[tag=what.bgb.ceil] run setblock ~ ~ ~ barrier
 
 scoreboard players reset $bgb_water what.global_events 
 scoreboard players reset $bgb_fight what.global_events 
+tag @a remove what.bgb.wielder
