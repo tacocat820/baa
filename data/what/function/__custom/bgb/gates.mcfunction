@@ -1,3 +1,4 @@
+execute store result bossbar what:bill_gates value run data get entity @s Health
 execute store result score @s what.ent.task run data get entity @s Health
 
 scoreboard players add @s what.ent.time 1
