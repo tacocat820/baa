@@ -6,6 +6,7 @@ attribute @n[tag=what.temp_new] minecraft:scale base set 1
 #attribute @n[tag=what.temp_new] generic.attack_damage base set 6
 attribute @n[tag=what.temp_new] movement_speed base set 1.8
 
+execute as @n[tag=what.temp_new] at @s run function what:mob/shrek/trades
 attribute @n[tag=what.temp_new] minecraft:max_health base set 140
 data modify entity @n[tag=what.temp_new] Health set value 140
 

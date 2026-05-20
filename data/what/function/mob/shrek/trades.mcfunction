@@ -1,1 +1,1 @@
-data merge entity @n[tag=what.ent.shrek] {Offers:{Recipes:[]}}
+data merge entity @n[tag=what.temp_new] {Offers:{Recipes:[]}}
