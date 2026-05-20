@@ -6,7 +6,7 @@ execute unless block ~ ~ ~ air run tag @s add reverse
 damage @n[tag=what.ent.gates,distance=0..1.5] 15 minecraft:arrow by @n[tag=what.bgb.wielder]
 effect give @n[tag=what.ent.gates,distance=0..1.5] slowness 3 0 true
 effect clear @n[tag=what.ent.gates,distance=0..1.5] regeneration
-effect add @n[tag=what.ent.gates,distance=0..1.5] poison 3 1 true
+effect give @n[tag=what.ent.gates,distance=0..1.5] poison 3 1 true
 
 particle minecraft:cloud ~ ~ ~ 0 0 0 0.1 5 normal
 particle minecraft:flash ~ ~ ~ 0 0 0 0.1 5 normal
