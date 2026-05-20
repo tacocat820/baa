@@ -3,7 +3,7 @@ execute if entity @s[tag=reverse] run tp @s ^ ^ ^1 facing entity @p[tag=what.bgb
 execute if entity @s[tag=reverse] as @p[tag=what.bgb.wielder,distance=0..2] run function what:carrot_on_a_stick/steve_jobs/inventory 
 
 execute unless block ~ ~ ~ air run tag @s add reverse
-damage @n[tag=what.ent.gates,distance=0..1.5] 5 minecraft:arrow by @n[tag=what.bgb.wielder]
+damage @n[tag=what.ent.gates,distance=0..1.5] 15 minecraft:arrow by @n[tag=what.bgb.wielder]
 effect give @n[tag=what.ent.gates,distance=0..1.5] slowness 3 0 true
 
 particle minecraft:cloud ~ ~ ~ 0 0 0 0.1 5 normal
