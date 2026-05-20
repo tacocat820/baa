@@ -8,5 +8,7 @@ execute at @a as @e[distance=..80,tag=what.water_physics,tag=!what.temp_1t] at @
 
 execute at @a as @e[distance=0..30,tag=what.block_placed] at @s run function what:__custom/blocks_2t
 
+execute as @e[tag=what.bgb.steve_projectile] at @s run function what:carrot_on_a_stick/steve_jobs/fly
+
 ### remove temp_2t tag
 #execute at @a run tag @e[distance=0..20,type=item_display,tag=what.block_placed,tag=what.temp_2t] remove what.temp_2t

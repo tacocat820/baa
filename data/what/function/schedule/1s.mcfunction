@@ -25,3 +25,9 @@ execute as @a at @s if entity @e[tag=what.wback.give,distance=0..3] run function
 
 execute as @e[type=#what:non_mobs, tag=what.radiation_poisoning] at @s run function what:__custom/radiation_poisoning
 execute as @e[type=player, tag=what.radiation_poisoning] at @s run function what:__custom/radiation_poisoning
+
+
+execute as @a[tag=what.bgb.player] if dimension what:tetris if entity @e[tag=what.ent.gates,distance=0..20] run tag @s add what.bgb.bgates_fighting
+execute as @a[tag=what.bgb.player] if dimension what:tetris unless entity @e[tag=what.ent.gates,distance=0..20] run tag @s remove what.bgb.bgates_fighting
+execute as @a[tag=what.bgb.player] unless dimension what:tetris run tag @s remove what.bgb.bgates_fighting 
+bossbar set what:bill_gates players @a[tag=what.bgb.bgates_fighting]

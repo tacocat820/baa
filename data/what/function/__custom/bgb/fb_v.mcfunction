@@ -1,10 +1,8 @@
 #execute as @e[distance=0..3,tag=!what.bgb.steve_jobs,type=!item_display] run say lex
 
-particle minecraft:flash ~ ~ ~ 0 0 0 0 0
-particle minecraft:flash ~ ~ ~ 0 0 0 0 0
-particle minecraft:flash ~ ~ ~ 0 0 0 0 0
-particle minecraft:flash ~ ~ ~ 0 0 0 0 0
-particle minecraft:flash ~ ~ ~ 0 0 0 0 0
+particle minecraft:flash ~ ~ ~ 0 0 0 0.1 9 normal
+particle minecraft:flash ~ ~ ~ 0 0 0 0.1 5 normal
+particle minecraft:flash ~ ~ ~ 0 0 0 0.1 5 normal
 effect give @e[distance=0..3,tag=!what.bgb.steve_jobs] blindness 5 1 true
 effect give @e[distance=0..3,tag=!what.bgb.steve_jobs,tag=!what.ent.flat_design] slowness 5 3 true
 effect give @e[distance=0..3,tag=!what.bgb.steve_jobs] weakness 5 3 true

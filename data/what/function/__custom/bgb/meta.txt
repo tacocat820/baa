@@ -23,6 +23,10 @@ what.bgb.ceil
 what.bgb.ceilm
 what.bgb.bill_spawner
 
+what.bgb.player
+what.bgb.wielder
+what.bgb.bgates_fighting
+
 what.bgb.battle_wire:
     w1
     w2

@@ -34,7 +34,8 @@ scoreboard objectives add what.etc.wwtb.answer dummy
 scoreboard objectives add what.etc.wwtb.points dummy
 scoreboard objectives add what.etc.adios dummy
 scoreboard objectives add what.etc.wback dummy
-scoreboard objectives add what.constans dummy
+
+scoreboard objectives add what.etc.dropped minecraft.dropped:minecraft.carrot_on_a_stick 
 
 #for achievements
 scoreboard objectives add what.etc.killed_villagers killed:villager
@@ -93,6 +94,10 @@ scoreboard players set one_step what.temp 100
 scoreboard players set one_step_2 what.temp 50
 
 scoreboard objectives add what.damage_queue dummy
+
+bossbar add what:bill_gates "BILL GATES"
+bossbar set what:bill_gates color red
+bossbar set what:bill_gates max 140
 
 #shedules
 function what:schedule/start_all

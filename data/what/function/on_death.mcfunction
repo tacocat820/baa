@@ -25,7 +25,9 @@ tag @s remove what.at_gaster
 tag @s remove what.ghast_killing
 tag @s remove what.radiation_poisoning
 tag @s remove what.den.player
+tag @s remove what.bgb.wielder
 
+execute as @e[tag=what.bossbar] at @s run function what:mob/_disp/bossbar/keepup
 
 scoreboard players add @s what.etc.died 1
 advancement grant @s only what:visible/l

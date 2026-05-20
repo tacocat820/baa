@@ -16,4 +16,5 @@ execute as @a if items entity @s hotbar.* minecraft:carrot_on_a_stick[minecraft:
 
 execute as @e[tag=what.gcs.trigger] at @s run function what:__custom/gcs/trigger
 
+
 execute if score $bgb_timer what.global_events matches 0.. run scoreboard players remove $bgb_timer what.global_events 1
