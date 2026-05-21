@@ -11,6 +11,7 @@ execute as @e[tag=what.bgb.ceil,tag=what.bgb.done] at @s run tag @s remove what.
 execute as @e[tag=what.bgb.ceilm] at @s run fill ~-15 ~-7 ~-15 ~15 ~ ~15 air replace water
 
 tag @e remove what.bgb.done
+tag @e[tag=what.bgb.battle_wire] remove w_off
 
 execute at @n[tag=what.bgb.lever] run setblock ~ ~ ~ minecraft:lever[facing=east,powered=true]
 execute at @e[tag=what.bgb.ceilm] run setblock ~ ~-1 ~ minecraft:lantern[hanging=true]

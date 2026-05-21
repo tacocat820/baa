@@ -1,3 +1,4 @@
+execute if entity @s[tag=finished] run return run function what:__custom/bgb/finished
 execute if entity @s[tag=water] run function what:__custom/bgb/water
 execute if entity @s[tag=flat_joke] run function what:__custom/bgb/flat_joke
 execute if entity @s[tag=imafraid] run function what:__custom/bgb/imafraid
