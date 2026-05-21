@@ -11,7 +11,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data":32038,
-                "minecraft:custom_data":{"what_type":"steve_jobs"}
+                "minecraft:custom_data":{"what_type":"steve_jobs"},
+                "attribute_modifiers": [{"type":"entity_interaction_range","amount":-4,"slot":"mainhand","id":"what.fencing_sword","operation":"add_value"}]
               }
             },
             {

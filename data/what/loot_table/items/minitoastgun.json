@@ -9,7 +9,8 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data": 32035, "minecraft:custom_data":{"what_type":"minitoastgun"}, "minecraft:item_name":"{\"translate\":\"what.item.minitoastgun\"}"}
+                "components": {"minecraft:custom_model_data": 32035, "minecraft:custom_data":{"what_type":"minitoastgun"}, "minecraft:item_name":"{\"translate\":\"what.item.minitoastgun\"}",
+              "attribute_modifiers": [{"type":"entity_interaction_range","amount":-4,"slot":"mainhand","id":"what.fencing_sword","operation":"add_value"}]}
               }
             ]
           }

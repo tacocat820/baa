@@ -26,6 +26,7 @@ execute as @a at @s if entity @e[type=bee,distance=0..1.9,tag=!what.beeraider] r
 
 execute as @a[tag=!what.player] at @s run function what:on_first_visit
 execute as @a unless entity @s[ nbt={Inventory:[{components: {"minecraft:custom_data": {what_type: "rickroll_checker"}}}]} ] run function what:__custom/rickroll_2s
+execute as @a if entity @s[ nbt={Inventory:[{components: {"minecraft:custom_data": {what_type: "infinity_ammo"}}}]} ] run function what:__custom/inf_ammo/check
 
 scoreboard players remove @a what.etc.thirst 1
 execute as @a[scores={what.etc.thirst=..1}] at @s run function what:__custom/dry_out
