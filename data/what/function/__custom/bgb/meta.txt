@@ -27,6 +27,11 @@ what.bgb.player
 what.bgb.wielder
 what.bgb.bgates_fighting
 
+what.bgb.puzzle_lever
+what.bgb.wlwccs
+
+$bgb_stage
+
 what.bgb.battle_wire:
     w1
     w2

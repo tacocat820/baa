@@ -20,3 +20,8 @@ execute at @e[tag=what.bgb.ceil] run setblock ~ ~ ~ barrier
 scoreboard players reset $bgb_water what.global_events 
 scoreboard players reset $bgb_fight what.global_events 
 tag @a remove what.bgb.wielder
+
+execute at @e[tag=what.bgb.puzzle_lever] run setblock ~ ~ ~ minecraft:lever[face=floor,powered=true]
+
+kill @e[tag=what.bgb.steve_jobs]
+kill @e[tag=what.ent.gates]

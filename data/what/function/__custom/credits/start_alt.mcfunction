@@ -10,3 +10,6 @@ stopsound @s music
 
 tag @s add what.tpcre
 schedule function what:__custom/credits/rot 5t
+
+tag @s remove what.bgb.player
+tag @s remove what.bgb.wielder

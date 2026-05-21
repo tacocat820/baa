@@ -9,3 +9,4 @@ execute if score @s what.ent.action matches 10 at @n[tag=what.bgb.ceilm] run loo
 execute if score @s what.ent.action matches 10 at @n[tag=what.bgb.ceilm] run loot spawn ~ ~-3 ~ loot what:items/epstein_file
 execute if score @s what.ent.action matches 10 at @n[tag=what.bgb.ceilm] run function what:mob/_pathfinding/set
 execute if score @s what.ent.action matches 14 run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.finnish.3"}]
+execute if score @s what.ent.action matches 20 as @a[tag=what.bgb.player] at @s run function what:__custom/credits/start_alt
