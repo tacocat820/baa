@@ -99,8 +99,8 @@ data modify storage what:config blocks append value {name: plastic_block, Custom
 data modify storage what:config blocks append value {name: button_a, CustomModelData: [32100], block:"structure_void", customTags:[what.button_a], inter:1b, rotate:2, no_chunking:1b}
 data modify storage what:config blocks append value {name: button_b, CustomModelData: [32101], block:"structure_void", customTags:[what.button_b], inter:1b, rotate:2, no_chunking:1b}
 data modify storage what:config blocks append value {name: button_c, CustomModelData: [32102], block:"structure_void", customTags:[what.button_c], inter:1b, rotate:2, no_chunking:1b}
-data modify storage what:config blocks append value {name: just_big_block, CustomModelData: [32103], block:"blue_glass", rotate:2, size:{x:3,y:3,z:2, offset_x:-2,offset_y:-1,offset_z:-2}, item_display:"head",pause:1b}
-data modify storage what:config blocks append value {name: big_crafting_table, CustomModelData: [32104], block:"mangrove_roots", size:{x:3,y:3,z:3, offset_x:-2,offset_y:-1,offset_z:-2}, item_display:"head", pause:1b}
+data modify storage what:config blocks append value {name: just_big_block, CustomModelData: [32103], block:"blue_glass", rotate:2, size:{x:3,y:3,z:2, offset_x:-2,offset_y:-1,offset_z:-2}, item_display:"head"}
+data modify storage what:config blocks append value {name: big_crafting_table, CustomModelData: [32104], block:"mangrove_roots", size:{x:3,y:3,z:3, offset_x:-2,offset_y:-1,offset_z:-2}, item_display:"head"}
 data modify storage what:config blocks append value {name: plastic_pool_balls, CustomModelData: [32105], block:"azalea_leaves", falling:4}
 data modify storage what:config blocks append value {name: conveyor_belt, CustomModelData: [32106], block:"glass", customTags:[what.block.conveyor], rotate:2}
 data modify storage what:config blocks append value {name: fridge, CustomModelData: [32107], block:"copper_grate", rotate:2, size:{x:1,y:2,z:1, offset_x:-1,offset_y:-1,offset_z:-1}}
@@ -154,3 +154,4 @@ data modify storage what:config blocks append value {name: villager, CustomModel
 data modify storage what:config blocks append value {name: villager_block, CustomModelData: [32157], block:"copper_grate"}
 data modify storage what:config blocks append value {name: banana_tape_art, CustomModelData: [32158], block:"tripwire", rotate:3, item_display:"head"}
 data modify storage what:config blocks append value {name: den_portal, CustomModelData: [32159], block:"light_block", customTags:[what.den_portal]}
+data modify storage what:config blocks append value {name: door_3, CustomModelData: [32160], block:"copper_grate", rotate:2, size:{x:3,y:4,z:1, offset_x:-1,offset_y:-1,offset_z:-1}, item_display:"head"}

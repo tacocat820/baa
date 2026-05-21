@@ -17,7 +17,10 @@ scoreboard players set $bad_pos what.temp 0
 execute as @a[distance=0..7,sort=nearest] anchored eyes at @s run function what:block/detect_who_break/_
 execute unless entity @a[distance=0..7] run scoreboard players set $loot what.temp 1
 
-execute if entity @s[scores={what.block_id=0..}] run function what:block/custom_size/idk8
+#execute if entity @s[scores={what.block_id=0..}] run function what:block/custom_size/idk8
+#21th may 2026
+execute if data entity @s item.components."minecraft:custom_data".block_id run function what:block/custom_size/idk8
+#
 
 execute if score $loot what.temp matches 1.. run function what:block/loot
 
