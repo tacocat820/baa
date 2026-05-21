@@ -1,3 +1,4 @@
+
 scoreboard players add @s what.etc.credits 1
 
 execute if score @s what.etc.credits matches 3 run function what:__custom/credits/spaw_header {text:"what.credits.1.1"}
@@ -31,3 +32,37 @@ execute if score @s what.etc.credits matches 58 run scoreboard players set @s wh
 execute if score @s what.etc.credits matches 58 run kill @n[tag=what.credits.watch]
 execute if score @s what.etc.credits matches 58 run tag @s remove what.credits.watching
 execute if score @s what.etc.credits matches 58 run kill @s
+
+# ------- alt
+
+
+execute if score @s what.etc.credits matches 63 run function what:__custom/credits/spaw_header {text:"what.credits2.1.1"}
+execute if score @s what.etc.credits matches 64 run function what:__custom/credits/spaw {text:"what.credits2.1.2"}
+execute if score @s what.etc.credits matches 65 run function what:__custom/credits/spaw {text:"what.credits2.1.3"}
+execute if score @s what.etc.credits matches 66 run function what:__custom/credits/spaw {text:"what.credits2.1.4"}
+
+execute if score @s what.etc.credits matches 69 run function what:__custom/credits/spaw_header {text:"what.credits2.2.1"}
+execute if score @s what.etc.credits matches 70 run function what:__custom/credits/spaw {text:"what.credits2.2.2"}
+
+execute if score @s what.etc.credits matches 73 run function what:__custom/credits/spaw_header {text:"what.credits2.3.1"}
+execute if score @s what.etc.credits matches 74 run function what:__custom/credits/spaw {text:"what.credits2.3.2"}
+
+execute if score @s what.etc.credits matches 78 run function what:__custom/credits/spaw {text:"what.credits2.4.1"}
+execute if score @s what.etc.credits matches 79 run function what:__custom/credits/spaw {text:"what.credits2.4.2"}
+execute if score @s what.etc.credits matches 80 run function what:__custom/credits/spaw {text:"what.credits2.4.3"}
+execute if score @s what.etc.credits matches 81 run function what:__custom/credits/spaw {text:"what.credits2.4.4"}
+execute if score @s what.etc.credits matches 82 run function what:__custom/credits/spaw {text:"what.credits2.4.5"}
+
+execute if score @s what.etc.credits matches 87 run function what:__custom/credits/spaw {text:"what.credits2.filler.0"}
+execute if score @s what.etc.credits matches 96 run function what:__custom/credits/spaw {text:"what.credits2.filler.1"}
+execute if score @s what.etc.credits matches 99 run function what:__custom/credits/spaw {text:"what.credits2.filler.2"}
+execute if score @s what.etc.credits matches 101 run function what:__custom/credits/spaw {text:"what.credits2.filler.3"}
+execute if score @s what.etc.credits matches 104 run function what:__custom/credits/spaw {text:"what.credits2.filler.4"}
+execute if score @s what.etc.credits matches 108 run function what:__custom/credits/spaw {text:"what.credits2.filler.5"}
+
+execute if score @s what.etc.credits matches 115 run function what:__custom/credits/spaw {text:"what.credits2.end.1"}
+execute if score @s what.etc.credits matches 116 run function what:__custom/credits/spaw {text:"what.credits2.end.2"}
+execute if score @s what.etc.credits matches 117 run function what:__custom/credits/spaw {text:"what.credits2.end.3"}
+execute if score @s what.etc.credits matches 118 run function what:__custom/credits/spaw {text:"what.credits2.end.4"}
+
+execute if score @s what.etc.credits matches 2147483646.. run function what:__custom/backrooms/tp
