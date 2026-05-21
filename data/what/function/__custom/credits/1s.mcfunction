@@ -64,5 +64,6 @@ execute if score @s what.etc.credits matches 115 run function what:__custom/cred
 execute if score @s what.etc.credits matches 116 run function what:__custom/credits/spaw {text:"what.credits2.end.2"}
 execute if score @s what.etc.credits matches 117 run function what:__custom/credits/spaw {text:"what.credits2.end.3"}
 execute if score @s what.etc.credits matches 118 run function what:__custom/credits/spaw {text:"what.credits2.end.4"}
+execute if score @s what.etc.credits matches 119 run function what:__custom/credits/spaw {text:"what.credits2.end.5"}
 
 execute if score @s what.etc.credits matches 2147483646.. run function what:__custom/backrooms/tp
