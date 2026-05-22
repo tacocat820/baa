@@ -1,8 +1,9 @@
-# musictype 10
+# musictype 11
 
 execute unless entity @s[tag=what.dangerous_things] if score @s what.etc.dangerous_things matches 20.. run tag @s add what.dangerous_things
 
 scoreboard players remove @s what.music 1
+execute if entity @s[tag=what.bgb.bgates_fighting] run return run function what:__custom/ost/specific/bgb
 execute if entity @s[tag=what.wwtb.final_ep] run return run function what:__custom/ost/specific/wwtb_final
 execute if entity @s[tag=what.museum.visitor] unless entity @s[tag=what.museum.adios] run return run function what:__custom/ost/specific/museum
 execute if entity @s[tag=what.wwtb.player] run return run function what:__custom/ost/specific/wwtb
