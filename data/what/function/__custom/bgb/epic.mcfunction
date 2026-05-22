@@ -1,5 +1,7 @@
 scoreboard players add $bgb_fight what.global_events 1
 
+execute if score $bgb_fight what.global_events matches 4..15 if score $bgb_skip what.global_events matches 1 run scoreboard players set $bgb_fight what.global_events 21
+
 execute if score $bgb_fight what.global_events matches 4 at @e[tag=what.bgb.lever] run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.wowyouguys.1"}]
 execute if score $bgb_fight what.global_events matches 6 at @e[tag=what.bgb.lever] run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.wowyouguys.2"}]
 execute if score $bgb_fight what.global_events matches 8 at @e[tag=what.bgb.lever] run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.wowyouguys.3"}]

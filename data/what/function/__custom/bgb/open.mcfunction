@@ -9,3 +9,5 @@ execute as @e[tag=what.bgb.ceil,tag=!what.bgb.done] at @s run tag @s add what.bg
 
 
 execute as @e[tag=what.bgb.bill_spawner,tag=!what.bgb.done] at @s run function what:mob/_spawner/gates
+
+scoreboard players set $bgb_skip what.global_events 1
