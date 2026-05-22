@@ -1,4 +1,4 @@
-tp @s ~ ~ ~ facing entity @p
+execute unless score $placed_with_command what.temp matches 1 run tp @s ~ ~ ~ facing entity @p
 data modify entity @s Rotation[1] set value 0f
 execute if entity @s[y_rotation=-30..30] run return run function what:block/actions/rotate/south
 execute if entity @s[y_rotation=31..120] run return run function what:block/actions/rotate/east

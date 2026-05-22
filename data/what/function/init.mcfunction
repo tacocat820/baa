@@ -103,6 +103,7 @@ bossbar set what:bill_gates max 140
 function what:schedule/start_all
 
 #GAME RULES
+scoreboard players set $placed_with_command what.temp 0
 gamerule doTraderSpawning false
 gamerule maxCommandChainLength 131072
 #version

@@ -4,6 +4,7 @@ setblock ~ ~ ~ glass
 execute if data storage what:temp block.customTags run data modify entity @s Tags set from storage what:temp block.customTags
 
 tag @s add what.block_placed
+execute if score $placed_with_command what.temp matches 1 run function what:block/actions/configure_block_by_data/_
 
 scoreboard players set sin what.temp 0
 scoreboard players set cos what.temp 1
@@ -30,7 +31,7 @@ execute if data storage what:temp block.size run function what:block/custom_size
 
 #Init 2
 execute unless data storage what:temp block.size run function what:block/init_block_
-execute if data storage what:temp block{inter:1b} run function what:block/init_inter_ with storage what:temp
+execute unless score $bad_pos what.temp matches 1 if data storage what:temp block{inter:1b} run function what:block/init_inter_ with storage what:temp
 
 execute if data storage what:temp block.item_display run data modify entity @s item_display set from storage what:temp block.item_display
 

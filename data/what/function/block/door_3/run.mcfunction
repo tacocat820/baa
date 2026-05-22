@@ -1,0 +1,1 @@
+execute at @s as @n[tag=what.block_placed,distance=0..1] at @s run function what:block/door_3/try_to_open

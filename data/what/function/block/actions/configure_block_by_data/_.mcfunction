@@ -1,0 +1,1 @@
+data modify entity @s Rotation set from storage what:temp block_data.rotation
