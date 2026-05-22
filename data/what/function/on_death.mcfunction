@@ -35,3 +35,5 @@ execute if score @s what.etc.died matches 100.. run advancement grant @s only wh
 
 execute if entity @s[tag=what.wback.wfront] run gamemode adventure @s
 execute if entity @s[tag=what.wback.wfront] run scoreboard players set @s what.etc.wback 500
+
+execute if entity @s[tag=what.bgb.player] run function what:__custom/bgb/missionfailed

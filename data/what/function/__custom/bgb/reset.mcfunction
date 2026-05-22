@@ -7,6 +7,11 @@ execute as @e[tag=what.bgb.ceil,tag=what.bgb.done] at @s run playsound minecraft
 execute as @e[tag=what.bgb.ceil,tag=what.bgb.done] at @s run tp @s ~ ~-6 ~
 execute as @e[tag=what.bgb.ceil,tag=what.bgb.done] at @s run tag @s remove what.bgb.done
 
+execute as @e[tag=what.bgb.ceil] at @s run tp @e[tag=what.ent.tarantula,distance=0..200] ~ ~-200 ~
+execute as @e[tag=what.bgb.ceil] at @s run tp @e[tag=what.ent.flat_design,distance=0..200] ~ ~-200 ~
+execute as @e[tag=what.bgb.ceil] at @s run tp @e[tag=what.ent.defender,distance=0..200] ~ ~-200 ~
+execute as @e[tag=what.bgb.ceil] at @s run tp @e[tag=what.ent.trasher,distance=0..200] ~ ~-200 ~
+
 
 execute as @e[tag=what.bgb.ceilm] at @s run fill ~-15 ~-7 ~-15 ~15 ~ ~15 air replace water
 
