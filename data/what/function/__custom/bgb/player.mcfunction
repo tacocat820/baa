@@ -9,4 +9,4 @@ execute as @e[tag=what.ent.flat_design,distance=0..10] unless entity @s[tag=what
 execute as @e[tag=what.ent.flat_design,distance=0..10] unless entity @s[tag=what.bgb.done] run tag @s add what.bgb.done
 
 
-execute if entity @s[gamemode=survival] unless entity @s[tag=loser] unless entity @e[tag=what.bgb.steve_jobs,distance=0..60] run function what:__custom/bgb/missionfailed
+execute if entity @s[gamemode=survival] unless entity @s[tag=loser] unless entity @a[tag=what.bgb.wielder] unless entity @e[tag=what.bgb.steve_jobs,distance=0..60] run function what:__custom/bgb/missionfailed
