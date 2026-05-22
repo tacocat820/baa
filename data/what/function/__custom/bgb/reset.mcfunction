@@ -14,6 +14,7 @@ execute as @e[tag=what.bgb.ceil] at @s run tp @e[tag=what.ent.trasher,distance=0
 
 
 execute as @e[tag=what.bgb.ceilm] at @s run fill ~-15 ~-7 ~-15 ~15 ~ ~15 air replace water
+execute as @e[tag=what.bgb.ceilm] at @s run fill ~-15 ~-7 ~-15 ~15 ~ ~15 air replace fire
 
 tag @e remove what.bgb.done
 tag @e[tag=what.bgb.battle_wire] remove w_off
