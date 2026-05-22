@@ -163,3 +163,4 @@ execute if score cmd what.temp matches 32154 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32155 run return run loot spawn ~ ~ ~ loot what:blocks/sulfur_block
 execute if score cmd what.temp matches 32158 run return run loot spawn ~ ~ ~ loot what:blocks/banana_tape_art
 execute if score cmd what.temp matches 32160 run return run loot spawn ~ ~ ~ loot what:blocks/door_3
+execute if score cmd what.temp matches 32161 run return run loot spawn ~ ~ ~ loot what:blocks/block_of_crumbs
