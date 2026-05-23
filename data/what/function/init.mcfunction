@@ -34,6 +34,7 @@ scoreboard objectives add what.etc.wwtb.answer dummy
 scoreboard objectives add what.etc.wwtb.points dummy
 scoreboard objectives add what.etc.adios dummy
 scoreboard objectives add what.etc.wback dummy
+scoreboard objectives add what.health health
 
 scoreboard objectives add what.etc.dropped minecraft.dropped:minecraft.carrot_on_a_stick 
 

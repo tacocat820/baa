@@ -7,3 +7,6 @@ loot replace entity @s container.3 loot what:items/toast
 loot replace entity @s container.4 loot what:items/toast
 loot replace entity @s container.5 loot what:items/toast
 item replace entity @s weapon.offhand with shield
+
+tag @s remove what.bgb.ireset
+kill @e[type=item,distance=0..40]

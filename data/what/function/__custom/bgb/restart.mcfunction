@@ -6,4 +6,4 @@ execute unless score $bgb_stage what.global_events matches 2 as @a[tag=what.bgb.
 execute if score $bgb_stage what.global_events matches 2 as @a[tag=what.bgb.player] at @s run function what:__custom/bgb/teleport2
 tag @a remove what.bgb.loser
 
-execute as @a[tag=what.bgb.player] run function what:__custom/bgb/inventory
+tag @a[tag=what.bgb.player] add what.bgb.ireset
