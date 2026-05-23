@@ -64,6 +64,8 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 4, i
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "caramel"}, {count: 1, id: "iphone"}], loot:"what:items/fith_", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 4, id: "air"}, {count: 4, id: "minecraft:gray_concrete"}, {count: 1, id: "minecraft:bread"}], loot:"what:items/concrete_baguette", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "small_water_bucket"}, {count: 1, id: "minecraft:potato"}], loot:"what:items/mashed_potatoes", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "small_water_bucket"}, {count: 1, id: "minecraft:salmon"}], loot:"what:items/fish_in_bowl", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 7, id: "air"}, {count: 1, id: "small_water_bucket"}, {count: 1, id: "minecraft:cod"}], loot:"what:items/fish_in_bowl", count:1}
 
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "rock"}], minecraft_id:"cobblestone", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
@@ -86,6 +88,7 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 7,id
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "toast_crumbs"}], loot:"what:blocks/block_of_crumbs", count:1}
 
 
 
