@@ -15,6 +15,8 @@ execute as @a at @s if block ~ ~ ~ stonecutter run function what:__custom/stonec
 execute as @a if items entity @s hotbar.* minecraft:carrot_on_a_stick[minecraft:custom_data={what_type:"glass_of_lava"}] at @s if block ~ ~ ~ #replaceable run function what:__custom/lava_glass
 
 execute as @e[tag=what.gcs.trigger] at @s run function what:__custom/gcs/trigger
+execute as @e[tag=what.bgb_intro.ship] at @s run function what:__custom/bgb_ir/10t
+
 
 
 execute if score $bgb_timer what.global_events matches 0.. run scoreboard players remove $bgb_timer what.global_events 1

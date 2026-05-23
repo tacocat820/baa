@@ -38,3 +38,7 @@ what.bgb.battle_wire:
     w3
     w4
     w5
+
+what.bgb_intro.ship.block
+what.bgb_intro.ship.door
+what.bgb_intro.ship

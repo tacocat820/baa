@@ -1,0 +1,1 @@
+execute if entity @a[distance=0..5] run function what:mob/steve_jobs/bgb_talk
