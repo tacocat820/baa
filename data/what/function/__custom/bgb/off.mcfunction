@@ -11,3 +11,6 @@ scoreboard players set $bgb_fight what.global_events 1
 execute at @n[tag=what.bgb.block] run fill ~-1 ~ ~-1 ~2 ~2 ~2 minecraft:bedrock
 
 tag @e[tag=what.bgb.steve_jobs] add except
+
+scoreboard players set @a[tag=what.bgb.player] what.music 0
+stopsound @a[tag=what.bgb.player] music
