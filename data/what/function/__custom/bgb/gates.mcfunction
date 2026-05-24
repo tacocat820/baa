@@ -15,7 +15,7 @@ execute if score @s what.ent.task matches 50.. if score @s what.ent.time matches
 
 execute if score @s what.ent.time matches 60..70 run effect give @s regeneration 5 0 true
 execute if score @s what.ent.task matches 0..40 run effect give @s regeneration 5 1 true
-execute if score @s what.ent.task matches 40..100 if score @s what.ent.time matches 20 run say BE GRAND!!
+#execute if score @s what.ent.task matches 40..100 if score @s what.ent.time matches 20 run say BE GRAND!!
 execute if score @s what.ent.task matches 40..100 if score @s what.ent.time matches 20 run tag @s add bgrand
 execute if score @s what.ent.task matches 40..100 if score @s what.ent.time matches 20 run function what:__custom/bgb/bg_random
 
