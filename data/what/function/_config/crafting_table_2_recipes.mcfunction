@@ -88,7 +88,8 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 7,id
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
 #data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "blackscreen"}], loot:"what:blocks/sv", count:1}
-data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "toast_crumbs"}], loot:"what:blocks/block_of_crumbs", count:1}
+##data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "toast_crumbs"}], loot:"what:blocks/block_of_crumbs", count:1}
+data modify storage what:config recipes append value {type:s,craft:[{count: 5,id:"air"},{count: 4, id: "block_of_crumbs"}], loot:"what:blocks/compressed_slop_block", count:1}
 
 
 
