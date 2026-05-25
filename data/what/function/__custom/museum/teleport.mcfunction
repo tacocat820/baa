@@ -4,3 +4,4 @@ execute in what:tetris run tp @s 52 -35 -7
 gamemode adventure @s
 
 tag @s add what.museum.visitor
+advancement grant @s only what:visible/museum

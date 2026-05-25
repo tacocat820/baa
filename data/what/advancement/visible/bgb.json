@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32119
+            }
+        },
+        "title": {"color": "#9820ad", "bold": false, "translate": "what.adv.bgb"},
+        "description": {"color": "#c95b2c", "italic": true, "translate": "what.adv.bgb.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/museum"
+}

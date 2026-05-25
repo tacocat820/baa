@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "item_frame",
+            "components": {
+                "custom_model_data": 32053
+            }
+        },
+        "title": {"color": "#5b5b9b", "bold": false, "translate": "what.adv.wback"},
+        "description": {"color": "#d8ba0d", "italic": true, "translate": "what.adv.wback.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/wwtb_final"
+}

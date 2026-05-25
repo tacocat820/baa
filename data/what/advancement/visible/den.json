@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "e" : {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "carrot_on_a_stick",
+            "components": {
+                "custom_model_data": 32034
+            }
+        },
+        "title": {"color": "#f90404", "bold": false, "translate": "what.adv.den"},
+        "description": {"color": "#14229e", "italic": true, "translate": "what.adv.den.desc"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:textures/item/block/obama.png"
+    },
+    "parent": "what:visible/wback"
+}

@@ -7,3 +7,4 @@ scoreboard players set $bgb_stage what.global_events 1
 
 tag @a add what.bgb.player
 execute as @a[tag=what.bgb.player] run function what:__custom/bgb/inventory
+advancement grant @a[tag=what.bgb.player] only what:visible/bgb

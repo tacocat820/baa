@@ -5,3 +5,5 @@ execute if score $bgb_hq what.global_events matches 1 run return fail
 
 execute in what:tetris run place template what:mhq 170 -50 123
 scoreboard players set $bgb_hq what.global_events 1
+
+advancement grant @a[tag=what.bgb.player] only what:visible/bgb

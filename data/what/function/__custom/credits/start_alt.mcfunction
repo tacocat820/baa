@@ -11,5 +11,6 @@ stopsound @s music
 tag @s add what.tpcre
 schedule function what:__custom/credits/rot 5t
 
+advancement grant @s only what:visible/sje
 tag @s remove what.bgb.player
 tag @s remove what.bgb.wielder

@@ -5,3 +5,5 @@ gamemode adventure @s
 
 scoreboard players set @s what.etc.wback 21
 tag @s remove what.wback.retp
+
+advancement grant @s only what:visible/wback
