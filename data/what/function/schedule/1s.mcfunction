@@ -26,6 +26,9 @@ execute as @a at @s if entity @e[tag=what.wback.give,distance=0..3] run function
 execute as @e[type=#what:non_mobs, tag=what.radiation_poisoning] at @s run function what:__custom/radiation_poisoning
 execute as @e[type=player, tag=what.radiation_poisoning] at @s run function what:__custom/radiation_poisoning
 
+execute as @e[tag=what.temp_vehicle] run function what:__custom/temp_vehicle/check
+execute as @e[type=item_display,tag=what.block_placed,tag=what.chicken_emulator] run function what:__custom/temp_vehicle/eggs
+
 
 execute as @a[tag=what.bgb.player] at @s if dimension what:tetris if entity @e[tag=what.ent.gates,distance=0..20] run tag @s add what.bgb.bgates_fighting
 execute as @a[tag=what.bgb.player] at @s if dimension what:tetris unless entity @e[tag=what.ent.gates,distance=0..20] run tag @s remove what.bgb.bgates_fighting

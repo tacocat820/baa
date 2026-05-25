@@ -41,6 +41,7 @@ execute if data storage what:temp {what_type:glass_of_lava} run return run say A
 execute if data storage what:temp {what_type:small_water_bucket} run return run function what:carrot_on_a_stick/small_water_bucket/_
 execute if data storage what:temp {what_type:cotton_swab} run return run function what:carrot_on_a_stick/cotton_swab/_
 execute if data storage what:temp {what_type:steve_jobs} run return run function what:carrot_on_a_stick/steve_jobs/_
+execute if data storage what:temp {what_type:worldedit} run return run function what:carrot_on_a_stick/worldedit/_
 
 #small_water_bucket
 #/function what:_u/check_blocks {func:"what:carrot_on_a_stick/glass/water"}

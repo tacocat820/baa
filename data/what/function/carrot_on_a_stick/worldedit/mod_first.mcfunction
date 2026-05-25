@@ -1,0 +1,1 @@
+data modify entity @s item.components."minecraft:custom_data".first set from entity @n[type=minecraft:marker,tag=what.temp] Pos

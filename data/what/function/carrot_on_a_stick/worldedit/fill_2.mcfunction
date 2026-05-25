@@ -1,0 +1,4 @@
+$tellraw @s ["=== $(first_x) $(first_y) $(first_z) | $(second_x) $(second_y) $(second_z) === [ $(delta_x) $(delta_y) $(delta_z) ] "]
+$tellraw @s [{"text":"/fill ... ... air","clickEvent":{"action":"suggest_command","value":"/fill $(first_x) $(first_y) $(first_z) $(second_x) $(second_y) $(second_z) air"},"color":"red"},{"text":"  <- click", "color":"white"}]
+$tellraw @s [{"text":"/fill ... ... <block>","clickEvent":{"action":"suggest_command","value":"/fill $(first_x) $(first_y) $(first_z) $(second_x) $(second_y) $(second_z) "},"color":"blue"},{"text":"  <- click", "color":"white"}]
+$tellraw @s [{"text":"/function what:block/_fill/_ {block: <block>}","clickEvent":{"action":"suggest_command","value":"/execute positioned $(first_x) $(first_y) $(first_z) positioned ~-1 ~-1 ~-1 run function what:block/_fill/_ {dx:$(delta_x),dy:$(delta_y),dz:$(delta_z), filter:\"#air\", block:}"},"color":"green"},{"text":"  <- click", "color":"white"}]

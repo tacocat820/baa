@@ -157,3 +157,5 @@ data modify storage what:config blocks append value {name: den_portal, CustomMod
 data modify storage what:config blocks append value {name: door_3, CustomModelData: [32160], block:"copper_grate", rotate:2, size:{x:3,y:4,z:1, offset_x:-1,offset_y:-1,offset_z:-1}, item_display:"head", inter:1b, customTags:[what.door_3]}
 data modify storage what:config blocks append value {name: block_of_crumbs, CustomModelData: [32161], block:"azalea_leaves"}
 data modify storage what:config blocks append value {name: compressed_slop_block, CustomModelData: [32162], block:"mangrove_roots"}
+data modify storage what:config blocks append value {name: cinema_chair, CustomModelData: [32163], block:"copper_grate", rotate:2, inter:1b}
+data modify storage what:config blocks append value {name: blue_chair, CustomModelData: [32164], block:"copper_grate", rotate:2, inter:1b, customTags:[what.chicken_emulator]}

@@ -38,3 +38,5 @@ execute as @a[tag=what.museum.visitor] at @s run function what:__custom/museum/v
 execute as @e[type=!#what:non_mobs, tag=what.swimming] at @s if loaded ~ ~ ~ unless block ~ ~ ~ tripwire run function what:block/fluids/stop_swimming
 execute as @e[type=!#what:non_mobs] at @s if loaded ~ ~ ~ if block ~ ~ ~ tripwire if entity @n[distance=0..0.8,tag=what.block_placed,tag=what.fluid] run function what:block/fluids/swimming
 
+#worldedit
+execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{what_type:"worldedit"}] run function what:carrot_on_a_stick/worldedit/highlighting_/_
