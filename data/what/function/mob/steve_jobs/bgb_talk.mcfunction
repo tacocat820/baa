@@ -8,4 +8,4 @@ execute if score @s what.ent.action matches 28 run tellraw @a[distance=0..60] [{
 execute if score @s what.ent.action matches 35 run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.ready.6"}]
 execute if score @s what.ent.action matches 41 run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.ready.7"}]
 execute if score @s what.ent.action matches 48 run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.ready.8"}]
-execute if score @s what.ent.action matches 50 run tellraw @a[distance=0..60] [{"translate":"what.message.bgb.ready.8"}]
+execute if score @s what.ent.action matches 50 as @p at @s run function what:__custom/bgb_ir/teleport

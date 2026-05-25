@@ -6,3 +6,5 @@ tag @n[tag=what.bgb.steve_jobs] add finished
 tag @a remove what.bgb.wielder
 
 clear
+
+scoreboard players set $bgb_upcoming what.global_events 0

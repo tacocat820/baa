@@ -2,7 +2,7 @@
   "ambient_light": 0,
   "bed_works": true,
   "coordinate_scale": 1,
-  "fixed_time": 0,
+  "fixed_time": 5800,
   "effects": "minecraft:overworld",
   "has_ceiling": false,
   "has_raids": true,

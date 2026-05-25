@@ -11,3 +11,5 @@ tag @s add what.museum.adios
 
 scoreboard players set $peacefulmode what.global_events 1
 execute at @n[tag=what.museum.rsp] run spawnpoint @s ~ ~ ~
+
+scoreboard players set $bgb_upcoming what.global_events 1
