@@ -6,8 +6,7 @@
 
 totally changes the world of **minecraft** with no **mods**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vFS19aWFdIw?si=X6x6J6KqmACkvdkf" title="YouTube vieo player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+https://www.youtube.com/watch?v=vFS19aWFdIw
 trailer
 
 # What is this?!
