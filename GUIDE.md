@@ -2,6 +2,8 @@
 
 this guide explains how to beat each part of miencrap 2 minerat (minimal spoilers)
 
+hint: the advancement menu will probably help you a lot
+
 ## Overworld
 <details>
   <summary>View</summary>
@@ -78,6 +80,14 @@ Then, he'll disappear and leave a hair dryer. You should right click on the "dem
 !!! Do NOT throw their bodies into the fire !!! You should place them as blocks right above it instead
 [TODO: picture of how to and how not to do it]
 </details>
+
+2. What should you do:
+
+You should visit all structures 
+
+And get stuff to craft ender eyes
+
+You need a crafting table 2 for that too, it's actually pretty easy to find those in the nether
 
 </details>
 
@@ -161,5 +171,7 @@ There are lots of structures in there. Some post-game things you can do:
 2. Who Wants to be a Quadrillionare?!: an event you can trigger by clicking on a blue-ish block in an another black box outline thing! here you can retry as much as you want... a surprise will be awaiting for you if you beat it three times! (added in v999-v1024)
 
 !!! backup your world so you can load the backup if you mess up and get locked out of this dimension
+
+after WWTBaQ you'll get into lategame, it's actually pretty straightforward compared to the beginning
 
 </details>
