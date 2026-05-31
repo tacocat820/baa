@@ -65,7 +65,7 @@
   
   "bamboo_jungle",
   
-  "what:trash/trash"
+  "what:trash/trash","what:grove"
 ],
     "step": "surface_structures",
     "spawn_overrides": {},

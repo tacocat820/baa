@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:disk",
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 100,
+              "data": {
+                "Name": "minecraft:diorite_slab",
+                "Properties": {
+                  "waterlogged": "true",
+                  "type": "bottom"
+                }
+              }
+            },
+            {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:brown_mushroom_block"
+                }
+            }
+          ]
+        },
+        "rules": []
+      },
+      "target": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:grass_block",
+          "dirt"
+        ]
+      },
+      "radius": 8,
+      "half_height": 3
+    }
+  }
+  

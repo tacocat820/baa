@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["what:ohio","what:maple"],
+    "biomes": ["what:ohio","what:maple","what:grove"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "none",

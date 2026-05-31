@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["what:ohio"],
+    "biomes": ["what:ohio","what:grove"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
