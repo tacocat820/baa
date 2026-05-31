@@ -1,10 +1,12 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["what:ohio","what:maple"],
+        "biomes": [
+  "what:maple"
+],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
-    "start_pool": "what:blues_house_4",
+    "start_pool": "what:maple_tree",
     "size": 1,
     "start_height": {
       "absolute": 0

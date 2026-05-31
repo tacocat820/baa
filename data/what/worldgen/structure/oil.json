@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["ocean","lukewarm_ocean","cold_ocean","deep_cold_ocean","deep_ocean"],
+    "biomes": ["ocean","lukewarm_ocean","cold_ocean","deep_cold_ocean","deep_ocean","what:maple"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "none",

@@ -159,3 +159,8 @@ data modify storage what:config blocks append value {name: block_of_crumbs, Cust
 data modify storage what:config blocks append value {name: compressed_slop_block, CustomModelData: [32162], block:"mangrove_roots"}
 data modify storage what:config blocks append value {name: cinema_chair, CustomModelData: [32163], block:"copper_grate", rotate:2, inter:1b}
 data modify storage what:config blocks append value {name: blue_chair, CustomModelData: [32164], block:"copper_grate", rotate:2, inter:1b, customTags:[what.chicken_emulator]}
+
+data modify storage what:config blocks append value {name: maple_planks, CustomModelData: [32165], block:"mangrove_roots"}
+data modify storage what:config blocks append value {name: maple_log, CustomModelData: [32166], block:"mangrove_roots"}
+data modify storage what:config blocks append value {name: lavender, CustomModelData: [32167], block:"tripwire", rotate:2}
+data modify storage what:config blocks append value {name: maple_leaves, CustomModelData: [32168], block:"copper_grate", rotate:2}

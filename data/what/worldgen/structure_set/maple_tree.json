@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:maple_tree",
+      "weight": 20
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 345212939,
+    "spacing": 2,
+    "separation": 1
+  }
+}

@@ -167,3 +167,5 @@ execute if score cmd what.temp matches 32161 run return run loot spawn ~ ~ ~ loo
 execute if score cmd what.temp matches 32162 run return run loot spawn ~ ~ ~ loot what:blocks/compressed_slop_block
 execute if score cmd what.temp matches 32163 run return run loot spawn ~ ~ ~ loot what:blocks/cinema_chair
 execute if score cmd what.temp matches 32164 run return run loot spawn ~ ~ ~ loot what:blocks/blue_chair
+execute if score cmd what.temp matches 32165 run return run loot spawn ~ ~ ~ loot what:blocks/maple_planks
+execute if score cmd what.temp matches 32166 run return run loot spawn ~ ~ ~ loot what:blocks/maple_log
