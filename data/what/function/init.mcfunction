@@ -36,7 +36,7 @@ scoreboard objectives add what.etc.adios dummy
 scoreboard objectives add what.etc.wback dummy
 scoreboard objectives add what.health health
 
-scoreboard objectives add what.etc.dropped minecraft.dropped:minecraft.carrot_on_a_stick 
+scoreboard objectives add what.etc.dropped minecraft.dropped:minecraft.carrot_on_a_stick
 
 #for achievements
 scoreboard objectives add what.etc.killed_villagers killed:villager
