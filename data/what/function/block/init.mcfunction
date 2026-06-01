@@ -40,7 +40,10 @@ execute if data storage what:temp block.fluid_spread run function what:block/flu
 execute if data storage what:temp block.type run data modify entity @s item.components.minecraft:custom_data.type set from storage what:temp block.type 
 
 execute if data storage what:temp block{name: weather_vane} run data modify entity @s teleport_duration set value 40
+execute unless score $placed_with_command what.temp matches 1 if data storage what:temp block{block: slab} run function what:block/slabs/decision
+execute unless score $placed_with_command what.temp matches 1 if data storage what:temp block{block: slab_wooden} run function what:block/slabs/decision
 
 #не удалять, тут потом будет что-то
 
 tag @s remove new
+scoreboard players set $placed_with_command what.temp 0

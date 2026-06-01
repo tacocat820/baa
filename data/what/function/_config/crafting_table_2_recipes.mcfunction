@@ -76,9 +76,13 @@ data modify storage what:config recipes append value {type:e,craft:{0: "air", 1:
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "villager"}], loot:"what:blocks/villager_block", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 9, id: "villager_meat_raw"}], loot:"what:blocks/villager", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8, id: "air"}, {count: 1, id: "villager"}], loot:"what:items/villager_meat_raw", count:9}
-data modify storage what:config recipes append value {type:e,craft:{0: "air", 1: "villager_block", 2: "air", 3: "villager_block", 4: "villager_block", 5: "villager_block", 6: "air", 7: "villager_block", 8: "air"},  loot:"what:items/volem", count:1, function:"what:mob/_spawner/volem", _no_items:1b}
+data modify storage what:config recipes append value {\
+    type:e,craft:{0: "air", 1: "villager_block", 2: "air", 3: "villager_block", 4: "villager_block", 5: "villager_block", 6: "air", 7: "villager_block", 8: "air"},\
+    loot:"what:items/volem", count:1, function:"what:mob/_spawner/volem", _no_items:1b\
+}
 
-data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:golden_ingot"}], loot:"what:blocks/golden_dandelion", count:1}
+data modify storage what:config recipes append value {\
+    type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:golden_ingot"}], loot:"what:blocks/golden_dandelion", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:iron_ingot"}], loot:"what:blocks/iron_dandelion", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:emerald"}], loot:"what:blocks/emerald_dandelion", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 1, id: "minecraft:dandelion"}, {count: 1, id: "minecraft:diamond"}], loot:"what:blocks/diamond_dandelion", count:1}
@@ -92,6 +96,9 @@ data modify storage what:config recipes append value {type:s,craft:[{count: 7,id
 data modify storage what:config recipes append value {type:s,craft:[{count: 5,id:"air"},{count: 4, id: "block_of_crumbs"}], loot:"what:blocks/compressed_slop_block", count:1}
 data modify storage what:config recipes append value {type:s,craft:[{count: 8,id:"air"},{count: 1, id: "maple_log"}], loot:"what:blocks/maple_planks", count:4}
 data modify storage what:config recipes append value {type:s,craft:[{count: 7,id:"air"},{count: 2, id: "maple_planks"}], minecraft_id:"stick", count:4}
+data modify storage what:config recipes append value {type:e,craft:\
+    {0: "air", 1: "air", 2: "air", 3: "air", 4: "air", 5: "air", 6: "maple_planks", 7: "maple_planks", 8: "maple_planks"},\
+    loot:"what:blocks/maple_slab", count:6}
 
 
 

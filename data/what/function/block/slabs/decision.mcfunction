@@ -1,0 +1,1 @@
+execute if score @p what.shift matches 1.. run function what:block/slabs/upper

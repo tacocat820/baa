@@ -92,3 +92,6 @@ execute as @e[tag=what.ent.flat_design.shoot] at @s run function what:mob/ievil/
 execute as @e[type=marker,tag=what.bgb.alarm_wire] at @s if entity @a[distance=0..12] run function what:__custom/bgb/toshoot
 execute as @e[type=marker,tag=what.bgb.battle_wire,tag=w_off] at @s if entity @a[distance=0..12] run function what:__custom/bgb/bg_toshoot
 #execute as @e[type=marker,tag=what.bgb.battle_wire,tag=w3] at @s if entity @a[distance=0..12] run function what:__custom/bgb/toshoot
+
+#очистка инвентаря от говна
+clear @a *[minecraft:custom_data~{what_ui:{}}]

@@ -15,6 +15,8 @@ execute if data storage what:temp block{block:"white_glass"} run setblock ~ ~ ~ 
 execute if data storage what:temp block{block:"blue_glass"} run setblock ~ ~ ~ minecraft:light_blue_stained_glass
 execute if data storage what:temp block{block:"ladder"} run function what:block/ladder/rotate
 execute if data storage what:temp block{block:"light_block"} run setblock ~ ~ ~ light
+execute if data storage what:temp block{block:"slab"} run setblock ~ ~ ~ petrified_oak_slab
+execute if data storage what:temp block{block:"slab_wooden"} run setblock ~ ~ ~ dark_oak_slab
 
 execute if data storage what:temp block{CustomModelData: [32061]} run setblock ~ ~ ~ minecraft:light_blue_stained_glass_pane
 execute if data storage what:temp block{CustomModelData: [32075]} run setblock ~ ~ ~ minecraft:rail
