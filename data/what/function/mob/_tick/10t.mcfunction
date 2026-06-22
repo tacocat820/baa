@@ -38,3 +38,4 @@ execute if entity @s[tag=what.ent.ievil] run function what:mob/ievil/10t
 execute if entity @s[tag=what.bgb.steve_jobs] run function what:__custom/bgb/steve
 execute if entity @s[tag=what.bgb_intro.steve_jobs] run function what:__custom/bgb_ir/steve
 execute if entity @s[tag=what.ent.flat_design] run function what:mob/flat_design/10t
+execute if entity @s[tag=what.ent.eye] run function what:mob/eye/10t

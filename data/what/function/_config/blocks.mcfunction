@@ -165,3 +165,4 @@ data modify storage what:config blocks append value {name: maple_log, CustomMode
 data modify storage what:config blocks append value {name: lavender, CustomModelData: [32167], block:"tripwire", rotate:2}
 data modify storage what:config blocks append value {name: maple_leaves, CustomModelData: [32168], block:"copper_grate", rotate:2}
 data modify storage what:config blocks append value {name: maple_slab, CustomModelData: [32169],block:"slab_wooden"}
+data modify storage what:config blocks append value {name: eye, CustomModelData: [32170],block:"copper_grate"}
