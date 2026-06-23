@@ -4,17 +4,17 @@
 execute as @e[type=marker, scores={what.timer=-1..}] at @s run function what:timer/tick
 
 #кастомынй блок
-execute at @a[tag=!pause] as @e[distance=0..20,tag=what.block,tag=!what.temp] at @s run function what:block/run
-execute at @a as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
-execute at @a as @e[type=marker,distance=0..20,tag=what.block_handler,tag=!what.temp] at @s if block ~ ~ ~ #what:replaceable run function what:block/custom_size/check_subblock with entity @s data
+execute at @a[tag=!pause] as @e[distance=0..30,tag=what.block,tag=!what.temp] at @s run function what:block/run
+execute at @a as @e[distance=0..30,tag=what.block_placed,tag=!falling,predicate=what:not_sitting] at @s run function what:block/check
+execute at @a as @e[type=marker,distance=0..30,tag=what.block_handler,tag=!what.temp] at @s if block ~ ~ ~ #what:replaceable run function what:block/custom_size/check_subblock with entity @s data
 
-execute at @e[type=marker,tag=what.block_loader] if loaded ~ ~ ~ as @e[distance=0..20,tag=what.block_placed,tag=!falling] at @s run function what:block/check
+execute at @e[type=marker,tag=what.block_loader] if loaded ~ ~ ~ as @e[distance=0..30,tag=what.block_placed,tag=!falling] at @s run function what:block/check
 
-execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=item_frame] at @s run function what:__custom/block/make_block_marker
-execute at @a[tag=pause] as @e[distance=0..20,tag=what.block,tag=!what.temp,type=marker] at @s if block ~ ~ ~ #air run kill @s
+execute at @a[tag=pause] as @e[distance=0..30,tag=what.block,tag=!what.temp,type=item_frame] at @s run function what:__custom/block/make_block_marker
+execute at @a[tag=pause] as @e[distance=0..30,tag=what.block,tag=!what.temp,type=marker] at @s if block ~ ~ ~ #air run kill @s
 
 ### remove temp_1t tag
-execute at @a run tag @e[distance=0..20,type=item_display,tag=what.block_placed,tag=what.temp_1t] remove what.temp_1t
+execute at @a run tag @e[distance=0..30,type=item_display,tag=what.block_placed,tag=what.temp_1t] remove what.temp_1t
 
 # mob
 

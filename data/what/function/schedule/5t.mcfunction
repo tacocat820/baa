@@ -40,3 +40,6 @@ execute as @e[type=!#what:non_mobs] at @s if loaded ~ ~ ~ if block ~ ~ ~ tripwir
 
 #worldedit
 execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{what_type:"worldedit"}] run function what:carrot_on_a_stick/worldedit/highlighting_/_
+
+#living_block (item display)
+execute as @e[type=item_display,tag=what.living_block,predicate=what:not_sitting] at @s run function what:mob/living_block/drop
