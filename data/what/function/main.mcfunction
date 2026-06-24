@@ -95,3 +95,7 @@ execute as @e[type=marker,tag=what.bgb.battle_wire,tag=w_off] at @s if entity @a
 
 #очистка инвентаря от говна
 clear @a *[minecraft:custom_data~{what_ui:{}}]
+
+execute as @e[type=marker,tag=what.nuke.dust] at @s run function what:block/nuke/dust
+execute as @e[type=marker,tag=what.nuke.wave] at @s run function what:block/nuke/wave
+execute as @e[type=marker,tag=what.nuke.back] at @s run function what:block/nuke/back
