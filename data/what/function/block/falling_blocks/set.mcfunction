@@ -10,7 +10,7 @@ tag @s remove falling
 
 #get block data
 data modify storage what:temp cmd set from entity @s item.components."minecraft:custom_model_data" 
-function what:block/falling_blocks/get_block_data_from_cmd with storage what:temp
+function what:__custom/get_block_data_from_cmd with storage what:temp
 #tellraw @a [{"nbt": "block", "storage":"what:temp"}, " -- data"]
 
 execute if data storage what:temp block{name:"chinese_anvil"} run return run function what:__custom/chinese_anvil_break

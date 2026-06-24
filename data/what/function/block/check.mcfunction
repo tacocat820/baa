@@ -1,4 +1,4 @@
-execute if entity @s[predicate=what:not_sitting] if block ~ ~ ~ #what:replaceable run return run function what:block/break
+execute if entity @s[tag=!what.custom_living_block] if block ~ ~ ~ #what:replaceable run return run function what:block/break
 #
 execute if entity @s[tag=what.temp_1t] run return 0
 #

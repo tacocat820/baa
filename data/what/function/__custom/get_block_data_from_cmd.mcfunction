@@ -1,0 +1,1 @@
+$data modify storage what:temp block set from storage what:config blocks[{CustomModelData:[$(cmd)]}]

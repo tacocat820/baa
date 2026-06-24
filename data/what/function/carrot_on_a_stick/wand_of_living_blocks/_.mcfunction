@@ -1,0 +1,1 @@
+execute align xyz positioned ~ ~ ~ run function what:mob/_spawner/living_block
