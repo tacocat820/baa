@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "what:eyes",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 6582135,
+    "spacing": 9,
+    "separation": 7
+  }
+}

@@ -212,6 +212,7 @@ data modify storage what:config mobs.ievil set value {name: '[{"translate":"what
 data modify storage what:config mobs.volem set value {name: '[{"translate":"what.mob.volem"}]', base_mob: "vindicator", cmd:32086, item_id:"potion", anim_len:24}
 data modify storage what:config mobs.gates set value {name: '[{"translate":"what.mob.gates"}]', base_mob: "wandering_trader", cmd:32087, item_id:"potion", anim_len:0}
 data modify storage what:config mobs.eye set value {name: '[{"translate":"what.mob.eye"}]', base_mob: "marker", cmd:32170, item_id:"item_frame", anim_len:0}
+data modify storage what:config mobs.bird set value {name: '[{"translate":"what.mob.bird"}]', base_mob: "wandering_trader", cmd:32090, item_id:"potion", anim_len:0}
 
 #damage
 function what:_config/damage

@@ -69,3 +69,5 @@ execute as @e[type=minecraft:marker,tag=what.bgb.lever] at @s if loaded ~ ~ ~ un
 execute as @a[tag=what.bgb.player] at @s run function what:__custom/bgb/player
 
 execute if score $bgb_fight what.global_events matches 1.. run function what:__custom/bgb/epic
+
+execute as @e[tag=what.ent.bird.rm] at @s run function what:mob/bird/rm
